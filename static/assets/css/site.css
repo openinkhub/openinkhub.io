@@ -623,3 +623,18 @@ main :is(p, li, td, dd, small, blockquote) a:not([class]):hover{text-decoration-
 .cmp tr.cmp-us td{background:var(--bg-2)}
 .cmp-note{font-size:14px;color:var(--muted)}
 .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+/* AI SEO brochure form */
+.brochure-form{display:grid;gap:14px;max-width:620px;margin:0 auto}
+.brochure-form h3{margin:0}
+.brochure-form p{margin:0}
+.brochure-form .field{display:grid;gap:6px}
+.brochure-form label,.brochure-form legend{font:600 14px var(--f-head);color:var(--ink)}
+.brochure-form input:not([type=checkbox]){font:inherit;font-size:15px;padding:12px 14px;border:1px solid var(--line);border-radius:var(--radius-sm);background:#fff;color:var(--ink);width:100%;box-sizing:border-box}
+.brochure-form input:focus{outline:2px solid var(--blue);outline-offset:1px;border-color:var(--blue)}
+.brochure-form .bf-plans{border:0;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px 18px}
+.brochure-form .bf-plans legend{margin-bottom:6px}
+.brochure-form .bf-check{font-weight:500;display:flex;gap:6px;align-items:center}
+.brochure-form .bf-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.brochure-form .bf-status:empty{display:none}
+.brochure-form .bf-status{font-size:15px;color:var(--ink)}
+.brochure-form.bf-done .field,.brochure-form.bf-done .bf-plans,.brochure-form.bf-done .form-actions{display:none}

@@ -75,6 +75,45 @@ const CATS = load(path.join(C, "site.json")).categories || [];
 // competitor plan comparison on the city pages (content/city-comparison.json): metro pages show their own metro,
 // city guides show the agencies of the nearest metro (by state)
 const CMP = fs.existsSync(path.join(C, "city-comparison.json")) ? load(path.join(C, "city-comparison.json")) : null;
+// AI SEO plans (content/ai-seo-plans.json): a plan links to its own page only once tools/plan-pages.mjs has built it
+const AIP = fs.existsSync(path.join(C, "ai-seo-plans.json")) ? load(path.join(C, "ai-seo-plans.json")) : { plans: [] };
+const planLive = (p) => fs.existsSync(path.join(C, "pages", `${p.slug}.json`));
+const planLink = (p, text) => planLive(p) ? `<a href="/${p.slug}/">${text}</a>` : text;
+const brochureReady = (p) => fs.existsSync(path.join(ROOT, "static", ...p.brochure.split("/").filter(Boolean)));
+let BROCHURE_JS = false;
+function brochureForm(key, id = "brochure") {
+  const plans = key ? AIP.plans.filter((p) => p.key === key) : AIP.plans.filter(brochureReady);
+  if (!plans.length || !plans.every(brochureReady)) return "";
+  const pick = key ? `<input type="hidden" name="plan" value="${E(key)}">`
+    : `<fieldset class="field bf-plans"><legend>Which brochures?</legend>${plans.map((p) => `<label class="bf-check"><input type="checkbox" name="plan" value="${E(p.key)}" checked> ${E(p.name)} (from ${E(p.price)}*)</label>`).join("")}</fieldset>`;
+  const js = BROCHURE_JS ? "" : `<script>(function(){document.addEventListener("submit",function(e){var f=e.target.closest("form[data-brochure]");if(!f)return;e.preventDefault();
+var st=f.querySelector(".bf-status"),b=f.querySelector("button[type=submit]");var plans=[].slice.call(f.querySelectorAll("[name=plan]")).filter(function(i){return i.type==="hidden"||i.checked}).map(function(i){return i.value});
+if(!plans.length){st.textContent="Please choose at least one brochure.";return}
+var d={name:f.elements.name.value,email:f.elements.email.value,phone:f.elements.phone.value,website:f.elements.website.value,plan:plans.join(","),page:location.pathname};
+b.disabled=true;st.textContent="Sending…";
+var links=function(r){return (r&&r.downloads||[]).map(function(u){return '<a href="'+u+'" download>'+u.split("/").pop()+'</a>'}).join(" · ")};
+fetch("${E(AIP.brochure_endpoint || "/api/brochure")}",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(d)}).then(function(r){return r.json().catch(function(){return {ok:false}})}).then(function(r){
+if(r.ok){f.classList.add("bf-done");st.innerHTML="Thank you! We have emailed the brochure to "+d.email.replace(/</g,"")+". Check your inbox (and spam folder). You can also download it now: "+links(r)}
+else{st.innerHTML=(r.error||"Something went wrong. Please try again.")+(links(r)?" Download: "+links(r):"");b.disabled=false}},function(){st.textContent="Network error. Please try again.";b.disabled=false})})})();</script>`;
+  BROCHURE_JS = true;
+  return `<form class="c-card brochure-form" data-brochure id="${E(id)}-form" novalidate>
+<h3>Download the AI SEO brochure${plans.length > 1 ? "s" : ""}</h3>
+<p>Enter your details and we will email the ${key ? `${E(plans[0].name)} plan brochure` : "brochures"} to you from info@openinkhub.io.</p>
+${pick}
+<div class="field"><label for="${id}-name">Your name</label><input id="${id}-name" name="name" autocomplete="name" required minlength="2" maxlength="80"></div>
+<div class="field"><label for="${id}-email">Email</label><input id="${id}-email" name="email" type="email" autocomplete="email" required maxlength="120"></div>
+<div class="field"><label for="${id}-phone">Phone or WhatsApp</label><input id="${id}-phone" name="phone" type="tel" autocomplete="tel" required minlength="10" maxlength="20"></div>
+<div class="bf-hp" aria-hidden="true"><label>Leave this empty <input name="website" tabindex="-1" autocomplete="off"></label></div>
+<div class="form-actions"><button type="submit" class="btn btn-primary">Email me the brochure${plans.length > 1 ? "s" : ""}${icon("arrow")}</button></div>
+<p class="bf-status" role="status" aria-live="polite"></p>
+<p class="form-note">We use these details only to send the brochure and to follow up about AI SEO. See our <a href="/privacy-policy/">privacy policy</a>.</p>
+</form>${js}`;
+}
+// markers in page content: <span data-plan="basic">Basic</span> -> link to the plan page; <div data-brochure-form="all|basic|…"></div> -> form
+function planMarkers(html) {
+  return html.replace(/<span data-plan="([a-z]+)">([\s\S]*?)<\/span>/g, (m, k, t) => { const p = AIP.plans.find((x) => x.key === k); return p ? planLink(p, t) : t; })
+    .replace(/<div data-brochure-form="([a-z]+)"><\/div>/g, (m, k) => brochureForm(k === "all" ? null : k, k === "all" ? "brochure" : `brochure-${k}`));
+}
 const CITY_OF = new Map();
 if (fs.existsSync(path.join(C, "city-posts"))) for (const f of fs.readdirSync(path.join(C, "city-posts")).filter((x) => x.endsWith(".json")))
   for (const c of [].concat(load(path.join(C, "city-posts", f)))) CITY_OF.set(`/${c.file}/`, c);
@@ -92,7 +131,7 @@ function cityCompare(rec) {
   const ext = (href, t) => `<a href="${E(href)}" target="_blank" rel="noopener nofollow">${E(t)}</a>`;
   const o = CMP.openink;
   const rows = m.agencies.map((a) => `<tr><td>${ext(a.url, a.name)}</td><td>${E(a.based)}</td><td>${E(a.plans)}</td><td>${a.aeo_url ? ext(a.aeo_url, a.aeo) : E(a.aeo)}</td></tr>`).join("") +
-    `<tr class="cmp-us"><td><a href="${E(o.href)}">${E(o.name)}</a></td><td>${E(o.based)}</td><td>${E(o.plans)}${o.plans_extra ? `<br><a href="${E(o.plans_extra_href)}">${E(o.plans_extra)}</a>` : ""}</td><td>${E(o.aeo)}</td></tr>`;
+    `<tr class="cmp-us"><td><a href="${E(o.href)}">${E(o.name)}</a></td><td>${E(o.based)}</td><td>${AIP.plans.length ? `AI SEO: ${AIP.plans.map((p) => `${planLink(p, E(p.name))} ${E(p.price)}*`).join(" · ")} per month${AIP.plans.some(brochureReady) ? `<br><a href="/best-seo-services-in-india/#brochure">Download AI SEO brochures</a>` : ""}` : E(o.plans)}</td><td>${E(o.aeo)}</td></tr>`;
   const lead = m.here
     ? `Published SEO plan prices from ${m.agencies.length} agencies with a page for ${E(city)} businesses, copied from each agency's own website. Several of them work remotely from another city; the second column says where each one is based.`
     : own
@@ -726,14 +765,14 @@ function pageTpl(rec) {
     <div>${breadcrumb(rec.hub ? [["Website Design & Development", rec.hub], [rec.card_title || crumb, null]] : [[crumb, null]])}
     ${eyebrow ? `<span class="eyebrow">${E(eyebrow)}</span>` : ""}
     <h1>${h1}</h1>${lead ? `<!--seo:content-->${lead}<!--/seo:content-->` : ""}
-    ${legal ? "" : `<div class="hero-ctas"><a class="btn btn-primary" href="${E(CFG.contact.demo_url)}" target="_blank" rel="noopener">Schedule a Free Demo</a><a class="btn btn-ghost" href="/contact-us/">Contact Us</a></div>`}
+    ${legal ? "" : rec.plan ? `<div class="hero-ctas"><a class="btn btn-primary" href="#brochure">Download the brochure</a><a class="btn btn-ghost" href="/contact-us/">Contact Us</a></div>` : `<div class="hero-ctas"><a class="btn btn-primary" href="${E(CFG.contact.demo_url)}" target="_blank" rel="noopener">Schedule a Free Demo</a><a class="btn btn-ghost" href="/contact-us/">Contact Us</a></div>`}
     </div>${heroImg}
   </div>
 </section>
 ${contact}
 <section class="section"><div class="wrap narrow prose"><!--seo:content-->${hubGrids(localizeBody(shape(body, legal)))}<!--/seo:content--></div></section>
 ${(() => { const k = kitFor(rec, body, legal); return k ? `<section class="section kit"><div class="wrap narrow prose">${localizeBody(k)}</div></section>` : ""; })()}
-${cityCompare(rec)}${hubArticles(rec)}${successCta(rec.path, "section section-alt")}${faqs}`, "is-page" + (legal ? " is-legal" : ""));
+${rec.plan ? `<section class="section section-alt" id="brochure"><div class="wrap narrow">${brochureForm(rec.plan)}</div></section>` : ""}${cityCompare(rec)}${hubArticles(rec)}${rec.plan ? "" : successCta(rec.path, "section section-alt")}${faqs}`, "is-page" + (legal ? " is-legal" : ""));
 }
 
 function related(rec, n = 3) {
@@ -1261,7 +1300,8 @@ function main() {
       : r.type === "tag" ? listingTpl(r, byTag[r.path] || [], "Tag")
       : r.type === "archive" ? listingTpl(r, byMonth[r.path] || [], "Archive")
       : pageTpl(r);
-    write(r.path, fixAnchors(out));
+    BROCHURE_JS = false;
+    write(r.path, fixAnchors(planMarkers(out)));
   }
   sitemaps();
   notFound();

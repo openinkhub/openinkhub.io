@@ -1,5 +1,5 @@
 {
- "_note": "Competitor SEO / AEO / GEO plan prices, copied as published on each agency's own page. Re-check every quarter: prices change without notice. Openink Hub's own row uses the starting prices it gave on 26 Nov 2026 (SEO plans and WordPress websites).",
+ "_note": "Competitor SEO / AEO / GEO plan prices, copied as published on each agency's own page. Re-check every quarter: prices change without notice. Openink Hub's own row uses the starting prices it gave on 26 Nov 2026 (AI SEO plans).",
  "checked": "2026-11-25",
  "checked_label": "25 November 2026",
  "eyebrow": "Compare agency plans",
@@ -7,9 +7,7 @@
   "name": "Openink Hub",
   "href": "/contact-us/",
   "based": "India, serving all 6 metros and 99 more cities",
-  "plans": "SEO: Basic ₹10,000* · Standard ₹15,000* · Premium ₹20,000* per month",
-  "plans_extra": "Websites from ₹10,000* (WordPress)",
-  "plans_extra_href": "/website-design-agency/",
+  "plans": "AI SEO: Basic ₹10,000* · Standard ₹15,000* · Premium ₹20,000* per month",
   "aeo": "AEO, GEO and AIO services offered alongside SEO"
  },
  "state_metro": {
