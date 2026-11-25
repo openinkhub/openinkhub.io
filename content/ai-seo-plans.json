@@ -4,31 +4,299 @@
   "brochure_endpoint": "/api/brochure",
   "plans": [
     {
-      "key": "basic", "name": "Basic", "price": "₹10,000", "period": "per month",
-      "slug": "affordable-seo-packages", "keyword": "affordable seo packages",
+      "key": "basic",
+      "name": "Basic",
+      "price": "₹10,000",
+      "period": "per month",
+      "slug": "affordable-seo-packages",
+      "keyword": "affordable seo packages",
       "title": "Affordable SEO Packages: Basic AI SEO Plan",
       "h1": "Affordable SEO packages: the Basic AI SEO plan",
-      "description": "",
+      "description": "Basic AI SEO plan from ₹10,000/month: 30 pages keyword-mapped and optimised, 30 blogs, 300 backlinks a month, AEO, GEO and local SEO. GST extra.",
       "brochure": "/brochures/openink-hub-basic-ai-seo-plan.pdf",
-      "intro": "", "best_for": "", "includes": [], "guide": [], "process": [], "faqs": []
+      "intro": "Our affordable SEO package for businesses that want to rank on Google and be cited in AI answers. The Basic AI SEO plan starts at ₹10,000* per month and runs as an ongoing monthly project, with its targets set for months 10 to 12.",
+      "best_for": "",
+      "includes": [
+        {
+          "group": "Strategy and technical foundation",
+          "items": [
+            {
+              "title": "Comprehensive competitor analysis",
+              "text": "In-depth evaluation of your top competitors’ organic strategies, backlink profiles and keyword gaps."
+            },
+            {
+              "title": "Technical SEO assessment and fixes",
+              "text": "Audit and optimisation of site architecture, crawlability, indexing, page speed (Core Web Vitals) and mobile-friendliness."
+            },
+            {
+              "title": "Google Search Console setup and configuration",
+              "text": "Full setup, sitemap submission, indexing monitoring and error resolution."
+            },
+            {
+              "title": "On-page SEO optimisation",
+              "text": "Meta titles, descriptions, H1–H6 header structure, URL architecture and internal linking across key landing pages."
+            },
+            {
+              "title": "Website content optimisation",
+              "text": "Refining existing copy for readability, engagement, semantic relevance and keyword density without changing your brand voice."
+            }
+          ]
+        },
+        {
+          "group": "Brand authority and AI-driven content",
+          "items": [
+            {
+              "title": "30 keyword mapping",
+              "text": "High-intent keyword research mapped across 30 target pages, with no keyword cannibalisation."
+            },
+            {
+              "title": "30 custom AI prompts",
+              "text": "A library of 30 AI prompts written for your brand, for ongoing content creation."
+            },
+            {
+              "title": "30 FAQ sections",
+              "text": "Schema-marked FAQ sections to capture featured snippets and answer direct search queries."
+            },
+            {
+              "title": "30 website blogs",
+              "text": "SEO-optimised blogs for your website, mapped to your target keywords."
+            },
+            {
+              "title": "30 webpages optimised",
+              "text": "On-page optimisation of 30 target pages: meta tags, headers, URLs, internal links and content."
+            },
+            {
+              "title": "30 premium platform publications",
+              "text": "Daily AI-written, SEO-optimised posts, each targeting one of your webpages, on platforms such as Google Sites, Blogger, WordPress, Medium, Substack, Notion, Hashnode, Beehiiv and Openinkhub."
+            },
+            {
+              "title": "18 social platform publications",
+              "text": "Publishing across 18 platforms: Instagram, Facebook, LinkedIn, YouTube, TikTok, X, Threads, Pinterest, Google Business, Bluesky, Mastodon, Tumblr, Telegram, Discord, WordPress, Dev.to, Reddit and Quora."
+            },
+            {
+              "title": "300 backlink submissions a month",
+              "text": "Business and brand backlinks submitted across 300 relevant platforms every month."
+            }
+          ]
+        },
+        {
+          "group": "Advanced search optimisation (AEO, GEO, AIO and CXO)",
+          "items": [
+            {
+              "title": "Answer Engine Optimisation (AEO)",
+              "text": "Structured data and conversational content for voice assistants and direct-answer engines such as Alexa, Siri and Google Assistant."
+            },
+            {
+              "title": "Generative Engine Optimisation (GEO)",
+              "text": "Brand footprint and content formatting so LLM search tools such as Perplexity, Gemini and ChatGPT cite and recommend your business."
+            },
+            {
+              "title": "AI Optimisation (AIO)",
+              "text": "Site-wide semantic structure adapted to search engines’ AI search layouts."
+            },
+            {
+              "title": "Conversational Experience Optimisation (CXO)",
+              "text": "Content and brand touchpoints structured for chat-based interactions across AI assistants."
+            }
+          ]
+        },
+        {
+          "group": "Local SEO and business visibility",
+          "items": [
+            {
+              "title": "Local SEO optimisation",
+              "text": "Targeting local search queries, geo-targeted terms and map packs in your operating regions."
+            },
+            {
+              "title": "Google Business Profile optimisation",
+              "text": "Categories, localised descriptions, review strategy and localised posts."
+            }
+          ]
+        },
+        {
+          "group": "Social media optimisation",
+          "items": [
+            {
+              "title": "Platforms covered",
+              "text": "Facebook, Instagram, YouTube, LinkedIn and Twitter (X)."
+            },
+            {
+              "title": "Scope",
+              "text": "Primary profile optimisation only: banner, logo, heading, description and NAP (name, address, phone) consistency."
+            },
+            {
+              "title": "Brand analysis",
+              "text": "Analysis of your brand presence across social platforms, delivered as a Brand Audit Report."
+            }
+          ]
+        }
+      ],
+      "guide": [
+        {
+          "title": "Share Google access",
+          "text": "Manager or admin access to Gmail, Google Business Profile, Search Console, Analytics, Tag Manager, Google Ads, Google Drive and YouTube."
+        },
+        {
+          "title": "Share social and ads access",
+          "text": "Facebook Page and Meta Ads Manager, Instagram and LinkedIn."
+        },
+        {
+          "title": "Share website access",
+          "text": "Website admin panel (CMS), web hosting account and DNS settings. Delays in access can delay the project."
+        },
+        {
+          "title": "Send your brand assets",
+          "text": "Text, images and brand material you own or have permission to use."
+        },
+        {
+          "title": "Plan to change passwords at the end",
+          "text": "Change any temporary passwords you shared once the contract ends."
+        }
+      ],
+      "process": [
+        {
+          "title": "Audit",
+          "text": "Competitor analysis and a technical SEO audit of your site."
+        },
+        {
+          "title": "Set up",
+          "text": "Google Search Console setup, sitemap submission and fixes for indexing errors."
+        },
+        {
+          "title": "Map",
+          "text": "Keyword research mapped across 30 target pages."
+        },
+        {
+          "title": "Optimise",
+          "text": "On-page and content optimisation of the 30 pages, FAQ sections, local SEO, Google Business Profile and social profiles."
+        },
+        {
+          "title": "Publish",
+          "text": "Monthly blogs, premium platform posts and social posts, plus AEO, GEO, AIO and CXO work."
+        },
+        {
+          "title": "Build authority",
+          "text": "300 backlink submissions every month."
+        },
+        {
+          "title": "Reach the targets",
+          "text": "Ongoing monthly work toward DA 70+, DR 70+ and a 40%+ AI Overview share by months 10 to 12."
+        }
+      ],
+      "faqs": [
+        [
+          "How much does the Basic AI SEO plan cost?",
+          "It starts at ₹10,000 per month. GST is applicable, terms and conditions apply, and the final price depends on the number of pages and any customised work."
+        ],
+        [
+          "When will the targets be reached?",
+          "The plan is an ongoing monthly project, with the Domain Authority, Domain Rating and AI Overview targets set for months 10 to 12."
+        ],
+        [
+          "Do you guarantee rankings?",
+          "No. We use ethical, industry-standard methods, but search engines change their algorithms, so specific rankings, traffic or revenue cannot be guaranteed."
+        ],
+        [
+          "What access do you need from us?",
+          "Manager or admin access to your Google accounts (Search Console, Analytics, Business Profile and others), your social pages and ads accounts, and your website, hosting and DNS."
+        ],
+        [
+          "What costs extra?",
+          "ORM, digital PR, premium backlinks, multi-language blogs, international SEO, Google Business Profile management, website development and social media marketing are charged separately."
+        ],
+        [
+          "Is our data kept confidential?",
+          "Yes. We do not share or sell your business data or credentials, and access is limited to the people working on your project."
+        ]
+      ],
+      "targets": [
+        {
+          "label": "Domain Authority",
+          "value": "70+",
+          "text": "Target a score of 70+ to strengthen overall ranking potential site-wide."
+        },
+        {
+          "label": "Domain Rating",
+          "value": "70+",
+          "text": "Build backlinks toward a Domain Rating of 70+ to boost competitive standing."
+        },
+        {
+          "label": "AI Overview",
+          "value": "40%+",
+          "text": "Appear in 40%+ of relevant AI-generated answers across platforms like ChatGPT and Gemini."
+        }
+      ],
+      "target_note": "A monthly ongoing project, with the targets to be achieved in months 10 to 12 (M10–M12).",
+      "extras": [
+        {
+          "title": "ORM (online reputation management)",
+          "text": "Monitoring and managing reviews, mentions and brand sentiment, with a response strategy for negative reviews."
+        },
+        {
+          "title": "Digital PR",
+          "text": "Media outreach, press release drafting and distribution, and earned links from news outlets."
+        },
+        {
+          "title": "Premium backlinks",
+          "text": "Niche-specific, higher DA/DR placements beyond the standard package."
+        },
+        {
+          "title": "Multi-language blogs",
+          "text": "Blogs translated and localised for regional or global audiences."
+        },
+        {
+          "title": "International SEO",
+          "text": "Local pages per market, hreflang and region-specific keyword mapping."
+        },
+        {
+          "title": "Google Business Profile management",
+          "text": "Complete management of your Google Business Profile."
+        },
+        {
+          "title": "Website development",
+          "text": "Custom-scoped websites, including WordPress and Next.js builds with SEO-ready product, service and location pages."
+        },
+        {
+          "title": "Social media marketing",
+          "text": "Marketing across Facebook, Instagram, X, LinkedIn and YouTube."
+        }
+      ]
     },
     {
-      "key": "standard", "name": "Standard", "price": "₹15,000", "period": "per month",
-      "slug": "seo-pricing-packages", "keyword": "seo pricing packages",
+      "key": "standard",
+      "name": "Standard",
+      "price": "₹15,000",
+      "period": "per month",
+      "slug": "seo-pricing-packages",
+      "keyword": "seo pricing packages",
       "title": "SEO Pricing Packages: Standard AI SEO Plan",
       "h1": "SEO pricing packages: the Standard AI SEO plan",
       "description": "",
       "brochure": "/brochures/openink-hub-standard-ai-seo-plan.pdf",
-      "intro": "", "best_for": "", "includes": [], "guide": [], "process": [], "faqs": []
+      "intro": "",
+      "best_for": "",
+      "includes": [],
+      "guide": [],
+      "process": [],
+      "faqs": []
     },
     {
-      "key": "premium", "name": "Premium", "price": "₹20,000", "period": "per month",
-      "slug": "monthly-seo-packages", "keyword": "monthly seo packages",
+      "key": "premium",
+      "name": "Premium",
+      "price": "₹20,000",
+      "period": "per month",
+      "slug": "monthly-seo-packages",
+      "keyword": "monthly seo packages",
       "title": "Monthly SEO Packages: Premium AI SEO Plan",
       "h1": "Monthly SEO packages: the Premium AI SEO plan",
       "description": "",
       "brochure": "/brochures/openink-hub-premium-ai-seo-plan.pdf",
-      "intro": "", "best_for": "", "includes": [], "guide": [], "process": [], "faqs": []
+      "intro": "",
+      "best_for": "",
+      "includes": [],
+      "guide": [],
+      "process": [],
+      "faqs": []
     }
   ]
 }

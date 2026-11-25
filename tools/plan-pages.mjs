@@ -22,6 +22,8 @@ const E = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(
 const li = (a) => a.map((x) => typeof x === "string" ? `<li>${E(x)}</li>` : `<li><strong>${E(x.title)}</strong>: ${E(x.text)}</li>`).join("");
 
 let made = 0;
+const ready = (o) => !!String(o.description || "").trim() && (o.includes || []).length && fs.existsSync(path.join(ROOT, "static", ...o.brochure.split("/").filter(Boolean)));
+const lk = (o, t) => ready(o) ? `<a href="/${o.slug}/">${t}</a>` : t;
 const skipped = [];
 for (const p of D.plans) {
   const need = ["description", "intro"].filter((k) => !String(p[k] || "").trim()).concat(["includes", "guide", "process"].filter((k) => !(p[k] || []).length));
@@ -34,15 +36,19 @@ for (const p of D.plans) {
 <h2>${E(p.name)} AI SEO plan price</h2>
 <table><thead><tr><th>Plan</th><th>Starting price</th>${p.best_for ? "<th>Best for</th>" : ""}</tr></thead>
 <tbody><tr><td>${E(p.name)} AI SEO</td><td>From ${E(p.price)}* ${E(p.period)}</td>${p.best_for ? `<td>${E(p.best_for)}</td>` : ""}</tr></tbody></table>
+${(p.targets || []).length ? `<h2>${E(p.name)} plan targets</h2>
+<table><thead><tr><th>Target</th><th>Goal</th><th>What it means</th></tr></thead><tbody>${p.targets.map((t) => `<tr><td>${E(t.label)}</td><td><strong>${E(t.value)}</strong></td><td>${E(t.text)}</td></tr>`).join("")}</tbody></table>
+${p.target_note ? `<p>${E(p.target_note)}</p>` : ""}` : ""}
 <h2>What the ${E(p.name)} AI SEO plan includes</h2>
-<ul>${li(p.includes)}</ul>
+${p.includes[0] && p.includes[0].group ? p.includes.map((g) => `<h3>${E(g.group)}</h3>\n<ul>${li(g.items)}</ul>`).join("\n") : `<ul>${li(p.includes)}</ul>`}
+${(p.extras || []).length ? `<h2>Extra services (charged separately)</h2>\n<p>These are not part of the ${E(p.name)} plan price and can be added on extra charges:</p>\n<ul>${li(p.extras)}</ul>` : ""}
 <h2>What to do before you start</h2>
 <ol>${li(p.guide)}</ol>
 <h2>How the ${E(p.name)} plan works</h2>
 <ol>${li(p.process)}</ol>
 <h2>Compare AI SEO plans</h2>
-<table><thead><tr><th>Plan</th><th>Starting price</th></tr></thead><tbody>${D.plans.map((o) => `<tr><td>${o.key === p.key ? `${E(o.name)} (this plan)` : `<a href="/${o.slug}/">${E(o.name)} AI SEO plan</a>`}</td><td>From ${E(o.price)}* ${E(o.period)}</td></tr>`).join("")}</tbody></table>
-<p>Need more or less? See the <a href="/${others[0].slug}/">${E(others[0].name)}</a> and <a href="/${others[1].slug}/">${E(others[1].name)}</a> plans, or read about our <a href="/best-seo-services-in-india/">SEO services in India</a>.</p>
+<table><thead><tr><th>Plan</th><th>Starting price</th></tr></thead><tbody>${D.plans.map((o) => `<tr><td>${o.key === p.key ? `${E(o.name)} (this plan)` : lk(o, `${E(o.name)} AI SEO plan`)}</td><td>From ${E(o.price)}* ${E(o.period)}</td></tr>`).join("")}</tbody></table>
+<p>${others.some(ready) ? `Need more? See the ${others.filter(ready).map((o) => lk(o, E(o.name))).join(" and ")} plan${others.filter(ready).length > 1 ? "s" : ""}, or read` : "Read"} about our <a href="/best-seo-services-in-india/">SEO services in India</a>.</p>
 <p><em>${E(D.terms)}</em></p>`;
   const faqs = (p.faqs || []).map(([q, a]) => ({ q, a: `<p>${E(a)}</p>` }));
   const title = `${p.title} | openink Hub`.length <= 60 ? `${p.title} | openink Hub` : p.title;
