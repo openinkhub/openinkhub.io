@@ -91,7 +91,7 @@ function cityCompare(rec) {
   const ext = (href, t) => `<a href="${E(href)}" target="_blank" rel="noopener nofollow">${E(t)}</a>`;
   const o = CMP.openink;
   const rows = m.agencies.map((a) => `<tr><td>${ext(a.url, a.name)}</td><td>${E(a.based)}</td><td>${E(a.plans)}</td><td>${a.aeo_url ? ext(a.aeo_url, a.aeo) : E(a.aeo)}</td></tr>`).join("") +
-    `<tr class="cmp-us"><td><a href="${E(o.href)}">${E(o.name)}</a></td><td>${E(o.based)}</td><td>${E(o.plans)}</td><td>${E(o.aeo)}</td></tr>`;
+    `<tr class="cmp-us"><td><a href="${E(o.href)}">${E(o.name)}</a></td><td>${E(o.based)}</td><td>${E(o.plans)}${o.plans_extra ? `<br><a href="${E(o.plans_extra_href)}">${E(o.plans_extra)}</a>` : ""}</td><td>${E(o.aeo)}</td></tr>`;
   const lead = own
     ? `Published SEO, AEO and GEO plan prices from ${m.agencies.length} agencies serving ${E(m.city)}, copied from each agency's own website.`
     : `${E(city)} businesses often compare local freelancers with agencies in ${E(m.city)}, the nearest metro market. These are published SEO, AEO and GEO plan prices from ${m.agencies.length} ${E(m.city)} agencies, copied from each agency's own website.`;
@@ -102,7 +102,7 @@ function cityCompare(rec) {
 <div class="table-wrap"><table><caption class="sr-only">SEO, AEO and GEO agency plans compared${own ? ` in ${E(city)}` : ""}</caption>
 <thead><tr><th scope="col">Agency</th><th scope="col">Where they are based</th><th scope="col">Published monthly plans</th><th scope="col">AEO / GEO in the plan</th></tr></thead>
 <tbody>${rows}</tbody></table></div>
-<p class="cmp-note">Prices as published on each agency's website, checked ${E(CMP.checked_label)}. Taxes such as 18% GST are extra unless the agency says otherwise, and plans change without notice, so confirm on the linked page. Openink Hub is not affiliated with these agencies.</p>
+<p class="cmp-note">Prices as published on each agency's website, checked ${E(CMP.checked_label)}. Taxes such as 18% GST are extra unless the agency says otherwise, and plans change without notice, so confirm on the linked page. Openink Hub is not affiliated with these agencies. *Openink Hub prices are starting prices: terms and conditions apply, prices may vary, are subject to customised solutions and depend on the number of pages required.</p>
 </div></section>`;
 }
 const RECS = fs.readdirSync(path.join(C, "pages")).filter((n) => n.endsWith(".json")).sort()
@@ -672,7 +672,7 @@ function serviceTpl(rec) {
       continue;
     }
     const r = renderBlocks(s.blocks, { icon });
-    const narrow = !/svc-grid|about-stats|about-metrics|guide-grid|svc-cards/.test(r.parts) && !r.parts.includes("<table");
+    const narrow = !/svc-grid|about-stats|about-metrics|guide-grid|svc-cards/.test(r.parts) && !(r.parts + r.introCard).includes("<table");
     out += `<section class="${cls}"><div class="wrap${narrow ? " narrow" : ""}">${head(r.lead)}${r.introCard}${r.parts}</div></section>`;
   }
   addWork(); // no FAQ / in-short section: add it at the end
