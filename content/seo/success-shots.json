@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:17:50.423Z",
+ "updated": "2026-11-25T12:26:08.433Z",
  "results": [
   {
    "url": "https://startupseo.blog/",
@@ -117,10 +117,9 @@
   },
   {
    "url": "https://storyforum.sbs/",
-   "ok": false,
-   "why": "default WordPress page (no content yet)",
-   "title": "storyforum.sbs",
-   "checked": "2026-11-19T15:17:50.423Z"
+   "ok": true,
+   "title": "StoryForum — Startup ecosystem case studies",
+   "checked": "2026-11-25T12:26:08.433Z"
   },
   {
    "url": "https://exploreworld.surf/",
@@ -688,10 +687,9 @@
   },
   {
    "url": "https://site.studybeacon.cfd/",
-   "ok": false,
-   "why": "default WordPress page (no content yet)",
-   "title": "site.studybeacon.cfd",
-   "checked": "2026-11-19T15:17:50.423Z"
+   "ok": true,
+   "title": "StudyBeacon Site — B2B sales explained",
+   "checked": "2026-11-25T12:26:08.433Z"
   },
   {
    "url": "https://site.visualstories.pics/",
@@ -737,10 +735,9 @@
   },
   {
    "url": "https://site.trendpilot.cyou/",
-   "ok": false,
-   "why": "default WordPress page (no content yet)",
-   "title": "site.trendpilot.cyou",
-   "checked": "2026-11-19T15:17:50.423Z"
+   "ok": true,
+   "title": "TrendPilot Site — Sustainable business trends",
+   "checked": "2026-11-25T12:26:08.433Z"
   },
   {
    "url": "https://site.growthvision.cfd/",
@@ -798,10 +795,9 @@
   },
   {
    "url": "https://site.dailysurf.cyou/",
-   "ok": false,
-   "why": "default WordPress page (no content yet)",
-   "title": "site.dailysurf.cyou",
-   "checked": "2026-11-19T15:17:50.423Z"
+   "ok": true,
+   "title": "DailySurf Site — Business productivity trends",
+   "checked": "2026-11-25T12:26:08.433Z"
   },
   {
    "url": "https://site.blogspace.cyou/",
