@@ -102,7 +102,7 @@ function cityCompare(rec) {
 <div class="table-wrap"><table><caption class="sr-only">SEO, AEO and GEO agency plans compared${own ? ` in ${E(city)}` : ""}</caption>
 <thead><tr><th scope="col">Agency</th><th scope="col">Where they are based</th><th scope="col">Published monthly plans</th><th scope="col">AEO / GEO in the plan</th></tr></thead>
 <tbody>${rows}</tbody></table></div>
-<p class="cmp-note">Prices as published on each agency's website, checked ${E(CMP.checked_label)}. Taxes such as 18% GST are extra unless the agency says otherwise, and plans change without notice, so confirm on the linked page. Openink Hub is not affiliated with these agencies. *Openink Hub prices are starting prices: terms and conditions apply, prices may vary, are subject to customised solutions and depend on the number of pages required.</p>
+<p class="cmp-note">Prices as published on each agency's website, checked ${E(CMP.checked_label)}. Taxes such as 18% GST are extra unless the agency says otherwise, and plans change without notice, so confirm on the linked page. Openink Hub is not affiliated with these agencies. *Openink Hub prices are starting prices: terms and conditions apply, GST is applicable, prices may vary, are subject to customised solutions and depend on the number of pages required.</p>
 </div></section>`;
 }
 const RECS = fs.readdirSync(path.join(C, "pages")).filter((n) => n.endsWith(".json")).sort()
