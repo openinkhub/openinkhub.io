@@ -232,8 +232,8 @@ function footer() {
 // Tracking and ads (content/site-config.json analytics). For page speed they do not load in the critical path:
 // - dataLayer + gtag() exist from the first byte, so nothing is lost; GA4 config and the GTM start event are queued
 // - GTM and GA4 scripts load right after the window "load" event
-// - when Cloudflare's Google tag gateway has already injected GTM (window.google_tags_first_party, served from /elf8/),
-//   the site does not load GTM/GA4 a second time: that doubled ~290 KiB of script and sent every page view twice
+// - a tag ID that Cloudflare's Google tag gateway already injects (listed in window.google_tags_first_party, served
+//   from /elf8/) is not loaded a second time; any ID the gateway does not list (e.g. GA4) is still loaded here
 // - AdSense loads on the first scroll, tap, click or key press (Auto ads were inserting a placeholder during load that
 //   pushed the whole page down: CLS 1.0 on desktop). The account meta tag and ads.txt are enough for site verification.
 const GTM = /^GTM-[A-Z0-9]+$/.test(CFG.analytics?.gtm || "") ? CFG.analytics.gtm : "";
@@ -243,9 +243,9 @@ const tagsHead = (GTM || GA4 || ADSENSE) ? `${ADSENSE ? `<meta name="google-adse
 ` : ""}<script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
 (function(w,d){function add(src,x){var j=d.createElement('script');j.async=true;j.src=src;if(x)j.crossOrigin='anonymous';d.head.appendChild(j)}
-var cf=!!w.google_tags_first_party;
-if(!cf){${GA4 ? `gtag('js',new Date());gtag('config','${GA4}');` : ""}${GTM ? `dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});` : ""}}
-function tags(){if(cf)return;${GTM ? `add('https://www.googletagmanager.com/gtm.js?id=${GTM}');` : ""}${GA4 ? `add('https://www.googletagmanager.com/gtag/js?id=${GA4}');` : ""}}
+var fp=[].concat(w.google_tags_first_party||[]).map(String);function cf(id){return fp.indexOf(id)>-1}
+${GA4 ? `if(!cf('${GA4}')){gtag('js',new Date());gtag('config','${GA4}');}` : ""}${GTM ? `if(!cf('${GTM}'))dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});` : ""}
+function tags(){${GTM ? `if(!cf('${GTM}'))add('https://www.googletagmanager.com/gtm.js?id=${GTM}');` : ""}${GA4 ? `if(!cf('${GA4}'))add('https://www.googletagmanager.com/gtag/js?id=${GA4}');` : ""}}
 if(d.readyState==='complete')tags();else w.addEventListener('load',function(){setTimeout(tags,0)});
 ${ADSENSE ? `var ads=false,ev=['scroll','pointerdown','keydown','touchstart'];function adsense(){if(ads)return;ads=true;ev.forEach(function(e){w.removeEventListener(e,adsense)});add('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE}',1)}
 ev.forEach(function(e){w.addEventListener(e,adsense,{passive:true,once:true})});` : ""}
