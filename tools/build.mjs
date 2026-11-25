@@ -83,16 +83,19 @@ function cityCompare(rec) {
   const slug = (/^\/best-seo-agency-in-([a-z-]+)\/$/.exec(rec.path) || [])[1];
   if (!slug) return "";
   const c = CITY_OF.get(rec.path);
+  const local = CMP.cities && CMP.cities[rec.path];
   const key = CMP.metros[slug] ? slug : c && CMP.state_metro[c.state];
-  const m = key && CMP.metros[key];
+  const m = local && local.length >= 2 && c ? { city: c.city, agencies: local, here: true } : key && CMP.metros[key];
   if (!m) return "";
-  const own = key === slug;
-  const city = own ? m.city : c.city;
+  const own = key === slug || !!m.here;
+  const city = m.here ? c.city : own ? m.city : c.city;
   const ext = (href, t) => `<a href="${E(href)}" target="_blank" rel="noopener nofollow">${E(t)}</a>`;
   const o = CMP.openink;
   const rows = m.agencies.map((a) => `<tr><td>${ext(a.url, a.name)}</td><td>${E(a.based)}</td><td>${E(a.plans)}</td><td>${a.aeo_url ? ext(a.aeo_url, a.aeo) : E(a.aeo)}</td></tr>`).join("") +
     `<tr class="cmp-us"><td><a href="${E(o.href)}">${E(o.name)}</a></td><td>${E(o.based)}</td><td>${E(o.plans)}${o.plans_extra ? `<br><a href="${E(o.plans_extra_href)}">${E(o.plans_extra)}</a>` : ""}</td><td>${E(o.aeo)}</td></tr>`;
-  const lead = own
+  const lead = m.here
+    ? `Published SEO plan prices from ${m.agencies.length} agencies with a page for ${E(city)} businesses, copied from each agency's own website. Several of them work remotely from another city; the second column says where each one is based.`
+    : own
     ? `Published SEO, AEO and GEO plan prices from ${m.agencies.length} agencies serving ${E(m.city)}, copied from each agency's own website.`
     : `${E(city)} businesses often compare local freelancers with agencies in ${E(m.city)}, the nearest metro market. These are published SEO, AEO and GEO plan prices from ${m.agencies.length} ${E(m.city)} agencies, copied from each agency's own website.`;
   return `<section class="section cmp" id="agency-plans"><div class="wrap narrow prose">
@@ -102,7 +105,7 @@ function cityCompare(rec) {
 <div class="table-wrap"><table><caption class="sr-only">SEO, AEO and GEO agency plans compared${own ? ` in ${E(city)}` : ""}</caption>
 <thead><tr><th scope="col">Agency</th><th scope="col">Where they are based</th><th scope="col">Published monthly plans</th><th scope="col">AEO / GEO in the plan</th></tr></thead>
 <tbody>${rows}</tbody></table></div>
-<p class="cmp-note">Prices as published on each agency's website, checked ${E(CMP.checked_label)}. Taxes such as 18% GST are extra unless the agency says otherwise, and plans change without notice, so confirm on the linked page. Openink Hub is not affiliated with these agencies. *Openink Hub prices are starting prices: terms and conditions apply, GST is applicable, prices may vary, are subject to customised solutions and depend on the number of pages required.</p>
+<p class="cmp-note">Prices as published on each agency's website, checked ${E((m.here && CMP.cities_checked_label) || CMP.checked_label)}. Taxes such as 18% GST are extra unless the agency says otherwise, and plans change without notice, so confirm on the linked page. Openink Hub is not affiliated with these agencies. *Openink Hub prices are starting prices: terms and conditions apply, GST is applicable, prices may vary, are subject to customised solutions and depend on the number of pages required.</p>
 </div></section>`;
 }
 const RECS = fs.readdirSync(path.join(C, "pages")).filter((n) => n.endsWith(".json")).sort()

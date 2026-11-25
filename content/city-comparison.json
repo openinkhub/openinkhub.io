@@ -13,84 +13,2121 @@
   "aeo": "AEO, GEO and AIO services offered alongside SEO"
  },
  "state_metro": {
-  "Delhi": "delhi", "Uttar Pradesh": "delhi", "Haryana": "delhi", "Punjab": "delhi", "Chandigarh (UT)": "delhi", "Uttarakhand": "delhi",
-  "Rajasthan": "delhi", "Jammu and Kashmir": "delhi", "Himachal Pradesh": "delhi",
-  "Maharashtra": "mumbai", "Gujarat": "mumbai", "Goa": "mumbai", "Madhya Pradesh": "mumbai", "Chhattisgarh": "mumbai",
+  "Delhi": "delhi",
+  "Uttar Pradesh": "delhi",
+  "Haryana": "delhi",
+  "Punjab": "delhi",
+  "Chandigarh (UT)": "delhi",
+  "Uttarakhand": "delhi",
+  "Rajasthan": "delhi",
+  "Jammu and Kashmir": "delhi",
+  "Himachal Pradesh": "delhi",
+  "Maharashtra": "mumbai",
+  "Gujarat": "mumbai",
+  "Goa": "mumbai",
+  "Madhya Pradesh": "mumbai",
+  "Chhattisgarh": "mumbai",
   "Dadra and Nagar Haveli and Daman and Diu": "mumbai",
-  "West Bengal": "kolkata", "Bihar": "kolkata", "Jharkhand": "kolkata", "Odisha": "kolkata", "Assam": "kolkata", "Tripura": "kolkata",
-  "Mizoram": "kolkata", "Manipur": "kolkata", "Meghalaya": "kolkata", "Nagaland": "kolkata", "Arunachal Pradesh": "kolkata",
-  "Sikkim": "kolkata", "Andaman and Nicobar Islands": "kolkata",
-  "Tamil Nadu": "chennai", "Puducherry": "chennai", "Kerala": "chennai",
-  "Andhra Pradesh": "hyderabad", "Telangana": "hyderabad",
+  "West Bengal": "kolkata",
+  "Bihar": "kolkata",
+  "Jharkhand": "kolkata",
+  "Odisha": "kolkata",
+  "Assam": "kolkata",
+  "Tripura": "kolkata",
+  "Mizoram": "kolkata",
+  "Manipur": "kolkata",
+  "Meghalaya": "kolkata",
+  "Nagaland": "kolkata",
+  "Arunachal Pradesh": "kolkata",
+  "Sikkim": "kolkata",
+  "Andaman and Nicobar Islands": "kolkata",
+  "Tamil Nadu": "chennai",
+  "Puducherry": "chennai",
+  "Kerala": "chennai",
+  "Andhra Pradesh": "hyderabad",
+  "Telangana": "hyderabad",
   "Karnataka": "bangalore"
  },
  "metros": {
   "mumbai": {
    "city": "Mumbai",
    "agencies": [
-    { "name": "Noir & Blanco", "url": "https://noirandblanco.com/seo-packages/", "based": "Mumbai and Andheri service pages",
-      "plans": "Basic ₹35,000 · Advanced ₹45,000 · E-commerce ₹65,000 per month", "aeo": "AEO and GEO listed as standard in every plan" },
-    { "name": "Bloom Agency", "url": "https://bloomagency.in/seo-packages/", "based": "Mumbai service pages",
-      "plans": "Small Business ₹25,000 · Mid Size ₹40,000 · Large / E-commerce ₹55,000 per month, exclusive of taxes (10 / 20 / 40 keywords)", "aeo": "Not listed in the plans" },
-    { "name": "upGrowth", "url": "https://www.upgrowth.in/geo", "based": "Pune head office, Mumbai office",
-      "plans": "GEO execution retainer starting at ₹1,50,000 per month", "aeo": "Dedicated GEO retainer" }
+    {
+     "name": "Noir & Blanco",
+     "url": "https://noirandblanco.com/seo-packages/",
+     "based": "Mumbai and Andheri service pages",
+     "plans": "Basic ₹35,000 · Advanced ₹45,000 · E-commerce ₹65,000 per month",
+     "aeo": "AEO and GEO listed as standard in every plan"
+    },
+    {
+     "name": "Bloom Agency",
+     "url": "https://bloomagency.in/seo-packages/",
+     "based": "Mumbai service pages",
+     "plans": "Small Business ₹25,000 · Mid Size ₹40,000 · Large / E-commerce ₹55,000 per month, exclusive of taxes (10 / 20 / 40 keywords)",
+     "aeo": "Not listed in the plans"
+    },
+    {
+     "name": "upGrowth",
+     "url": "https://www.upgrowth.in/geo",
+     "based": "Pune head office, Mumbai office",
+     "plans": "GEO execution retainer starting at ₹1,50,000 per month",
+     "aeo": "Dedicated GEO retainer"
+    }
    ]
   },
   "delhi": {
    "city": "Delhi",
    "agencies": [
-    { "name": "1Solutions", "url": "https://www.1solutions.biz/seo-company-delhi/", "based": "Laxmi Nagar, New Delhi",
-      "plans": "Starter ₹15,000 · Growth ₹25,000 · Authority ₹45,000 · Enterprise ₹75,000 per month (10 / 25 / 50 / 100+ keywords)", "aeo": "Separate GEO service, no price published" },
-    { "name": "King of Digital Marketing", "url": "https://www.kingofdigitalmarketing.com/SEO-Package.aspx", "based": "Kalkaji, New Delhi",
-      "plans": "Basic ₹19,999 · Standard ₹39,999 · Professional ₹59,999 · Enterprise ₹99,999 per month (20 / 45 / 70 / 150 keywords)", "aeo": "Not listed in the plans" },
-    { "name": "Orange MonkE", "url": "https://orangemonke.com/?p=3442", "based": "Greater Noida office, serves Delhi NCR",
-      "plans": "Essential from ₹1,43,999 · Growth from ₹2,86,999 · Enterprise from ₹6,69,999 per month, excluding 18% GST", "aeo": "AEO and GEO included from the Growth plan" }
+    {
+     "name": "1Solutions",
+     "url": "https://www.1solutions.biz/seo-company-delhi/",
+     "based": "Laxmi Nagar, New Delhi",
+     "plans": "Starter ₹15,000 · Growth ₹25,000 · Authority ₹45,000 · Enterprise ₹75,000 per month (10 / 25 / 50 / 100+ keywords)",
+     "aeo": "Separate GEO service, no price published"
+    },
+    {
+     "name": "King of Digital Marketing",
+     "url": "https://www.kingofdigitalmarketing.com/SEO-Package.aspx",
+     "based": "Kalkaji, New Delhi",
+     "plans": "Basic ₹19,999 · Standard ₹39,999 · Professional ₹59,999 · Enterprise ₹99,999 per month (20 / 45 / 70 / 150 keywords)",
+     "aeo": "Not listed in the plans"
+    },
+    {
+     "name": "Orange MonkE",
+     "url": "https://orangemonke.com/?p=3442",
+     "based": "Greater Noida office, serves Delhi NCR",
+     "plans": "Essential from ₹1,43,999 · Growth from ₹2,86,999 · Enterprise from ₹6,69,999 per month, excluding 18% GST",
+     "aeo": "AEO and GEO included from the Growth plan"
+    }
    ]
   },
   "bangalore": {
    "city": "Bangalore",
    "agencies": [
-    { "name": "OneCity Technologies", "url": "https://onecity.co.in/geo-aeo-services-bangalore", "based": "Bengaluru head office",
-      "plans": "GEO/AEO Starter ₹25,000–45,000 · Growth ₹45,000–90,000 · GEO + SEO Integrated ₹60,000–1,50,000 · Enterprise LLMO ₹1,50,000+ per month", "aeo": "Dedicated AEO and GEO plans" },
-    { "name": "Digittrix", "url": "https://www.digittrix.com/ppc/free-trial-offer-seo-bangalore", "based": "Bangalore offer page",
-      "plans": "Starter ₹4,999 · Growth ₹8,499 · Premium ₹15,000 per month, with a 7-day trial", "aeo": "Not listed in the plans" },
-    { "name": "Orange MonkE", "url": "https://orangemonke.com/?p=3442", "based": "Greater Noida office, serves Bengaluru",
-      "plans": "Essential from ₹1,43,999 · Growth from ₹2,86,999 · Enterprise from ₹6,69,999 per month, excluding 18% GST", "aeo": "AEO and GEO included from the Growth plan" }
+    {
+     "name": "OneCity Technologies",
+     "url": "https://onecity.co.in/geo-aeo-services-bangalore",
+     "based": "Bengaluru head office",
+     "plans": "GEO/AEO Starter ₹25,000–45,000 · Growth ₹45,000–90,000 · GEO + SEO Integrated ₹60,000–1,50,000 · Enterprise LLMO ₹1,50,000+ per month",
+     "aeo": "Dedicated AEO and GEO plans"
+    },
+    {
+     "name": "Digittrix",
+     "url": "https://www.digittrix.com/ppc/free-trial-offer-seo-bangalore",
+     "based": "Bangalore offer page",
+     "plans": "Starter ₹4,999 · Growth ₹8,499 · Premium ₹15,000 per month, with a 7-day trial",
+     "aeo": "Not listed in the plans"
+    },
+    {
+     "name": "Orange MonkE",
+     "url": "https://orangemonke.com/?p=3442",
+     "based": "Greater Noida office, serves Bengaluru",
+     "plans": "Essential from ₹1,43,999 · Growth from ₹2,86,999 · Enterprise from ₹6,69,999 per month, excluding 18% GST",
+     "aeo": "AEO and GEO included from the Growth plan"
+    }
    ]
   },
   "hyderabad": {
    "city": "Hyderabad",
    "agencies": [
-    { "name": "BeTopSEO", "url": "https://betopseo.com/seo-packages-in-hyderabad/", "based": "Quthbullapur, Hyderabad",
-      "plans": "Starter ₹9,999 · Growth ₹14,999 · Premium ₹24,999+ per month", "aeo": "AEO and GEO included in Growth and Premium" },
-    { "name": "Mana Studio", "url": "https://www.manastudio.in/hyderabad/seo-services", "based": "Warangal base, meets Hyderabad clients in person",
-      "plans": "Local SEO ₹20,000 · Growth SEO ₹35,000 per month; one-off audit from ₹7,500", "aeo": "Not listed in the plans" },
-    { "name": "Unique Digit", "url": "https://www.uniquedigit.com/digital-marketing-agency-hyderabad/", "based": "Hyderabad service page",
-      "plans": "Starter ₹25,000 · Growth ₹45,000 · Dominate ₹80,000 per month, plus GST", "aeo": "AEO and GEO offered as a service, no separate price" }
+    {
+     "name": "BeTopSEO",
+     "url": "https://betopseo.com/seo-packages-in-hyderabad/",
+     "based": "Quthbullapur, Hyderabad",
+     "plans": "Starter ₹9,999 · Growth ₹14,999 · Premium ₹24,999+ per month",
+     "aeo": "AEO and GEO included in Growth and Premium"
+    },
+    {
+     "name": "Mana Studio",
+     "url": "https://www.manastudio.in/hyderabad/seo-services",
+     "based": "Warangal base, meets Hyderabad clients in person",
+     "plans": "Local SEO ₹20,000 · Growth SEO ₹35,000 per month; one-off audit from ₹7,500",
+     "aeo": "Not listed in the plans"
+    },
+    {
+     "name": "Unique Digit",
+     "url": "https://www.uniquedigit.com/digital-marketing-agency-hyderabad/",
+     "based": "Hyderabad service page",
+     "plans": "Starter ₹25,000 · Growth ₹45,000 · Dominate ₹80,000 per month, plus GST",
+     "aeo": "AEO and GEO offered as a service, no separate price"
+    }
    ]
   },
   "chennai": {
    "city": "Chennai",
    "agencies": [
-    { "name": "ZielDigital", "url": "https://zieldigital.com/digital-marketing-packages-chennai/", "based": "Anna Nagar, Chennai",
-      "plans": "Basic SEO ₹25,000 · Advanced SEO ₹40,000 · eCommerce SEO ₹55,000 per month (10 / 30 / 40 keywords)", "aeo": "Not listed in the plans" },
-    { "name": "Saijith Digital Marketing", "url": "https://saijith.in/seo-packages/", "based": "Adambakkam, Chennai",
-      "plans": "Basic ₹12,000 · Silver ₹20,000 · Gold ₹25,000 · Platinum ₹30,000 per month, 3-month minimum", "aeo": "Not listed in the plans" },
-    { "name": "Gilead Digital", "url": "https://gileaddigital.in/seo-company-in-chennai", "based": "Offices in Chemmancherry, Chennai and Kochi",
-      "plans": "Lite ₹16,000 · Pro ₹20,000 · All-in-One ₹25,000 · Elite ₹50,000 per month (5 / 15 / unlimited / 100 keywords)", "aeo": "Not listed in the plans" }
+    {
+     "name": "ZielDigital",
+     "url": "https://zieldigital.com/digital-marketing-packages-chennai/",
+     "based": "Anna Nagar, Chennai",
+     "plans": "Basic SEO ₹25,000 · Advanced SEO ₹40,000 · eCommerce SEO ₹55,000 per month (10 / 30 / 40 keywords)",
+     "aeo": "Not listed in the plans"
+    },
+    {
+     "name": "Saijith Digital Marketing",
+     "url": "https://saijith.in/seo-packages/",
+     "based": "Adambakkam, Chennai",
+     "plans": "Basic ₹12,000 · Silver ₹20,000 · Gold ₹25,000 · Platinum ₹30,000 per month, 3-month minimum",
+     "aeo": "Not listed in the plans"
+    },
+    {
+     "name": "Gilead Digital",
+     "url": "https://gileaddigital.in/seo-company-in-chennai",
+     "based": "Offices in Chemmancherry, Chennai and Kochi",
+     "plans": "Lite ₹16,000 · Pro ₹20,000 · All-in-One ₹25,000 · Elite ₹50,000 per month (5 / 15 / unlimited / 100 keywords)",
+     "aeo": "Not listed in the plans"
+    }
    ]
   },
   "kolkata": {
    "city": "Kolkata",
    "agencies": [
-    { "name": "Sandora Digital", "url": "https://sandoradigital.com/pricing-seo/", "based": "Purbachal, Kolkata",
-      "plans": "Starter Engine ₹9,999 · Momentum Builder ₹19,999 · Market Gravity ₹34,999 per month (15 / 30 / 60 keywords)", "aeo": "\"AI readiness\" pages included in the two upper plans" },
-    { "name": "SimpleSEO", "url": "https://www.simpleseo.in/", "based": "Kolkata",
-      "plans": "Basic ₹5,000 · Moderate ₹7,000 · Advanced ₹15,000 per month (5 / 10 / 20 keywords)", "aeo": "AI SEO offered as a service, no price published" },
-    { "name": "WebHopers", "url": "https://www.webhopers.com/seo-services-kolkata", "based": "Kolkata service page",
-      "plans": "SEO from ₹15,000 per month", "aeo": "AEO + GEO package from ₹20,000 per month",
-      "aeo_url": "https://www.webhopers.com/pricing/aeo-and-geo-package" }
+    {
+     "name": "Sandora Digital",
+     "url": "https://sandoradigital.com/pricing-seo/",
+     "based": "Purbachal, Kolkata",
+     "plans": "Starter Engine ₹9,999 · Momentum Builder ₹19,999 · Market Gravity ₹34,999 per month (15 / 30 / 60 keywords)",
+     "aeo": "\"AI readiness\" pages included in the two upper plans"
+    },
+    {
+     "name": "SimpleSEO",
+     "url": "https://www.simpleseo.in/",
+     "based": "Kolkata",
+     "plans": "Basic ₹5,000 · Moderate ₹7,000 · Advanced ₹15,000 per month (5 / 10 / 20 keywords)",
+     "aeo": "AI SEO offered as a service, no price published"
+    },
+    {
+     "name": "WebHopers",
+     "url": "https://www.webhopers.com/seo-services-kolkata",
+     "based": "Kolkata service page",
+     "plans": "SEO from ₹15,000 per month",
+     "aeo": "AEO + GEO package from ₹20,000 per month",
+     "aeo_url": "https://www.webhopers.com/pricing/aeo-and-geo-package"
+    }
    ]
   }
- }
+ },
+ "cities": {
+  "/best-seo-agency-in-agartala/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/agartala/",
+    "based": "Hisar team, Agartala service page (no Agartala office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "Intelwebs",
+    "url": "https://intelwebs.in/services/seo-marketing/agartala",
+    "based": "Hyderabad office; Agartala service page, remote delivery",
+    "plans": "SEO plans from ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-agra/": [
+   {
+    "name": "SEOExpertAgra",
+    "url": "https://seoexpertagra.com/seo-packages-pricing/",
+    "based": "Fatehabad Road, Agra office",
+    "plans": "Starter ₹8,000 · Growth ₹18,000 · Authority ₹35,000 · Enterprise ₹60,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Awaraj",
+    "url": "https://awaraj.com/",
+    "based": "Fatehabad Road, Agra office",
+    "plans": "SEO Optimization ₹12,000 per month (single plan)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-agra.php",
+    "based": "Agra service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-ahmedabad/": [
+   {
+    "name": "Nilson Solution",
+    "url": "https://www.nilson-solution.com/seo-price-and-packages-ahmedabad.html",
+    "based": "Gujarat; Ahmedabad pricing page",
+    "plans": "Local SEO ₹6,999 · Standard ₹14,999 · Corporate ₹19,999 · Ecommerce ₹32,999 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Kaival Infotech",
+    "url": "https://kaivalinfotech.com/seo-company-in-ahmedabad/",
+    "based": "Ghodasar, Ahmedabad office",
+    "plans": "Starter from ₹5,000 · Professional from ₹15,000 per month · Enterprise custom",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-aizawl/": [
+   {
+    "name": "Intelwebs",
+    "url": "https://intelwebs.in/services/seo-marketing/aizawl",
+    "based": "Hyderabad office; Aizawl service page, remote delivery",
+    "plans": "SEO plans from ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/aizawl/",
+    "based": "New Delhi office; Aizawl location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-allahabad/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/prayagraj/",
+    "based": "Hisar team, Prayagraj service page (no Prayagraj office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "SERP Monsters",
+    "url": "https://serpmonsters.com/seo-india/allahabad/",
+    "based": "Indore office; Prayagraj service page",
+    "plans": "Starter ₹9,999 · Growth ₹19,999 · Dominance ₹34,999 per month · Enterprise custom",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-ambala/": [
+   {
+    "name": "Dezire Web Solutions",
+    "url": "https://www.dezirewebsolutions.com/seo-company-in-ambala.php",
+    "based": "Dhulkot Station Road, Ambala City office",
+    "plans": "Basic ₹4,999 · Advanced ₹9,999 · Premium ₹14,999 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Samdox Software",
+    "url": "https://samdoxsoftware.com/seo-company-in-ambala",
+    "based": "Zirakpur office; Ambala service page",
+    "plans": "Basic ₹4,999 · Professional ₹9,999 per month + GST (5 / 15 keywords)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-ambala.php",
+    "based": "Ambala service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-amravati/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/amravati/",
+    "based": "Hisar team, Amravati service page (no Amravati office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/maharashtra/amravati/seo-company",
+    "based": "Siliguri office; Amravati location page",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Webpulse Solution",
+    "url": "https://www.webpulseindia.com/package/amravati/seo-search-engine-optimisation-package.htm",
+    "based": "New Delhi team; Amravati package page",
+    "plans": "Local ₹20,000 · Regional ₹40,000 · PAN India ₹66,667 · Global ₹1,00,000 per month (12-month term) + 18% GST",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-amritsar/": [
+   {
+    "name": "CoTech Agency",
+    "url": "https://cotechagency.com/Seo-Company-In-Amritsar/",
+    "based": "Opposite Khalsa College, Amritsar office",
+    "plans": "From about ₹15,000 up to ₹40,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Payever",
+    "url": "https://payever.in/it-services/amritsar/seo-services/",
+    "based": "Amritsar service page, remote delivery",
+    "plans": "Starter ₹4,999 · Growth ₹14,997 · Scale ₹39,992+",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-amritsar.php",
+    "based": "Amritsar service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-andaman/": [
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/port-blair/",
+    "based": "New Delhi office; Port Blair location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Nuwebwave Technologies",
+    "url": "https://www.seosmoindia.com.nuwebwave.com/seo-search-engine-optimization-smo-services-port-blair.html",
+    "based": "Port Blair service page",
+    "plans": "SEO from ₹3,000 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-asansol/": [
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/west-bengal/asansol/seo-company",
+    "based": "Siliguri office; Asansol location page",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Webpulse Solution",
+    "url": "https://www.webpulseindia.com/package/asansol/seo-search-engine-optimisation-package.htm",
+    "based": "New Delhi team; Asansol package page",
+    "plans": "Local ₹20,000 · Regional ₹40,000 · PAN India ₹66,667 · Global ₹1,00,000 per month (12-month term) + 18% GST",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-aurangabad/": [
+   {
+    "name": "Lenoretech",
+    "url": "https://www.lenoretech.in/locations/digital-marketing-company-in-aurangabad.html",
+    "based": "Jaipur team; Chhatrapati Sambhajinagar page",
+    "plans": "Local SEO from ₹9,999 per month · full packages from ₹14,999 per month",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "Intelwebs",
+    "url": "https://intelwebs.in/services/seo-marketing/aurangabad",
+    "based": "Hyderabad office; Aurangabad service page, remote delivery",
+    "plans": "SEO plans from ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-bareilly/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-bareilly.php",
+    "based": "Bareilly service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/uttar-pradesh/bareilly/seo-company",
+    "based": "Siliguri office; Bareilly location page",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-bhagalpur/": [
+   {
+    "name": "Webpulse Solution",
+    "url": "https://www.webpulseindia.com/package/bhagalpur/seo-search-engine-optimisation-package.htm",
+    "based": "New Delhi team; Bhagalpur package page",
+    "plans": "Local ₹20,000 · Regional ₹40,000 · PAN India ₹66,667 · Global ₹1,00,000 per month (12-month term) + 18% GST",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/bhagalpur/",
+    "based": "Hisar team, Bhagalpur service page (no Bhagalpur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "Intelwebs",
+    "url": "https://intelwebs.in/services/seo-marketing/bhagalpur",
+    "based": "Hyderabad office; Bhagalpur service page, remote delivery",
+    "plans": "SEO plans from ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-bhavnagar/": [
+   {
+    "name": "Intelwebs",
+    "url": "https://intelwebs.in/services/seo-marketing/bhavnagar",
+    "based": "Hyderabad office; Bhavnagar service page, remote delivery",
+    "plans": "SEO plans from ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/gujarat/bhavnagar/seo-company",
+    "based": "Siliguri office; Bhavnagar location page",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Webpulse Solution",
+    "url": "https://www.webpulseindia.com/package/bhavnagar/seo-search-engine-optimisation-package.htm",
+    "based": "New Delhi team; Bhavnagar package page",
+    "plans": "Local ₹20,000 · Regional ₹40,000 · PAN India ₹66,667 · Global ₹1,00,000 per month (12-month term) + 18% GST",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-bhopal/": [
+   {
+    "name": "Codezaza",
+    "url": "https://codezaza.com/seo-services-bhopal/",
+    "based": "Bhopal service page",
+    "plans": "Bronze ₹12,000 · Silver ₹25,000 · Gold ₹40,000 · Platinum ₹55,000 · Diamond ₹75,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Intelwebs",
+    "url": "https://intelwebs.in/services/seo-marketing/bhopal",
+    "based": "Hyderabad office; Bhopal service page, remote delivery",
+    "plans": "SEO plans from ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-bhubaneswar/": [
+   {
+    "name": "CS Web Solution",
+    "url": "https://www.cswebsolution.com/digital-marketing-seo-in-bhubaneswar.php",
+    "based": "Nayapalli, Bhubaneswar office",
+    "plans": "5 keywords: Basic ₹19,999 · Standard ₹24,999 · Premium ₹44,999 (more for 10 / 20 keywords)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Markido One",
+    "url": "https://markido.one/services/best-seo-services-in-bhubaneswar/",
+    "based": "Bhubaneswar service page",
+    "plans": "Local SEO ₹12,000 · National ₹25,000 · Enterprise ₹50,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Intelwebs",
+    "url": "https://intelwebs.in/services/seo-marketing/bhubaneswar",
+    "based": "Hyderabad office; Bhubaneswar service page, remote delivery",
+    "plans": "SEO plans from ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-bilaspur/": [
+   {
+    "name": "DigiTechno India",
+    "url": "https://digitechno.in/seo-price/",
+    "based": "Bilaspur, Chhattisgarh office",
+    "plans": "Basic ₹14,999 · Standard ₹25,999 · Pro ₹45,999 per month (10 / 20 / 40 keywords)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "http://jcsai.co.in/seo-services-in-bilaspur.php",
+    "based": "Bilaspur service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/bilaspur-cg/",
+    "based": "Hisar team, Bilaspur service page (no Bilaspur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-bokaro/": [
+   {
+    "name": "Intelwebs",
+    "url": "https://intelwebs.in/services/seo-marketing/bokaro",
+    "based": "Hyderabad office; Bokaro service page, remote delivery",
+    "plans": "SEO plans from ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/bokaro/",
+    "based": "Hisar team, Bokaro service page (no Bokaro office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-bokaro.php",
+    "based": "Bokaro service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-chandigarh/": [
+   {
+    "name": "Solutions1313",
+    "url": "https://solutions1313.com/seo-company-chandigarh/",
+    "based": "Sector 17-C, Chandigarh office",
+    "plans": "Local Starter from ₹15,000 · Growth ₹25,000–40,000 · Enterprise ₹50,000+ per month",
+    "aeo": "AEO and GEO included in SEO retainers"
+   },
+   {
+    "name": "BigShark SEO",
+    "url": "https://bigsharkseo.com/pricing/",
+    "based": "Mohali office",
+    "plans": "Starter ₹15,000 · Growth ₹30,000 · Scale ₹60,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Raga Advertisers",
+    "url": "https://ragaadvertisers.com/seo-services-chandigarh/",
+    "based": "Sector 12, Panchkula office",
+    "plans": "Starter from ₹15,000 · Growth from ₹24,000 · Professional from ₹33,000 · Enterprise from ₹51,000 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-cuttack/": [
+   {
+    "name": "Intelwebs",
+    "url": "https://intelwebs.in/services/seo-marketing/cuttack",
+    "based": "Hyderabad office; Cuttack service page, remote delivery",
+    "plans": "SEO plans from ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/cuttack/",
+    "based": "Hisar team, Cuttack service page (no Cuttack office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/cuttack/",
+    "based": "New Delhi office; Cuttack location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-darjeeling/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-darjeeling.php",
+    "based": "Darjeeling service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/west-bengal/darjeeling/seo-company",
+    "based": "Siliguri office; Darjeeling location page",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Webpulse Solution",
+    "url": "https://www.webpulseindia.com/package/darjeeling/seo-search-engine-optimisation-package.htm",
+    "based": "New Delhi team; Darjeeling package page",
+    "plans": "Local ₹20,000 · Regional ₹40,000 · PAN India ₹66,667 · Global ₹1,00,000 per month (12-month term) + 18% GST",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-dehradun/": [
+   {
+    "name": "Doon Digital",
+    "url": "https://doondigital.in/services/seo-services",
+    "based": "Badowala, Dehradun office",
+    "plans": "Starter ₹50,000 · Growth ₹1,00,000 · Premium ₹1,50,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Digital Folks",
+    "url": "https://digitalfolks.co.in/seo-company-in-dehradun/",
+    "based": "Vishnu Vihar, Dehradun office",
+    "plans": "Base ₹35,000 · Standard ₹45,000 · Premium ₹50,000 per month + GST",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-deoghar/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/deoghar/",
+    "based": "Hisar team, Deoghar service page (no Deoghar office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-deoghar.php",
+    "based": "Deoghar service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-dhanbad/": [
+   {
+    "name": "Intelwebs",
+    "url": "https://intelwebs.in/services/seo-marketing/dhanbad",
+    "based": "Hyderabad office; Dhanbad service page, remote delivery",
+    "plans": "SEO plans from ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "pROwth",
+    "url": "https://www.prowth.com/seo/dhanbad",
+    "based": "Udaipur and Jaipur offices; Dhanbad service page",
+    "plans": "Technical and content programme typically ₹35,000–75,000 per month",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/dhanbad/",
+    "based": "Hisar team, Dhanbad service page (no Dhanbad office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-durgapur/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/durgapur/",
+    "based": "Hisar team, Durgapur service page (no Durgapur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "Intelwebs",
+    "url": "https://intelwebs.in/services/seo-marketing/durgapur",
+    "based": "Hyderabad office; Durgapur service page, remote delivery",
+    "plans": "SEO plans from ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-durgapur.php",
+    "based": "Durgapur service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-erode/": [
+   {
+    "name": "Cyber Web Service",
+    "url": "https://www.cyberwebservice.com/seo-services-erode",
+    "based": "Coimbatore office; Erode service page",
+    "plans": "Local Starter ₹7,999 · Business Growth ₹24,999 · Enterprise ₹44,999 per month (5 / 20 / 50 keywords)",
+    "aeo": "AEO and GEO included in Business Growth and Enterprise"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/erode/",
+    "based": "Hisar team, Erode service page (no Erode office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-erode.php",
+    "based": "Erode service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-faridabad/": [
+   {
+    "name": "RankMac",
+    "url": "https://rankmac.com/seo-services/faridabad/",
+    "based": "Jaipur office; Faridabad service page",
+    "plans": "Starter ₹14,999 · Growth ₹24,999 · Enterprise ₹34,999 per month",
+    "aeo": "AEO in Growth; LLM SEO in Enterprise"
+   },
+   {
+    "name": "DigitalArka",
+    "url": "https://digitalarka.com/seo-agency-in-faridabad/",
+    "based": "NCR-based; Faridabad service page",
+    "plans": "Local campaigns from ₹13,000 per month; B2B content from ₹18,000 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-gangtok/": [
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/gangtok/",
+    "based": "New Delhi office; Gangtok location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/gangtok/",
+    "based": "Hisar team, Gangtok service page (no Gangtok office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-gaya/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-gaya.php",
+    "based": "Gaya service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/gaya/",
+    "based": "Hisar team, Gaya service page (no Gaya office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-ghaziabad/": [
+   {
+    "name": "Ascorp Technologies",
+    "url": "https://www.ascorptechnologies.com/services/seo",
+    "based": "Govindpuram, Ghaziabad office",
+    "plans": "Local SEO and Google Business Profile ₹8,000 per month; technical SEO by quote",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Digix Mark",
+    "url": "https://digixmark.in/seo-service-ghaziabad/",
+    "based": "Mayur Vihar, New Delhi office; Ghaziabad page",
+    "plans": "Packages from ₹10,000 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-giridih/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-giridih.php",
+    "based": "Giridih service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/giridih/",
+    "based": "Hisar team, Giridih service page (no Giridih office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-goa/": [
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/goa/goa/seo-company",
+    "based": "Siliguri office; Goa location page",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Webpulse Solution",
+    "url": "https://www.webpulseindia.com/package/goa/seo-search-engine-optimisation-package.htm",
+    "based": "New Delhi team; Goa package page",
+    "plans": "Local ₹20,000 · Regional ₹40,000 · PAN India ₹66,667 · Global ₹1,00,000 per month (12-month term) + 18% GST",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-gorakhpur/": [
+   {
+    "name": "WebRecourse",
+    "url": "https://webrecourse.com/seo-services-in-gorakhpur/",
+    "based": "Delhi agency; Gorakhpur service page",
+    "plans": "Startup ₹12,000 · Business ₹20,000 · Enterprise ₹35,000 per month (10 / 25 / 50 keywords)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Gatilab",
+    "url": "https://gatilab.com/services/gorakhpur-seo-services/",
+    "based": "Gorakhpur service page",
+    "plans": "Monthly local SEO ₹25,000 · multi-location ₹45,000 per month; audit ₹15,000 one-time, + GST",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Gaurav Tiwari",
+    "url": "https://gauravtiwari.org/services/gorakhpur-seo-services/",
+    "based": "Gorakhpur-based consultant; Gorakhpur service page, remote",
+    "plans": "Local SEO retainer ₹12,000 per month, GST included",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-guntur/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-guntur.php",
+    "based": "Guntur service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/guntur/",
+    "based": "Hisar team, Guntur service page (no Guntur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-guwahati/": [
+   {
+    "name": "Owkus Web Solutions",
+    "url": "https://owkus.net/seo-services/",
+    "based": "Six Miles, Guwahati office",
+    "plans": "Basic Local ₹8,000 · Standard ₹15,000 · Advanced ₹25,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/assam/guwahati/seo-company",
+    "based": "Bhangagarh, Guwahati address; Siliguri head office",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "RSIO",
+    "url": "https://rsio.in/locations/guwahati/seo-optimization/",
+    "based": "Charaideo, Assam office; Guwahati service page",
+    "plans": "Standard SEO from ₹2,500 (period not stated)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-gwalior/": [
+   {
+    "name": "ITS Gwalior",
+    "url": "https://www.itsgwalior.com/seo-packages-in-gwalior-india",
+    "based": "Patel Nagar, Gwalior office",
+    "plans": "Small Business ₹5,000 · WordPress ₹8,000 · E-commerce ₹10,000 per month (6-month minimum)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Simontechway",
+    "url": "https://simontechway.com/seo-company-in-gwalior/",
+    "based": "New Delhi office; Gwalior service page",
+    "plans": "Usually ₹8,000 to ₹35,000 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-haldia/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-haldia.php",
+    "based": "Haldia service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/west-bengal/haldia/seo-company",
+    "based": "Siliguri office; Haldia location page",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-haridwar/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/haridwar/",
+    "based": "Hisar team, Haridwar service page (no Haridwar office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/haridwar/",
+    "based": "New Delhi office; Haridwar location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-haridwar.php",
+    "based": "Haridwar service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-hisar/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/hisar/",
+    "based": "Red Square Market, Hisar office",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/hisar/",
+    "based": "New Delhi office; Hisar location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-imphal/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/imphal/",
+    "based": "Hisar team, Imphal service page (no Imphal office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/imphal/",
+    "based": "New Delhi office; Imphal location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-imphal.php",
+    "based": "Imphal service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-indore/": [
+   {
+    "name": "Gossips Marketing",
+    "url": "https://gossipsmarketing.com/seo-expert-in-indore/",
+    "based": "Indore service page",
+    "plans": "Guru ₹12,000 · Param Guru ₹15,000 · Maharaj ₹25,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-indore.php",
+    "based": "Indore service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/indore/",
+    "based": "New Delhi office; Indore location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-itanagar/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/itanagar/",
+    "based": "Hisar team, Itanagar service page (no Itanagar office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/itanagar/",
+    "based": "New Delhi office; Itanagar location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-itanagar.php",
+    "based": "Itanagar service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-jabalpur/": [
+   {
+    "name": "Heal SEO",
+    "url": "https://www.healseo.com/seo-company-in-jabalpur",
+    "based": "Bengaluru office; Jabalpur service page",
+    "plans": "Basic ₹15,000 · Silver ₹20,000 · Gold ₹30,000 · Platinum ₹60,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/jabalpur/",
+    "based": "Hisar team, Jabalpur service page (no Jabalpur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "Achyut Digital",
+    "url": "https://achyutdigital.com/services/seo/jabalpur",
+    "based": "Bangalore studio; remote Jabalpur service page",
+    "plans": "SEO from ₹12,000 per month",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-jaipur/": [
+   {
+    "name": "Ajay Singh SEO Agency",
+    "url": "https://ajaysingh.co.in/pricing.php",
+    "based": "Jaipur office",
+    "plans": "Starter ₹15,000 · Growth ₹35,000 · Enterprise ₹75,000+ per month",
+    "aeo": "AEO and GEO included in Enterprise"
+   },
+   {
+    "name": "DigitalArka",
+    "url": "https://digitalarka.com/seo-services-in-jaipur/",
+    "based": "Jaipur service page",
+    "plans": "Starter ₹13,000 · Growth ₹28,000 per month · Enterprise custom",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Hire SEOPro",
+    "url": "https://hireseopro.com/location/india/seo-services-in-jaipur.html",
+    "based": "Sitapura, Jaipur office",
+    "plans": "Starter ₹10,000 · Professional ₹20,000 · Enterprise ₹50,000 per month + GST",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-jalandhar/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-jalandhar.php",
+    "based": "Jalandhar service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Digiengland",
+    "url": "https://digiengland.in/seo-services-jalandhar-punjab/",
+    "based": "Green Park and Urban Estate, Jalandhar offices",
+    "plans": "₹16,000 per month (5–8 keywords)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-jammu/": [
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/jammu/",
+    "based": "New Delhi office; Jammu location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/jammu/",
+    "based": "Hisar team, Jammu service page (no Jammu office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-jamnagar/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/jamnagar/",
+    "based": "Hisar team, Jamnagar service page (no Jamnagar office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-jamnagar.php",
+    "based": "Jamnagar service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-jamshedpur/": [
+   {
+    "name": "BrandMentor",
+    "url": "https://brandmentor.in/best-seo-agency-jamshedpur/",
+    "based": "Ranchi office; Jamshedpur service page",
+    "plans": "Packages from ₹4,999 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-jamshedpur.php",
+    "based": "Jamshedpur service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Achyut Digital",
+    "url": "https://achyutdigital.com/services/seo/jamshedpur",
+    "based": "Bangalore studio; remote Jamshedpur service page",
+    "plans": "SEO from ₹12,000 per month",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-jhansi/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/jhansi/",
+    "based": "Hisar team, Jhansi service page (no Jhansi office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/jhansi/",
+    "based": "New Delhi office; Jhansi location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-jhansi.php",
+    "based": "Jhansi service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-jodhpur/": [
+   {
+    "name": "Media Monkss",
+    "url": "https://mediamonkss.com/seo-services-in-jodhpur/",
+    "based": "Akhaliya Circle, Jodhpur office",
+    "plans": "Packages from ₹20,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/jodhpur/",
+    "based": "Hisar team, Jodhpur service page (no Jodhpur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "IndiaBizStation",
+    "url": "https://indiabizstation.com/rajasthan/jodhpur/seo-services",
+    "based": "Rewa head office; online Jodhpur service",
+    "plans": "Basic ₹4,999 · Standard ₹9,999 · Enterprise ₹19,999 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-kanpur/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-company-in-kanpur.php",
+    "based": "Kanpur service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Achyut Digital",
+    "url": "https://achyutdigital.com/services/seo/kanpur",
+    "based": "Bangalore studio; remote Kanpur service page",
+    "plans": "SEO from ₹12,000 per month",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-karnal/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/karnal/",
+    "based": "Hisar team, Karnal service page (no Karnal office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-karnal.php",
+    "based": "Karnal service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-kohima/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/kohima/",
+    "based": "Hisar team, Kohima service page (no Kohima office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/kohima/",
+    "based": "New Delhi office; Kohima location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-kota/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-kota.php",
+    "based": "Kota service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Digital Marketing Kota",
+    "url": "https://digitalmarketingkota.in/local-seo-package/",
+    "based": "Kota local SEO provider",
+    "plans": "Local SEO package ₹5,999 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-lucknow/": [
+   {
+    "name": "Gaurav Tiwari",
+    "url": "https://gauravtiwari.org/services/lucknow-seo-services/",
+    "based": "Gorakhpur-based consultant; Lucknow service page, remote",
+    "plans": "Local SEO retainer ₹15,000 per month, GST included",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Aero Business Solutions",
+    "url": "https://aerobusinesssolutions.com/packages/seo-lucknow/",
+    "based": "Bangalore office; Lucknow packages page",
+    "plans": "Basic ₹8,500 · Standard ₹16,750 · Advanced ₹25,000 per month (local SEO ₹12,500–45,000)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/lucknow/",
+    "based": "New Delhi office; Lucknow location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-ludhiana/": [
+   {
+    "name": "SK WebTech",
+    "url": "https://www.skwebtech.in/services/seo-services-in-ludhiana",
+    "based": "Ludhiana service page",
+    "plans": "Local SEO from ₹8,000 per month; national ₹25,000–50,000+",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "SocialStardom",
+    "url": "https://socialstardom.in/seo-company-ludhiana",
+    "based": "Pune studio; Ludhiana city page",
+    "plans": "Packages from ₹25,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "CyberWorx Technologies",
+    "url": "https://www.cyberworx.in/seo-company-in-ludhiana.php",
+    "based": "Rohini, New Delhi office; Ludhiana page",
+    "plans": "Local SEO ₹20,000 to ₹1,00,000 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-mathura/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/mathura/",
+    "based": "Hisar team, Mathura service page (no Mathura office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-mathura.php",
+    "based": "Mathura service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-meerut/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-company-in-meerut.php",
+    "based": "Meerut service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Achyut Digital",
+    "url": "https://achyutdigital.com/services/seo/meerut",
+    "based": "Bangalore studio; remote Meerut service page",
+    "plans": "SEO from ₹12,000 per month",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-moradabad/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-moradabad.php",
+    "based": "Chandausi, Moradabad corporate office",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/moradabad/",
+    "based": "Hisar team, Moradabad service page (no Moradabad office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/moradabad/",
+    "based": "New Delhi office; Moradabad location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-muzaffarnagar/": [
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-muzaffarnagar.php",
+    "based": "Muzaffarnagar service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/uttar-pradesh/muzaffarnagar/seo-company",
+    "based": "Siliguri office; Muzaffarnagar location page",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Webpulse Solution",
+    "url": "https://www.webpulseindia.com/package/muzaffarnagar/seo-search-engine-optimisation-package.htm",
+    "based": "New Delhi team; Muzaffarnagar package page",
+    "plans": "Local ₹20,000 · Regional ₹40,000 · PAN India ₹66,667 · Global ₹1,00,000 per month (12-month term) + 18% GST",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-muzaffarpur/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/muzaffarpur/",
+    "based": "Hisar team, Muzaffarpur service page (no Muzaffarpur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-muzaffarpur.php",
+    "based": "Muzaffarpur service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-nagpur/": [
+   {
+    "name": "Creative Nexus",
+    "url": "https://creativenexus.in/local-seo-services-in-nagpur/",
+    "based": "Gurugram and Bengaluru offices; Nagpur page",
+    "plans": "Local SEO ₹10,000–30,000 per month; with wider SEO ₹18,000–55,000",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/nagpur/",
+    "based": "Hisar team, Nagpur service page (no Nagpur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-nashik/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/nashik/",
+    "based": "Hisar team, Nashik service page (no Nashik office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "Indepth SEO",
+    "url": "https://indepthseo.com/seo-companies-in-nashik/",
+    "based": "Nashik service page",
+    "plans": "Basic ₹19,999 · Pro ₹34,999 · Elite ₹49,999 · Ultimate ₹69,999 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-navi-mumbai/": [
+   {
+    "name": "Go Lead Digital",
+    "url": "https://www.goleaddigital.com/seo-packages-navi-mumbai-how-much-do-seo-services-cost-in-2025/",
+    "based": "Mumbai offices; Navi Mumbai account manager",
+    "plans": "Starter ₹8,500–15,000 · Local SEO ₹18,000–35,000 · E-commerce ₹40,000–75,000+ per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Achyut Digital",
+    "url": "https://achyutdigital.com/services/seo/navi-mumbai",
+    "based": "Bangalore studio; remote Navi Mumbai service page",
+    "plans": "Starter ₹9,999–19,999 · Growth ₹35,000–75,000 · Scale ₹1,00,000+ per month",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-panchkula/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/panchkula/",
+    "based": "Hisar team, Panchkula service page (no Panchkula office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AEO and GEO mentioned; AI SEO priced as custom"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-panchkula.php",
+    "based": "Panchkula service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-panipat/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/panipat/",
+    "based": "Hisar team, Panipat service page (no Panipat office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/panipat/",
+    "based": "New Delhi office; Panipat location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-panipat.php",
+    "based": "Panipat service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-patiala/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/patiala/",
+    "based": "Hisar team, Patiala service page (no Patiala office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-patiala.php",
+    "based": "Patiala service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-patna/": [
+   {
+    "name": "Skylab SEO",
+    "url": "https://www.skylabseo.com/seo-company-in-patna",
+    "based": "Kankarbagh, Patna office",
+    "plans": "Starter ₹7,999 · Business ₹19,999 · Enterprise ₹49,999 per month",
+    "aeo": "AEO and GEO included in Business and Enterprise"
+   },
+   {
+    "name": "DebugDigital",
+    "url": "https://debugdigital.in/services/local-seo-patna",
+    "based": "Kankarbagh, Patna office",
+    "plans": "Local SEO Add-On ₹4,999 · Local SEO Starter ₹7,500 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-puducherry/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/puducherry/",
+    "based": "Hisar team, Puducherry service page (no Puducherry office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "Cyber Web Service",
+    "url": "https://www.cyberwebservice.com/seo-services-puducherry",
+    "based": "Coimbatore office; Puducherry service page",
+    "plans": "Local Starter ₹7,999 · Business Growth ₹24,999 · Enterprise ₹44,999 per month (5 / 20 / 50 keywords)",
+    "aeo": "AEO and GEO included in Business Growth and Enterprise"
+   }
+  ],
+  "/best-seo-agency-in-pune/": [
+   {
+    "name": "Webvantik",
+    "url": "https://webvantik.com/seo-agency-in-pune/",
+    "based": "Baner, Pune office",
+    "plans": "Local ₹14,999 · Growth ₹24,999 · Authority ₹34,999 per month, excl. GST",
+    "aeo": "GEO included in Growth"
+   },
+   {
+    "name": "AI SEO Solutions",
+    "url": "https://aiseo.solutions/seo-company-in-pune/",
+    "based": "Bengaluru team; Pune city page",
+    "plans": "Launch ₹56,888 · Growth ₹86,888 · Authority ₹1,98,888 per month",
+    "aeo": "AEO and GEO included in every plan"
+   }
+  ],
+  "/best-seo-agency-in-puri/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/puri/",
+    "based": "Hisar team, Puri service page (no Puri office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-puri.php",
+    "based": "Puri service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-raebareli/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/raebareli/",
+    "based": "Hisar team, Raebareli service page (no Raebareli office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-raebareli.php",
+    "based": "Raebareli service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-raipur/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/raipur/",
+    "based": "Hisar team, Raipur service page (no Raipur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/raipur/",
+    "based": "New Delhi office; Raipur location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-rajkot/": [
+   {
+    "name": "Achyut Digital",
+    "url": "https://achyutdigital.com/services/seo/rajkot",
+    "based": "Bangalore studio; remote Rajkot service page",
+    "plans": "Starter ₹9,999–19,999 · Growth ₹35,000–75,000 · Scale ₹1,00,000+ per month",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/rajkot/",
+    "based": "New Delhi office; Rajkot location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-ranchi/": [
+   {
+    "name": "Digital PR World",
+    "url": "https://digitalprworld.com/ranchi/seo-company-ranchi/",
+    "based": "Kolkata and other offices; Ranchi page",
+    "plans": "Starter ₹15,000 · Popular ₹20,000 · Growth ₹24,000 per month, tax extra",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Achyut Digital",
+    "url": "https://achyutdigital.com/services/seo/ranchi",
+    "based": "Bangalore studio; remote Ranchi service page",
+    "plans": "Starter ₹9,999–19,999 · Growth ₹35,000–75,000 · Scale ₹1,00,000+ per month",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-rohtak/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/rohtak/",
+    "based": "Hisar team, Rohtak service page (no Rohtak office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/rohtak/",
+    "based": "New Delhi office; Rohtak location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-rohtak.php",
+    "based": "Rohtak service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-rourkela/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/rourkela/",
+    "based": "Hisar team, Rourkela service page (no Rourkela office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/rourkela/",
+    "based": "New Delhi office; Rourkela location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-rourkela.php",
+    "based": "Rourkela service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-saharanpur/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/saharanpur/",
+    "based": "Hisar team, Saharanpur service page (no Saharanpur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-saharanpur.php",
+    "based": "Saharanpur service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-salem/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/salem/",
+    "based": "Hisar team, Salem service page (no Salem office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/salem/",
+    "based": "New Delhi office; Salem location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-salem.php",
+    "based": "Salem service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-satna/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/satna/",
+    "based": "Hisar team, Satna service page (no Satna office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/satna/",
+    "based": "New Delhi office; Satna location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-satna.php",
+    "based": "Satna service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-shillong/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/shillong/",
+    "based": "Hisar team, Shillong service page (no Shillong office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/shillong/",
+    "based": "New Delhi office; Shillong location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-shillong.php",
+    "based": "Shillong service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-shimla/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/shimla/",
+    "based": "Hisar team, Shimla service page (no Shimla office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/shimla/",
+    "based": "New Delhi office; Shimla location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-shimla.php",
+    "based": "Shimla service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-siliguri/": [
+   {
+    "name": "Siliguri Info Tech",
+    "url": "https://www.siliguriinfotech.com/seo-service-provider",
+    "based": "Siliguri office",
+    "plans": "Silver ₹8,000 · Gold ₹12,000 · Platinum ₹16,000 per month (10 / 15 / 20 keywords)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-siliguri.php",
+    "based": "Siliguri service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Vedam Vision",
+    "url": "https://vedamvision.com/seo-services-siliguri",
+    "based": "Bhopal head office; remote Siliguri service",
+    "plans": "Packages ₹10,000–20,000 per month; full retainers ₹35,000–75,000",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-silvassa/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/silvassa/",
+    "based": "Hisar team, Silvassa service page (no Silvassa office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "Webpulse Solution",
+    "url": "https://www.webpulseindia.com/package/silvassa/seo-search-engine-optimisation-package.htm",
+    "based": "New Delhi team; Silvassa package page",
+    "plans": "Local ₹20,000 · Regional ₹40,000 · PAN India ₹66,667 · Global ₹1,00,000 per month (12-month term) + 18% GST",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-solapur/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/solapur/",
+    "based": "Hisar team, Solapur service page (no Solapur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/solapur/",
+    "based": "New Delhi office; Solapur location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-solapur.php",
+    "based": "Solapur service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-sonipat/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/sonipat/",
+    "based": "Hisar team, Sonipat service page (no Sonipat office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/sonipat/",
+    "based": "New Delhi office; Sonipat location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-sonipat.php",
+    "based": "Sonipat service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-surat/": [
+   {
+    "name": "Surat SEO Expert",
+    "url": "https://seocompanysurat.in/package/",
+    "based": "Vesu, Surat office",
+    "plans": "Starter ₹3,999 · Midsize ₹7,999 · Premium ₹9,999 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "BrandBay",
+    "url": "https://www.brandbay.in/seo-company-in-surat",
+    "based": "Noida office; Surat service page",
+    "plans": "Local Starter from ₹10,000 · SME Growth from ₹15,000 · Ecommerce Pro from ₹20,000 per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-thane/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/thane/",
+    "based": "Hisar team, Thane service page (no Thane office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/thane/",
+    "based": "New Delhi office; Thane location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-thanjavur/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/thanjavur/",
+    "based": "Hisar team, Thanjavur service page (no Thanjavur office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-thanjavur.php",
+    "based": "Thanjavur service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-thoothukudi/": [
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/thoothukudi/",
+    "based": "New Delhi office; Thoothukudi location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-thoothukudi.php",
+    "based": "Thoothukudi service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Web Service",
+    "url": "https://www.cyberwebservice.com/seo-services-thoothukudi",
+    "based": "Coimbatore office; Thoothukudi service page",
+    "plans": "Local Starter ₹7,999 · Business Growth ₹24,999 · Enterprise ₹44,999 per month (5 / 20 / 50 keywords)",
+    "aeo": "AEO and GEO included in Business Growth and Enterprise"
+   }
+  ],
+  "/best-seo-agency-in-tiruchirappalli/": [
+   {
+    "name": "Trichy Digital Marketing",
+    "url": "https://www.trichydigitalmarketing.com/seo-company-in-trichy",
+    "based": "Cantonment, Tiruchirappalli office",
+    "plans": "Standard ₹7,999 · Premium ₹14,999 · Platinum ₹23,999 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Web Service",
+    "url": "https://www.cyberwebservice.com/seo-services-trichy",
+    "based": "Coimbatore office; Trichy service page",
+    "plans": "Local Starter ₹7,999 · Business Growth ₹24,999 · Enterprise ₹44,999 per month (5 / 20 / 50 keywords)",
+    "aeo": "AEO and GEO included in Business Growth and Enterprise"
+   },
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/tiruchirappalli/",
+    "based": "Hisar team, Tiruchirappalli service page (no Tiruchirappalli office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-tirunelveli/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/tirunelveli/",
+    "based": "Hisar team, Tirunelveli service page (no Tirunelveli office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/tirunelveli/",
+    "based": "New Delhi office; Tirunelveli location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-tirunelveli.php",
+    "based": "Tirunelveli service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-udaipur/": [
+   {
+    "name": "Simontechway",
+    "url": "https://simontechway.com/seo-company-in-udaipur/",
+    "based": "New Delhi office; Udaipur service page",
+    "plans": "₹5,000 to ₹25,000+ per month for local businesses",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/udaipur/",
+    "based": "New Delhi office; Udaipur location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "MyDigital Crown",
+    "url": "https://mydigitalcrown.in/seo-freelancer-udaipur.html",
+    "based": "Mumbai, Varanasi and Bangalore offices; Udaipur page",
+    "plans": "Local SEO from ₹8,000 to ₹30,000+ per month",
+    "aeo": "AI SEO offered, no price"
+   }
+  ],
+  "/best-seo-agency-in-ujjain/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/ujjain/",
+    "based": "Hisar team, Ujjain service page (no Ujjain office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/ujjain/",
+    "based": "New Delhi office; Ujjain location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-ujjain.php",
+    "based": "Ujjain service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-vadodara/": [
+   {
+    "name": "H Cube Web Solutions",
+    "url": "https://hcubewebsolutions.com/seo-services-pricing-vadodara/",
+    "based": "Nizampura, Vadodara office",
+    "plans": "Starter Local from ₹10,000 · Growth from ₹20,000 · Enterprise from ₹45,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/gujarat/vadodara/seo-company",
+    "based": "Siliguri office; Vadodara location page",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "OwlClaw Technologies",
+    "url": "https://owlclaw.com/locations/services/seo-agency/vadodara/",
+    "based": "New Delhi office; Vadodara location page",
+    "plans": "Local SEO from ₹25,000 per month, up to ₹1,50,000+ for enterprise campaigns",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-varanasi/": [
+   {
+    "name": "MarketingHubb",
+    "url": "https://marketinghubb.in/seo/",
+    "based": "Mahmoorganj, Varanasi office",
+    "plans": "Basic ₹7,999 · Standard ₹9,999 · Premium ₹14,999 per month",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "LeCiel Technologies",
+    "url": "https://www.lecieltechnologies.com/seo-company-in-varanasi",
+    "based": "Varanasi service page",
+    "plans": "Basic ₹7,000 · Standard ₹15,000 · Premium ₹25,000 per month (10 / 25 / 50 keywords)",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "Gaurav Tiwari",
+    "url": "https://gauravtiwari.org/services/varanasi-seo-services/",
+    "based": "Gorakhpur-based consultant; Varanasi service page, remote",
+    "plans": "Local SEO retainer ₹15,000 per month, GST included",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-vashi/": [
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/maharashtra/vashi/seo-company",
+    "based": "Siliguri office; Vashi location page",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Go Lead Digital",
+    "url": "https://www.goleaddigital.com/seo-packages-navi-mumbai-how-much-do-seo-services-cost-in-2025/",
+    "based": "Mumbai offices; Navi Mumbai (incl. Vashi) pricing page",
+    "plans": "Starter ₹8,500–15,000 · Local SEO ₹18,000–35,000 · E-commerce ₹40,000–75,000+ per month",
+    "aeo": "Not listed in the plans"
+   }
+  ],
+  "/best-seo-agency-in-vellore/": [
+   {
+    "name": "Cyber Defence",
+    "url": "https://cyberdefence.org.in/seo-services-in/vellore/",
+    "based": "Hisar team, Vellore service page (no Vellore office)",
+    "plans": "On-Page ₹15,000 · Local ₹15,000 · Off-Page ₹20,000 · Technical ₹25,000 per month; audit ₹10,000 one-time",
+    "aeo": "AI SEO offered, no price"
+   },
+   {
+    "name": "JCS Acquistive Infotech",
+    "url": "https://jcsai.com/seo-services-in-vellore.php",
+    "based": "Vellore service page; offices in New Delhi, Moradabad and Rishikesh",
+    "plans": "Standard ₹5,000 · Advanced ₹10,000 · Professional ₹15,000 per month (10 keywords each)",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Cyber Web Service",
+    "url": "https://www.cyberwebservice.com/seo-services-vellore",
+    "based": "Coimbatore office; Vellore service page",
+    "plans": "Local Starter ₹7,999 · Business Growth ₹24,999 · Enterprise ₹44,999 per month (5 / 20 / 50 keywords)",
+    "aeo": "AEO and GEO included in Business Growth and Enterprise"
+   }
+  ],
+  "/best-seo-agency-in-wardha/": [
+   {
+    "name": "Groveus Informatics",
+    "url": "https://www.groveus.com/maharashtra/wardha/seo-company",
+    "based": "Siliguri office; Wardha location page",
+    "plans": "Starter ₹10,000–18,000 · Growth ₹20,000–45,000 · Scale ₹50,000–90,000 per month",
+    "aeo": "Not listed in the plans"
+   },
+   {
+    "name": "Webpulse Solution",
+    "url": "https://www.webpulseindia.com/package/wardha/seo-search-engine-optimisation-package.htm",
+    "based": "New Delhi team; Wardha package page",
+    "plans": "Local ₹20,000 · Regional ₹40,000 · PAN India ₹66,667 · Global ₹1,00,000 per month (12-month term) + 18% GST",
+    "aeo": "Not listed in the plans"
+   }
+  ]
+ },
+ "cities_checked_label": "26 November 2026"
 }
