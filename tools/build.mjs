@@ -106,6 +106,22 @@ const icon = (name, cls = "ico") =>
 /** Absolute same-site URL -> root-relative, so the site works on any preview host. */
 const rel = (url) => (url ? url.replace(/^https?:\/\/(www\.)?openinkhub\.io(?=\/|$)/, "") || "/" : url);
 
+// Responsive images (PageSpeed "Improve image delivery"): smaller copies sit next to the original as
+// name-<w>w.webp (or name-<n>.webp for logos). They are only used when the file exists in static/.
+const hasStatic = (src) => !!src && src.startsWith("/") && fs.existsSync(path.join(ROOT, "static", ...src.split("?")[0].split("/").filter(Boolean)));
+const sized = (src, suffix) => src.replace(/\.webp$/i, `${suffix}.webp`);
+const SIZES = {
+  hero: "(max-width: 900px) calc(100vw - 40px), 560px",
+  work: "(max-width: 640px) calc(100vw - 40px), (max-width: 1020px) 50vw, 380px",
+};
+function srcsetAttr(src, widths, fullWidth, sizes) {
+  const s = rel(src);
+  const set = widths.filter((w) => hasStatic(sized(s, `-${w}w`))).map((w) => `${sized(s, `-${w}w`)} ${w}w`);
+  return set.length ? ` srcset="${E([...set, `${s} ${fullWidth}w`].join(", "))}" sizes="${sizes}"` : "";
+}
+const heroSet = (src) => srcsetAttr(src, [480, 768], 1024, SIZES.hero);
+const logoSrc = (src) => (hasStatic(sized(rel(src), "-128")) ? sized(rel(src), "-128") : src);
+
 function localizeBody(h) {
   h = h.replace(/(href|src)="https?:\/\/(?:www\.)?openinkhub\.io(\/[^"]*)?"/g, (m, a, p) => `${a}="${p || "/"}"`);
   h = h.replace(/<img(?![^>]*\bloading=)/g, '<img loading="lazy" decoding="async"');
@@ -216,6 +232,8 @@ function footer() {
 // Tracking and ads (content/site-config.json analytics). For page speed they do not load in the critical path:
 // - dataLayer + gtag() exist from the first byte, so nothing is lost; GA4 config and the GTM start event are queued
 // - GTM and GA4 scripts load right after the window "load" event
+// - when Cloudflare's Google tag gateway has already injected GTM (window.google_tags_first_party, served from /elf8/),
+//   the site does not load GTM/GA4 a second time: that doubled ~290 KiB of script and sent every page view twice
 // - AdSense loads on the first scroll, tap, click or key press (Auto ads were inserting a placeholder during load that
 //   pushed the whole page down: CLS 1.0 on desktop). The account meta tag and ads.txt are enough for site verification.
 const GTM = /^GTM-[A-Z0-9]+$/.test(CFG.analytics?.gtm || "") ? CFG.analytics.gtm : "";
@@ -224,9 +242,10 @@ const ADSENSE = /^ca-pub-\d{16}$/.test(CFG.analytics?.adsense || "") ? CFG.analy
 const tagsHead = (GTM || GA4 || ADSENSE) ? `${ADSENSE ? `<meta name="google-adsense-account" content="${ADSENSE}">
 ` : ""}<script>
 window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
-${GA4 ? `gtag('js',new Date());gtag('config','${GA4}');` : ""}${GTM ? `dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});` : ""}
 (function(w,d){function add(src,x){var j=d.createElement('script');j.async=true;j.src=src;if(x)j.crossOrigin='anonymous';d.head.appendChild(j)}
-function tags(){${GTM ? `add('https://www.googletagmanager.com/gtm.js?id=${GTM}');` : ""}${GA4 ? `add('https://www.googletagmanager.com/gtag/js?id=${GA4}');` : ""}}
+var cf=!!w.google_tags_first_party;
+if(!cf){${GA4 ? `gtag('js',new Date());gtag('config','${GA4}');` : ""}${GTM ? `dataLayer.push({'gtm.start':new Date().getTime(),event:'gtm.js'});` : ""}}
+function tags(){if(cf)return;${GTM ? `add('https://www.googletagmanager.com/gtm.js?id=${GTM}');` : ""}${GA4 ? `add('https://www.googletagmanager.com/gtag/js?id=${GA4}');` : ""}}
 if(d.readyState==='complete')tags();else w.addEventListener('load',function(){setTimeout(tags,0)});
 ${ADSENSE ? `var ads=false,ev=['scroll','pointerdown','keydown','touchstart'];function adsense(){if(ads)return;ads=true;ev.forEach(function(e){w.removeEventListener(e,adsense)});add('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE}',1)}
 ev.forEach(function(e){w.addEventListener(e,adsense,{passive:true,once:true})});` : ""}
@@ -396,7 +415,7 @@ function aboutTpl(rec) {
   const fig = /<figure>\s*(<img\b[^>]*>)\s*<\/figure>/.exec(body);
   if (fig) { heroImg = fig[1].replace(/<img\b/, '<img fetchpriority="high"'); body = body.replace(fig[0], ""); }
   // otherwise the home page hero image, so the hero has the same two-column look as the home page
-  if (!heroImg && HOME.hero?.image?.src) heroImg = `<img src="${E(rel(HOME.hero.image.src))}" alt="${E(HOME.hero.image.alt || "Openink Hub")}" width="1024" height="576" fetchpriority="high">`;
+  if (!heroImg && HOME.hero?.image?.src) heroImg = `<img src="${E(rel(HOME.hero.image.src))}"${heroSet(HOME.hero.image.src)} alt="${E(HOME.hero.image.alt || "Openink Hub")}" width="1024" height="576" fetchpriority="high">`;
   const quick = /<p>\s*<strong>Quick answer:<\/strong>([\s\S]*?)<\/p>/.exec(body);
   if (quick) body = body.replace(quick[0], "");
   // ---- sections from content/about.json, each with the matching home-page component
@@ -583,7 +602,7 @@ function serviceTpl(rec) {
   const fig = /<figure>\s*(<img\b[^>]*>)\s*<\/figure>/.exec(body);
   if (fig) { heroImg = fig[1].replace(/<img\b/, '<img fetchpriority="high"'); body = body.replace(fig[0], ""); }
   else if (rec.featured_image) heroImg = `<img src="${E(rel(rec.featured_image.src))}" alt="${E(rec.featured_image.alt || stripTags(h1))}" width="${rec.featured_image.width || 1200}" height="${rec.featured_image.height || 630}" fetchpriority="high">`;
-  else if (HOME.hero?.image?.src) heroImg = `<img src="${E(rel(HOME.hero.image.src))}" alt="${E(stripTags(h1))}" width="1024" height="576" fetchpriority="high">`;
+  else if (HOME.hero?.image?.src) heroImg = `<img src="${E(rel(HOME.hero.image.src))}"${heroSet(HOME.hero.image.src)} alt="${E(stripTags(h1))}" width="1024" height="576" fetchpriority="high">`;
   const quick = /<p>\s*<strong>Quick answer:<\/strong>([\s\S]*?)<\/p>/.exec(body);
   if (quick) body = body.replace(quick[0], "");
   const { heroCtas, heroStats, preRest, sections } = splitService(body);
@@ -856,7 +875,7 @@ function workSection(W, items) {
   return `<section class="${W.cls || "section section-alt"}" id="${W.id || "recent-work"}"><div class="wrap">
   <div class="sec-head"><span class="eyebrow">${E(W.eyebrow)}</span><h2 class="sec-title">${E(W.h2)}</h2><p>${E(W.intro)}</p></div>
   <div class="work-grid">${items.map((w) => `<article class="work-card">
-    <a class="work-shot" href="${E(w.url)}" target="_blank" rel="noopener" aria-label="Visit the ${E(w.name)} website"><img src="${E(w.img)}" alt="${E(w.alt)}" width="1280" height="800" loading="lazy" decoding="async"></a>
+    <a class="work-shot" href="${E(w.url)}" target="_blank" rel="noopener" aria-label="Visit the ${E(w.name)} website"><img src="${E(w.img)}"${srcsetAttr(w.img, [640], 1280, SIZES.work)} alt="${E(w.alt)}" width="1280" height="800" loading="lazy" decoding="async"></a>
     <div class="work-body"><span class="tag">${E(w.industry)}</span><h3>${E(w.name)}</h3><p>${E(w.text)}</p>
     <ul class="work-services">${w.services.map((s) => `<li>${E(s)}</li>`).join("")}</ul>
     ${w.pagespeed ? (() => {
@@ -965,7 +984,7 @@ function homeTpl(rec) {
   const testi = H.testimonials.items.map((t) => `<figure class="quote"><blockquote>“${E(t.quote)}”</blockquote><figcaption>` +
     `<img src="${E(t.img)}" alt="${E(t.name)}" loading="lazy" width="48" height="48"><strong>${E(t.name)}</strong></figcaption></figure>`).join("");
   const wa = H.whatsapp.items.map((x) => `<div class="wa-item">${icon("check")}<div><h3>${E(x.title)}</h3><p>${E(x.text)}</p></div></div>`).join("");
-  const logos = H.clients.logos.map((l) => `<img src="${E(l.img)}" alt="${E(l.name)} logo" loading="lazy">`).join("");
+  const logos = H.clients.logos.map((l) => `<img src="${E(logoSrc(l.img))}" alt="${E(l.name)} logo" width="64" height="64" loading="lazy" decoding="async">`).join("");
   const sol = H.solutions.links.map((l) => `<a class="sol-link" href="${E(l.href)}">${E(l.label)}${icon("arrow")}</a>`).join("");
   const faqItems = RULES.autofix.plainFaq ? `<div class="faq-list">${H.faq.items.map((f) => `<div class="faq-card"><h3>${E(f.q)}</h3><div class="faq-a"><p>${f.a}</p></div></div>`).join("")}</div>`
     : H.faq.items.map((f) => `<details class="faq"><summary>${E(f.q)}</summary><div class="faq-a"><p>${f.a}</p></div></details>`).join("");
@@ -983,7 +1002,7 @@ function homeTpl(rec) {
       ${hero.takeaways?.length ? `<div class="key-takeaways"><strong>Key takeaways</strong><ul>${hero.takeaways.map((t) => `<li>${icon("check")}<span>${E(t)}</span></li>`).join("")}</ul></div>` : ""}
     </div>
     <div class="hero-visual">
-      <img src="${E(hero.image.src)}" alt="${E(hero.image.alt)}" width="1024" height="576" fetchpriority="high">
+      <img src="${E(hero.image.src)}"${heroSet(hero.image.src)} alt="${E(hero.image.alt)}" width="1024" height="576" fetchpriority="high">
       <div class="engines"><span>Google</span><span>ChatGPT</span><span>Gemini</span><span>Perplexity</span></div>
     </div>
   </div>
