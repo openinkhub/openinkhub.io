@@ -897,7 +897,7 @@ function successCta(p, cls = "section") {
   <div class="ss-cta-copy"><span class="eyebrow">${E(C.eyebrow)}</span><h2 class="sec-title">${E(C.h2)}</h2><p>${E(C.text)}</p>
   <ul class="ss-cta-stats">${SS.stats.slice(0, 3).map((s) => `<li><b>${E(s.value)}</b><span>${E(s.label)}</span></li>`).join("")}</ul>
   <a class="btn btn-primary" href="${E(SS.path)}">${E(C.label)}${icon("arrow")}</a></div>
-  ${picks.length ? `<div class="ss-cta-links"><strong>From our blog network</strong><ul>${picks.map((s) => `<li><span class="tag">${E(s.category)}</span>${ssLink(s)}<small>${E(s.name)}: ${E(s.positioning)}</small></li>`).join("")}</ul></div>` : ""}
+  ${picks.length ? `<div class="ss-cta-links"><strong>From the websites we built</strong><ul>${picks.map((s) => `<li><span class="tag">${E(s.category)}</span>${ssLink(s)}<small>${E(s.name)}: ${E(s.positioning)}</small></li>`).join("")}</ul></div>` : ""}
 </div></div></section>`;
 }
 // hero screenshot of a site (tools/shoot-sites.mjs -> static/images/success/<host>.webp); a branded tile when there is none yet
@@ -913,8 +913,8 @@ function successTpl(rec) {
   const cats = [...new Set(S.sites.map((s) => s.category))].sort();
   const cards = S.sites.map((s) => `<article class="ss-card" data-cat="${E(s.category)}">
     ${ssShot(s)}
-    <div class="ss-card-top"><span class="tag">${E(s.category)}</span><span class="ss-ed">${E(s.edition)}</span></div>
-    <h3>${E(s.name)}</h3><p>${E(s.positioning)}. For ${E(s.audience.toLowerCase())}.</p>
+    <div class="ss-card-top"><span class="tag">${E(s.category)}</span><span class="ss-built">${E(s.built || "WordPress")}</span></div>
+    <h3>${E(s.name)} <small class="ss-ed">${E(s.edition)}</small></h3><p>${E(s.positioning)}. For ${E(s.audience.toLowerCase())}.</p>
     <p class="ss-kw"><span>Target keyword</span>${ssLink(s, false)}</p></article>`).join("");
   return document_(rec, `<section class="hero hero-about hero-service">
   <div class="hero-bg" aria-hidden="true"></div>
@@ -923,7 +923,7 @@ function successTpl(rec) {
       <span class="eyebrow">${E(S.eyebrow)}</span>
       <h1>${E(S.h1)}</h1>
       <!--seo:content--><p class="lead">${E(S.lead)}</p><!--/seo:content-->
-      <div class="hero-ctas"><a class="btn btn-primary" href="#site-network">Browse 135 sites${icon("arrow")}</a><a class="btn btn-ghost" href="/contact-us/">Contact Us</a></div>
+      <div class="hero-ctas"><a class="btn btn-primary" href="#site-network">Browse All Sites${icon("arrow")}</a><a class="btn btn-ghost" href="/contact-us/">Contact Us</a></div>
     </div>
     <div class="hero-visual"><!--seo:content--><img src="${E(rec.featured_image.src)}" alt="${E(rec.featured_image.alt)}" width="1280" height="800" fetchpriority="high"><!--/seo:content--></div>
   </div>

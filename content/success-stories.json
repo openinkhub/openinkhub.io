@@ -1,20 +1,20 @@
 {
- "_note": "Our Success Stories page (/our-success-stories/) and the CTA band on the home page and matching service pages. Rendered by successTpl / successCta in tools/build.mjs. sites come from Blogsite_Industry_Domain_Keyword_Mapping_135_Sites.xlsx (sheet Website Editorial Strategy): each card links its URL with a keyword anchor; URLs are never shown.",
+ "_note": "Our Success Stories page (/our-success-stories/) and the CTA band on the home page and matching service pages. Rendered by successTpl / successCta in tools/build.mjs. sites: 3 client websites, then the 135 WordPress websites from Blogsite_Industry_Domain_Keyword_Mapping_135_Sites.xlsx (sheet Website Editorial Strategy). Each card links its URL with a keyword anchor (URLs are never shown) and says what the site is built with (built). Screenshots: node tools/shoot-sites.mjs.",
  "path": "/our-success-stories/",
  "eyebrow": "Our Success Stories",
  "h1": "Our Success Stories: 150+ Websites Built and Ranked",
- "lead": "These success stories show how Openink Hub has built 150+ websites on WordPress, Node.js and Next.js. They range from client business sites to a network of 135 keyword-mapped blogs. We plan each site around a target keyword, build it for speed, and connect it to the tools that help it rank.",
+ "lead": "These success stories show how Openink Hub has built 150+ websites on WordPress, Node.js and Next.js. They range from client business sites to 136 WordPress websites, each mapped to its own target keyword. We plan each site around a target keyword, build it for speed, and connect it to the tools that help it rank.",
  "stats": [
   {
    "value": "150+",
    "label": "Websites built"
   },
   {
-   "value": "135",
-   "label": "Blog sites mapped to keywords"
+   "value": "136",
+   "label": "WordPress websites mapped to keywords"
   },
   {
-   "value": "24",
+   "value": "26",
    "label": "Industry themes covered"
   },
   {
@@ -74,15 +74,15 @@
   "intro": "Real client websites, with their measured Google PageSpeed scores and Moz Page Authority."
  },
  "network": {
-  "eyebrow": "Keyword-mapped blog network",
-  "h2": "135 blog sites, each mapped to a target keyword",
-  "intro": "Every blog in our network has its own editorial focus, audience and primary keyword. Each card below links to the site through its target keyword, so you can see the topic it is built to rank for.",
+  "eyebrow": "WordPress-built websites",
+  "h2": "138 websites we built on WordPress and more, each mapped to a target keyword",
+  "intro": "136 of these websites run on WordPress, and two client sites use a custom PHP build and React. Each one has its own focus, audience and primary keyword. Every card links to the site through its target keyword, so you can see the topic it is built to rank for.",
   "note": "Use the search box to find a site by keyword, industry or audience."
  },
  "cta": {
   "eyebrow": "Our Success Stories",
   "h2": "150+ websites built on WordPress, Node.js and Next.js",
-  "text": "See our three featured client builds and 135 blog sites, each mapped to a target keyword and built to rank.",
+  "text": "See our three featured client builds and 138 websites we built on WordPress and more, each mapped to a target keyword and built to rank.",
   "label": "See our success stories",
   "pages": {
    "/": {
@@ -148,499 +148,580 @@
  },
  "sites": [
   {
+   "name": "E-Panipuri Cart",
+   "edition": "Client website",
+   "built": "Custom PHP",
+   "url": "https://epanipuricart.com/",
+   "keyword": "Panipuri franchise in India",
+   "anchor": "Panipuri and street food franchise in India",
+   "theme": "Food & Franchise",
+   "category": "Food & Franchise",
+   "positioning": "Panipuri and street food franchise brand with automatic vending machines",
+   "audience": "Franchise investors, food entrepreneurs"
+  },
+  {
+   "name": "CrazyShots",
+   "edition": "Client website",
+   "built": "React",
+   "url": "https://crazyshots.in/",
+   "keyword": "Chaat franchise in India",
+   "anchor": "Best chaat and panipuri franchise in India",
+   "theme": "Food & Franchise",
+   "category": "Food & Franchise",
+   "positioning": "Low-investment chaat and panipuri franchise with automated, hygienic serving",
+   "audience": "First-time and women entrepreneurs"
+  },
+  {
+   "name": "E-Migrate Jobs",
+   "edition": "Client website",
+   "built": "WordPress + WooCommerce",
+   "url": "https://emigratejobs.in/",
+   "keyword": "Overseas jobs for Indians",
+   "anchor": "Overseas employment and recruitment platform",
+   "theme": "Jobs & Recruitment",
+   "category": "Jobs & Recruitment",
+   "positioning": "Overseas employment platform linking job seekers, agencies and employers",
+   "audience": "Job seekers, recruitment agencies"
+  },
+  {
    "name": "StartupSEO",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://startupseo.blog/",
    "keyword": "SEO strategies for businesses",
    "anchor": "SEO strategies for businesses",
    "theme": "SEO & Technology",
    "category": "SEO & Search Marketing",
    "positioning": "SEO and technology education",
-   "audience": "Startup founders, marketers"
+   "audience": "Startup founders, marketers",
+   "built": "WordPress"
   },
   {
    "name": "RankLaunch",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://ranklaunch.blog/",
    "keyword": "Business research and analysis",
    "anchor": "Business research and analysis",
    "theme": "Research & Analytics",
    "category": "Research & Data Analysis",
    "positioning": "Data, comparisons and research",
-   "audience": "Researchers, professionals"
+   "audience": "Researchers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "SeedToSearch",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://seedtosearch.blog/",
    "keyword": "Financial planning for startups",
    "anchor": "Financial planning for startups",
    "theme": "Finance & Entrepreneurship",
    "category": "Business Finance",
    "positioning": "Startup finance and literacy",
-   "audience": "Entrepreneurs, young earners"
+   "audience": "Entrepreneurs, young earners",
+   "built": "WordPress"
   },
   {
    "name": "GrowthSERP",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://growthserp.blog/",
    "keyword": "Business growth strategies",
    "anchor": "Business growth strategies",
    "theme": "Digital Products & Growth",
    "category": "Digital Growth & Products",
    "positioning": "Digital products and growth technology",
-   "audience": "Growth teams, operators"
+   "audience": "Growth teams, operators",
+   "built": "WordPress"
   },
   {
    "name": "StartupVision",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://startupvision.blog/",
    "keyword": "AI technology for businesses",
    "anchor": "AI technology for businesses",
    "theme": "AI & Innovation",
    "category": "AI & Emerging Technology",
    "positioning": "AI, innovation and future technology",
-   "audience": "Technology leaders, founders, curious professionals"
+   "audience": "Technology leaders, founders, curious professionals",
+   "built": "WordPress"
   },
   {
    "name": "Openink Hub Blogspot",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://blog.openinkhub.cloud/",
    "keyword": "Business guides for beginners",
    "anchor": "Business guides for beginners",
    "theme": "General Knowledge & Education",
    "category": "Beginner Guides & Education",
    "positioning": "Practical explainers and accessible literacy",
-   "audience": "Everyday readers, first-time learners"
+   "audience": "Everyday readers, first-time learners",
+   "built": "WordPress"
   },
   {
    "name": "SignalLoom",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://signalloom.blog/",
    "keyword": "Business trends and analysis",
    "anchor": "Business trends and analysis",
    "theme": "Trends & Intelligence",
    "category": "Market Trends & Intelligence",
    "positioning": "Signals, trends and data-led decisions",
-   "audience": "Analytical readers, professionals"
+   "audience": "Analytical readers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "BeyondMetrics",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://beyondmetrics.blog/",
    "keyword": "Business performance improvement",
    "anchor": "Business performance improvement",
    "theme": "Performance & Decision Science",
    "category": "Performance & Decision Making",
    "positioning": "Personal goal beyond headline numbers",
-   "audience": "Professionals, households, curious readers"
+   "audience": "Professionals, households, curious readers",
+   "built": "WordPress"
   },
   {
    "name": "Openink Hub",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://openinkhub.blog/",
    "keyword": "Business knowledge and education",
    "anchor": "Business knowledge and education",
    "theme": "Knowledge & Business Education",
    "category": "Business Knowledge & Explainers",
    "positioning": "Editorial explainers and foundational knowledge",
-   "audience": "General readers, beginners"
+   "audience": "General readers, beginners",
+   "built": "WordPress"
   },
   {
    "name": "PrimeNarrative",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://primenarrative.blog/",
    "keyword": "Business strategy and planning",
    "anchor": "Business strategy and planning",
    "theme": "Business Strategy & Decision Making",
    "category": "Business Strategy & Comparisons",
    "positioning": "Clear narratives for complex choices",
-   "audience": "Readers comparing options"
+   "audience": "Readers comparing options",
+   "built": "WordPress"
   },
   {
    "name": "NexoraPress",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://nexorapress.blog/",
    "keyword": "Business and industry developments",
    "anchor": "Business and industry developments",
    "theme": "Developments & Consumer Insights",
    "category": "Industry News & Developments",
    "positioning": "Developments and consumer reporting",
-   "audience": "Followers, digitally active consumers"
+   "audience": "Followers, digitally active consumers",
+   "built": "WordPress"
   },
   {
    "name": "NextReach",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://nextreach.blog/",
    "keyword": "Business and career planning",
    "anchor": "Business and career planning",
    "theme": "Planning & Professional Development",
    "category": "Planning & Action Guides",
    "positioning": "Capability and next-step action guides",
-   "audience": "Young earners, families, early investors"
+   "audience": "Young earners, families, early investors",
+   "built": "WordPress"
   },
   {
    "name": "StartupStack",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://startupstack.blog/",
    "keyword": "Business operations management",
    "anchor": "Business operations management",
    "theme": "Startup & Business Operations",
    "category": "Business Operations & Tools",
    "positioning": "Startup operations, founder tools",
-   "audience": "Startup founders, operators, small teams"
+   "audience": "Startup founders, operators, small teams",
+   "built": "WordPress"
   },
   {
    "name": "GrowthScript",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://growthscript.blog/",
    "keyword": "Business growth and productivity",
    "anchor": "Business growth and productivity",
    "theme": "Growth & Productivity",
    "category": "Growth Strategies & Playbooks",
    "positioning": "Growth playbooks for habits and products",
-   "audience": "Growth-minded consumers, product teams"
+   "audience": "Growth-minded consumers, product teams",
+   "built": "WordPress"
   },
   {
    "name": "World Buzz",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://worldbuzz.wiki/",
    "keyword": "Industry trends and analysis",
    "anchor": "Industry trends and analysis",
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "TrendNest",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://trendnest.buzz/",
    "keyword": "Industry trends and analysis",
    "anchor": "Industry trends and developments",
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "BuzzChronicle",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://buzzchronicle.forum/",
    "keyword": "Industry trends and analysis",
    "anchor": "Industry trends and analysis by BuzzChronicle",
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "WisdomTrack",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://wisdomtrack.study/",
    "keyword": "Practical learning and business education",
    "anchor": "Practical learning and business education",
    "theme": "Knowledge & Education",
    "category": "Learning & Knowledge",
    "positioning": "Accessible learning and practical knowledge",
-   "audience": "Learners, professionals, business owners"
+   "audience": "Learners, professionals, business owners",
+   "built": "WordPress"
   },
   {
    "name": "FutureBytes",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://futurebytes.cyou/",
    "keyword": "Technology trends for businesses",
    "anchor": "Technology trends for businesses",
    "theme": "Technology & Digital Transformation",
    "category": "Technology & Innovation",
    "positioning": "Digital change, technology and future-facing ideas",
-   "audience": "Professionals, business owners, technology-curious readers"
+   "audience": "Professionals, business owners, technology-curious readers",
+   "built": "WordPress"
   },
   {
    "name": "StoryForum",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://storyforum.sbs/",
    "keyword": "Business and industry explainers",
    "anchor": "Business and industry explainers",
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "ExploreWorld",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://exploreworld.surf/",
    "keyword": "Business and industry explainers",
    "anchor": "Practical explainers",
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "CreativeOrbit",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://creativeorbit.space/",
    "keyword": "Creative ideas for businesses",
    "anchor": "Creative ideas for businesses",
    "theme": "Creativity & Design",
    "category": "Creativity & Design",
    "positioning": "Creative ideas, visual communication and practical inspiration",
-   "audience": "Creators, professionals, entrepreneurs, general readers"
+   "audience": "Creators, professionals, entrepreneurs, general readers",
+   "built": "WordPress"
   },
   {
    "name": "DigitalExpress",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://digitalexpress.click/",
    "keyword": "Industry trends and analysis",
    "anchor": "Industry trends and analysis by DigitalExpress",
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "ModernJournal",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://modernjournal.living/",
    "keyword": "Business and industry explainers",
    "anchor": "Business stories",
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "StudyBeacon",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://studybeacon.cfd/",
    "keyword": "Practical learning and business education",
    "anchor": "Learning methods",
    "theme": "Knowledge & Education",
    "category": "Learning & Knowledge",
    "positioning": "Accessible learning and practical knowledge",
-   "audience": "Learners, professionals, business owners"
+   "audience": "Learners, professionals, business owners",
+   "built": "WordPress"
   },
   {
    "name": "VisualStories",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://visualstories.pics/",
    "keyword": "Creative ideas for businesses",
    "anchor": "Creative workflows",
    "theme": "Creativity & Design",
    "category": "Creativity & Design",
    "positioning": "Creative ideas, visual communication and practical inspiration",
-   "audience": "Creators, professionals, entrepreneurs, general readers"
+   "audience": "Creators, professionals, entrepreneurs, general readers",
+   "built": "WordPress"
   },
   {
    "name": "ContentJunction",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://contentjunction.casa/",
    "keyword": "Content marketing strategies",
    "anchor": "Content marketing strategies",
    "theme": "Content & Publishing",
    "category": "Content & Publishing",
    "positioning": "Content creation, publishing and digital communication",
-   "audience": "Writers, creators, professionals, businesses"
+   "audience": "Writers, creators, professionals, businesses",
+   "built": "WordPress"
   },
   {
    "name": "RankQuest",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://rankquest.cfd/",
    "keyword": "Industry trends and analysis",
    "anchor": "Industry trends and analysis by RankQuest",
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "CreativeCasa",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://creativecasa.homes/",
    "keyword": "Creative ideas for businesses",
    "anchor": "Visual communication",
    "theme": "Creativity & Design",
    "category": "Creativity & Design",
    "positioning": "Creative ideas, visual communication and practical inspiration",
-   "audience": "Creators, professionals, entrepreneurs, general readers"
+   "audience": "Creators, professionals, entrepreneurs, general readers",
+   "built": "WordPress"
   },
   {
    "name": "HomeJournal",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://homejournal.rest/",
    "keyword": "Business and industry explainers",
    "anchor": "Consumer topics",
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "RestAndRead",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://restandread.cfd/",
    "keyword": "Practical lifestyle guides",
    "anchor": "Practical lifestyle guides",
    "theme": "Lifestyle & Practical Guides",
    "category": "Lifestyle & Practical Guides",
    "positioning": "Everyday living, home, wellbeing and practical lifestyle knowledge",
-   "audience": "Households, professionals, general readers"
+   "audience": "Households, professionals, general readers",
+   "built": "WordPress"
   },
   {
    "name": "RankQuest",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://rankquest.sbs/",
    "keyword": "Business research and analysis",
    "anchor": "Market research",
    "theme": "Research & Decision Intelligence",
    "category": "Research & Analysis",
    "positioning": "Research, comparisons, signals and evidence-led decisions",
-   "audience": "Researchers, professionals, business decision-makers"
+   "audience": "Researchers, professionals, business decision-makers",
+   "built": "WordPress"
   },
   {
    "name": "TrendPilot",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://trendpilot.cyou/",
    "keyword": "Industry trends and analysis",
    "anchor": "Industry trends and analysis by TrendPilot",
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "GrowthVision",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://growthvision.cfd/",
    "keyword": "Business growth strategies",
    "anchor": "Business growth",
    "theme": "Business Growth & Action",
    "category": "Business Growth & Playbooks",
    "positioning": "Business growth, capability building and practical action",
-   "audience": "Startups, MSMEs, business owners, professionals"
+   "audience": "Startups, MSMEs, business owners, professionals",
+   "built": "WordPress"
   },
   {
    "name": "StartupGrowth",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://startupgrowth.online/",
    "keyword": "Business growth strategies",
    "anchor": "Startup planning",
    "theme": "Business Growth & Action",
    "category": "Business Growth & Playbooks",
    "positioning": "Business growth, capability building and practical action",
-   "audience": "Startups, MSMEs, business owners, professionals"
+   "audience": "Startups, MSMEs, business owners, professionals",
+   "built": "WordPress"
   },
   {
    "name": "NexoraPress",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://nexorapress.courses/",
    "keyword": "Business and industry developments",
    "anchor": "New developments",
    "theme": "Developments & Consumer Insights",
    "category": "Industry News & Developments",
    "positioning": "Developments and consumer reporting",
-   "audience": "Followers, digitally active consumers"
+   "audience": "Followers, digitally active consumers",
+   "built": "WordPress"
   },
   {
    "name": "PrimeNarrative",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://primenarrative.site/",
    "keyword": "Business strategy and planning",
    "anchor": "Business models",
    "theme": "Business Strategy & Decision Making",
    "category": "Business Strategy & Comparisons",
    "positioning": "Clear narratives for complex choices",
-   "audience": "Readers comparing options"
+   "audience": "Readers comparing options",
+   "built": "WordPress"
   },
   {
    "name": "WebBuzzDaily",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://webbuzzdaily.cfd/",
    "keyword": "Industry trends and analysis",
    "anchor": "Industry trends and analysis by WebBuzzDaily",
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "GrowthSERP",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://growthserp.store/",
    "keyword": "Business growth strategies",
    "anchor": "Digital tools",
    "theme": "Digital Products & Growth",
    "category": "Digital Growth & Products",
    "positioning": "Digital products and growth technology",
-   "audience": "Growth teams, operators"
+   "audience": "Growth teams, operators",
+   "built": "WordPress"
   },
   {
    "name": "NextReach",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://nextreach.quest/",
    "keyword": "Business and career planning",
    "anchor": "Financial habits",
    "theme": "Planning & Professional Development",
    "category": "Planning & Action Guides",
    "positioning": "Capability and next-step action guides",
-   "audience": "Young earners, families, early investors"
+   "audience": "Young earners, families, early investors",
+   "built": "WordPress"
   },
   {
    "name": "GrowthScript",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://growthscript.website/",
    "keyword": "Business growth and productivity",
    "anchor": "Growth frameworks",
    "theme": "Growth & Productivity",
    "category": "Growth Strategies & Playbooks",
    "positioning": "Growth playbooks for habits and products",
-   "audience": "Growth-minded consumers, product teams"
+   "audience": "Growth-minded consumers, product teams",
+   "built": "WordPress"
   },
   {
    "name": "StartupGrowth",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://startupgrowth.cyou/",
    "keyword": "Business growth strategies",
    "anchor": "Productivity",
    "theme": "Business Growth & Action",
    "category": "Business Growth & Playbooks",
    "positioning": "Business growth, capability building and practical action",
-   "audience": "Startups, MSMEs, business owners, professionals"
+   "audience": "Startups, MSMEs, business owners, professionals",
+   "built": "WordPress"
   },
   {
    "name": "DailySurf",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://dailysurf.cyou/",
    "keyword": "Industry trends and analysis",
    "anchor": "Industry trends and analysis by DailySurf",
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "BlogSpace",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://blogspace.cyou/",
    "keyword": "Business and industry explainers",
    "anchor": "Industry perspectives",
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "ShopStories",
-   "edition": "Main blog",
+   "edition": "Main site",
    "url": "https://shopstories.sbs/",
    "keyword": "E-commerce business strategies",
    "anchor": "E-commerce business strategies",
    "theme": "Commerce & Consumer Insights",
    "category": "Commerce & Consumer Insights",
    "positioning": "Commerce, products and consumer decision-making",
-   "audience": "Consumers, retailers, entrepreneurs, business professionals"
+   "audience": "Consumers, retailers, entrepreneurs, business professionals",
+   "built": "WordPress"
   },
   {
    "name": "TrendNest",
@@ -651,7 +732,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "BuzzChronicle",
@@ -662,7 +744,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "WisdomTrack",
@@ -673,7 +756,8 @@
    "theme": "Knowledge & Education",
    "category": "Learning & Knowledge",
    "positioning": "Accessible learning and practical knowledge",
-   "audience": "Learners, professionals, business owners"
+   "audience": "Learners, professionals, business owners",
+   "built": "WordPress"
   },
   {
    "name": "FutureBytes",
@@ -684,7 +768,8 @@
    "theme": "Technology & Digital Transformation",
    "category": "Technology & Innovation",
    "positioning": "Digital change, technology and future-facing ideas",
-   "audience": "Professionals, business owners, technology-curious readers"
+   "audience": "Professionals, business owners, technology-curious readers",
+   "built": "WordPress"
   },
   {
    "name": "StoryForum",
@@ -695,7 +780,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "ExploreWorld",
@@ -706,7 +792,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "CreativeOrbit",
@@ -717,7 +804,8 @@
    "theme": "Creativity & Design",
    "category": "Creativity & Design",
    "positioning": "Creative ideas, visual communication and practical inspiration",
-   "audience": "Creators, professionals, entrepreneurs, general readers"
+   "audience": "Creators, professionals, entrepreneurs, general readers",
+   "built": "WordPress"
   },
   {
    "name": "DigitalExpress",
@@ -728,7 +816,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "ModernJournal",
@@ -739,7 +828,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "StudyBeacon",
@@ -750,7 +840,8 @@
    "theme": "Knowledge & Education",
    "category": "Learning & Knowledge",
    "positioning": "Accessible learning and practical knowledge",
-   "audience": "Learners, professionals, business owners"
+   "audience": "Learners, professionals, business owners",
+   "built": "WordPress"
   },
   {
    "name": "VisualStories",
@@ -761,7 +852,8 @@
    "theme": "Creativity & Design",
    "category": "Creativity & Design",
    "positioning": "Creative ideas, visual communication and practical inspiration",
-   "audience": "Creators, professionals, entrepreneurs, general readers"
+   "audience": "Creators, professionals, entrepreneurs, general readers",
+   "built": "WordPress"
   },
   {
    "name": "ContentJunction",
@@ -772,7 +864,8 @@
    "theme": "Content & Publishing",
    "category": "Content & Publishing",
    "positioning": "Content creation, publishing and digital communication",
-   "audience": "Writers, creators, professionals, businesses"
+   "audience": "Writers, creators, professionals, businesses",
+   "built": "WordPress"
   },
   {
    "name": "RankQuest",
@@ -783,7 +876,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "CreativeCasa",
@@ -794,7 +888,8 @@
    "theme": "Creativity & Design",
    "category": "Creativity & Design",
    "positioning": "Creative ideas, visual communication and practical inspiration",
-   "audience": "Creators, professionals, entrepreneurs, general readers"
+   "audience": "Creators, professionals, entrepreneurs, general readers",
+   "built": "WordPress"
   },
   {
    "name": "HomeJournal",
@@ -805,7 +900,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "RestAndRead",
@@ -816,7 +912,8 @@
    "theme": "Lifestyle & Practical Guides",
    "category": "Lifestyle & Practical Guides",
    "positioning": "Everyday living, home, wellbeing and practical lifestyle knowledge",
-   "audience": "Households, professionals, general readers"
+   "audience": "Households, professionals, general readers",
+   "built": "WordPress"
   },
   {
    "name": "RankQuest",
@@ -827,7 +924,8 @@
    "theme": "Research & Decision Intelligence",
    "category": "Research & Analysis",
    "positioning": "Research, comparisons, signals and evidence-led decisions",
-   "audience": "Researchers, professionals, business decision-makers"
+   "audience": "Researchers, professionals, business decision-makers",
+   "built": "WordPress"
   },
   {
    "name": "TrendPilot",
@@ -838,7 +936,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "GrowthVision",
@@ -849,7 +948,8 @@
    "theme": "Business Growth & Action",
    "category": "Business Growth & Playbooks",
    "positioning": "Business growth, capability building and practical action",
-   "audience": "Startups, MSMEs, business owners, professionals"
+   "audience": "Startups, MSMEs, business owners, professionals",
+   "built": "WordPress"
   },
   {
    "name": "StartupGrowth",
@@ -860,7 +960,8 @@
    "theme": "Business Growth & Action",
    "category": "Business Growth & Playbooks",
    "positioning": "Business growth, capability building and practical action",
-   "audience": "Startups, MSMEs, business owners, professionals"
+   "audience": "Startups, MSMEs, business owners, professionals",
+   "built": "WordPress"
   },
   {
    "name": "NexoraPress",
@@ -871,7 +972,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "PrimeNarrative",
@@ -882,7 +984,8 @@
    "theme": "Business Strategy & Decision Making",
    "category": "Business Strategy & Comparisons",
    "positioning": "Clear narratives for complex choices",
-   "audience": "Readers comparing options"
+   "audience": "Readers comparing options",
+   "built": "WordPress"
   },
   {
    "name": "WebBuzzDaily",
@@ -893,7 +996,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "GrowthSERP",
@@ -904,7 +1008,8 @@
    "theme": "Business Growth & Action",
    "category": "Business Growth & Playbooks",
    "positioning": "Business growth, capability building and practical action",
-   "audience": "Startups, MSMEs, business owners, professionals"
+   "audience": "Startups, MSMEs, business owners, professionals",
+   "built": "WordPress"
   },
   {
    "name": "NextReach",
@@ -915,7 +1020,8 @@
    "theme": "Research & Decision Intelligence",
    "category": "Research & Analysis",
    "positioning": "Research, comparisons, signals and evidence-led decisions",
-   "audience": "Researchers, professionals, business decision-makers"
+   "audience": "Researchers, professionals, business decision-makers",
+   "built": "WordPress"
   },
   {
    "name": "GrowthScript",
@@ -926,7 +1032,8 @@
    "theme": "Growth & Productivity",
    "category": "Growth Strategies & Playbooks",
    "positioning": "Growth playbooks for habits and products",
-   "audience": "Growth-minded consumers, product teams"
+   "audience": "Growth-minded consumers, product teams",
+   "built": "WordPress"
   },
   {
    "name": "StartupGrowth",
@@ -937,7 +1044,8 @@
    "theme": "Business Growth & Action",
    "category": "Business Growth & Playbooks",
    "positioning": "Business growth, capability building and practical action",
-   "audience": "Startups, MSMEs, business owners, professionals"
+   "audience": "Startups, MSMEs, business owners, professionals",
+   "built": "WordPress"
   },
   {
    "name": "DailySurf",
@@ -948,7 +1056,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "BlogSpace",
@@ -959,7 +1068,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "ShopStories",
@@ -970,7 +1080,8 @@
    "theme": "Commerce & Consumer Insights",
    "category": "Commerce & Consumer Insights",
    "positioning": "Commerce, products and consumer decision-making",
-   "audience": "Consumers, retailers, entrepreneurs, business professionals"
+   "audience": "Consumers, retailers, entrepreneurs, business professionals",
+   "built": "WordPress"
   },
   {
    "name": "StartupSEO",
@@ -981,7 +1092,8 @@
    "theme": "SEO & Technology",
    "category": "SEO & Search Marketing",
    "positioning": "SEO and technology education",
-   "audience": "Startup founders, marketers"
+   "audience": "Startup founders, marketers",
+   "built": "WordPress"
   },
   {
    "name": "RankLaunch",
@@ -992,7 +1104,8 @@
    "theme": "Research & Analytics",
    "category": "Research & Data Analysis",
    "positioning": "Data, comparisons and research",
-   "audience": "Researchers, professionals"
+   "audience": "Researchers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "SeedToSearch",
@@ -1003,7 +1116,8 @@
    "theme": "Finance & Entrepreneurship",
    "category": "Business Finance",
    "positioning": "Startup finance and literacy",
-   "audience": "Entrepreneurs, young earners"
+   "audience": "Entrepreneurs, young earners",
+   "built": "WordPress"
   },
   {
    "name": "GrowthSERP",
@@ -1014,7 +1128,8 @@
    "theme": "Digital Products & Growth",
    "category": "Digital Growth & Products",
    "positioning": "Digital products and growth technology",
-   "audience": "Growth teams, operators"
+   "audience": "Growth teams, operators",
+   "built": "WordPress"
   },
   {
    "name": "StartupVision",
@@ -1025,7 +1140,8 @@
    "theme": "AI & Innovation",
    "category": "AI & Emerging Technology",
    "positioning": "AI, innovation and future technology",
-   "audience": "Technology leaders, founders, curious professionals"
+   "audience": "Technology leaders, founders, curious professionals",
+   "built": "WordPress"
   },
   {
    "name": "Openink Hub Blogspot",
@@ -1036,7 +1152,8 @@
    "theme": "General Knowledge & Education",
    "category": "Beginner Guides & Education",
    "positioning": "Practical explainers and accessible literacy",
-   "audience": "Everyday readers, first-time learners"
+   "audience": "Everyday readers, first-time learners",
+   "built": "WordPress"
   },
   {
    "name": "SignalLoom",
@@ -1047,7 +1164,8 @@
    "theme": "Trends & Intelligence",
    "category": "Market Trends & Intelligence",
    "positioning": "Signals, trends and data-led decisions",
-   "audience": "Analytical readers, professionals"
+   "audience": "Analytical readers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "BeyondMetrics",
@@ -1058,7 +1176,8 @@
    "theme": "Performance & Decision Science",
    "category": "Performance & Decision Making",
    "positioning": "Personal goal beyond headline numbers",
-   "audience": "Professionals, households, curious readers"
+   "audience": "Professionals, households, curious readers",
+   "built": "WordPress"
   },
   {
    "name": "Openink Hub",
@@ -1069,7 +1188,8 @@
    "theme": "Knowledge & Business Education",
    "category": "Business Knowledge & Explainers",
    "positioning": "Editorial explainers and foundational knowledge",
-   "audience": "General readers, beginners"
+   "audience": "General readers, beginners",
+   "built": "WordPress"
   },
   {
    "name": "PrimeNarrative",
@@ -1080,7 +1200,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "NexoraPress",
@@ -1091,7 +1212,8 @@
    "theme": "Developments & Consumer Insights",
    "category": "Industry News & Developments",
    "positioning": "Developments and consumer reporting",
-   "audience": "Followers, digitally active consumers"
+   "audience": "Followers, digitally active consumers",
+   "built": "WordPress"
   },
   {
    "name": "NextReach",
@@ -1102,7 +1224,8 @@
    "theme": "Planning & Professional Development",
    "category": "Planning & Action Guides",
    "positioning": "Capability and next-step action guides",
-   "audience": "Young earners, families, early investors"
+   "audience": "Young earners, families, early investors",
+   "built": "WordPress"
   },
   {
    "name": "StartupStack",
@@ -1113,7 +1236,8 @@
    "theme": "Startup & Business Operations",
    "category": "Business Operations & Tools",
    "positioning": "Startup operations, founder tools",
-   "audience": "Startup founders, operators, small teams"
+   "audience": "Startup founders, operators, small teams",
+   "built": "WordPress"
   },
   {
    "name": "GrowthScript",
@@ -1124,7 +1248,8 @@
    "theme": "Content & Publishing",
    "category": "Content & Publishing",
    "positioning": "Content creation, publishing and digital communication",
-   "audience": "Writers, creators, professionals, businesses"
+   "audience": "Writers, creators, professionals, businesses",
+   "built": "WordPress"
   },
   {
    "name": "World Buzz",
@@ -1135,7 +1260,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "StartupSEO",
@@ -1146,7 +1272,8 @@
    "theme": "SEO & Technology",
    "category": "SEO & Search Marketing",
    "positioning": "SEO and technology education",
-   "audience": "Startup founders, marketers"
+   "audience": "Startup founders, marketers",
+   "built": "WordPress"
   },
   {
    "name": "RankLaunch",
@@ -1157,7 +1284,8 @@
    "theme": "Research & Analytics",
    "category": "Research & Data Analysis",
    "positioning": "Data, comparisons and research",
-   "audience": "Researchers, professionals"
+   "audience": "Researchers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "SeedToSearch",
@@ -1168,7 +1296,8 @@
    "theme": "Finance & Entrepreneurship",
    "category": "Business Finance",
    "positioning": "Startup finance and literacy",
-   "audience": "Entrepreneurs, young earners"
+   "audience": "Entrepreneurs, young earners",
+   "built": "WordPress"
   },
   {
    "name": "GrowthSERP",
@@ -1179,7 +1308,8 @@
    "theme": "Digital Products & Growth",
    "category": "Digital Growth & Products",
    "positioning": "Digital products and growth technology",
-   "audience": "Growth teams, operators"
+   "audience": "Growth teams, operators",
+   "built": "WordPress"
   },
   {
    "name": "StartupVision",
@@ -1190,7 +1320,8 @@
    "theme": "AI & Innovation",
    "category": "AI & Emerging Technology",
    "positioning": "AI, innovation and future technology",
-   "audience": "Technology leaders, founders, curious professionals"
+   "audience": "Technology leaders, founders, curious professionals",
+   "built": "WordPress"
   },
   {
    "name": "Openink Hub Blogspot",
@@ -1201,7 +1332,8 @@
    "theme": "General Knowledge & Education",
    "category": "Beginner Guides & Education",
    "positioning": "Practical explainers and accessible literacy",
-   "audience": "Everyday readers, first-time learners"
+   "audience": "Everyday readers, first-time learners",
+   "built": "WordPress"
   },
   {
    "name": "SignalLoom",
@@ -1212,7 +1344,8 @@
    "theme": "Trends & Intelligence",
    "category": "Market Trends & Intelligence",
    "positioning": "Signals, trends and data-led decisions",
-   "audience": "Analytical readers, professionals"
+   "audience": "Analytical readers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "BeyondMetrics",
@@ -1223,7 +1356,8 @@
    "theme": "Performance & Decision Science",
    "category": "Performance & Decision Making",
    "positioning": "Personal goal beyond headline numbers",
-   "audience": "Professionals, households, curious readers"
+   "audience": "Professionals, households, curious readers",
+   "built": "WordPress"
   },
   {
    "name": "Openink Hub",
@@ -1234,7 +1368,8 @@
    "theme": "Knowledge & Business Education",
    "category": "Business Knowledge & Explainers",
    "positioning": "Editorial explainers and foundational knowledge",
-   "audience": "General readers, beginners"
+   "audience": "General readers, beginners",
+   "built": "WordPress"
   },
   {
    "name": "PrimeNarrative",
@@ -1245,7 +1380,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "NexoraPress",
@@ -1256,7 +1392,8 @@
    "theme": "Developments & Consumer Insights",
    "category": "Industry News & Developments",
    "positioning": "Developments and consumer reporting",
-   "audience": "Followers, digitally active consumers"
+   "audience": "Followers, digitally active consumers",
+   "built": "WordPress"
   },
   {
    "name": "NextReach",
@@ -1267,7 +1404,8 @@
    "theme": "Planning & Professional Development",
    "category": "Planning & Action Guides",
    "positioning": "Capability and next-step action guides",
-   "audience": "Young earners, families, early investors"
+   "audience": "Young earners, families, early investors",
+   "built": "WordPress"
   },
   {
    "name": "StartupStack",
@@ -1278,7 +1416,8 @@
    "theme": "Startup & Business Operations",
    "category": "Business Operations & Tools",
    "positioning": "Startup operations, founder tools",
-   "audience": "Startup founders, operators, small teams"
+   "audience": "Startup founders, operators, small teams",
+   "built": "WordPress"
   },
   {
    "name": "GrowthScript",
@@ -1289,7 +1428,8 @@
    "theme": "Content & Publishing",
    "category": "Content & Publishing",
    "positioning": "Content creation, publishing and digital communication",
-   "audience": "Writers, creators, professionals, businesses"
+   "audience": "Writers, creators, professionals, businesses",
+   "built": "WordPress"
   },
   {
    "name": "World Buzz",
@@ -1300,7 +1440,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "TrendNest",
@@ -1311,7 +1452,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "BuzzChronicle",
@@ -1322,7 +1464,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "WisdomTrack",
@@ -1333,7 +1476,8 @@
    "theme": "Knowledge & Education",
    "category": "Learning & Knowledge",
    "positioning": "Accessible learning and practical knowledge",
-   "audience": "Learners, professionals, business owners"
+   "audience": "Learners, professionals, business owners",
+   "built": "WordPress"
   },
   {
    "name": "FutureBytes",
@@ -1344,7 +1488,8 @@
    "theme": "Technology & Digital Transformation",
    "category": "Technology & Innovation",
    "positioning": "Digital change, technology and future-facing ideas",
-   "audience": "Professionals, business owners, technology-curious readers"
+   "audience": "Professionals, business owners, technology-curious readers",
+   "built": "WordPress"
   },
   {
    "name": "StoryForum",
@@ -1355,7 +1500,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "ExploreWorld",
@@ -1366,7 +1512,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "CreativeOrbit",
@@ -1377,7 +1524,8 @@
    "theme": "Creativity & Design",
    "category": "Creativity & Design",
    "positioning": "Creative ideas, visual communication and practical inspiration",
-   "audience": "Creators, professionals, entrepreneurs, general readers"
+   "audience": "Creators, professionals, entrepreneurs, general readers",
+   "built": "WordPress"
   },
   {
    "name": "DigitalExpress",
@@ -1388,7 +1536,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "ModernJournal",
@@ -1399,7 +1548,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "StudyBeacon",
@@ -1410,7 +1560,8 @@
    "theme": "Knowledge & Education",
    "category": "Learning & Knowledge",
    "positioning": "Accessible learning and practical knowledge",
-   "audience": "Learners, professionals, business owners"
+   "audience": "Learners, professionals, business owners",
+   "built": "WordPress"
   },
   {
    "name": "VisualStories",
@@ -1421,7 +1572,8 @@
    "theme": "Creativity & Design",
    "category": "Creativity & Design",
    "positioning": "Creative ideas, visual communication and practical inspiration",
-   "audience": "Creators, professionals, entrepreneurs, general readers"
+   "audience": "Creators, professionals, entrepreneurs, general readers",
+   "built": "WordPress"
   },
   {
    "name": "ContentJunction",
@@ -1432,7 +1584,8 @@
    "theme": "Content & Publishing",
    "category": "Content & Publishing",
    "positioning": "Content creation, publishing and digital communication",
-   "audience": "Writers, creators, professionals, businesses"
+   "audience": "Writers, creators, professionals, businesses",
+   "built": "WordPress"
   },
   {
    "name": "RankQuest",
@@ -1443,7 +1596,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "CreativeCasa",
@@ -1454,7 +1608,8 @@
    "theme": "Creativity & Design",
    "category": "Creativity & Design",
    "positioning": "Creative ideas, visual communication and practical inspiration",
-   "audience": "Creators, professionals, entrepreneurs, general readers"
+   "audience": "Creators, professionals, entrepreneurs, general readers",
+   "built": "WordPress"
   },
   {
    "name": "HomeJournal",
@@ -1465,7 +1620,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "RestAndRead",
@@ -1476,7 +1632,8 @@
    "theme": "Lifestyle & Practical Guides",
    "category": "Lifestyle & Practical Guides",
    "positioning": "Everyday living, home, wellbeing and practical lifestyle knowledge",
-   "audience": "Households, professionals, general readers"
+   "audience": "Households, professionals, general readers",
+   "built": "WordPress"
   },
   {
    "name": "RankQuest",
@@ -1487,7 +1644,8 @@
    "theme": "Research & Decision Intelligence",
    "category": "Research & Analysis",
    "positioning": "Research, comparisons, signals and evidence-led decisions",
-   "audience": "Researchers, professionals, business decision-makers"
+   "audience": "Researchers, professionals, business decision-makers",
+   "built": "WordPress"
   },
   {
    "name": "TrendPilot",
@@ -1498,7 +1656,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "GrowthVision",
@@ -1509,7 +1668,8 @@
    "theme": "Business Growth & Action",
    "category": "Business Growth & Playbooks",
    "positioning": "Business growth, capability building and practical action",
-   "audience": "Startups, MSMEs, business owners, professionals"
+   "audience": "Startups, MSMEs, business owners, professionals",
+   "built": "WordPress"
   },
   {
    "name": "StartupGrowth",
@@ -1520,7 +1680,8 @@
    "theme": "Business Growth & Action",
    "category": "Business Growth & Playbooks",
    "positioning": "Business growth, capability building and practical action",
-   "audience": "Startups, MSMEs, business owners, professionals"
+   "audience": "Startups, MSMEs, business owners, professionals",
+   "built": "WordPress"
   },
   {
    "name": "NexoraPress",
@@ -1531,7 +1692,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "PrimeNarrative",
@@ -1542,7 +1704,8 @@
    "theme": "Business Strategy & Decision Making",
    "category": "Business Strategy & Comparisons",
    "positioning": "Clear narratives for complex choices",
-   "audience": "Readers comparing options"
+   "audience": "Readers comparing options",
+   "built": "WordPress"
   },
   {
    "name": "WebBuzzDaily",
@@ -1553,7 +1716,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "GrowthSERP",
@@ -1564,7 +1728,8 @@
    "theme": "Business Growth & Action",
    "category": "Business Growth & Playbooks",
    "positioning": "Business growth, capability building and practical action",
-   "audience": "Startups, MSMEs, business owners, professionals"
+   "audience": "Startups, MSMEs, business owners, professionals",
+   "built": "WordPress"
   },
   {
    "name": "NextReach",
@@ -1575,7 +1740,8 @@
    "theme": "Research & Decision Intelligence",
    "category": "Research & Analysis",
    "positioning": "Research, comparisons, signals and evidence-led decisions",
-   "audience": "Researchers, professionals, business decision-makers"
+   "audience": "Researchers, professionals, business decision-makers",
+   "built": "WordPress"
   },
   {
    "name": "GrowthScript",
@@ -1586,7 +1752,8 @@
    "theme": "Growth & Productivity",
    "category": "Growth Strategies & Playbooks",
    "positioning": "Growth playbooks for habits and products",
-   "audience": "Growth-minded consumers, product teams"
+   "audience": "Growth-minded consumers, product teams",
+   "built": "WordPress"
   },
   {
    "name": "StartupGrowth",
@@ -1597,7 +1764,8 @@
    "theme": "Business Growth & Action",
    "category": "Business Growth & Playbooks",
    "positioning": "Business growth, capability building and practical action",
-   "audience": "Startups, MSMEs, business owners, professionals"
+   "audience": "Startups, MSMEs, business owners, professionals",
+   "built": "WordPress"
   },
   {
    "name": "DailySurf",
@@ -1608,7 +1776,8 @@
    "theme": "Trends & Developments",
    "category": "Industry News & Trends",
    "positioning": "News-aware reporting on trends and developments",
-   "audience": "General readers, consumers, professionals"
+   "audience": "General readers, consumers, professionals",
+   "built": "WordPress"
   },
   {
    "name": "BlogSpace",
@@ -1619,7 +1788,8 @@
    "theme": "Stories & Explainers",
    "category": "Editorial Stories & Explainers",
    "positioning": "Accessible editorial storytelling across topics",
-   "audience": "General readers, professionals, curious audiences"
+   "audience": "General readers, professionals, curious audiences",
+   "built": "WordPress"
   },
   {
    "name": "ShopStories",
@@ -1630,7 +1800,8 @@
    "theme": "Commerce & Consumer Insights",
    "category": "Commerce & Consumer Insights",
    "positioning": "Commerce, products and consumer decision-making",
-   "audience": "Consumers, retailers, entrepreneurs, business professionals"
+   "audience": "Consumers, retailers, entrepreneurs, business professionals",
+   "built": "WordPress"
   }
  ]
 }

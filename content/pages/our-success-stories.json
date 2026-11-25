@@ -8,7 +8,7 @@
  "h1": "Our Success Stories: 150+ Websites Built and Ranked",
  "date": "2026-11-19T20:00:00",
  "modified": "2026-11-19T20:00:00",
- "excerpt": "Openink Hub success stories: 150+ websites built on WordPress, Node.js and Next.js, 3 featured client builds and 135 keyword-mapped blog sites.",
+ "excerpt": "Openink Hub success stories: 150+ websites built on WordPress, Node.js and Next.js, 3 featured client builds and 138 keyword-mapped websites.",
  "content_source": "success-stories",
  "featured_image": {
   "src": "/images/work/skyyriderelectric.webp",
@@ -22,14 +22,14 @@
  "faqs": [
   {
    "q": "How many websites has Openink Hub built?",
-   "a": "<p>Openink Hub has built 150+ websites. These include client business sites, such as the three featured success stories on this page, and a network of 135 blog sites. We map each blog to its own target keyword.</p>"
+   "a": "<p>Openink Hub has built 150+ websites. These include client business sites, such as the three featured success stories on this page, and 136 WordPress websites. We map each website to its own target keyword.</p>"
   },
   {
    "q": "Which technologies do you use to build websites?",
    "a": "<p>We build on WordPress (PHP and MySQL), Node.js and Next.js (JavaScript and TypeScript), and MongoDB for flexible app data. Every project lives on GitHub, and every site gets Google Search Console, GA4 and Tag Manager.</p>"
   },
   {
-   "q": "Why is each blog site mapped to a target keyword?",
+   "q": "Why is each website mapped to a target keyword?",
    "a": "<p>A clear target keyword gives each site one topic to own. As a result, its articles, headings and internal links all point at the same search intent, which helps search engines and AI answers understand what the site is about.</p>"
   },
   {
@@ -63,7 +63,7 @@
    {
     "attr": "name",
     "key": "description",
-    "content": "Openink Hub success stories: 150+ websites built on WordPress, Node.js and Next.js, 3 featured client builds and 135 keyword-mapped blog sites."
+    "content": "Openink Hub success stories: 150+ websites built on WordPress, Node.js and Next.js, 3 featured client builds and 138 keyword-mapped websites."
    },
    {
     "attr": "property",
