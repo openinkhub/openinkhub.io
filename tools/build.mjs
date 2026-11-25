@@ -72,6 +72,39 @@ const CFG = load(path.join(C, "site-config.json"));
 const HOME = load(path.join(C, "home.json"));
 const SS = fs.existsSync(path.join(C, "success-stories.json")) ? load(path.join(C, "success-stories.json")) : null;
 const CATS = load(path.join(C, "site.json")).categories || [];
+// competitor plan comparison on the city pages (content/city-comparison.json): metro pages show their own metro,
+// city guides show the agencies of the nearest metro (by state)
+const CMP = fs.existsSync(path.join(C, "city-comparison.json")) ? load(path.join(C, "city-comparison.json")) : null;
+const CITY_OF = new Map();
+if (fs.existsSync(path.join(C, "city-posts"))) for (const f of fs.readdirSync(path.join(C, "city-posts")).filter((x) => x.endsWith(".json")))
+  for (const c of [].concat(load(path.join(C, "city-posts", f)))) CITY_OF.set(`/${c.file}/`, c);
+function cityCompare(rec) {
+  if (!CMP) return "";
+  const slug = (/^\/best-seo-agency-in-([a-z-]+)\/$/.exec(rec.path) || [])[1];
+  if (!slug) return "";
+  const c = CITY_OF.get(rec.path);
+  const key = CMP.metros[slug] ? slug : c && CMP.state_metro[c.state];
+  const m = key && CMP.metros[key];
+  if (!m) return "";
+  const own = key === slug;
+  const city = own ? m.city : c.city;
+  const ext = (href, t) => `<a href="${E(href)}" target="_blank" rel="noopener nofollow">${E(t)}</a>`;
+  const o = CMP.openink;
+  const rows = m.agencies.map((a) => `<tr><td>${ext(a.url, a.name)}</td><td>${E(a.based)}</td><td>${E(a.plans)}</td><td>${a.aeo_url ? ext(a.aeo_url, a.aeo) : E(a.aeo)}</td></tr>`).join("") +
+    `<tr class="cmp-us"><td><a href="${E(o.href)}">${E(o.name)}</a></td><td>${E(o.based)}</td><td>${E(o.plans)}</td><td>${E(o.aeo)}</td></tr>`;
+  const lead = own
+    ? `Published SEO, AEO and GEO plan prices from ${m.agencies.length} agencies serving ${E(m.city)}, copied from each agency's own website.`
+    : `${E(city)} businesses often compare local freelancers with agencies in ${E(m.city)}, the nearest metro market. These are published SEO, AEO and GEO plan prices from ${m.agencies.length} ${E(m.city)} agencies, copied from each agency's own website.`;
+  return `<section class="section cmp" id="agency-plans"><div class="wrap narrow prose">
+<span class="eyebrow">${E(CMP.eyebrow)}</span>
+<h2>SEO, AEO and GEO agency plans ${own ? `in ${E(city)}` : `for ${E(city)} businesses`}: price comparison</h2>
+<p>${lead} Each agency name links to the page the price was taken from.</p>
+<div class="table-wrap"><table><caption class="sr-only">SEO, AEO and GEO agency plans compared${own ? ` in ${E(city)}` : ""}</caption>
+<thead><tr><th scope="col">Agency</th><th scope="col">Where they are based</th><th scope="col">Published monthly plans</th><th scope="col">AEO / GEO in the plan</th></tr></thead>
+<tbody>${rows}</tbody></table></div>
+<p class="cmp-note">Prices as published on each agency's website, checked ${E(CMP.checked_label)}. Taxes such as 18% GST are extra unless the agency says otherwise, and plans change without notice, so confirm on the linked page. Openink Hub is not affiliated with these agencies.</p>
+</div></section>`;
+}
 const RECS = fs.readdirSync(path.join(C, "pages")).filter((n) => n.endsWith(".json")).sort()
   .map((n) => load(path.join(C, "pages", n))).filter((r) => r.status === 200 && r.head).map(fixRecord); // safe SEO auto-fixes (content/seo/rules.json)
 const HTML_FIXES = {}; // image fixes applied per page, reported in /admin
@@ -697,7 +730,7 @@ function pageTpl(rec) {
 ${contact}
 <section class="section"><div class="wrap narrow prose"><!--seo:content-->${hubGrids(localizeBody(shape(body, legal)))}<!--/seo:content--></div></section>
 ${(() => { const k = kitFor(rec, body, legal); return k ? `<section class="section kit"><div class="wrap narrow prose">${localizeBody(k)}</div></section>` : ""; })()}
-${hubArticles(rec)}${successCta(rec.path, "section section-alt")}${faqs}`, "is-page" + (legal ? " is-legal" : ""));
+${cityCompare(rec)}${hubArticles(rec)}${successCta(rec.path, "section section-alt")}${faqs}`, "is-page" + (legal ? " is-legal" : ""));
 }
 
 function related(rec, n = 3) {
@@ -751,7 +784,7 @@ function postTpl(rec) {
   <a class="btn btn-primary" href="${E(CFG.contact.demo_url)}" target="_blank" rel="noopener">Book a Free Demo</a></aside>
   </div>
 </article>
-${faqs}
+${cityCompare(rec)}${faqs}
 <section class="section section-alt"><div class="wrap"><h2 class="sec-title">Related articles</h2>
 <div class="post-grid">${relPosts}</div></div></section>`, "is-post");
 }

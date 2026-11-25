@@ -1,0 +1,94 @@
+{
+ "_note": "Competitor SEO / AEO / GEO plan prices, copied as published on each agency's own page. Re-check every quarter: prices change without notice. Openink Hub publishes no fixed plan prices, so its row shows a custom quote.",
+ "checked": "2026-11-25",
+ "checked_label": "25 November 2026",
+ "eyebrow": "Compare agency plans",
+ "openink": {
+  "name": "Openink Hub",
+  "href": "/contact-us/",
+  "based": "India, serving all 6 metros and 99 more cities",
+  "plans": "Custom monthly plan, quoted after a free SEO and AI search audit",
+  "aeo": "SEO, AEO, GEO and AIO in one plan"
+ },
+ "state_metro": {
+  "Delhi": "delhi", "Uttar Pradesh": "delhi", "Haryana": "delhi", "Punjab": "delhi", "Chandigarh (UT)": "delhi", "Uttarakhand": "delhi",
+  "Rajasthan": "delhi", "Jammu and Kashmir": "delhi", "Himachal Pradesh": "delhi",
+  "Maharashtra": "mumbai", "Gujarat": "mumbai", "Goa": "mumbai", "Madhya Pradesh": "mumbai", "Chhattisgarh": "mumbai",
+  "Dadra and Nagar Haveli and Daman and Diu": "mumbai",
+  "West Bengal": "kolkata", "Bihar": "kolkata", "Jharkhand": "kolkata", "Odisha": "kolkata", "Assam": "kolkata", "Tripura": "kolkata",
+  "Mizoram": "kolkata", "Manipur": "kolkata", "Meghalaya": "kolkata", "Nagaland": "kolkata", "Arunachal Pradesh": "kolkata",
+  "Sikkim": "kolkata", "Andaman and Nicobar Islands": "kolkata",
+  "Tamil Nadu": "chennai", "Puducherry": "chennai", "Kerala": "chennai",
+  "Andhra Pradesh": "hyderabad", "Telangana": "hyderabad",
+  "Karnataka": "bangalore"
+ },
+ "metros": {
+  "mumbai": {
+   "city": "Mumbai",
+   "agencies": [
+    { "name": "Noir & Blanco", "url": "https://noirandblanco.com/seo-packages/", "based": "Mumbai and Andheri service pages",
+      "plans": "Basic ₹35,000 · Advanced ₹45,000 · E-commerce ₹65,000 per month", "aeo": "AEO and GEO listed as standard in every plan" },
+    { "name": "Bloom Agency", "url": "https://bloomagency.in/seo-packages/", "based": "Mumbai service pages",
+      "plans": "Small Business ₹25,000 · Mid Size ₹40,000 · Large / E-commerce ₹55,000 per month, exclusive of taxes (10 / 20 / 40 keywords)", "aeo": "Not listed in the plans" },
+    { "name": "upGrowth", "url": "https://www.upgrowth.in/geo", "based": "Pune head office, Mumbai office",
+      "plans": "GEO execution retainer starting at ₹1,50,000 per month", "aeo": "Dedicated GEO retainer" }
+   ]
+  },
+  "delhi": {
+   "city": "Delhi",
+   "agencies": [
+    { "name": "1Solutions", "url": "https://www.1solutions.biz/seo-company-delhi/", "based": "Laxmi Nagar, New Delhi",
+      "plans": "Starter ₹15,000 · Growth ₹25,000 · Authority ₹45,000 · Enterprise ₹75,000 per month (10 / 25 / 50 / 100+ keywords)", "aeo": "Separate GEO service, no price published" },
+    { "name": "King of Digital Marketing", "url": "https://www.kingofdigitalmarketing.com/SEO-Package.aspx", "based": "Kalkaji, New Delhi",
+      "plans": "Basic ₹19,999 · Standard ₹39,999 · Professional ₹59,999 · Enterprise ₹99,999 per month (20 / 45 / 70 / 150 keywords)", "aeo": "Not listed in the plans" },
+    { "name": "Orange MonkE", "url": "https://orangemonke.com/?p=3442", "based": "Greater Noida office, serves Delhi NCR",
+      "plans": "Essential from ₹1,43,999 · Growth from ₹2,86,999 · Enterprise from ₹6,69,999 per month, excluding 18% GST", "aeo": "AEO and GEO included from the Growth plan" }
+   ]
+  },
+  "bangalore": {
+   "city": "Bangalore",
+   "agencies": [
+    { "name": "OneCity Technologies", "url": "https://onecity.co.in/geo-aeo-services-bangalore", "based": "Bengaluru head office",
+      "plans": "GEO/AEO Starter ₹25,000–45,000 · Growth ₹45,000–90,000 · GEO + SEO Integrated ₹60,000–1,50,000 · Enterprise LLMO ₹1,50,000+ per month", "aeo": "Dedicated AEO and GEO plans" },
+    { "name": "Digittrix", "url": "https://www.digittrix.com/ppc/free-trial-offer-seo-bangalore", "based": "Bangalore offer page",
+      "plans": "Starter ₹4,999 · Growth ₹8,499 · Premium ₹15,000 per month, with a 7-day trial", "aeo": "Not listed in the plans" },
+    { "name": "Orange MonkE", "url": "https://orangemonke.com/?p=3442", "based": "Greater Noida office, serves Bengaluru",
+      "plans": "Essential from ₹1,43,999 · Growth from ₹2,86,999 · Enterprise from ₹6,69,999 per month, excluding 18% GST", "aeo": "AEO and GEO included from the Growth plan" }
+   ]
+  },
+  "hyderabad": {
+   "city": "Hyderabad",
+   "agencies": [
+    { "name": "BeTopSEO", "url": "https://betopseo.com/seo-packages-in-hyderabad/", "based": "Quthbullapur, Hyderabad",
+      "plans": "Starter ₹9,999 · Growth ₹14,999 · Premium ₹24,999+ per month", "aeo": "AEO and GEO included in Growth and Premium" },
+    { "name": "Mana Studio", "url": "https://www.manastudio.in/hyderabad/seo-services", "based": "Warangal base, meets Hyderabad clients in person",
+      "plans": "Local SEO ₹20,000 · Growth SEO ₹35,000 per month; one-off audit from ₹7,500", "aeo": "Not listed in the plans" },
+    { "name": "Unique Digit", "url": "https://www.uniquedigit.com/digital-marketing-agency-hyderabad/", "based": "Hyderabad service page",
+      "plans": "Starter ₹25,000 · Growth ₹45,000 · Dominate ₹80,000 per month, plus GST", "aeo": "AEO and GEO offered as a service, no separate price" }
+   ]
+  },
+  "chennai": {
+   "city": "Chennai",
+   "agencies": [
+    { "name": "ZielDigital", "url": "https://zieldigital.com/digital-marketing-packages-chennai/", "based": "Anna Nagar, Chennai",
+      "plans": "Basic SEO ₹25,000 · Advanced SEO ₹40,000 · eCommerce SEO ₹55,000 per month (10 / 30 / 40 keywords)", "aeo": "Not listed in the plans" },
+    { "name": "Saijith Digital Marketing", "url": "https://saijith.in/seo-packages/", "based": "Adambakkam, Chennai",
+      "plans": "Basic ₹12,000 · Silver ₹20,000 · Gold ₹25,000 · Platinum ₹30,000 per month, 3-month minimum", "aeo": "Not listed in the plans" },
+    { "name": "Gilead Digital", "url": "https://gileaddigital.in/seo-company-in-chennai", "based": "Offices in Chemmancherry, Chennai and Kochi",
+      "plans": "Lite ₹16,000 · Pro ₹20,000 · All-in-One ₹25,000 · Elite ₹50,000 per month (5 / 15 / unlimited / 100 keywords)", "aeo": "Not listed in the plans" }
+   ]
+  },
+  "kolkata": {
+   "city": "Kolkata",
+   "agencies": [
+    { "name": "Sandora Digital", "url": "https://sandoradigital.com/pricing-seo/", "based": "Purbachal, Kolkata",
+      "plans": "Starter Engine ₹9,999 · Momentum Builder ₹19,999 · Market Gravity ₹34,999 per month (15 / 30 / 60 keywords)", "aeo": "\"AI readiness\" pages included in the two upper plans" },
+    { "name": "SimpleSEO", "url": "https://www.simpleseo.in/", "based": "Kolkata",
+      "plans": "Basic ₹5,000 · Moderate ₹7,000 · Advanced ₹15,000 per month (5 / 10 / 20 keywords)", "aeo": "AI SEO offered as a service, no price published" },
+    { "name": "WebHopers", "url": "https://www.webhopers.com/seo-services-kolkata", "based": "Kolkata service page",
+      "plans": "SEO from ₹15,000 per month", "aeo": "AEO + GEO package from ₹20,000 per month",
+      "aeo_url": "https://www.webhopers.com/pricing/aeo-and-geo-package" }
+   ]
+  }
+ }
+}
