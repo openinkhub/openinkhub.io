@@ -4620,7 +4620,29 @@
       ],
       "aeo_direct_answer": "Signs a website needs a redesign include poor mobile UX, slow performance, outdated design, low conversion rates, security gaps, difficulty updating content and misalignment with brand or business goals. Redesign before these issues cost traffic or revenue, and plan migration to preserve SEO.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "signs-you-need-a-website-redesign",
+      "keyphrase": "signs you need a website redesign",
+      "seo_title": "Signs You Need a Website Redesign in 2027",
+      "description": "The clearest signs you need a website redesign: poor mobile experience, slow pages, low conversions and hard updates, plus cost and planning tips.",
+      "faqs": [
+        [
+          "How do I know if my website needs a redesign?",
+          "Look at mobile usability, page speed, conversion rate, how easy content is to update and whether the site still reflects your business. If several are weak, a redesign is usually due."
+        ],
+        [
+          "What are the clearest signs?",
+          "Visitors leave quickly on phones, enquiries have dropped, the design looks dated next to competitors, simple edits need a developer, and security or plugin problems keep returning."
+        ],
+        [
+          "How much does a redesign cost?",
+          "In India a small business redesign often costs ₹25,000 to ₹1.5 lakh, while larger or custom redesigns can cost several lakh. Scope, content and migration work drive the price."
+        ],
+        [
+          "What are common redesign mistakes?",
+          "Changing URLs without 301 redirects, redesigning only for looks, skipping content planning and launching without testing forms, speed and tracking."
+        ]
+      ]
     },
     {
       "id": 92,
@@ -4648,7 +4670,29 @@
       ],
       "aeo_direct_answer": "Website backup and recovery protect against data loss from hacking, hardware failure, human error or plugin conflicts. Back up daily or weekly depending on change frequency, store copies offsite, test restores regularly and keep multiple versions. Automate where possible and document the recovery process.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-backup-and-recovery",
+      "keyphrase": "website backup",
+      "seo_title": "Website Backup and Recovery Best Practices for 2027",
+      "description": "Website backup and recovery best practices: how often to back up, where to store copies, how to test restores and how to plan for disasters.",
+      "faqs": [
+        [
+          "How often should I back up my website?",
+          "Daily for sites that change often, such as stores and blogs with comments. Weekly can work for a small brochure site. Also back up before every update."
+        ],
+        [
+          "Where should I store backups?",
+          "Off the web server, in separate cloud storage, with at least one copy in a different account or provider. Keep several older versions too."
+        ],
+        [
+          "How do I test recovery?",
+          "Restore a recent backup to a staging site every few months and check that pages, forms, logins and orders work."
+        ],
+        [
+          "How much does website backup cost?",
+          "Basic backups are often included with hosting or a free plugin. Managed off-site backups usually cost a few hundred to a few thousand rupees a month."
+        ]
+      ]
     },
     {
       "id": 93,
@@ -4676,7 +4720,29 @@
       ],
       "aeo_direct_answer": "Website hosting provides the server, storage and network a site runs on; website maintenance covers ongoing updates, security, backups, performance tuning and support. Hosting is infrastructure; maintenance is operational care. Most businesses need both, often from different providers, with clear responsibilities.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-hosting-vs-maintenance",
+      "keyphrase": "website hosting vs maintenance",
+      "seo_title": "Website Hosting vs Maintenance: The Difference in 2027",
+      "description": "Website hosting vs maintenance explained: what each covers, what each costs in India, why most businesses need both and how to split the work.",
+      "faqs": [
+        [
+          "What is the difference between hosting and maintenance?",
+          "Hosting is the server space and network your website runs on. Maintenance is the ongoing care: updates, security, backups, fixes, speed and support."
+        ],
+        [
+          "What does hosting cover?",
+          "Server resources, storage, bandwidth, uptime, basic security at the server level and often email and SSL certificates."
+        ],
+        [
+          "What does maintenance cover?",
+          "Updating the CMS, plugins and themes, security monitoring, backups, bug fixes, speed tuning, content edits and support when something breaks."
+        ],
+        [
+          "Do I need both?",
+          "Yes. Hosting keeps the site online, and maintenance keeps it safe, fast and working. Many businesses buy them from different providers."
+        ]
+      ]
     },
     {
       "id": 94,
@@ -4704,7 +4770,29 @@
       ],
       "aeo_direct_answer": "Website development cost in Patna ranges from ₹15,000 for a basic brochure site to ₹3 lakh or more for ecommerce or custom builds, depending on scope, features, platform and maintenance. Request itemised quotes from at least three local agencies and confirm what post-launch support is included.",
       "answer_needs_review": true,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-development-company-in-patna",
+      "keyphrase": "website development company in Patna",
+      "seo_title": "Website Development Company in Patna: How to Choose 2027",
+      "description": "How to choose a website development company in Patna: portfolio checks, pricing, local support, questions to ask and red flags to avoid.",
+      "faqs": [
+        [
+          "How do I choose a website development company in Patna?",
+          "Shortlist three agencies, check live websites they built, compare itemised quotes, confirm who owns the domain and code, and ask what support you get after launch."
+        ],
+        [
+          "What should I check in a Patna agency's portfolio?",
+          "Real, live sites for businesses like yours. Open them on a phone, test speed and forms, and ask the owners whether the agency was easy to work with."
+        ],
+        [
+          "How much do Patna agencies charge?",
+          "Simple business sites often start around ₹10,000 to ₹25,000. Larger sites, ecommerce and custom features cost more. Always compare what is included."
+        ],
+        [
+          "What are common red flags?",
+          "Very low prices with no written scope, the domain registered in the agency's name, no portfolio of live sites, pirated themes and no plan for updates."
+        ]
+      ]
     },
     {
       "id": 95,
@@ -4732,7 +4820,29 @@
       ],
       "aeo_direct_answer": "Website designing services in Patna typically include discovery, wireframes, visual design, responsive layouts, CMS setup and basic SEO. Businesses should expect a clear scope document, revision rounds, timeline and handover files. Costs range from ₹10,000 for a simple site to ₹2 lakh or more for complex design systems.",
       "answer_needs_review": true,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-development-cost-in-patna",
+      "keyphrase": "website development cost in Patna",
+      "seo_title": "Website Development Cost in Patna: Price Guide 2027",
+      "description": "Website development cost in Patna by site type, from simple business sites to ecommerce, plus maintenance costs and ways to save money.",
+      "faqs": [
+        [
+          "How much does website development cost in Patna?",
+          "A basic business website often costs ₹10,000 to ₹40,000, a larger business site ₹40,000 to ₹1.5 lakh and an ecommerce or custom site from about ₹60,000 upwards."
+        ],
+        [
+          "What affects website cost in Patna?",
+          "Number of pages, design work, content writing, ecommerce or booking features, integrations such as payment gateways, and the level of SEO and support."
+        ],
+        [
+          "How much does maintenance cost?",
+          "Basic maintenance often costs ₹1,000 to ₹5,000 a month for a small site. Stores and busy sites need more."
+        ],
+        [
+          "How can I reduce the cost?",
+          "Start with the pages you really need, prepare your own text and photos, use a proven platform such as WordPress and add features in phases."
+        ]
+      ]
     },
     {
       "id": 96,
@@ -4760,7 +4870,29 @@
       ],
       "aeo_direct_answer": "Small businesses in Bihar benefit from a professional website through credibility, 24/7 visibility, local SEO presence, lead generation and a platform for WhatsApp and phone enquiries. A basic site costs ₹15,000 to ₹50,000; a business site with SEO and integrations costs ₹50,000 to ₹2 lakh. Prioritise mobile performance and Google Business Profile.",
       "answer_needs_review": true,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-designing-company-in-patna",
+      "keyphrase": "website designing company in Patna",
+      "seo_title": "Website Designing Company in Patna: What to Expect 2027",
+      "description": "What to expect from a website designing company in Patna: the design process, what a package should include, costs and how to judge quality.",
+      "faqs": [
+        [
+          "What should I expect from a website designing company in Patna?",
+          "A short discovery call, a sitemap, design drafts for key pages, revision rounds, a mobile-friendly build, basic SEO setup and a clear handover."
+        ],
+        [
+          "What is included in a design package?",
+          "Usually a set number of pages, a theme or custom design, contact forms, WhatsApp and call buttons, Google Maps, basic SEO and a limited number of revisions."
+        ],
+        [
+          "How much does web design cost in Patna?",
+          "Template-based designs are the cheapest. Custom designs with original layouts and graphics cost more because they take more design time."
+        ],
+        [
+          "How do I choose a web designer?",
+          "Look at their live work on your phone, check that the designs are not all the same template, and confirm revisions, timelines and ownership in writing."
+        ]
+      ]
     },
     {
       "id": 97,
@@ -4788,7 +4920,29 @@
       ],
       "aeo_direct_answer": "To compare website development companies in Delhi, evaluate portfolio relevance, technical stack, process transparency, communication, security, SEO capability, pricing structure and post-launch support. Shortlist three to five agencies, request itemised quotes and references, and inspect live sites for speed, mobile UX and accessibility.",
       "answer_needs_review": true,
-      "status": "brief"
+      "status": "published",
+      "slug": "small-business-website-bihar",
+      "keyphrase": "small business website",
+      "seo_title": "Small Business Website in Bihar: Benefits and Costs 2027",
+      "description": "Why a small business website helps shops, clinics, schools and service firms in Bihar win local customers, plus costs and must-have features.",
+      "faqs": [
+        [
+          "Why do small businesses in Bihar need a website?",
+          "Customers search on Google and Maps before they call or visit. A website builds trust, answers common questions and brings enquiries by phone and WhatsApp."
+        ],
+        [
+          "How much does a small business website cost in Bihar?",
+          "A simple site often costs ₹10,000 to ₹40,000. A site with more pages, local SEO and booking or payment features costs more."
+        ],
+        [
+          "How does local SEO help?",
+          "It helps your business show up for searches like 'clinic near me' or 'coaching in Patna', through a Google Business Profile, local pages and consistent contact details."
+        ],
+        [
+          "What features should the website have?",
+          "Click-to-call and WhatsApp buttons, a map, opening hours, services with prices or ranges, photos, reviews and a simple enquiry form."
+        ]
+      ]
     },
     {
       "id": 98,
@@ -4816,7 +4970,29 @@
       ],
       "aeo_direct_answer": "To choose a website development company in Mumbai, check industry-relevant portfolio work, measurable case studies, technical stack, communication cadence, security practices, contract terms, code ownership and post-launch support. Request itemised quotes and references, and inspect live sites for speed, mobile UX and accessibility.",
       "answer_needs_review": true,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-development-company-in-delhi",
+      "keyphrase": "website development company in Delhi",
+      "seo_title": "Website Development Company in Delhi: Compare Agencies 2027",
+      "description": "How to compare a website development company in Delhi: a scoring method, portfolio checks, pricing models and red flags in the NCR market.",
+      "faqs": [
+        [
+          "How do I compare website development companies in Delhi?",
+          "Score each shortlisted agency on the same criteria: relevant work, process, technical skill, communication, price clarity and support. Compare scores, not sales pitches."
+        ],
+        [
+          "What factors matter most?",
+          "Proven work in your industry, a clear written scope, who will actually do the work, and what happens after launch."
+        ],
+        [
+          "How much do Delhi agencies charge?",
+          "Prices vary widely, from freelancers charging a few thousand rupees to established agencies charging several lakh. Compare itemised quotes for the same scope."
+        ],
+        [
+          "What are common red flags?",
+          "Guaranteed rankings, no written contract, pressure to pay everything upfront and work subcontracted without telling you."
+        ]
+      ]
     },
     {
       "id": 99,
@@ -4844,7 +5020,29 @@
       ],
       "aeo_direct_answer": "To choose a website development company in Bangalore, look for strong engineering practices, relevant stack expertise, transparent process, security and performance discipline, and measurable case studies. Request technical references, code ownership terms and post-launch support details, and validate claims through live site performance audits.",
       "answer_needs_review": true,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-development-company-in-mumbai",
+      "keyphrase": "website development company in Mumbai",
+      "seo_title": "Website Development Company in Mumbai: Hiring Guide 2027",
+      "description": "A hiring guide for choosing a website development company in Mumbai: briefs, budgets, contracts, timelines and how to judge proposals.",
+      "faqs": [
+        [
+          "How do I choose a website development company in Mumbai?",
+          "Write a short brief, invite three to five proposals, compare them on approach and scope, check references and agree milestones and ownership in a contract."
+        ],
+        [
+          "How much do Mumbai agencies charge?",
+          "Mumbai rates are often higher than in smaller cities, especially for established agencies. Freelancers and smaller studios can be cheaper for simpler sites."
+        ],
+        [
+          "What should I look for in a portfolio?",
+          "Live sites in your sector, results such as more enquiries or sales, and work that looks different from project to project."
+        ],
+        [
+          "What are common red flags?",
+          "Vague proposals, no named project manager, unclear revision limits and no mention of SEO, speed or security."
+        ]
+      ]
     },
     {
       "id": 100,
@@ -4872,7 +5070,29 @@
       ],
       "aeo_direct_answer": "To choose a website development company in Hyderabad, evaluate portfolio relevance, technical stack, process transparency, communication, security, SEO capability, pricing structure and post-launch support. Request references and itemised quotes, and inspect live sites for speed, mobile UX and accessibility before signing.",
       "answer_needs_review": true,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-development-company-in-bangalore",
+      "keyphrase": "website development company in Bangalore",
+      "seo_title": "Website Development Company in Bangalore: Choose Well 2027",
+      "description": "How to choose a website development company in Bangalore as a technology partner: engineering checks, stack fit, code ownership and pricing.",
+      "faqs": [
+        [
+          "How do I choose a website development company in Bangalore?",
+          "Treat it as choosing a technology partner. Check engineering practices, stack experience, code quality, security habits and how they handle support after launch."
+        ],
+        [
+          "What technology expertise should I expect?",
+          "Experience with your chosen stack, such as React, Next.js, Node.js, Laravel or WordPress, plus Git, testing, CI/CD and cloud hosting."
+        ],
+        [
+          "How much do Bangalore agencies charge?",
+          "Rates depend on seniority and engagement model. Fixed-price projects suit clear scope, while monthly or time-and-material contracts suit evolving products."
+        ],
+        [
+          "What are common red flags?",
+          "No access to the code repository, no tests, one developer doing everything with no review, and unclear intellectual property terms."
+        ]
+      ]
     },
     {
       "id": 101,
@@ -4900,7 +5120,29 @@
       ],
       "aeo_direct_answer": "React website development services cover strategy, UX, component architecture, state management, API integration, performance optimisation, testing and deployment. Costs range from ₹50,000 for a marketing site to ₹10 lakh or more for complex apps. Choose a partner with production React experience, TypeScript fluency and clear performance and accessibility standards.",
       "answer_needs_review": true,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-development-company-in-hyderabad",
+      "keyphrase": "website development company in Hyderabad",
+      "seo_title": "Website Development Company in Hyderabad: Guide for 2027",
+      "description": "What to know before hiring a website development company in Hyderabad: project types, pricing, timelines, trial tasks and support terms.",
+      "faqs": [
+        [
+          "How do I choose a website development company in Hyderabad?",
+          "Match the agency to your project type, check similar live work, ask for a small paid trial or discovery phase, and agree support terms before signing."
+        ],
+        [
+          "How much do Hyderabad agencies charge?",
+          "Costs depend on scope and agency size. A simple business site is far cheaper than a portal or app with logins and integrations. Ask for itemised quotes."
+        ],
+        [
+          "What should I look for in a portfolio?",
+          "Projects similar to yours, such as real estate listings, healthcare booking or B2B lead sites, that are still live and working well on mobile."
+        ],
+        [
+          "What are common red flags?",
+          "No discovery phase, fixed prices for vague scope, no staging site for review and no handover of passwords and code."
+        ]
+      ]
     },
     {
       "id": 102,
@@ -4929,7 +5171,29 @@
       ],
       "aeo_direct_answer": "A Next.js development company builds fast, SEO-friendly websites and apps using server-side rendering, static generation, routing and performance features. Choose a partner with production Next.js experience, strong Core Web Vitals results, TypeScript fluency, App Router expertise and clear deployment and maintenance practices.",
       "answer_needs_review": true,
-      "status": "brief"
+      "status": "published",
+      "slug": "react-website-development",
+      "keyphrase": "React website development",
+      "seo_title": "React Website Development Services: What to Expect 2027",
+      "description": "React website development services explained: what is included, costs in India, SEO with React, timelines and how to choose a React team.",
+      "faqs": [
+        [
+          "What is React website development?",
+          "Building websites and web apps with React, a JavaScript library for interactive user interfaces made from reusable components."
+        ],
+        [
+          "How much does React website development cost?",
+          "In India a React marketing site often starts around ₹50,000 to ₹1.5 lakh, while dashboards and apps can cost several lakh depending on features."
+        ],
+        [
+          "Is React good for SEO?",
+          "Yes, when pages are server-rendered or statically generated, for example with Next.js. A client-only React site can be harder for search engines to index."
+        ],
+        [
+          "How long does a React website take?",
+          "A marketing site usually takes three to eight weeks. Larger apps with logins, dashboards and integrations take several months."
+        ]
+      ]
     },
     {
       "id": 103,
@@ -4957,7 +5221,29 @@
       ],
       "aeo_direct_answer": "Angular development services cover architecture, TypeScript development, RxJS, component design, state management, API integration, testing and deployment for enterprise and complex web apps. Costs range from ₹1 lakh to ₹15 lakh or more. Choose a partner with large-scale Angular delivery experience and strong testing discipline.",
       "answer_needs_review": true,
-      "status": "brief"
+      "status": "published",
+      "slug": "nextjs-development-company",
+      "keyphrase": "Next.js development company",
+      "seo_title": "Next.js Development Company: How to Choose in 2027",
+      "description": "How to choose a Next.js development company: skills to check, questions to ask, pricing models, timelines and proof of performance.",
+      "faqs": [
+        [
+          "What does a Next.js development company do?",
+          "It plans, builds and maintains websites and web apps using Next.js, including rendering strategy, CMS or API integration, performance, SEO and deployment."
+        ],
+        [
+          "How much does Next.js development cost?",
+          "Costs are similar to other modern builds: a marketing site may start around ₹75,000, while large apps cost several lakh. Hosting and CMS fees are extra."
+        ],
+        [
+          "How do I evaluate a Next.js partner?",
+          "Ask for live Next.js sites, check their Core Web Vitals, ask how they choose between static and server rendering, and review their code and deployment process."
+        ],
+        [
+          "What is a typical timeline?",
+          "Four to ten weeks for a marketing site with a headless CMS, and longer for apps with accounts, payments or complex integrations."
+        ]
+      ]
     },
     {
       "id": 104,
@@ -4985,7 +5271,29 @@
       ],
       "aeo_direct_answer": "Bootstrap website development uses the Bootstrap framework for responsive, mobile-first layouts with pre-built components. It suits standard business sites and rapid prototypes. Costs range from ₹20,000 to ₹2 lakh. Choose a partner who customises Bootstrap to avoid template-looking sites and follows accessibility and performance best practices.",
       "answer_needs_review": true,
-      "status": "brief"
+      "status": "published",
+      "slug": "angular-development-services",
+      "keyphrase": "Angular development services",
+      "seo_title": "Angular Development Services: When to Choose It 2027",
+      "description": "When Angular development services are the right choice: enterprise apps, dashboards and portals, plus costs, team skills and Angular vs React.",
+      "faqs": [
+        [
+          "What are Angular development services?",
+          "Planning, building, testing and maintaining web applications with Angular, Google's TypeScript framework for large, structured front ends."
+        ],
+        [
+          "When should a business choose Angular?",
+          "For large internal tools, dashboards, admin panels and portals that need strict structure, many developers and long-term maintenance."
+        ],
+        [
+          "How much does Angular development cost?",
+          "Angular is mostly used for larger applications, so projects often start around ₹1.5 lakh and can run to many lakh for enterprise systems."
+        ],
+        [
+          "How does Angular compare with React?",
+          "Angular is a complete framework with built-in routing, forms and dependency injection. React is a lighter library that needs more choices. Angular suits big teams that want one standard way."
+        ]
+      ]
     },
     {
       "id": 105,
