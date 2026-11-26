@@ -1,0 +1,47 @@
+<p>Tailwind CSS vs Bootstrap is a choice between two ways of styling a website. Tailwind CSS is utility-first: you build designs from small classes such as padding, colour and spacing, guided by one shared config. Bootstrap is component-first: it gives you ready-made buttons, navbars, cards and a grid. Choose Tailwind for custom designs and design systems that must stay consistent. Choose Bootstrap for quick, standard layouts, admin panels and teams that want components out of the box.</p>
+
+<h2>Tailwind CSS vs Bootstrap at a glance</h2>
+<table>
+<thead><tr><th></th><th>Tailwind CSS</th><th>Bootstrap</th></tr></thead>
+<tbody>
+<tr><td>Approach</td><td>Utility classes</td><td>Pre-built components</td></tr>
+<tr><td>Design freedom</td><td>Very high</td><td>Moderate; sites can look alike</td></tr>
+<tr><td>CSS size</td><td>Small; unused classes removed</td><td>Larger unless trimmed</td></tr>
+<tr><td>JavaScript</td><td>None included</td><td>Includes interactive components</td></tr>
+<tr><td>Speed to first layout</td><td>Moderate</td><td>Fast</td></tr>
+<tr><td>Best for</td><td>Brand sites, design systems, apps</td><td>Prototypes, dashboards, standard sites</td></tr>
+</tbody>
+</table>
+
+<h2>Performance</h2>
+<p>Tailwind scans your templates and includes only the classes you actually use, so the final CSS file is usually very small. Bootstrap ships a larger stylesheet by default, plus JavaScript for components such as modals and dropdowns. However, Bootstrap can be trimmed by importing only the parts you need. Either way, CSS is rarely the biggest speed problem on a website; images and third-party scripts usually matter more for Core Web Vitals. Our <a href="/website-seo-performance/">website SEO and performance</a> page covers the bigger wins.</p>
+
+<h2>Customisation</h2>
+<p>Tailwind makes custom design natural. Colours, fonts, spacing and breakpoints live in a config file, and every page uses the same scale. As a result, a design system stays consistent as the site grows. Bootstrap can be themed with variables, but many Bootstrap sites look similar because teams keep the default styles. To stand out, you need to override a lot, which adds CSS. The <a href="https://tailwindcss.com/docs" target="_blank" rel="noopener">Tailwind documentation</a> shows how theming works.</p>
+
+<h2>Learning curve</h2>
+<p>Bootstrap is quicker to start: copy a component, add content, done. Tailwind takes a little longer, because developers learn many utility names. On the other hand, once learned, Tailwind is fast, and developers rarely switch between HTML and CSS files. Critics say Tailwind markup looks cluttered; in practice, components in frameworks such as React or Vue keep that tidy.</p>
+
+<h2>Maintenance</h2>
+<p>With Bootstrap, custom overrides tend to pile up over the years, and nobody is sure which CSS is safe to delete. With Tailwind, styles live next to the markup, so deleting a component deletes its styles too. Therefore Tailwind projects often stay easier to maintain. Bootstrap's strength is its stable, well-documented component set; see the <a href="https://getbootstrap.com/docs/" target="_blank" rel="noopener">Bootstrap documentation</a>.</p>
+
+<h2>When to choose Tailwind CSS</h2>
+<ul>
+<li>You have a custom brand design and want it pixel-perfect.</li>
+<li>You are building a design system across several products.</li>
+<li>You use a component framework such as React, Next.js or Vue.</li>
+<li>You care about small CSS files.</li>
+</ul>
+
+<h2>When to choose Bootstrap</h2>
+<ul>
+<li>You need a working layout quickly, such as a prototype or admin panel.</li>
+<li>Your team prefers ready components and less design work.</li>
+<li>You are working inside a WordPress theme or CMS that already uses Bootstrap.</li>
+</ul>
+
+<h2>Common CSS framework mistakes</h2>
+<p>First, mixing both frameworks in one project, which doubles the CSS. Next, using Bootstrap's defaults unchanged on a brand site. Then, writing Tailwind without a shared config, so colours drift. Finally, picking a framework the team does not know, just because it is trending.</p>
+
+<h2>Getting it right</h2>
+<p>The Tailwind CSS vs Bootstrap choice matters less than using one consistently. Our <a href="/frontend-development/">frontend development</a> team at Openink Hub builds fast, accessible interfaces with both for businesses across India. For framework choices, see <a href="/react-vs-angular-vs-vue/">React vs Angular vs Vue</a> and <a href="/svelte-vs-react-vs-vue/">Svelte vs React vs Vue</a>.</p>
