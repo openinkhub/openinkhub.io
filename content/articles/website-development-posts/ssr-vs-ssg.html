@@ -1,0 +1,39 @@
+<p>SSR vs SSG is a choice about when your web pages are built. With server-side rendering (SSR), the server builds each page when a visitor requests it, so content is always fresh and can be personalised. With static site generation (SSG), pages are built once at deploy time and served from a CDN, so they are the fastest and cheapest to deliver. Use SSG for pages that rarely change, such as blogs and service pages. Use SSR for pages that must be up to date on every visit.</p>
+
+<h2>SSR vs SSG at a glance</h2>
+<table>
+<thead><tr><th></th><th>SSR</th><th>SSG</th></tr></thead>
+<tbody>
+<tr><td>When the page is built</td><td>On each request</td><td>At build or deploy time</td></tr>
+<tr><td>Freshness</td><td>Always current</td><td>Current as of last build</td></tr>
+<tr><td>Speed</td><td>Fast, but needs server work</td><td>Fastest, served from CDN</td></tr>
+<tr><td>Server cost</td><td>Higher</td><td>Very low</td></tr>
+<tr><td>Personalisation</td><td>Easy</td><td>Limited, done in the browser</td></tr>
+<tr><td>Best for</td><td>Dashboards, live stock, search results</td><td>Blogs, docs, marketing pages</td></tr>
+</tbody>
+</table>
+
+<h2>SEO</h2>
+<p>Both methods send complete HTML to search engines, so both are SEO-friendly, unlike pages that render only in the browser. SSG often has a slight edge, because pre-built pages from a CDN load very quickly, which helps Core Web Vitals. SSR is also good for SEO as long as the server responds fast. Google explains the trade-offs in its <a href="https://web.dev/articles/rendering-on-the-web" target="_blank" rel="noopener">rendering on the web</a> guide.</p>
+
+<h2>Performance</h2>
+<p>SSG pages are ready before anyone asks for them, so the time to first byte is tiny. SSR pages need the server to fetch data and build HTML for each request, which adds time, especially under heavy load. However, caching SSR responses at the CDN narrows the gap. For pages like a product listing that changes hourly, cached SSR can be a good compromise.</p>
+
+<h2>The hybrid option</h2>
+<p>Modern frameworks let you mix both. In Next.js, for example, each page can be static, server-rendered or statically generated with periodic refresh, often called incremental static regeneration. This means a blog post can be static, a product page can refresh every few minutes, and a cart page can render on every request. Our guide to <a href="/nextjs-website-development/">Next.js website development</a> covers this in more depth.</p>
+
+<h2>When to choose each</h2>
+<ul>
+<li><strong>Choose SSG</strong> for blogs, documentation, landing pages, service pages and most marketing content.</li>
+<li><strong>Choose SSR</strong> for personalised pages, real-time prices or stock, search results and logged-in areas.</li>
+<li><strong>Choose hybrid</strong> for ecommerce and large sites with a mix of page types.</li>
+</ul>
+
+<h2>How this compares with WordPress</h2>
+<p>A traditional CMS such as WordPress renders pages on the server for each visit, which is a form of SSR, and caching plugins turn popular pages into near-static copies. So the same ideas apply even if you never touch a JavaScript framework.</p>
+
+<h2>Common rendering mistakes</h2>
+<p>First, using SSR for pages that never change, which wastes server money. Next, using SSG for pages with prices or stock that change constantly, which shows stale data. Then, very long builds on big static sites without incremental builds. Finally, rendering key content only in the browser, which hurts SEO.</p>
+
+<h2>Choosing for your project</h2>
+<p>Map each page type by how often it changes and whether it is personalised; the SSR vs SSG decision then becomes clear page by page. Openink Hub's <a href="/web-architecture-cloud-development/">web architecture and cloud development</a> team plans rendering strategies for fast websites across India. Related reading: <a href="/jamstack-architecture/">Jamstack architecture</a> and <a href="/react-server-components/">React Server Components</a>.</p>

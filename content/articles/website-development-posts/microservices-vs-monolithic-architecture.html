@@ -1,0 +1,40 @@
+<p>Microservices vs monolithic architecture is a question of how you split an application. A monolith keeps everything in one codebase that is built and deployed together. It is simpler to build, test, deploy and debug. Microservices split the application into small, independent services that talk through APIs. They let large teams work and scale parts separately, but add real operational complexity. For most new products and small teams, a well-structured monolith is the better start.</p>
+
+<h2>Microservices vs monolithic architecture at a glance</h2>
+<table>
+<thead><tr><th></th><th>Monolith</th><th>Microservices</th></tr></thead>
+<tbody>
+<tr><td>Codebase</td><td>One</td><td>Many small services</td></tr>
+<tr><td>Deployment</td><td>All at once</td><td>Each service separately</td></tr>
+<tr><td>Scaling</td><td>Whole application</td><td>Each service on its own</td></tr>
+<tr><td>Complexity</td><td>Lower</td><td>Higher: networking, monitoring, data</td></tr>
+<tr><td>Team fit</td><td>Small to medium teams</td><td>Many teams working in parallel</td></tr>
+<tr><td>Cost</td><td>Lower to build and run</td><td>Higher infrastructure and coordination</td></tr>
+</tbody>
+</table>
+
+<h2>Scalability</h2>
+<p>Microservices let you scale only the busy part. For example, the search service of a large marketplace can run on twenty servers while billing runs on two. A monolith scales as a whole, which uses more resources but is far simpler, and it handles the traffic of most businesses comfortably. Moreover, many scaling problems come from slow database queries, which microservices do not fix.</p>
+
+<h2>Cost</h2>
+<p>Monoliths are cheaper. One deployment pipeline, one set of servers and simple debugging. Microservices need service discovery, API gateways, distributed tracing, more monitoring and more DevOps skill. They also need teams to agree on contracts between services. So microservices make financial sense only when the benefits, such as independent teams and targeted scaling, outweigh those costs.</p>
+
+<h2>Speed of development</h2>
+<p>Early on, monoliths are faster: no network calls between services and easy refactoring. As the codebase and team grow, a monolith can slow down if it becomes tangled, because every change risks breaking something else. Microservices let teams release independently, which speeds up large organisations. However, a "modular monolith", one codebase with clear internal boundaries, captures much of that benefit without the overhead.</p>
+
+<h2>When to choose each</h2>
+<ul>
+<li><strong>Choose a monolith</strong> for new products, MVPs, small teams and most business web applications.</li>
+<li><strong>Choose microservices</strong> for large platforms with several teams, parts with very different scaling needs, or strict isolation requirements.</li>
+<li><strong>Evolve gradually:</strong> start modular, then extract services when a clear need appears.</li>
+</ul>
+<p>Martin Fowler's essay on <a href="https://martinfowler.com/bliki/MonolithFirst.html" target="_blank" rel="noopener">Monolith First</a> makes the case for starting simple.</p>
+
+<h2>Common architecture mistakes</h2>
+<p>First, starting a new product with microservices because big tech companies use them. Next, splitting services that share one database, which keeps them tightly coupled. Then, too many tiny services that are hard to track. Finally, letting a monolith grow without any internal structure.</p>
+
+<h2>What this means for your website</h2>
+<p>Your public website, whether on WordPress, another CMS or Next.js, is usually separate from the application architecture. Keep it fast and SEO-friendly, with good Core Web Vitals, whatever happens behind it.</p>
+
+<h2>Getting advice</h2>
+<p>The microservices vs monolithic architecture decision affects cost and speed for years. Openink Hub's <a href="/web-architecture-cloud-development/">web architecture and cloud development</a> team helps businesses across India choose and evolve the right design. Related reading: <a href="/serverless-web-development/">serverless architecture</a> and <a href="/expressjs-vs-nestjs/">Express.js vs NestJS</a>.</p>

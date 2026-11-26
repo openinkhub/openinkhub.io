@@ -1,0 +1,53 @@
+<p>A RAG assistant is an AI helper on your website that answers questions using your own content. RAG stands for retrieval-augmented generation: before the AI writes an answer, the system retrieves the most relevant passages from your pages, documents or help centre and gives them to the model. As a result, answers are grounded in your information rather than guessed, they can cite sources, and they stay current when you update your content.</p>
+
+<h2>How RAG works</h2>
+<ol>
+<li><strong>Prepare content:</strong> collect service pages, FAQs, policies, manuals and product data.</li>
+<li><strong>Split and index:</strong> break content into small chunks and store them in a search index, often a vector database that captures meaning.</li>
+<li><strong>Retrieve:</strong> when a visitor asks a question, find the chunks that best match it.</li>
+<li><strong>Generate:</strong> send the question plus those chunks to the language model, with instructions to answer only from them.</li>
+<li><strong>Cite:</strong> show links to the source pages so visitors can check.</li>
+</ol>
+
+<h2>RAG assistant vs standard chatbot</h2>
+<table>
+<thead><tr><th></th><th>Standard chatbot</th><th>RAG assistant</th></tr></thead>
+<tbody>
+<tr><td>Knowledge</td><td>Scripts or general AI knowledge</td><td>Your own content</td></tr>
+<tr><td>Accuracy on your topics</td><td>Variable</td><td>High when content is good</td></tr>
+<tr><td>Citations</td><td>Rare</td><td>Built in</td></tr>
+<tr><td>Updating</td><td>Edit scripts or retrain</td><td>Update your content and re-index</td></tr>
+</tbody>
+</table>
+
+<h2>Good uses for a RAG assistant</h2>
+<ul>
+<li>Customer support from help articles and policies.</li>
+<li>Product questions from specs and manuals.</li>
+<li>Admission or enrolment questions from a prospectus.</li>
+<li>Internal knowledge for staff, such as HR policies and SOPs.</li>
+<li>Pre-sales questions from service pages and case studies.</li>
+</ul>
+<p>For instance, an insurance broker could answer "Does this policy cover dental?" by quoting the exact clause from the policy wording, with a link.</p>
+
+<h2>What a RAG assistant costs</h2>
+<p>Costs cover three parts: setup, the search index and AI usage. Setup includes preparing content, building the retrieval pipeline and designing the chat interface. The index may be a hosted service with a monthly fee. AI usage is billed per question processed. A small website can run one affordably, while large knowledge bases with heavy traffic cost more. Our <a href="/ai-website-development/">AI website development</a> team can estimate all three.</p>
+
+<h2>Implementing RAG safely</h2>
+<ul>
+<li>Index only content that is approved for the audience.</li>
+<li>Instruct the model to say "I don't know" when sources lack the answer.</li>
+<li>Show sources for every answer.</li>
+<li>Keep private documents out of the public assistant.</li>
+<li>Log questions and review weak answers regularly.</li>
+<li>Protect against prompt injection, as described in the <a href="https://owasp.org/www-project-top-10-for-large-language-model-applications/" target="_blank" rel="noopener">OWASP LLM Top 10</a>.</li>
+</ul>
+
+<h2>Common RAG mistakes</h2>
+<p>First, indexing messy, outdated or duplicated content, which produces messy answers. Next, chunks that are too large or too small, which hurts retrieval. Then, no "I don't know" rule, so the model fills gaps with guesses. Finally, never re-indexing after content changes. In short, good RAG starts with good content, which also helps your website's SEO.</p>
+
+<h2>RAG and your website</h2>
+<p>A RAG assistant works best on a website with clear, well-structured pages, whether it runs on WordPress, another CMS or a custom build. Load the chat widget lazily so it does not slow pages or hurt Core Web Vitals.</p>
+
+<h2>Getting started</h2>
+<p>Start with your most-asked questions and the pages that answer them. Openink Hub builds RAG assistant solutions for business websites across India. For related reading, see <a href="/ai-chatbot-integration/">AI chatbot integration</a> and <a href="/generative-ai-website-integration/">generative AI integration</a>.</p>

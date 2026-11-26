@@ -1,0 +1,51 @@
+<p>React Server Components are React components that run only on the server. They can fetch data directly from a database or API, render their output on the server and send it to the browser without shipping their own JavaScript. Interactive parts, such as buttons and forms, stay as client components. The result is less JavaScript in the browser, simpler data fetching and faster pages, which matters for SEO and mobile users. They are most widely used today through the Next.js App Router.</p>
+
+<h2>How React Server Components work</h2>
+<ol>
+<li>A page is built from a tree of components.</li>
+<li>Server components run on the server, fetch data and produce rendered output.</li>
+<li>Client components, marked with <code>"use client"</code>, are sent to the browser for interactivity.</li>
+<li>The browser receives HTML plus a compact description of the server output, then attaches the client components.</li>
+</ol>
+<p>The official <a href="https://react.dev/reference/rsc/server-components" target="_blank" rel="noopener">React documentation on Server Components</a> explains the model.</p>
+
+<h2>Server components vs client components</h2>
+<table>
+<thead><tr><th></th><th>Server components</th><th>Client components</th></tr></thead>
+<tbody>
+<tr><td>Runs on</td><td>Server only</td><td>Browser (and server for first render)</td></tr>
+<tr><td>JavaScript sent to browser</td><td>None for the component</td><td>Yes</td></tr>
+<tr><td>Data access</td><td>Direct, including databases</td><td>Through APIs</td></tr>
+<tr><td>Interactivity</td><td>No state or event handlers</td><td>Full</td></tr>
+<tr><td>Good for</td><td>Content, layouts, data display</td><td>Forms, menus, carts, widgets</td></tr>
+</tbody>
+</table>
+
+<h2>Why React Server Components matter</h2>
+<ul>
+<li><strong>Smaller bundles:</strong> large libraries used only for rendering, such as Markdown parsers, stay on the server.</li>
+<li><strong>Simpler data fetching:</strong> components fetch what they need directly, without extra API layers.</li>
+<li><strong>Better security:</strong> secrets and database queries never reach the browser.</li>
+<li><strong>Streaming:</strong> parts of the page can appear as soon as they are ready.</li>
+</ul>
+
+<h2>Performance benefits</h2>
+<p>Less JavaScript means faster downloads and less work for the phone's processor. That improves loading and interaction times, especially on mid-range Android phones that many Indian visitors use. In turn, better Core Web Vitals scores often follow, such as faster Largest Contentful Paint and Interaction to Next Paint.</p>
+
+<h2>Effect on SEO</h2>
+<p>Because server components render on the server, search engines receive complete HTML. Combined with smaller bundles and faster loading, this is good for SEO. However, SEO basics still matter: metadata, clean URLs, internal links and helpful content. Our comparison of <a href="/ssr-vs-ssg/">SSR vs SSG</a> covers the related rendering choices.</p>
+
+<h2>Where they fit</h2>
+<p>React Server Components shine on content-heavy pages, ecommerce product and category pages, dashboards that display lots of data and marketing sites built with Next.js and a headless CMS. Simple websites on WordPress do not need them, because a traditional CMS already renders on the server.</p>
+
+<h2>Common RSC mistakes</h2>
+<ul>
+<li>Marking whole pages as client components, which cancels the benefits.</li>
+<li>Passing large data objects from server to client components.</li>
+<li>Trying to use state or browser APIs in server components.</li>
+<li>Forgetting caching, so every request re-fetches data.</li>
+<li>Leaking secrets by importing server-only code into client components.</li>
+</ul>
+
+<h2>Getting started</h2>
+<p>If you are building with Next.js, React Server Components are the default in the App Router, so plan which parts must be interactive. Openink Hub's <a href="/frontend-development/">frontend development</a> and <a href="/web-architecture-cloud-development/">web architecture</a> teams build fast React sites for businesses across India. Related reading: <a href="/nextjs-vs-react/">Next.js vs React</a>.</p>

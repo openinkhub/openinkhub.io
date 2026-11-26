@@ -1,0 +1,51 @@
+<p>Jamstack architecture is a way of building websites where pages are pre-built ahead of time, served from a CDN close to visitors and made dynamic with JavaScript and APIs. Instead of a server assembling each page on every visit, the finished HTML is ready to go. The name originally stood for JavaScript, APIs and Markup. The result is fast pages, strong security, easy scaling and simple hosting, which suits marketing sites, blogs, documentation and many ecommerce storefronts.</p>
+
+<h2>How Jamstack architecture works</h2>
+<ol>
+<li><strong>Content</strong> lives in a headless CMS, Markdown files or other sources.</li>
+<li><strong>A build step</strong> uses a framework such as Next.js, Astro or Hugo to generate HTML pages.</li>
+<li><strong>A CDN</strong> serves those pages from locations close to each visitor.</li>
+<li><strong>APIs</strong> add dynamic features: forms, search, payments, comments and user accounts.</li>
+<li><strong>Rebuilds</strong> happen automatically when content changes.</li>
+</ol>
+<p>Our guide to the <a href="/headless-cms/">headless CMS</a> explains the content side.</p>
+
+<h2>Jamstack vs traditional architecture</h2>
+<table>
+<thead><tr><th></th><th>Traditional (for example, WordPress)</th><th>Jamstack</th></tr></thead>
+<tbody>
+<tr><td>Page creation</td><td>On the server, per request</td><td>At build time, ahead of visits</td></tr>
+<tr><td>Hosting</td><td>Web server plus database</td><td>CDN plus APIs</td></tr>
+<tr><td>Speed</td><td>Good with caching</td><td>Excellent by default</td></tr>
+<tr><td>Security</td><td>Server and plugins exposed</td><td>Small attack surface</td></tr>
+<tr><td>Editing</td><td>Visual, instant</td><td>Through a CMS, with a short rebuild</td></tr>
+</tbody>
+</table>
+
+<h2>Benefits of Jamstack</h2>
+<ul>
+<li><strong>Speed:</strong> pre-built pages from a CDN load very fast, which helps Core Web Vitals and SEO.</li>
+<li><strong>Security:</strong> no public database or server code to attack on most pages.</li>
+<li><strong>Scalability:</strong> CDNs handle traffic spikes easily, such as during a sale.</li>
+<li><strong>Lower hosting costs:</strong> static hosting is often cheap or free at small scale.</li>
+<li><strong>Developer experience:</strong> modern tools, version control and preview deployments.</li>
+</ul>
+
+<h2>Business use cases</h2>
+<p>Jamstack suits marketing websites, landing pages, blogs, documentation, portfolios and ecommerce storefronts that pull products from a commerce API. For example, a D2C brand in Bengaluru might run its storefront on Next.js with a headless commerce backend, so product pages load instantly on mobile data. On the other hand, sites with constant, personalised changes on every page may need more server rendering. Our comparison of <a href="/ssr-vs-ssg/">SSR vs SSG</a> explains when.</p>
+
+<h2>What Jamstack costs</h2>
+<p>Hosting is usually inexpensive. Development, however, often costs more than a theme-based WordPress site, because the front end is custom built and integrations must be connected. You may also pay for a headless CMS and third-party APIs. Our <a href="/custom-website-development-cost/">custom development cost</a> guide gives typical ranges in India.</p>
+
+<h2>Common Jamstack mistakes</h2>
+<ul>
+<li>Choosing Jamstack when editors need instant visual page building.</li>
+<li>Very long build times on large sites, without incremental builds.</li>
+<li>Relying on too many third-party services, each with its own cost.</li>
+<li>Forgetting SEO basics such as metadata, redirects and sitemaps.</li>
+<li>Rendering key content only in the browser, which hurts crawling.</li>
+</ul>
+<p>Google's <a href="https://web.dev/articles/rendering-on-the-web" target="_blank" rel="noopener">guide to rendering on the web</a> is useful background.</p>
+
+<h2>Getting started</h2>
+<p>Jamstack architecture is a strong fit when speed, security and scale matter more than drag-and-drop editing. Openink Hub's <a href="/web-architecture-cloud-development/">web architecture and cloud development</a> team builds Jamstack sites for businesses across India. For a framework view, read <a href="/nextjs-website-development/">Next.js website development</a>.</p>

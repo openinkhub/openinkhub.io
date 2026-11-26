@@ -1,0 +1,57 @@
+<p>Edge computing means running code and caching content on servers close to your visitors, usually in a CDN's network of locations, instead of in one central data centre. Because each request travels a shorter distance, pages and API responses arrive faster, even when they are dynamic or personalised. For websites, edge computing helps with fast global delivery, redirects, A/B tests, personalisation, security checks and quick API responses, often at low cost.</p>
+
+<h2>How edge computing works</h2>
+<ol>
+<li>A visitor in Chennai requests a page.</li>
+<li>The nearest edge location receives the request, rather than a server far away.</li>
+<li>Cached content is returned immediately, or a small edge function runs to personalise, redirect or check the request.</li>
+<li>Only when needed does the edge contact the origin server or database.</li>
+</ol>
+<p>Traditional CDNs cached static files. Modern edge platforms also run code, so dynamic work can happen close to users too.</p>
+
+<h2>Edge vs traditional hosting</h2>
+<table>
+<thead><tr><th></th><th>Traditional hosting</th><th>Edge computing</th></tr></thead>
+<tbody>
+<tr><td>Where code runs</td><td>One region</td><td>Many locations near users</td></tr>
+<tr><td>Latency for distant visitors</td><td>Higher</td><td>Low</td></tr>
+<tr><td>Best for</td><td>Heavy processing, databases</td><td>Light, fast logic and caching</td></tr>
+<tr><td>Limits</td><td>Fewer</td><td>Short run times, limited APIs</td></tr>
+</tbody>
+</table>
+
+<h2>How edge computing improves website performance</h2>
+<ul>
+<li><strong>Lower latency:</strong> responses start sooner, improving time to first byte.</li>
+<li><strong>Fast personalisation:</strong> show local prices or language without a slow round trip.</li>
+<li><strong>Instant redirects:</strong> handle old URLs at the edge, which helps SEO migrations.</li>
+<li><strong>A/B testing without flicker:</strong> choose the variant before the page loads.</li>
+<li><strong>Security:</strong> block bots and attacks before they reach your server.</li>
+<li><strong>Image optimisation:</strong> resize and convert images on the fly.</li>
+</ul>
+<p>Faster responses help Core Web Vitals, which in turn support SEO and conversions. Google's guide to <a href="https://web.dev/articles/ttfb" target="_blank" rel="noopener">optimising time to first byte</a> explains why server distance matters.</p>
+
+<h2>What edge computing costs</h2>
+<p>Many CDN providers offer edge functions with generous free tiers and low per-request prices. Costs rise with request volume, compute time and data transfer. For most business websites, edge caching alone delivers big wins at little cost. Custom edge logic adds development work, so start with the features that bring the most benefit.</p>
+
+<h2>When to use edge computing</h2>
+<ul>
+<li>Visitors spread across India or several countries.</li>
+<li>Pages that need light personalisation, such as city or language.</li>
+<li>Large redirect maps after a redesign.</li>
+<li>APIs that must respond very quickly.</li>
+<li>Protection against bots and traffic spikes.</li>
+</ul>
+<p>It pairs well with <a href="/jamstack-architecture/">Jamstack architecture</a> and <a href="/serverless-web-development/">serverless architecture</a>.</p>
+
+<h2>Limits to know</h2>
+<p>Edge functions have short time limits and fewer libraries than full servers. Also, if every request still waits for a database far away, the speed gain shrinks. Therefore keep edge logic light, and cache data where possible.</p>
+
+<h2>Common edge computing mistakes</h2>
+<p>First, moving heavy processing to the edge, where it does not fit. Next, caching personalised content by mistake, so visitors see each other's data. Then, no plan for cache invalidation, which leaves stale prices online. Finally, adding edge complexity to a small local website that a good CDN already serves well.</p>
+
+<h2>Edge for WordPress and CMS sites</h2>
+<p>You do not need a modern framework to benefit. A WordPress or other CMS website behind a good CDN with full-page caching already gets many edge advantages.</p>
+
+<h2>Getting started</h2>
+<p>Begin with CDN caching, then add edge functions for redirects or personalisation. Openink Hub's <a href="/web-architecture-cloud-development/">web architecture and cloud development</a> team uses edge computing to make websites faster across India. Related reading: <a href="/aws-vs-google-cloud-vs-azure/">AWS vs Google Cloud vs Azure</a>.</p>

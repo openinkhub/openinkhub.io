@@ -1,0 +1,57 @@
+<p>Serverless architecture lets you run website backends without managing servers. You write small functions or use managed services, and the cloud provider runs them on demand, scales them automatically and charges only for actual use. Despite the name, servers still exist; you just never patch, size or monitor them yourself. Serverless suits APIs, form handling, image processing, scheduled jobs and websites with uneven traffic. Its limits include cold starts, time limits and some vendor lock-in.</p>
+
+<h2>How serverless web development works</h2>
+<ol>
+<li>You write a function, for example "save a contact form and email the sales team".</li>
+<li>You deploy it to a serverless platform from a cloud provider or CDN.</li>
+<li>The platform runs the function only when triggered, by a web request, a file upload or a schedule.</li>
+<li>It scales from zero to thousands of runs automatically.</li>
+<li>You pay per execution and runtime, not for idle servers.</li>
+</ol>
+<p>Serverless often pairs with databases, storage and authentication services that are also fully managed.</p>
+
+<h2>Benefits of serverless</h2>
+<ul>
+<li><strong>No server maintenance:</strong> no operating system updates or capacity planning.</li>
+<li><strong>Automatic scaling:</strong> handles a sale-day spike without preparation.</li>
+<li><strong>Pay for use:</strong> quiet periods cost little or nothing.</li>
+<li><strong>Faster delivery:</strong> teams focus on features instead of infrastructure.</li>
+<li><strong>Built-in reliability:</strong> providers run functions across several data centres.</li>
+</ul>
+
+<h2>Limits of serverless architecture</h2>
+<table>
+<thead><tr><th>Limit</th><th>What it means</th></tr></thead>
+<tbody>
+<tr><td>Cold starts</td><td>The first request after idle time can be slower</td></tr>
+<tr><td>Time limits</td><td>Functions stop after a maximum run time</td></tr>
+<tr><td>Local testing</td><td>Harder to reproduce the cloud on a laptop</td></tr>
+<tr><td>Vendor lock-in</td><td>Code often depends on one provider's services</td></tr>
+<tr><td>Cost at steady scale</td><td>Very heavy, constant traffic can cost more than servers</td></tr>
+</tbody>
+</table>
+
+<h2>Serverless vs traditional hosting</h2>
+<p>Traditional hosting means a server or virtual machine that runs all the time. It is predictable and flexible, and it suits long-running processes or a WordPress website. Serverless suits event-driven work and spiky traffic. Many businesses combine them: a CMS on traditional hosting, plus serverless functions for forms, webhooks and image resizing.</p>
+
+<h2>What serverless costs</h2>
+<p>Low-traffic workloads often cost very little and sometimes fit inside free tiers. Costs grow with the number of executions, how long each runs, memory used and data transfer. So set budget alerts and monitor usage. For example, a contact form function on a small business website might cost almost nothing a month, while a busy API serving millions of requests needs careful cost planning. Each provider publishes its rates, such as <a href="https://cloud.google.com/functions/pricing" target="_blank" rel="noopener">Google Cloud Functions pricing</a>.</p>
+
+<h2>Good serverless use cases</h2>
+<ul>
+<li>Contact and lead forms for static or Jamstack sites.</li>
+<li>APIs for mobile apps and websites.</li>
+<li>Image and video processing on upload.</li>
+<li>Scheduled tasks such as reports and backups.</li>
+<li>Webhooks from payment gateways and other services.</li>
+</ul>
+<p>It pairs naturally with <a href="/jamstack-architecture/">Jamstack architecture</a>.</p>
+
+<h2>Common serverless mistakes</h2>
+<p>First, putting long-running jobs into functions with short time limits. Next, ignoring cold starts on user-facing endpoints. Then, no monitoring or budget alerts. Finally, splitting the app into too many tiny functions that are hard to manage.</p>
+
+<h2>Serverless and SEO</h2>
+<p>Serverless functions usually power the background, so SEO depends on the front end. Keep pages server-rendered or static, fast and crawlable to meet Core Web Vitals.</p>
+
+<h2>Getting started</h2>
+<p>Openink Hub's <a href="/web-architecture-cloud-development/">web architecture and cloud development</a> team designs serverless architecture for websites and apps across India. Related reading: <a href="/aws-vs-google-cloud-vs-azure/">AWS vs Google Cloud vs Azure</a> and <a href="/edge-computing-web-development/">edge computing</a>.</p>

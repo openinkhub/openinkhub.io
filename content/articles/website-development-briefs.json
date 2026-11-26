@@ -3222,7 +3222,29 @@
       ],
       "aeo_direct_answer": "To integrate an AI chatbot into your website, choose a platform such as custom build, Dialogflow, Intercom or a RAG solution, define use cases like support and lead capture, connect it to your knowledge base and CRM, and test tone, fallbacks and escalation. Costs range from a few hundred to tens of thousands of dollars depending on complexity.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "ai-chatbot-integration",
+      "keyphrase": "AI chatbot integration",
+      "seo_title": "AI Chatbot Integration for Business Websites in 2027",
+      "description": "AI chatbot integration for business websites: use cases, platforms, setup steps, costs, security and the mistakes that make chatbots frustrating.",
+      "faqs": [
+        [
+          "How do I integrate an AI chatbot into my website?",
+          "Pick the jobs it should do, choose a platform or custom build, connect it to your own content and CRM, add a hand-off to humans, test it with real questions and then embed it on the site."
+        ],
+        [
+          "What are the business use cases?",
+          "Answering common questions, capturing and qualifying leads, booking appointments, tracking orders and guiding visitors to the right page or product."
+        ],
+        [
+          "How much does AI chatbot integration cost?",
+          "A ready-made chatbot can start at a modest monthly fee plus setup. Custom chatbots that use your own data and systems cost more, plus usage-based AI fees."
+        ],
+        [
+          "How do I keep chatbots secure and compliant?",
+          "Collect only the data you need, get consent, keep API keys on the server, limit what the bot can access and log conversations securely."
+        ]
+      ]
     },
     {
       "id": 64,
@@ -3250,7 +3272,28 @@
       ],
       "aeo_direct_answer": "AI-powered website personalization shows different content, offers and recommendations to different visitors based on behaviour, demographics or history. Benefits include higher conversion, engagement and retention. Implementation ranges from simple rules-based tools to advanced ML platforms, with costs and complexity rising accordingly.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "ai-website-personalization",
+      "seo_title": "AI Website Personalization: Benefits and Uses in 2027",
+      "description": "AI website personalization explained: how it works, its benefits, real use cases, typical costs and how to personalise without hurting privacy or SEO.",
+      "faqs": [
+        [
+          "What is AI-powered website personalization?",
+          "It is showing different content, offers or recommendations to different visitors, based on signals such as behaviour, location, source or purchase history."
+        ],
+        [
+          "What are the benefits of AI personalization?",
+          "More relevant pages usually mean higher engagement, better conversion rates, larger orders and more repeat visits."
+        ],
+        [
+          "How much does personalization cost?",
+          "Simple rules-based personalisation can be added cheaply. AI-driven recommendations and testing platforms cost more, often as monthly subscriptions plus setup."
+        ],
+        [
+          "How do I implement personalization safely?",
+          "Get consent for tracking, use first-party data, keep a default version for everyone, test changes and never personalise in ways that feel intrusive."
+        ]
+      ]
     },
     {
       "id": 65,
@@ -3278,7 +3321,29 @@
       ],
       "aeo_direct_answer": "Generative AI can improve website functionality by powering content drafting, semantic search, product descriptions, support chat, translation, summarisation and design assistance. It speeds up operations and improves UX, but requires human review, brand guardrails, data privacy controls and clear fallback rules.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "generative-ai-website-integration",
+      "keyphrase": "generative AI integration",
+      "seo_title": "Generative AI Integration for Websites in 2027",
+      "description": "How generative AI integration can improve website functionality: content, search, support, translation and summaries, plus costs, risks and mistakes.",
+      "faqs": [
+        [
+          "How can generative AI improve my website?",
+          "It can draft content, power smarter search, answer support questions, write product descriptions, translate pages and summarise long documents."
+        ],
+        [
+          "What are practical use cases?",
+          "Support chat, product description drafts, multilingual content, document summaries, form helpers and natural-language search."
+        ],
+        [
+          "How much does generative AI integration cost?",
+          "Costs include setup and usage-based AI fees. Small features can be affordable, while custom features over large data sets cost more."
+        ],
+        [
+          "What are the risks of generative AI?",
+          "Wrong answers, privacy leaks, copyright issues, bland content and unpredictable costs. Human review, clear rules and usage limits reduce them."
+        ]
+      ]
     },
     {
       "id": 66,
@@ -3306,7 +3371,29 @@
       ],
       "aeo_direct_answer": "AI agents are autonomous systems that can perform multi-step tasks such as customer support, lead qualification, order tracking and content updates. On websites they can reduce manual workload and improve response times, but require careful scoping, monitoring, security controls and human oversight for high-stakes actions.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "ai-agent-integration",
+      "keyphrase": "AI agent integration",
+      "seo_title": "AI Agent Integration for Website Operations in 2027",
+      "description": "What AI agents are and how AI agent integration can automate website operations such as support, lead handling and updates, with costs and safeguards.",
+      "faqs": [
+        [
+          "What are AI agents?",
+          "AI agents are AI systems that can plan and carry out multi-step tasks, such as looking up an order, updating a record and sending a reply, using tools you allow."
+        ],
+        [
+          "How can AI agents automate website operations?",
+          "They can answer and resolve support requests, qualify leads, update CRM records, track orders, draft content updates and flag issues for staff."
+        ],
+        [
+          "How much does AI agent integration cost?",
+          "It depends on the number of tasks and systems. Expect setup costs for building and testing plus ongoing usage fees for the AI model."
+        ],
+        [
+          "How do I keep AI agents safe?",
+          "Give them only the permissions they need, require human approval for risky actions, log every step and test thoroughly before going live."
+        ]
+      ]
     },
     {
       "id": 67,
@@ -3334,7 +3421,29 @@
       ],
       "aeo_direct_answer": "A RAG-based website assistant combines a large language model with retrieval from your own content, so answers are grounded in your documents rather than hallucinated. It improves accuracy, trust and support quality. Implementation requires vector search, content indexing, prompt design and guardrails; costs range from modest to enterprise-scale.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "rag-website-assistant",
+      "keyphrase": "RAG assistant",
+      "seo_title": "RAG Assistant for Business Websites: Guide for 2027",
+      "description": "A RAG assistant explained: how retrieval-augmented generation grounds website answers in your own content, plus costs, setup and common mistakes.",
+      "faqs": [
+        [
+          "What is a RAG website assistant?",
+          "It is an AI assistant that first retrieves relevant passages from your own content, then uses a language model to write an answer based on them."
+        ],
+        [
+          "How does RAG work?",
+          "Your content is split into chunks and indexed. When a visitor asks a question, the most relevant chunks are found and passed to the model, which answers from them."
+        ],
+        [
+          "How much does a RAG assistant cost?",
+          "Costs cover setup, a search index and usage-based AI fees. Small sites can run one affordably, while large knowledge bases cost more."
+        ],
+        [
+          "How is RAG different from a standard chatbot?",
+          "A standard chatbot follows scripts or general knowledge. A RAG assistant answers from your documents, so replies are more accurate and can cite sources."
+        ]
+      ]
     },
     {
       "id": 68,
@@ -3362,7 +3471,29 @@
       ],
       "aeo_direct_answer": "AI-powered search understands intent and context rather than just keywords, delivering more relevant results through embeddings and semantic ranking. Traditional search relies on exact matches and manual rules. AI search improves UX and conversions for large catalogues and content sites, at higher implementation and operating cost.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "ai-powered-website-search",
+      "keyphrase": "AI-powered search",
+      "seo_title": "AI-Powered Search vs Traditional Site Search in 2027",
+      "description": "AI-powered search vs traditional website search compared on relevance, cost and user experience, with signs it is time to upgrade your site search.",
+      "faqs": [
+        [
+          "AI-powered search vs traditional search: which is better?",
+          "AI-powered search is better for large sites and stores where visitors describe what they want in their own words. Traditional search is fine for small sites with simple content."
+        ],
+        [
+          "How do they compare on relevance?",
+          "AI search understands meaning and synonyms, so it finds good results even without exact keywords. Traditional search matches words and needs manual tuning."
+        ],
+        [
+          "How much does AI search cost?",
+          "Hosted search services charge monthly by records and searches, and AI features add usage fees. Custom setups cost more upfront."
+        ],
+        [
+          "When should I upgrade my site search?",
+          "When many searches return no results, visitors leave after searching, or your catalogue or knowledge base has grown large."
+        ]
+      ]
     },
     {
       "id": 69,
@@ -3390,7 +3521,28 @@
       ],
       "aeo_direct_answer": "Jamstack architecture separates the frontend from backend services, pre-renders pages and delivers them via CDN, using APIs for dynamic functionality. Benefits include speed, security, scalability and simpler hosting. It suits content-led, marketing and ecommerce sites but requires a different workflow from traditional monolithic platforms.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "jamstack-architecture",
+      "seo_title": "Jamstack Architecture: Benefits and Uses in 2027",
+      "description": "Jamstack architecture explained: pre-rendered pages, CDNs and APIs, with the benefits, business use cases, costs and common mistakes to avoid.",
+      "faqs": [
+        [
+          "What is Jamstack architecture?",
+          "It is a way of building websites where pages are pre-built, served from a CDN and made dynamic with JavaScript and APIs, instead of being generated on a server for every visit."
+        ],
+        [
+          "What are the benefits of Jamstack?",
+          "Fast pages, strong security, easy scaling, lower hosting costs and a clean split between front end and content."
+        ],
+        [
+          "What are Jamstack business use cases?",
+          "Marketing websites, blogs, documentation, landing pages and ecommerce storefronts that use a headless CMS and commerce APIs."
+        ],
+        [
+          "How much does Jamstack cost?",
+          "Hosting is often cheap, but development usually costs more than a theme-based CMS site, because the front end is custom built."
+        ]
+      ]
     },
     {
       "id": 70,
@@ -3418,7 +3570,29 @@
       ],
       "aeo_direct_answer": "SSR renders pages on the server per request, giving fresh content and strong SEO but higher server cost. SSG pre-builds pages at deploy time, giving the fastest delivery and lowest runtime cost but less suitable for highly dynamic content. Choose SSR for personalised or frequently changing pages; choose SSG for marketing, blogs and docs.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "ssr-vs-ssg",
+      "keyphrase": "SSR vs SSG",
+      "seo_title": "SSR vs SSG: Which Rendering Method to Use in 2027",
+      "description": "SSR vs SSG explained: how server-side rendering and static site generation differ on SEO, speed, cost and freshness, and when to use each.",
+      "faqs": [
+        [
+          "SSR vs SSG: which is better?",
+          "SSG is better for pages that rarely change, because they are fastest and cheapest to serve. SSR is better for pages that must be fresh or personalised on every visit."
+        ],
+        [
+          "How do they compare on SEO?",
+          "Both send complete HTML to search engines, so both are SEO-friendly. SSG often wins slightly on speed, which helps Core Web Vitals."
+        ],
+        [
+          "How do they compare on performance?",
+          "SSG pages load fastest because they are pre-built and cached on a CDN. SSR pages need server work per request, which adds a little time."
+        ],
+        [
+          "Can I mix SSR and SSG?",
+          "Yes. Frameworks such as Next.js let each page choose, and incremental regeneration refreshes static pages on a schedule."
+        ]
+      ]
     },
     {
       "id": 71,
@@ -3446,7 +3620,29 @@
       ],
       "aeo_direct_answer": "Progressive web apps are websites that behave like native apps, with offline support, push notifications, home-screen installation and fast loading. They cost less than native apps and reach users across platforms via the browser. Choose a PWA when you want app-like UX without app-store distribution.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "progressive-web-apps",
+      "keyphrase": "progressive web apps",
+      "seo_title": "Progressive Web Apps: How PWAs Work in 2027",
+      "description": "Progressive web apps explained: how PWAs work, their benefits over native apps, typical costs, SEO impact and the common mistakes teams make.",
+      "faqs": [
+        [
+          "What are progressive web apps?",
+          "They are websites that behave like apps: they can be installed on the home screen, work offline, load fast and send notifications."
+        ],
+        [
+          "How do PWAs work?",
+          "A web app manifest makes the site installable, and a service worker caches files and data so pages load fast and work with poor or no connection."
+        ],
+        [
+          "What are the benefits of a PWA?",
+          "One codebase for all devices, no app store needed, faster loading, offline use and lower cost than building separate native apps."
+        ],
+        [
+          "How much does PWA development cost?",
+          "Turning an existing site into a basic PWA can be modest. A full app-like PWA costs more, but usually less than separate Android and iOS apps."
+        ]
+      ]
     },
     {
       "id": 72,
@@ -3474,7 +3670,29 @@
       ],
       "aeo_direct_answer": "Serverless architecture runs code on demand without managing servers, scaling automatically and charging per execution. It suits APIs, event-driven workloads and variable traffic. Limits include cold starts, execution timeouts and vendor lock-in. Choose serverless for spiky or low-traffic workloads and rapid iteration.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "serverless-web-development",
+      "keyphrase": "serverless architecture",
+      "seo_title": "Serverless Architecture in Web Development in 2027",
+      "description": "Serverless architecture explained for web development: how it works, benefits, limits, costs and the mistakes to avoid when going serverless.",
+      "faqs": [
+        [
+          "What is serverless web development?",
+          "It is building web backends from functions and managed services that the cloud provider runs and scales for you, so you never manage servers."
+        ],
+        [
+          "What are the benefits of serverless?",
+          "Automatic scaling, paying only for actual use, no server maintenance and fast development for APIs and event-driven tasks."
+        ],
+        [
+          "What are the limits of serverless?",
+          "Cold-start delays, time limits on functions, harder local testing, vendor lock-in and costs that can rise with very steady, heavy traffic."
+        ],
+        [
+          "How much does serverless cost?",
+          "Low-traffic workloads often cost very little, sometimes within free tiers. Costs grow with executions, duration and data transfer."
+        ]
+      ]
     },
     {
       "id": 73,
@@ -3502,7 +3720,29 @@
       ],
       "aeo_direct_answer": "Microservices split an application into small independent services that communicate via APIs, improving scalability and team autonomy but adding operational complexity. Monoliths are simpler to build, deploy and debug but harder to scale and isolate. Choose microservices for large, fast-growing systems; choose monoliths for smaller teams and early-stage products.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "microservices-vs-monolithic-architecture",
+      "keyphrase": "microservices vs monolithic architecture",
+      "seo_title": "Microservices vs Monolithic Architecture in 2027",
+      "description": "Microservices vs monolithic architecture compared on scaling, cost, speed and complexity, with clear guidance on which suits your product today.",
+      "faqs": [
+        [
+          "Microservices vs monolithic architecture: which is better?",
+          "A monolith is better for most new products and small teams. Microservices pay off for large systems with many teams that must deploy and scale parts separately."
+        ],
+        [
+          "How do they compare on scalability?",
+          "Microservices let you scale each part on its own. A monolith scales as a whole, which is simpler and enough for most businesses."
+        ],
+        [
+          "How do they compare on cost?",
+          "Monoliths are cheaper to build and run. Microservices add costs for infrastructure, monitoring and coordination between teams."
+        ],
+        [
+          "When should I choose each?",
+          "Start with a well-structured monolith. Move parts to services when a clear need appears, such as a part that needs very different scaling."
+        ]
+      ]
     },
     {
       "id": 74,
@@ -3530,7 +3770,29 @@
       ],
       "aeo_direct_answer": "React Server Components render components on the server, sending only the minimal JavaScript needed to the client. They improve performance, reduce bundle size and simplify data fetching, especially in Next.js apps. They matter for SEO, Core Web Vitals and large-scale React applications.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "react-server-components",
+      "keyphrase": "React Server Components",
+      "seo_title": "React Server Components Explained for 2027",
+      "description": "React Server Components explained: what they are, why they matter for speed and SEO, how they work in Next.js and common mistakes to avoid.",
+      "faqs": [
+        [
+          "What are React Server Components?",
+          "They are React components that run only on the server. They can fetch data directly and send rendered output to the browser without shipping their JavaScript."
+        ],
+        [
+          "Why do React Server Components matter?",
+          "They cut the amount of JavaScript sent to the browser, simplify data fetching and make pages load faster."
+        ],
+        [
+          "How do they improve performance?",
+          "Less JavaScript means faster downloads and less work for the phone's processor, which improves loading and interaction times."
+        ],
+        [
+          "How do they affect SEO?",
+          "Content is rendered on the server, so search engines receive full HTML, and faster pages help Core Web Vitals."
+        ]
+      ]
     },
     {
       "id": 75,
@@ -3558,7 +3820,29 @@
       ],
       "aeo_direct_answer": "AWS, Google Cloud and Azure all offer reliable, scalable hosting. AWS has the broadest service catalogue and ecosystem; Google Cloud excels at data, analytics and Kubernetes; Azure integrates tightly with Microsoft and enterprise environments. Choose based on existing stack, team skills, region and pricing model.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "aws-vs-google-cloud-vs-azure",
+      "keyphrase": "AWS vs Google Cloud vs Azure",
+      "seo_title": "AWS vs Google Cloud vs Azure for Websites in 2027",
+      "description": "AWS vs Google Cloud vs Azure for website hosting: services, pricing, performance, India regions and which cloud suits a business website.",
+      "faqs": [
+        [
+          "AWS vs Google Cloud vs Azure: which is best for website hosting?",
+          "All three are reliable. AWS has the widest range of services, Google Cloud is strong for data and containers, and Azure suits firms that use Microsoft tools."
+        ],
+        [
+          "How do they compare on pricing?",
+          "Prices are broadly similar and usage-based. The real cost depends on the services you choose, data transfer and whether you reserve capacity."
+        ],
+        [
+          "How do they compare on performance?",
+          "All three have fast global networks and data centres in India. Performance depends more on architecture, caching and CDN use."
+        ],
+        [
+          "Which is best for business websites?",
+          "For a typical business website, a managed host or a simple platform on any of the three is enough. Pick based on your team's skills and other systems."
+        ]
+      ]
     },
     {
       "id": 76,
@@ -3586,7 +3870,29 @@
       ],
       "aeo_direct_answer": "Edge computing runs code closer to users at CDN edge locations, reducing latency and improving performance for dynamic and personalised content. It suits global audiences, real-time features and performance-critical sites. Costs and complexity vary by provider; choose edge when latency and scale matter.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "edge-computing-web-development",
+      "keyphrase": "edge computing",
+      "seo_title": "Edge Computing for Faster Websites in 2027",
+      "description": "What edge computing is and how it improves website performance: lower latency, personalised pages at speed, costs, use cases and common mistakes.",
+      "faqs": [
+        [
+          "What is edge computing?",
+          "It is running code and caching content on servers close to visitors, usually in a CDN's network, instead of in one central data centre."
+        ],
+        [
+          "How does edge computing improve website performance?",
+          "Requests travel a shorter distance, so pages and API responses arrive faster, even when they are dynamic or personalised."
+        ],
+        [
+          "How much does edge computing cost?",
+          "Many CDNs offer edge functions with free tiers and low per-request prices. Costs rise with traffic, compute time and data transfer."
+        ],
+        [
+          "When should I use edge computing?",
+          "For visitors spread across regions, personalisation at speed, redirects and A/B tests, security checks and fast API responses."
+        ]
+      ]
     },
     {
       "id": 77,
