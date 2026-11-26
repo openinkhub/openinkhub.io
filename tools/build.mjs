@@ -945,7 +945,8 @@ function listingTpl(rec, posts, label) {
   const maxImg = Math.max(0, (PW.maxImagesPerPageOverrides?.[rec.path] ?? PW.maxImagesPerPage ?? 30) - 6);
   const cards = posts.map((p, i) => postCard(i < maxImg ? p : { ...p, featured_image: null, _card: null })).join("") || "<p>No articles yet.</p>";
   const months = RECS.filter((r) => r.type === "archive").sort((a, b) => b.path.localeCompare(a.path));
-  const filters = CATS.filter((c) => c.count).map((c) =>
+  // SEO by City has no filter chip: visitors reach it from the footer ("All cities") and the home page city list
+  const filters = CATS.filter((c) => c.count && c.path !== "/category/seo-agency-by-city/").map((c) =>
     `<a class="chip${c.path === rec.path ? " is-on" : ""}" href="${E(c.path)}">${E(c.name)}</a>`).join("") +
     months.map((m) => `<a class="chip${m.path === rec.path ? " is-on" : ""}" href="${E(m.path)}">${E(listingLabel(m))}</a>`).join("");
   if (CATX[rec.path]) return categoryTpl(rec, posts, CATX[rec.path], cards, filters);
