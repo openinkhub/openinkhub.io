@@ -1119,7 +1119,7 @@
   },
   "/category/gmb/": {
     "eyebrow": "Blog category",
-    "h1": "GMB and Local SEO Articles: Google Business Profile Guides for 2027",
+    "h1": "GMB Articles: Google Business Profile Guides for 2027",
     "lead": "Our articles on Google Business Profile and local SEO: setup, posts, photos, reviews, local pages and geo targeting.",
     "quick": "GMB articles explain how to set up and grow a Google Business Profile and win local searches on Google Search and Maps, from reviews and photos to local pages and geo targeting. Our Google Business Profile and local SEO service handles listings, verification, posts, reviews and citations for you.",
     "ctas": [
@@ -1154,11 +1154,11 @@
             ]
           },
           {
-            "title": "GMB and local SEO articles",
+            "title": "GMB articles",
             "text": "Next, go beyond the listing with local pages and geo targeting.",
             "links": [
               [
-                "GMB and local SEO articles",
+                "GMB articles",
                 "/category/gmb/"
               ]
             ]

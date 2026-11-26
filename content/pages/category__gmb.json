@@ -6,7 +6,7 @@
   "sitemap": "categories",
   "lastmod": "2026-11-14T12:00:00+05:30",
   "head": {
-    "title": "GMB and Local SEO Articles | Google Business Profile Guides",
+    "title": "GMB Articles | Google Business Profile Guides",
     "meta": [
       {
         "attr": "name",
@@ -36,7 +36,7 @@
       {
         "attr": "property",
         "key": "og:title",
-        "content": "GMB and Local SEO Articles | Google Business Profile Guides (2027)"
+        "content": "GMB Articles | Google Business Profile Guides (2027)"
       },
       {
         "attr": "property",
@@ -76,7 +76,7 @@
       {
         "attr": "name",
         "key": "twitter:title",
-        "content": "GMB and Local SEO Articles | Google Business Profile Guides (2027)"
+        "content": "GMB Articles | Google Business Profile Guides (2027)"
       },
       {
         "attr": "name",
@@ -187,7 +187,7 @@
             "@type": "CollectionPage",
             "@id": "https://openinkhub.io/category/gmb/",
             "url": "https://openinkhub.io/category/gmb/",
-            "name": "GMB and Local SEO Articles | Google Business Profile Guides",
+            "name": "GMB Articles | Google Business Profile Guides",
             "isPartOf": {
               "@id": "https://openinkhub.io/#website"
             },
@@ -281,7 +281,7 @@
     ],
     "lang": "en-US"
   },
-  "h1": "GMB and Local SEO Articles: Google Business Profile Guides for 2027",
+  "h1": "GMB Articles: Google Business Profile Guides for 2027",
   "type": "category",
   "title": "GMB",
   "content_html": "",
