@@ -542,10 +542,10 @@ function aboutTpl(rec) {
   out += sec(S.eyebrow, S.h2, cards(S.cards) + stats(S.strip, "strip"), S.intro);
   // benefits: before/after bars, traffic chart, outcomes
   const B = A.benefits, maxV = Math.max(...B.chart.map(([, v]) => v));
-  out += sec(B.eyebrow, B.h2, `<div class="about-two">
-  <div class="c-card about-compare"><h3>${T(B.compare_title)}</h3>${B.compare.map((c) => `<div class="cmp"><strong>${T(c.label)}</strong>
+  const cmpCard = (B.compare || []).length ? `<div class="c-card about-compare"><h3>${T(B.compare_title)}</h3>${B.compare.map((c) => `<div class="cmp"><strong>${T(c.label)}</strong>
     <div class="bar-row"><span>Before</span><div class="bar"><i style="width:${c.before}%"></i></div><b>${c.before}%</b></div>
-    <div class="bar-row is-after"><span>With Openink</span><div class="bar"><i style="width:${c.after}%"></i></div><b>${c.after}%</b></div></div>`).join("")}</div>
+    <div class="bar-row is-after"><span>With Openink</span><div class="bar"><i style="width:${c.after}%"></i></div><b>${c.after}%</b></div></div>`).join("")}</div>` : "";
+  out += sec(B.eyebrow, B.h2, `<div class="${cmpCard ? "about-two" : "about-one"}">${cmpCard}
   <div class="c-card about-chart"><h3>${T(B.chart_title)}</h3><ul class="chart">${B.chart.map(([l, v]) =>
     `<li><b>${v}</b><div class="plot"><i style="height:${Math.round((v / maxV) * 100)}%"></i></div><span>${T(l)}</span></li>`).join("")}</ul><p class="about-note">${T(B.chart_note)}</p></div>
 </div><ul class="about-outcomes">${B.outcomes.map((o) => `<li>${icon("check")}<span>${T(o)}</span></li>`).join("")}</ul>`, B.intro);

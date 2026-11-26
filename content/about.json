@@ -11,8 +11,8 @@
       "label": "AI SEO checklist"
     },
     {
-      "value": "90%",
-      "label": "Automated operations"
+      "value": "₹10,000",
+      "label": "AI SEO plans start per month"
     },
     {
       "value": "SEO + AEO + GEO + AIO",
@@ -150,16 +150,16 @@
     ],
     "strip": [
       {
-        "value": "90%",
-        "label": "Automated operations"
+        "value": "6",
+        "label": "Core services, from websites to international SEO"
       },
       {
-        "value": "Faster",
-        "label": "Business growth"
+        "value": "3",
+        "label": "AI SEO plans: Basic, Standard, Premium"
       },
       {
-        "value": "70%",
-        "label": "Less manual labour"
+        "value": "105",
+        "label": "Indian cities with a local SEO page"
       }
     ]
   },
@@ -167,19 +167,6 @@
     "eyebrow": "The benefits",
     "h2": "Turning the problem into growth",
     "intro": "What changes for a client once the Openink ecosystem replaces manual, fragmented workflows.",
-    "compare_title": "Manual workload vs. automation coverage",
-    "compare": [
-      {
-        "label": "Manual workload",
-        "before": 70,
-        "after": 30
-      },
-      {
-        "label": "Automation coverage",
-        "before": 10,
-        "after": 90
-      }
-    ],
     "chart_title": "Illustrative organic traffic growth: indexed trend, first 6 months",
     "chart": [
       [
