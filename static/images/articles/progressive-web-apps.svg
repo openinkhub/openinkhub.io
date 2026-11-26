@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Progressive Web Apps: How PWAs Work in 2027">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#061638"/><stop offset="1" stop-color="#0a4fb8"/></linearGradient><pattern id="p" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0v48" fill="none" stroke="#38bdf8" stroke-width="1.6"/></pattern>
-<style>.ic{fill:none;stroke:#38bdf8;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}.ic .f{fill:#38bdf8;stroke:none}</style></defs>
-<rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#p)" opacity=".14"/><circle cx="930" cy="110" r="210" fill="#38bdf8" opacity=".14"/><circle cx="210" cy="600" r="170" fill="#0a4fb8" opacity=".5"/>
-<rect x="772" y="135" width="360" height="360" rx="44" fill="#fff" fill-opacity=".08" stroke="#38bdf8" stroke-opacity=".45" stroke-width="2"/><g class="ic" transform="translate(827 190) scale(1.25)"><rect x="58" y="14" width="84" height="172" rx="16"/><path d="M88 160h24M58 40h84"/></g>
-<rect x="72" y="66" width="445" height="46" rx="23" fill="#38bdf8"/>
-<text x="94" y="97" fill="#061638" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="1.2">MODERN WEBSITE ARCHITECTURE</text>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061638"/><stop offset="1" stop-color="#0a4fb8"/></linearGradient><pattern id="p" width="60" height="52" patternUnits="userSpaceOnUse"><path d="M15 0h30l15 26-15 26H15L0 26Z" fill="none" stroke="#ffb547" stroke-width="1.6"/></pattern>
+<style>.ic{fill:none;stroke:#ffb547;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}.ic .f{fill:#ffb547;stroke:none}</style></defs>
+<rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#p)" opacity=".14"/><circle cx="1080" cy="80" r="210" fill="#ffb547" opacity=".14"/><circle cx="60" cy="600" r="170" fill="#0a4fb8" opacity=".5"/>
+<rect x="772" y="135" width="360" height="360" rx="44" fill="#fff" fill-opacity=".08" stroke="#ffb547" stroke-opacity=".45" stroke-width="2"/><g class="ic" transform="translate(827 190) scale(1.25)"><rect x="58" y="14" width="84" height="172" rx="16"/><path d="M88 160h24M58 40h84"/></g>
+<rect x="72" y="66" width="325" height="46" rx="23" fill="#ffb547"/>
+<text x="94" y="97" fill="#061638" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="1.2">WEBSITE DEVELOPMENT</text>
 <text x="72" y="306" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">Progressive Web Apps:</text>
 <text x="72" y="370" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">How PWAs Work in 2027</text>
-<rect x="72" y="532" width="64" height="6" rx="3" fill="#38bdf8"/>
+<rect x="72" y="532" width="64" height="6" rx="3" fill="#ffb547"/>
 <text x="72" y="578" fill="#fff" fill-opacity=".9" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">openink Hub</text>
-<text x="236" y="578" fill="#fff" fill-opacity=".6" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">Guide 071</text></svg>
+<text x="236" y="578" fill="#fff" fill-opacity=".6" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">Blog</text></svg>

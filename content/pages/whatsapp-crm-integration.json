@@ -13,7 +13,7 @@
   "n": "11",
   "title": "WhatsApp CRM Integration: Sync Leads",
   "h1": "WhatsApp CRM integration: syncing chats and leads automatically",
-  "date": "2026-11-26T14:17:10",
+  "date": "2026-08-03T10:00:00",
   "modified": "2026-11-26T14:17:10",
   "author": "Hiten Neotia",
   "excerpt": "WhatsApp CRM integration keeps every lead, tag and chat in your CRM. See what to sync, how to map fields and how to trigger messages from CRM events.",
@@ -60,7 +60,7 @@
             "headline": "WhatsApp CRM Integration: Sync Leads",
             "description": "WhatsApp CRM integration keeps every lead, tag and chat in your CRM. See what to sync, how to map fields and how to trigger messages from CRM events.",
             "url": "https://openinkhub.io/whatsapp-crm-integration/",
-            "datePublished": "2026-11-26T14:17:10+05:30",
+            "datePublished": "2026-08-03T10:00:00+05:30",
             "dateModified": "2026-11-26T14:17:10+05:30",
             "author": {
               "@type": "Person",

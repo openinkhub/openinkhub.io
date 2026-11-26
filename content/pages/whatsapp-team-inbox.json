@@ -13,7 +13,7 @@
   "n": "08",
   "title": "WhatsApp Team Inbox for Multiple Agents",
   "h1": "WhatsApp team inbox: one number, many agents",
-  "date": "2026-11-26T14:17:10",
+  "date": "2026-08-20T10:00:00",
   "modified": "2026-11-26T14:17:10",
   "author": "Hiten Neotia",
   "excerpt": "A WhatsApp team inbox lets several agents answer one business number with assignment rules, notes, tags and hand-off from the bot. Here is how to set one up.",
@@ -60,7 +60,7 @@
             "headline": "WhatsApp Team Inbox for Multiple Agents",
             "description": "A WhatsApp team inbox lets several agents answer one business number with assignment rules, notes, tags and hand-off from the bot. Here is how to set one up.",
             "url": "https://openinkhub.io/whatsapp-team-inbox/",
-            "datePublished": "2026-11-26T14:17:10+05:30",
+            "datePublished": "2026-08-20T10:00:00+05:30",
             "dateModified": "2026-11-26T14:17:10+05:30",
             "author": {
               "@type": "Person",

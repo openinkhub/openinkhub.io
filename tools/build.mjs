@@ -14,7 +14,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { fixRecord, fixHtml, listingLabel, RULES, SQUIRRLY, COPY_MISSES } from "./seo-fix.mjs";
-import { makeCover, coverFigure } from "./covers.mjs";
+import { makeCover, makeArticleCover, coverFigure } from "./covers.mjs";
 import { kitHtml, cardify, cardLists, faqPlain, openDetails, fixLinks } from "./layout.mjs";
 import { simplifyHtml } from "./content-rules.mjs";
 import { splitService, renderBlocks, ctaRow } from "./service-layout.mjs";
@@ -378,7 +378,7 @@ function breadcrumb(trail) {
 }
 
 function postCard(r) {
-  const img = r.featured_image;
+  const img = r.featured_image || r._card;
   const im = img ? `<img src="${E(rel(img.src))}" alt="${E(img.alt || r.title)}"${img.width && img.height ? ` width="${img.width}" height="${img.height}"` : ""} loading="lazy" decoding="async">`
     : `<div class="card-ph">${icon("spark")}</div>`;
   const cat = r.categories?.length ? r.categories[0].name : "Article";
@@ -943,7 +943,7 @@ function listingTpl(rec, posts, label) {
   // images on the first cards only (the rest are text cards), so big archives stay light
   const PW = RULES.thresholds.pageWeight;
   const maxImg = Math.max(0, (PW.maxImagesPerPageOverrides?.[rec.path] ?? PW.maxImagesPerPage ?? 30) - 6);
-  const cards = posts.map((p, i) => postCard(i < maxImg ? p : { ...p, featured_image: null })).join("") || "<p>No articles yet.</p>";
+  const cards = posts.map((p, i) => postCard(i < maxImg ? p : { ...p, featured_image: null, _card: null })).join("") || "<p>No articles yet.</p>";
   const months = RECS.filter((r) => r.type === "archive").sort((a, b) => b.path.localeCompare(a.path));
   const filters = CATS.filter((c) => c.count).map((c) =>
     `<a class="chip${c.path === rec.path || (rec.path === "/category/seo-agency-by-city/" && c.slug === "seo-services") ? " is-on" : ""}" href="${E(c.path)}">${E(c.name)}</a>`).join("") +
@@ -1261,9 +1261,40 @@ function walk(dir) {
 // Pages and guides with no image in their content get a branded title card (static/images/pages/<slug>.svg),
 // placed after the lead paragraph so it counts as a content image (hero_image + text_image_ratio checks).
 const NO_COVER = new Set([]);
+// ---------------------------------------------------------------- blog cover rule (every post + guide, now and future)
+// A new post needs no image work: the build gives every blog post and guide the same cover card
+// (static/images/articles/<slug>.svg, see makeArticleCover). Category = first category that is not the "Blogs" hub
+// (pill text + accent colour), icon from the topic, alt text "<keyphrase> – <category>". An older cover figure in the
+// content is replaced; the article's own photos and screenshots are kept.
+const BLOG_HUB = "/category/best-seo-content-agency/";
+const ACRONYM = /\b(seo|aeo|geo|aio|gmb|ai|api|ats|hrms|hr|cms|b2b|crm|ui|ux|saas|pwa|ssl|aws|php|mern|mean)\b/gi;
+function coverAlt(kp, title, cat) {
+  const i = kp ? title.toLowerCase().indexOf(kp.toLowerCase()) : -1;
+  let k = i >= 0 ? title.slice(i, i + kp.length) : (kp || title).replace(ACRONYM, (m) => m.toUpperCase());
+  k = k.charAt(0).toUpperCase() + k.slice(1);
+  return `${k} – ${cat}`;
+}
+function blogCover(r) {
+  const slug = r.path.replace(/^\/+|\/+$/g, "");
+  const cat = (r.categories || []).find((c) => c.path !== BLOG_HUB) || { name: "Blog", path: BLOG_HUB };
+  const title = stripTags(r.title || r.h1 || slug).replace(/\s*[|–-]\s*openink Hub$/i, "").trim();
+  const kp = stripTags(r.keyphrase || r.keyphrase_override || "").trim();
+  const img = makeArticleCover({ dir: "articles", slug, title, label: cat.name, accentKey: cat.name,
+    icon: cat.path === "/category/seo-agency-by-city/" ? "pin" : undefined, alt: coverAlt(kp, title, cat.name) });
+  const esc = slug.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  let html = (r.content_html || "").replace(new RegExp(`\\s*<figure>\\s*<img\\b[^>]*src="[^"]*/images/(?:articles|city|pages)/${esc}\\.svg"[^>]*>\\s*</figure>`, "g"), "");
+  const fig = coverFigure(img);
+  if (!/<\/h1>/.test(html)) html = fig + "\n" + html;
+  else if (r.type === "guide") html = html.replace(/(<\/h1>\s*(?:<p>[\s\S]*?<\/p>)?)/, `$1\n${fig}\n`); // first paragraph stays the hero lead
+  else html = html.replace(/<\/h1>/, `</h1>\n${fig}`);
+  r.content_html = html;
+  if (r.type === "post") r.featured_image = img; else r._card = img; // guides: card image only (their hero is the figure)
+}
+
 function addCovers() {
   for (const r of RECS) {
     const slug = r.path.replace(/^\/+|\/+$/g, "");
+    if (["post", "guide"].includes(r.type) && !r.draft) { blogCover(r); continue; }
     // category / tag pages with their own copy get a cover for the hero (counts as a content image)
     if (["category", "tag"].includes(r.type) && CATX[r.path]) {
       r._cover = makeCover({ dir: "categories", slug: slug.replace(/\//g, "-"), title: stripTags(CATX[r.path].h1 || r.h1 || r.title || ""), label: r.type === "tag" ? "Openink Hub guides" : "Openink Hub blog" });

@@ -8,7 +8,7 @@
   "cluster": "C10 Full Stack & Database Technologies",
   "title": "SQL vs NoSQL: Which Database Should You Use in 2027",
   "h1": "SQL vs NoSQL Databases: Which Should Your Website Use?",
-  "date": "2026-11-26T15:05:03",
+  "date": "2026-09-28T10:00:00",
   "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "SQL vs NoSQL databases explained: how they differ, which suits transactions or scale, and how to choose the right database for your website.",
@@ -105,7 +105,7 @@
       {
         "attr": "property",
         "key": "article:published_time",
-        "content": "2026-11-26T15:05:03+05:30"
+        "content": "2026-09-28T10:00:00+05:30"
       },
       {
         "attr": "property",
@@ -129,7 +129,7 @@
             "description": "SQL vs NoSQL databases explained: how they differ, which suits transactions or scale, and how to choose the right database for your website.",
             "url": "https://openinkhub.io/sql-vs-nosql/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
-            "datePublished": "2026-11-26T15:05:03+05:30",
+            "datePublished": "2026-09-28T10:00:00+05:30",
             "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "SQL vs NoSQL, SQL vs NoSQL databases, relational vs non-relational database, SQL benefits, NoSQL benefits, database selection",
             "author": {

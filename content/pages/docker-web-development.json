@@ -8,7 +8,7 @@
   "cluster": "C13 Cloud & Deployment Technologies",
   "title": "Docker in Web Development: A Simple Guide for 2027",
   "h1": "What Is Docker and How Is It Used in Web Development?",
-  "date": "2026-11-26T15:29:32",
+  "date": "2026-10-15T10:00:00",
   "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Docker in web development explained: containers, consistent environments, deployment and CI/CD, plus the costs and the common mistakes to avoid.",
@@ -106,7 +106,7 @@
       {
         "attr": "property",
         "key": "article:published_time",
-        "content": "2026-11-26T15:29:32+05:30"
+        "content": "2026-10-15T10:00:00+05:30"
       },
       {
         "attr": "property",
@@ -130,7 +130,7 @@
             "description": "Docker in web development explained: containers, consistent environments, deployment and CI/CD, plus the costs and the common mistakes to avoid.",
             "url": "https://openinkhub.io/docker-web-development/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
-            "datePublished": "2026-11-26T15:29:32+05:30",
+            "datePublished": "2026-10-15T10:00:00+05:30",
             "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "Docker in web development, Docker web development, Docker explained, Docker benefits, Docker deployment, Docker workflow, Docker for business",
             "author": {

@@ -214,7 +214,7 @@ function apply(c) {
   rec.title = c.title;
   rec.h1 = c.h1.replace(/\*\*/g, "");
   rec.excerpt = c.quick.replace(/\*\*/g, "");
-  const img = makeCover({ dir: "city", slug: c.file, title: c.title, label: `SEO · AEO · GEO · AIO · ${c.state}` });
+  const img = makeCover({ dir: "articles", slug: c.file, title: c.title, label: `SEO · AEO · GEO · AIO · ${c.state}` });
   rec.featured_image = img;
   rec.content_html = render(c, img);
   rec.content_source = "city-posts";

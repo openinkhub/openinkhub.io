@@ -8,7 +8,7 @@
   "cluster": "C03 Business & Corporate Website Development",
   "title": "Small Business Website Development Guide for 2027",
   "h1": "Why Every Small Business Needs a Professional Website",
-  "date": "2026-11-13T18:41:49",
+  "date": "2026-08-12T10:00:00",
   "modified": "2026-11-26T15:53:35",
   "author": "Hiten Neotia",
   "excerpt": "Small business website development: why a professional site matters, what features it needs, what it costs and mistakes to avoid.",
@@ -26,8 +26,8 @@
       "path": "/category/website-development/"
     },
     {
-      "name": "Local SEO",
-      "path": "/category/local-seo/"
+      "name": "GMB",
+      "path": "/category/gmb/"
     },
     {
       "name": "Blogs",
@@ -113,7 +113,7 @@
       {
         "attr": "property",
         "key": "article:published_time",
-        "content": "2026-11-13T18:41:49+05:30"
+        "content": "2026-08-12T10:00:00+05:30"
       },
       {
         "attr": "property",
@@ -137,7 +137,7 @@
             "description": "Small business website development: why a professional site matters, what features it needs, what it costs and mistakes to avoid.",
             "url": "https://openinkhub.io/small-business-website-development/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
-            "datePublished": "2026-11-13T18:41:49+05:30",
+            "datePublished": "2026-08-12T10:00:00+05:30",
             "dateModified": "2026-11-26T15:53:35+05:30",
             "keywords": "small business website development, small business website cost, small business website features, small business SEO, professional website benefits, small business website checklist",
             "author": {

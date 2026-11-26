@@ -12,7 +12,7 @@
   "n": "11",
   "title": "Web Architecture & Cloud Development: Jamstack to AWS",
   "h1": "Web architecture and cloud development: Jamstack, rendering and hosting",
-  "date": "2026-11-13T18:05:49",
+  "date": "2026-07-21T10:00:00",
   "modified": "2026-11-14T07:27:07",
   "author": "Hiten Neotia",
   "excerpt": "Modern web architecture and cloud development: Jamstack, SSR vs SSG, PWAs, serverless, microservices, and AWS vs Google Cloud vs Azure for hosting.",
@@ -76,7 +76,7 @@
             "headline": "Web Architecture & Cloud Development: Jamstack to AWS",
             "description": "Modern web architecture and cloud development: Jamstack, SSR vs SSG, PWAs, serverless, microservices, and AWS vs Google Cloud vs Azure for hosting.",
             "url": "https://openinkhub.io/web-architecture-cloud-development/",
-            "datePublished": "2026-11-13T18:05:49+05:30",
+            "datePublished": "2026-07-21T10:00:00+05:30",
             "dateModified": "2026-11-14T07:27:07+05:30",
             "author": {
               "@type": "Person",

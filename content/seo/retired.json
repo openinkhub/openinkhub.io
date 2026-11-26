@@ -36,6 +36,12 @@
       "to": "/category/articles/",
       "code": 301,
       "why": "category split or removed (2026-11-14)"
+    },
+    {
+      "from": "/category/local-seo/",
+      "to": "/category/gmb/",
+      "code": 301,
+      "why": "Local SEO category merged into GMB"
     }
   ]
 }

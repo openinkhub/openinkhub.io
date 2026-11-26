@@ -214,7 +214,6 @@
       "title": "Browse every city guide",
       "lead": "Newest first. Or find your state in the section below."
     },
-    "states": true,
     "sections": [
       {
         "eyebrow": "Inside each guide",
@@ -746,7 +745,6 @@
       "title": "All SEO articles",
       "lead": "Newest first. Use the chips to switch to another topic."
     },
-    "states": true,
     "sections": [
       {
         "eyebrow": "Related topics",
@@ -788,66 +786,6 @@
               [
                 "AIO articles",
                 "/category/aio/"
-              ]
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  "/category/local-seo/": {
-    "eyebrow": "Blog category",
-    "h1": "Local SEO Articles: Win Searches Near You in 2027",
-    "lead": "Our articles on reaching buyers near you, from geo targeting to city-level SEO.",
-    "quick": "Local SEO articles show how nearby buyers find you on Google Search and Maps, with geo targeting, local examples and small business website tips. Our local SEO and Google Business Profile services handle listings, reviews, local pages and citations for you.",
-    "ctas": [
-      {
-        "label": "See SEO services",
-        "href": "/best-seo-services-in-india/"
-      },
-      {
-        "label": "Get a free audit",
-        "href": "/report/"
-      }
-    ],
-    "browse": {
-      "eyebrow": "Local SEO",
-      "title": "All Local SEO articles",
-      "lead": "Newest first. Use the chips to switch to another topic."
-    },
-    "sections": [
-      {
-        "eyebrow": "Related topics",
-        "title": "Where to go next",
-        "lead": "Local SEO links up with your Google Business Profile, city pages and, more and more, AEO and AIO for voice and AI search.",
-        "cards": [
-          {
-            "title": "Openink Hub local SEO",
-            "text": "We set up local pages, reviews and listings for firms in Ranchi and across India, with AEO answers for voice search.",
-            "links": [
-              [
-                "SEO services in India",
-                "/best-seo-services-in-india/"
-              ]
-            ]
-          },
-          {
-            "title": "GMB articles",
-            "text": "Next, set up and grow the Google Business Profile that powers Maps results.",
-            "links": [
-              [
-                "GMB articles",
-                "/category/gmb/"
-              ]
-            ]
-          },
-          {
-            "title": "City guides",
-            "text": "Then find the local SEO guide for your own city, with AIO and GEO steps included.",
-            "links": [
-              [
-                "SEO by city",
-                "/category/seo-agency-by-city/"
               ]
             ]
           }
@@ -1181,9 +1119,9 @@
   },
   "/category/gmb/": {
     "eyebrow": "Blog category",
-    "h1": "GMB Articles: Google Business Profile Guides for 2027",
-    "lead": "Our articles on Google Business Profile: setup, posts, photos and reviews.",
-    "quick": "GMB articles explain how to set up and grow a Google Business Profile, the free listing that puts you on Google Maps and local results. Our Google Business Profile service handles setup, verification, posts, photos and reviews for you.",
+    "h1": "GMB and Local SEO Articles: Google Business Profile Guides for 2027",
+    "lead": "Our articles on Google Business Profile and local SEO: setup, posts, photos, reviews, local pages and geo targeting.",
+    "quick": "GMB articles explain how to set up and grow a Google Business Profile and win local searches on Google Search and Maps, from reviews and photos to local pages and geo targeting. Our Google Business Profile and local SEO service handles listings, verification, posts, reviews and citations for you.",
     "ctas": [
       {
         "label": "See Google My Business service",
@@ -1216,12 +1154,12 @@
             ]
           },
           {
-            "title": "Local SEO articles",
+            "title": "GMB and local SEO articles",
             "text": "Next, go beyond the listing with local pages and geo targeting.",
             "links": [
               [
-                "Local SEO articles",
-                "/category/local-seo/"
+                "GMB and local SEO articles",
+                "/category/gmb/"
               ]
             ]
           },
@@ -1305,9 +1243,9 @@
   },
   "/category/articles/": {
     "eyebrow": "Blog category",
-    "h1": "Business Articles: AI Workflows, HR and Hiring Tools in 2027",
-    "lead": "Our wider business articles on AI workflows, HR software and hiring tools.",
-    "quick": "Business articles cover AI agent workflows, HR software and applicant tracking tools for small and mid-sized firms in India. They link to the Openink Hub services behind them, including AI blogs and articles, workflow automation and HR tools.",
+    "h1": "AI Tools Articles: AI Workflows, HR and Hiring Tools in 2027",
+    "lead": "Our articles on AI tools for business: AI workflows, HR software and hiring tools.",
+    "quick": "AI Tools articles cover AI agent workflows, HR software and applicant tracking tools for small and mid-sized firms in India. They link to the Openink Hub services behind them, including AI voice agents, HRMS and applicant tracking.",
     "ctas": [
       {
         "label": "See AI blogs and articles service",

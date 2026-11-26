@@ -47,7 +47,7 @@ const DEFAULT_PALETTE = ["#0a1424", "#0352a3", "#9cc6f5"];
 const BG = ["#061638", "#0a4fb8"];
 const ACCENTS = ["#ffb547", "#41e0c4", "#fcd34d", "#f472b6", "#7dd3fc", "#34d399", "#c4b5fd", "#fb923c", "#fde047", "#a5f3fc", "#fda4af", "#bef264"];
 const CAT_ACCENT = { "SEO": "#fde047", "Local SEO": "#34d399", "AEO": "#f472b6", "GEO": "#c4b5fd", "AIO": "#a5f3fc",
-  "GMB": "#fb923c", "Backlinks": "#bef264", "WhatsApp Automation": "#4ade80", "Articles": "#fda4af", "Website Development": "#ffb547",
+  "GMB": "#34d399", "Backlinks": "#bef264", "WhatsApp Automation": "#4ade80", "AI Tools": "#fda4af", "Articles": "#fda4af", "Website Development": "#ffb547",
   "SEO · AEO · GEO · AIO": "#7dd3fc" };
 
 // line illustrations drawn in a 200x200 box (stroke = accent colour)
@@ -104,13 +104,15 @@ const PATTERNS = [
   (c) => `<pattern id="p" width="80" height="24" patternUnits="userSpaceOnUse"><path d="M0 12q20-14 40 0t40 0" fill="none" stroke="${c}" stroke-width="2"/></pattern>`,
 ];
 
-export function makeArticleCover({ dir = "articles", slug, title, hub, cluster, id, label, accentKey, icon: iconName }) {
+// Blog cover rule: every post and guide uses the SAME card - blue gradient, hexagon pattern, rounded icon panel, same
+// glow positions. Only the category (pill text + accent colour), the topic icon and the title change.
+export function makeArticleCover({ dir = "articles", slug, title, hub, cluster, id, label, accentKey, icon: iconName, alt }) {
   const [c1, c2] = BG;
-  const acc = hub && PALETTES[hub] ? PALETTES[hub][2] : CAT_ACCENT[accentKey] || ACCENTS[hash(accentKey || slug) % ACCENTS.length];
-  const h = hash(slug);
-  const angle = [[0, 0, 1, 1], [0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1]][h % 4];
-  const pattern = PATTERNS[(h >>> 3) % PATTERNS.length](acc);
-  const shape = (h >>> 6) % 3;
+  const acc = CAT_ACCENT[accentKey] || (hub && PALETTES[hub] ? PALETTES[hub][2] : ACCENTS[hash(accentKey || slug) % ACCENTS.length]);
+  const h = 0;
+  const angle = [0, 0, 1, 1];
+  const pattern = PATTERNS[2](acc);
+  const shape = 0;
   const icon = ICONS[iconName || (TOPICS.find(([re]) => re.test(slug)) || [0, /seo|rank|search/i.test(slug) ? "search" : "browser"])[1]];
   let size = 54, lines = wrap(title, 22);
   if (lines.length > 4) { size = 46; lines = wrap(title, 26).slice(0, 5); }
@@ -121,8 +123,8 @@ export function makeArticleCover({ dir = "articles", slug, title, hub, cluster, 
     `<circle cx="952" cy="315" r="190" fill="#fff" fill-opacity=".08" stroke="${acc}" stroke-opacity=".45" stroke-width="2"/>`,
     `<rect x="772" y="135" width="360" height="360" rx="44" fill="#fff" fill-opacity=".08" stroke="${acc}" stroke-opacity=".45" stroke-width="2" transform="rotate(-6 952 315)"/>`,
   ][shape];
-  const blob = [`<circle cx="${1080 - (h % 160)}" cy="${80 + (h % 90)}" r="210" fill="${acc}" opacity=".14"/>`,
-    `<circle cx="${60 + (h % 200)}" cy="600" r="170" fill="${c2}" opacity=".5"/>`].join("");
+  const blob = [`<circle cx="1080" cy="80" r="210" fill="${acc}" opacity=".14"/>`,
+    `<circle cx="60" cy="600" r="170" fill="${c2}" opacity=".5"/>`].join("");
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="${E(title)}">
 <defs><linearGradient id="g" x1="${angle[0]}" y1="${angle[1]}" x2="${angle[2]}" y2="${angle[3]}"><stop offset="0" stop-color="${c1}"/><stop offset="1" stop-color="${c2}"/></linearGradient>${pattern}
 <style>.ic{fill:none;stroke:${acc};stroke-width:9;stroke-linecap:round;stroke-linejoin:round}.ic .f{fill:${acc};stroke:none}</style></defs>
@@ -133,11 +135,12 @@ ${panel}<g class="ic" transform="translate(827 190) scale(1.25)">${icon}</g>
 ${lines.map((l, i) => `<text x="72" y="${Math.round(y0 + i * lh)}" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="${size}" font-weight="800">${E(l)}</text>`).join("\n")}
 <rect x="72" y="532" width="64" height="6" rx="3" fill="${acc}"/>
 <text x="72" y="578" fill="#fff" fill-opacity=".9" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">openink Hub</text>
-<text x="236" y="578" fill="#fff" fill-opacity=".6" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">${id ? "Guide " + String(id).padStart(3, "0") : ["articles", "city"].includes(dir) ? "Blog" : ""}</text></svg>\n`;
+<text x="236" y="578" fill="#fff" fill-opacity=".6" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">${dir === "pages" || dir === "categories" ? "" : "Blog"}</text></svg>\n`;
   const out = path.join(ROOT, "static", "images", dir);
   fs.mkdirSync(out, { recursive: true });
-  fs.writeFileSync(path.join(out, `${slug}.svg`), svg);
-  return { src: `${BASE}/images/${dir}/${slug}.svg`, alt: title, width: 1200, height: 630 };
+  const file = path.join(out, `${slug}.svg`);
+  if (!fs.existsSync(file) || fs.readFileSync(file, "utf8") !== svg) fs.writeFileSync(file, svg);
+  return { src: `${BASE}/images/${dir}/${slug}.svg`, alt: alt || title, width: 1200, height: 630 };
 }
 
 /** <figure> markup for placing the cover inside the content (so it counts as a content image). */

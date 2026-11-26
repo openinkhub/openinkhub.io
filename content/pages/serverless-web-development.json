@@ -8,7 +8,7 @@
   "cluster": "C12 Modern Website Architecture",
   "title": "Serverless Architecture in Web Development in 2027",
   "h1": "What Is Serverless Architecture in Web Development?",
-  "date": "2026-11-26T15:21:41",
+  "date": "2026-10-09T10:00:00",
   "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Serverless architecture explained for web development: how it works, benefits, limits, costs and the mistakes to avoid when going serverless.",
@@ -105,7 +105,7 @@
       {
         "attr": "property",
         "key": "article:published_time",
-        "content": "2026-11-26T15:21:41+05:30"
+        "content": "2026-10-09T10:00:00+05:30"
       },
       {
         "attr": "property",
@@ -129,7 +129,7 @@
             "description": "Serverless architecture explained for web development: how it works, benefits, limits, costs and the mistakes to avoid when going serverless.",
             "url": "https://openinkhub.io/serverless-web-development/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
-            "datePublished": "2026-11-26T15:21:41+05:30",
+            "datePublished": "2026-10-09T10:00:00+05:30",
             "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "serverless architecture, serverless web development, serverless benefits, serverless cost, serverless vs traditional hosting, serverless use cases",
             "author": {

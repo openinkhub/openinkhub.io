@@ -8,7 +8,7 @@
   "cluster": "C09 Backend Development Technologies",
   "title": "Express.js vs NestJS: Which to Use in 2027",
   "h1": "Express.js vs NestJS: Which Node.js Framework Is Better?",
-  "date": "2026-11-26T15:05:03",
+  "date": "2026-09-23T10:00:00",
   "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Express.js vs NestJS compared on structure, scalability, learning curve and speed of development, with advice on which Node.js framework fits.",
@@ -105,7 +105,7 @@
       {
         "attr": "property",
         "key": "article:published_time",
-        "content": "2026-11-26T15:05:03+05:30"
+        "content": "2026-09-23T10:00:00+05:30"
       },
       {
         "attr": "property",
@@ -129,7 +129,7 @@
             "description": "Express.js vs NestJS compared on structure, scalability, learning curve and speed of development, with advice on which Node.js framework fits.",
             "url": "https://openinkhub.io/expressjs-vs-nestjs/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
-            "datePublished": "2026-11-26T15:05:03+05:30",
+            "datePublished": "2026-09-23T10:00:00+05:30",
             "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "Express.js vs NestJS, NestJS vs Express, Express.js performance, NestJS performance, Node.js framework comparison, Express vs NestJS cost",
             "author": {

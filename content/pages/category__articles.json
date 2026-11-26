@@ -6,7 +6,7 @@
   "sitemap": "categories",
   "lastmod": "2026-11-14T12:00:00+05:30",
   "head": {
-    "title": "Business Articles | Automation and HR Guides",
+    "title": "AI Tools | AI Workflow, HR and Hiring Tool Guides",
     "meta": [
       {
         "attr": "name",
@@ -36,7 +36,7 @@
       {
         "attr": "property",
         "key": "og:title",
-        "content": "Business Articles | Automation and HR Guides (2027)"
+        "content": "AI Tools | AI Workflow, HR and Hiring Tool Guides (2027)"
       },
       {
         "attr": "property",
@@ -76,7 +76,7 @@
       {
         "attr": "name",
         "key": "twitter:title",
-        "content": "Business Articles | Automation and HR Guides (2027)"
+        "content": "AI Tools | AI Workflow, HR and Hiring Tool Guides (2027)"
       },
       {
         "attr": "name",
@@ -187,7 +187,7 @@
             "@type": "CollectionPage",
             "@id": "https://openinkhub.io/category/articles/",
             "url": "https://openinkhub.io/category/articles/",
-            "name": "Business Articles | Automation and HR Guides",
+            "name": "AI Tools | AI Workflow, HR and Hiring Tool Guides",
             "isPartOf": {
               "@id": "https://openinkhub.io/#website"
             },
@@ -281,9 +281,9 @@
     ],
     "lang": "en-US"
   },
-  "h1": "Business Articles: AI Workflows, HR and Hiring Tools in 2027",
+  "h1": "AI Tools Articles: AI Workflows, HR and Hiring Tools in 2027",
   "type": "category",
-  "title": "Articles",
+  "title": "AI Tools",
   "content_html": "",
   "faqs": [
     {

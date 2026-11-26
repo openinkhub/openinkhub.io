@@ -174,16 +174,7 @@
       "description": ""
     },
     {
-      "count": 3,
-      "name": "Local SEO",
-      "slug": "local-seo",
-      "path": "/category/local-seo/",
-      "link": "https://openinkhub.io/category/local-seo/",
-      "parent": 0,
-      "description": ""
-    },
-    {
-      "count": 1,
+      "count": 4,
       "name": "GMB",
       "slug": "gmb",
       "path": "/category/gmb/",
@@ -220,7 +211,7 @@
     },
     {
       "count": 5,
-      "name": "Articles",
+      "name": "AI Tools",
       "slug": "articles",
       "path": "/category/articles/",
       "link": "https://openinkhub.io/category/articles/",
