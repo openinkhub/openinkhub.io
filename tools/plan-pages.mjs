@@ -25,6 +25,27 @@ let made = 0;
 const ready = (o) => !!String(o.description || "").trim() && (o.includes || []).length && fs.existsSync(path.join(ROOT, "static", ...o.brochure.split("/").filter(Boolean)));
 const lk = (o, t) => ready(o) ? `<a href="/${o.slug}/">${t}</a>` : t;
 const skipped = [];
+// The lowest plan lists every item in full. A higher plan lists in full only what it adds or changes
+// against the plan below it, then names the carried-over items by title (so the pages stay unique).
+const sig = (i) => `${i.title}|${i.text}`;
+function includesHtml(p) {
+  const idx = D.plans.indexOf(p), prev = D.plans[idx - 1];
+  if (!prev || !(prev.includes || []).length || !p.includes[0].group) {
+    return p.includes[0] && p.includes[0].group ? p.includes.map((g) => `<h3>${E(g.group)}</h3>\n<ul>${li(g.items)}</ul>`).join("\n") : `<ul>${li(p.includes)}</ul>`;
+  }
+  const had = new Set(prev.includes.flatMap((g) => g.items.map(sig)));
+  const added = p.includes.flatMap((g) => g.items.filter((i) => !had.has(sig(i))));
+  return `<h3>What ${E(p.name)} adds to the ${lk(prev, `${E(prev.name)} plan`)}</h3>
+<ul>${li(added)}</ul>`;
+}
+function keptHtml(p) {
+  const idx = D.plans.indexOf(p), prev = D.plans[idx - 1];
+  if (!prev || !(prev.includes || []).length || !p.includes[0].group) return "";
+  const had = new Set(prev.includes.flatMap((g) => g.items.map(sig)));
+  const kept = p.includes.map((g) => ({ group: g.group, items: g.items.filter((i) => had.has(sig(i))) })).filter((g) => g.items.length);
+  return `<h2>Also included in the ${E(p.name)} plan, as in ${E(prev.name)}</h2>
+<ul>${kept.map((g) => `<li><strong>${E(g.group)}</strong>: ${g.items.map((i) => E(i.title)).join("; ")}.</li>`).join("")}</ul>`;
+}
 for (const p of D.plans) {
   const need = ["description", "intro"].filter((k) => !String(p[k] || "").trim()).concat(["includes", "guide", "process"].filter((k) => !(p[k] || []).length));
   if (!fs.existsSync(path.join(ROOT, "static", ...p.brochure.split("/").filter(Boolean)))) need.push("brochure PDF");
@@ -36,19 +57,21 @@ for (const p of D.plans) {
 <h2>${E(p.name)} AI SEO plan price</h2>
 <table><thead><tr><th>Plan</th><th>Starting price</th>${p.best_for ? "<th>Best for</th>" : ""}</tr></thead>
 <tbody><tr><td>${E(p.name)} AI SEO</td><td>From ${E(p.price)}* ${E(p.period)}</td>${p.best_for ? `<td>${E(p.best_for)}</td>` : ""}</tr></tbody></table>
+<h2>What the ${E(p.name)} AI SEO plan includes</h2>
+${includesHtml(p)}
+<h2>How the ${E(p.name)} plan works</h2>
+<ol>${li(p.process)}</ol>
+<p>${others.some(ready) ? `Need more? See the ${others.filter(ready).map((o) => lk(o, E(o.name))).join(" and ")} plan${others.filter(ready).length > 1 ? "s" : ""}, or read` : "Read"} about our <a href="/best-seo-services-in-india/">SEO services in India</a>.</p>`;
+  // shared by every plan page: rendered outside <!--seo:content--> by build.mjs, so it does not count as duplicate content
+  const shared = `${keptHtml(p)}
 ${(p.targets || []).length ? `<h2>${E(p.name)} plan targets</h2>
 <table><thead><tr><th>Target</th><th>Goal</th><th>What it means</th></tr></thead><tbody>${p.targets.map((t) => `<tr><td>${E(t.label)}</td><td><strong>${E(t.value)}</strong></td><td>${E(t.text)}</td></tr>`).join("")}</tbody></table>
 ${p.target_note ? `<p>${E(p.target_note)}</p>` : ""}` : ""}
-<h2>What the ${E(p.name)} AI SEO plan includes</h2>
-${p.includes[0] && p.includes[0].group ? p.includes.map((g) => `<h3>${E(g.group)}</h3>\n<ul>${li(g.items)}</ul>`).join("\n") : `<ul>${li(p.includes)}</ul>`}
 ${(p.extras || []).length ? `<h2>Extra services (charged separately)</h2>\n<p>These are not part of the ${E(p.name)} plan price and can be added on extra charges:</p>\n<ul>${li(p.extras)}</ul>` : ""}
 <h2>What to do before you start</h2>
 <ol>${li(p.guide)}</ol>
-<h2>How the ${E(p.name)} plan works</h2>
-<ol>${li(p.process)}</ol>
 <h2>Compare AI SEO plans</h2>
 <table><thead><tr><th>Plan</th><th>Starting price</th></tr></thead><tbody>${D.plans.map((o) => `<tr><td>${o.key === p.key ? `${E(o.name)} (this plan)` : lk(o, `${E(o.name)} AI SEO plan`)}</td><td>From ${E(o.price)}* ${E(o.period)}</td></tr>`).join("")}</tbody></table>
-<p>${others.some(ready) ? `Need more? See the ${others.filter(ready).map((o) => lk(o, E(o.name))).join(" and ")} plan${others.filter(ready).length > 1 ? "s" : ""}, or read` : "Read"} about our <a href="/best-seo-services-in-india/">SEO services in India</a>.</p>
 <p><em>${E(D.terms)}</em></p>`;
   const faqs = (p.faqs || []).map(([q, a]) => ({ q, a: `<p>${E(a)}</p>` }));
   const title = `${p.title} | openink Hub`.length <= 60 ? `${p.title} | openink Hub` : p.title;
@@ -56,7 +79,7 @@ ${(p.extras || []).length ? `<h2>Extra services (charged separately)</h2>\n<p>Th
     url, path: rel, status: 200, type: "page", plan: p.key, sitemap: "pages",
     title: `${p.name} AI SEO plan`, h1: p.h1, date: now, modified: now, author: "Openink Hub",
     excerpt: p.description, keyphrase_override: p.keyword, keyphrase_secondary_override: [`${p.name.toLowerCase()} ai seo plan`],
-    categories: [], tags: [], faqs, featured_image: null, content_html: body, content_source: "ai-seo-plans",
+    categories: [], tags: [], faqs, featured_image: null, content_html: body, plan_shared_html: shared, content_source: "ai-seo-plans",
     head: {
       title, lang: "en-US", jsonld: [], links: [{ rel: "canonical", href: url }],
       meta: [

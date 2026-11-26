@@ -770,7 +770,7 @@ function pageTpl(rec) {
   </div>
 </section>
 ${contact}
-<section class="section"><div class="wrap narrow prose"><!--seo:content-->${hubGrids(localizeBody(shape(body, legal)))}<!--/seo:content--></div></section>
+<section class="section"><div class="wrap narrow prose"><!--seo:content-->${hubGrids(localizeBody(shape(body, legal)))}<!--/seo:content--></div></section>${rec.plan_shared_html ? `<section class="section plan-shared"><div class="wrap narrow prose">${rec.plan_shared_html}</div></section>` : ""}
 ${(() => { const k = kitFor(rec, body, legal); return k ? `<section class="section kit"><div class="wrap narrow prose">${localizeBody(k)}</div></section>` : ""; })()}
 ${rec.plan ? `<section class="section section-alt" id="brochure"><div class="wrap narrow">${brochureForm(rec.plan)}</div></section>` : ""}${cityCompare(rec)}${hubArticles(rec)}${rec.plan ? "" : successCta(rec.path, "section section-alt")}${faqs}`, "is-page" + (legal ? " is-legal" : ""));
 }
