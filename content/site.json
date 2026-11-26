@@ -147,6 +147,16 @@
       "description": ""
     },
     {
+      "id": 32,
+      "count": 100,
+      "description": "",
+      "link": "https://openinkhub.io/category/seo-agency-by-city/",
+      "name": "SEO by City",
+      "slug": "seo-agency-by-city",
+      "parent": 0,
+      "path": "/category/seo-agency-by-city/"
+    },
+    {
       "count": 3,
       "name": "AEO",
       "slug": "aeo",
@@ -217,16 +227,6 @@
       "link": "https://openinkhub.io/category/articles/",
       "parent": 0,
       "description": ""
-    },
-    {
-      "id": 32,
-      "count": 0,
-      "description": "",
-      "link": "https://openinkhub.io/category/seo-agency-by-city/",
-      "name": "SEO by City",
-      "slug": "seo-agency-by-city",
-      "parent": 0,
-      "path": "/category/seo-agency-by-city/"
     },
     {
       "id": 1,

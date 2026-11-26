@@ -946,7 +946,7 @@ function listingTpl(rec, posts, label) {
   const cards = posts.map((p, i) => postCard(i < maxImg ? p : { ...p, featured_image: null, _card: null })).join("") || "<p>No articles yet.</p>";
   const months = RECS.filter((r) => r.type === "archive").sort((a, b) => b.path.localeCompare(a.path));
   const filters = CATS.filter((c) => c.count).map((c) =>
-    `<a class="chip${c.path === rec.path || (rec.path === "/category/seo-agency-by-city/" && c.slug === "seo-services") ? " is-on" : ""}" href="${E(c.path)}">${E(c.name)}</a>`).join("") +
+    `<a class="chip${c.path === rec.path ? " is-on" : ""}" href="${E(c.path)}">${E(c.name)}</a>`).join("") +
     months.map((m) => `<a class="chip${m.path === rec.path ? " is-on" : ""}" href="${E(m.path)}">${E(listingLabel(m))}</a>`).join("");
   if (CATX[rec.path]) return categoryTpl(rec, posts, CATX[rec.path], cards, filters);
   return document_(rec, `<!--seo:content--><section class="page-hero page-hero-sm"><div class="wrap">

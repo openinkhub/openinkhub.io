@@ -48,7 +48,7 @@ const BG = ["#061638", "#0a4fb8"];
 const ACCENTS = ["#ffb547", "#41e0c4", "#fcd34d", "#f472b6", "#7dd3fc", "#34d399", "#c4b5fd", "#fb923c", "#fde047", "#a5f3fc", "#fda4af", "#bef264"];
 const CAT_ACCENT = { "SEO": "#fde047", "Local SEO": "#34d399", "AEO": "#f472b6", "GEO": "#c4b5fd", "AIO": "#a5f3fc",
   "GMB": "#34d399", "Backlinks": "#bef264", "WhatsApp Automation": "#4ade80", "AI Tools": "#fda4af", "Articles": "#fda4af", "Website Development": "#ffb547",
-  "SEO · AEO · GEO · AIO": "#7dd3fc" };
+  "SEO · AEO · GEO · AIO": "#7dd3fc", "SEO by City": "#7dd3fc" };
 
 // line illustrations drawn in a 200x200 box (stroke = accent colour)
 const ICONS = {

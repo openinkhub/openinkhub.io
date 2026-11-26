@@ -35,7 +35,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const SRC = path.join(ROOT, "content", "city-posts");
 const PAGES = path.join(ROOT, "content", "pages");
 const BASE = "https://openinkhub.io";
-const CATEGORY = { name: "SEO", path: "/category/seo-agency-by-city/" };
+const CATEGORY = { name: "SEO by City", path: "/category/seo-agency-by-city/" };
 const TODAY = new Date().toISOString().slice(0, 10) + "T09:00:00+05:30";
 
 const E = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
