@@ -241,13 +241,14 @@ export function titleYear(rec, fixes, { year, maxLen = 60, skipPaths = [], skipT
 }
 
 /** Blog posts and guides: the title ends with "in <year>" ("Topic: subtitle in 2027"), any other year removed, within maxLen. */
-export function blogTitleYear(rec, fixes, { year, maxLen = 60, types = ["post", "guide"] }) {
+export function blogTitleYear(rec, fixes, { year, maxLen = 60, types = ["post", "guide"], overrides = {} }) {
   const title = rec.head?.title || "";
   if (!title || !types.includes(rec.type)) return;
   const Y = String(year);
   let core = title.replace(/\s+[|–-]\s+openink Hub$/i, "").trim();
   const endsRight = core.endsWith(` in ${Y}`) && !/\b20\d\d\b/.test(core.slice(0, -8));
-  if (!endsRight) {
+  if (overrides[rec.path]) core = overrides[rec.path]; // hand-written: the automatic title would repeat "in"
+  else if (!endsRight) {
     core = core
       .replace(/\s*\(\s*20\d\d\s+([A-Za-z][^)]*)\)/g, " $1") // "(2026 Guide)" -> "Guide"
       .replace(/\s*\(\s*20\d\d\s*\)/g, "")                    // "(2026)" / "(2027)"

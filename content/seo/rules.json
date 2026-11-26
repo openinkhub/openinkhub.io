@@ -560,10 +560,37 @@
     "keep": []
   },
   "titleYear": {
-    "_note": "Adds the year to titles that have none, if it fits in the title limit.",
+    "_note": "Adds the year to titles that have none, if it fits in the title limit. Blog posts and guides end in \"in <blogYear>\"; blogOverrides are hand-written blog titles (used where the automatic one would repeat \"in\").",
     "year": 2026,
     "blogYear": 2027,
-    "blogTypes": ["post", "guide"],
+    "blogTypes": [
+      "post",
+      "guide"
+    ],
+    "blogOverrides": {
+      "/ai-visibility-checker/": "AI Visibility Checker: See If AI Recommends You in 2027",
+      "/artificial-intelligence-optimization-strategy-how-to-rank-in-ai/": "AI Optimization Strategy: Ranking on AI Search in 2027",
+      "/best-seo-agency-in-aizawl/": "SEO Agency in Aizawl: Local & AI Search for Mizoram in 2027",
+      "/best-seo-agency-in-allahabad/": "SEO Agency in Prayagraj: Local & AI Search in 2027",
+      "/best-seo-agency-in-amravati/": "SEO Agency in Amravati: Vidarbha Local & AI Search in 2027",
+      "/best-seo-agency-in-aurangabad/": "SEO Agency in Chhatrapati Sambhajinagar: Tourism in 2027",
+      "/best-seo-agency-in-bilaspur/": "SEO Agency in Bilaspur: Local & B2B Search in 2027",
+      "/best-seo-agency-in-chandigarh/": "SEO Agency in Chandigarh: Tricity & AI Search in 2027",
+      "/best-seo-agency-in-guwahati/": "SEO Agency in Guwahati: Northeast Local & B2B SEO in 2027",
+      "/best-seo-agency-in-itanagar/": "SEO Agency in Itanagar: Arunachal & Travel Search in 2027",
+      "/best-seo-agency-in-navi-mumbai/": "SEO Agency in Navi Mumbai: Local & B2B SEO in 2027",
+      "/best-seo-agency/": "Best SEO Agency in India: How to Choose a Partner in 2027",
+      "/ecommerce-development/": "Ecommerce Website Development: Start & Scale in 2027",
+      "/ecommerce-website-development-cost/": "Ecommerce Website Development Cost: India Pricing in 2027",
+      "/seo-agency-in-ranchi-top-seo-services-company/": "SEO Services Company in Ranchi: How to Choose in 2027",
+      "/serverless-web-development/": "Serverless Architecture for Web Development in 2027",
+      "/start-ecommerce-website-in-india/": "Start an Ecommerce Website in India: Step by Step in 2027",
+      "/website-development-company-in-bangalore/": "Website Development Company in Bangalore: Guide in 2027",
+      "/website-development-company-in-delhi/": "Website Development Company in Delhi: How to Choose in 2027",
+      "/website-development-location/": "Website Development Company in Your City: Guide in 2027",
+      "/website-maintenance-cost/": "Website Maintenance Cost: India Pricing Guide in 2027",
+      "/whatsapp-business-calling/": "WhatsApp Business Calling: Voice Calls Within Chat in 2027"
+    },
     "skipPaths": [],
     "skipTypes": [],
     "overrides": {

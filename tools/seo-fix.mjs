@@ -234,7 +234,7 @@ export function fixRecord(rec) {
   // year in the title (2026), where it fits in 60 characters
   if (FIX.titleYear) {
     const ty = RULES.titleYear || {};
-    if (ty.blogYear) blogTitleYear(rec, fixes, { year: ty.blogYear, maxLen: RULES.thresholds.title.max, types: ty.blogTypes || ["post", "guide"] });
+    if (ty.blogYear) blogTitleYear(rec, fixes, { year: ty.blogYear, maxLen: RULES.thresholds.title.max, types: ty.blogTypes || ["post", "guide"], overrides: ty.blogOverrides || {} });
     titleYear(rec, fixes, { year: ty.year || new Date().getFullYear(), maxLen: RULES.thresholds.title.max, skipPaths: ty.skipPaths || [], overrides: ty.overrides || {}, skipTypes: ty.skipTypes || [] });
     title = rec.head.title;
   }
