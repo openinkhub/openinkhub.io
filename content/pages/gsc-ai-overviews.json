@@ -1,0 +1,167 @@
+{
+  "url": "https://openinkhub.io/gsc-ai-overviews/",
+  "path": "/gsc-ai-overviews/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 37,
+  "pillar": "Measurement",
+  "intent": "How-to",
+  "format": "How-to",
+  "title": "GSC AI Overviews: Search Console for AEO Reports 2027",
+  "h1": "Using Search Console for AEO and GEO Reporting",
+  "date": "2026-09-03T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "Use GSC for AI Overviews, AEO and GEO reporting: what Search Console shows about AI features, useful filters and a simple monthly report.",
+  "keyphrase_override": "gsc ai overviews",
+  "keyphrase_secondary_override": [
+    "search console ai overviews",
+    "google search console",
+    "aeo reporting",
+    "question queries"
+  ],
+  "categories": [
+    {
+      "name": "AEO",
+      "path": "/category/aeo/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Does Search Console show AI Overviews separately?",
+      "a": "<p>No. Clicks and impressions from AI Overviews and AI Mode are included in the Web search type, without a separate filter.</p>"
+    },
+    {
+      "q": "How can I find question queries in Search Console?",
+      "a": "<p>Use a query filter with a regular expression such as what, how, why, which or can at the start of the query.</p>"
+    },
+    {
+      "q": "What should a monthly AEO report include?",
+      "a": "<p>Question query impressions and clicks, pages with featured snippets, average position for target questions and notes on AI answer checks.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>Using Search Console for AEO and GEO Reporting</h1>\n<p><strong>GSC AI Overviews data</strong> is not reported on its own: Google Search Console includes clicks and impressions from AI Overviews and AI Mode in the Web search type of the Performance report, without a separate filter. Still, Search Console is the best free tool for AEO and GEO reporting. With question filters, page groups and a fixed query list, you can track how your answers perform across Google's AI and classic results.</p>\n<h2>What Search Console shows about AI features</h2>\n<p>Google's guide to <a href=\"https://developers.google.com/search/docs/appearance/ai-features\" target=\"_blank\" rel=\"noopener\">AI features and your website</a> confirms that AI Overviews and AI Mode traffic counts toward the Web search type. So when a page is cited in an overview and someone clicks, that click appears in your normal Performance report. However, you cannot split it out from regular clicks there.</p>\n<p>As a result, GSC AI Overviews reporting works best when you combine Search Console data with your own list of queries that show overviews.</p>\n<h2>Useful filters for AEO reporting</h2>\n<ul>\n<li><strong>Question queries:</strong> use a custom regex filter such as <code>^(what|how|why|which|when|who|can|does|is|are)\\b</code>.</li>\n<li><strong>Long queries:</strong> use a regex like <code>^(\\S+\\s){6,}\\S+$</code> to find queries of seven or more words, which are often conversational.</li>\n<li><strong>Page groups:</strong> filter by URL path, such as <code>/blog/</code> or a service folder.</li>\n<li><strong>Device:</strong> compare mobile and desktop, since voice and AI use differ by device.</li>\n</ul>\n<p>Our guide to <a href=\"/question-research-seo/\">question research</a> explains how to turn these query lists into content ideas.</p>\n<h2>Build a fixed AI Overview query list</h2>\n<ol>\n<li>Search your top 50 target queries and note which show an AI Overview.</li>\n<li>Record whether your page is cited in each overview.</li>\n<li>Save those queries in a sheet with their Search Console impressions, clicks and position.</li>\n<li>Repeat the check every month on the same queries.</li>\n</ol>\n<p>This list gives you a GSC AI Overviews view that Search Console alone cannot. In addition, it shows whether citations rise after you rewrite pages answer-first; see <a href=\"/google-ai-overviews-optimization/\">Google AI Overviews optimization</a> for the method.</p>\n<h2>A simple monthly AEO report</h2>\n<table>\n<thead><tr><th>Metric</th><th>Where from</th></tr></thead>\n<tbody>\n<tr><td>Question query impressions and clicks</td><td>Search Console regex filter</td></tr>\n<tr><td>Featured snippets held</td><td>Manual check or rank tool</td></tr>\n<tr><td>AI Overview citations</td><td>Fixed query list</td></tr>\n<tr><td>Average position for target questions</td><td>Search Console</td></tr>\n<tr><td>Branded query trend</td><td>Search Console</td></tr>\n</tbody>\n</table>\n<p>Then add one line of commentary per metric. Leadership values the \"why\" more than the numbers.</p>\n<h2>Reading the trends carefully</h2>\n<p>When an AI Overview appears for a query, clicks may fall even if your position holds, because some people get their answer on the page. So look at impressions and position alongside clicks. Rising impressions with steady clicks can still mean more visibility. Our guide to <a href=\"/zero-click-search/\">zero-click search</a> covers how to explain this to stakeholders.</p>\n<h2>Connect Search Console to a dashboard</h2>\n<p>Looker Studio connects to Search Console for free. Build one page with question queries, one with branded queries and one with your target pages. Then add your AI Overview citation sheet as a second data source. Our <a href=\"/ai-visibility-dashboard/\">AI visibility dashboard</a> template shows the layout.</p>\n<h2>Limits of Search Console</h2>\n<ul>\n<li>No separate AI Overview or AI Mode filter.</li>\n<li>Data is sampled and anonymised for rare queries.</li>\n<li>Only 16 months of history is kept.</li>\n</ul>\n<p>Export data regularly if you want longer trends. Our <a href=\"/best-answer-engine-optimization-services/\">AEO services</a> include monthly reporting built on Search Console and AI Overview checks.</p>\n<h2>Frequently asked questions</h2><h3>Does Search Console show AI Overviews separately?</h3><p>No. Clicks and impressions from AI Overviews and AI Mode are included in the Web search type, without a separate filter.</p><h3>How can I find question queries in Search Console?</h3><p>Use a query filter with a regular expression such as what, how, why, which or can at the start of the query.</p><h3>What should a monthly AEO report include?</h3><p>Question query impressions and clicks, pages with featured snippets, average position for target questions and notes on AI answer checks.</p>",
+  "head": {
+    "title": "GSC AI Overviews: Search Console for AEO Reports 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/gsc-ai-overviews/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "Use GSC for AI Overviews, AEO and GEO reporting: what Search Console shows about AI features, useful filters and a simple monthly report."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "GSC AI Overviews: Search Console for AEO Reports 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "Use GSC for AI Overviews, AEO and GEO reporting: what Search Console shows about AI features, useful filters and a simple monthly report."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/gsc-ai-overviews/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-09-03T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "AEO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/gsc-ai-overviews/#article",
+            "headline": "GSC AI Overviews: Search Console for AEO Reports 2027",
+            "description": "Use GSC for AI Overviews, AEO and GEO reporting: what Search Console shows about AI features, useful filters and a simple monthly report.",
+            "url": "https://openinkhub.io/gsc-ai-overviews/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-09-03T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "gsc ai overviews, search console ai overviews, google search console, aeo reporting, question queries",
+            "articleSection": "AEO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/gsc-ai-overviews/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AEO",
+                "item": "https://openinkhub.io/category/aeo/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "GSC AI Overviews: Search Console for AEO Reports 2027",
+                "item": "https://openinkhub.io/gsc-ai-overviews/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

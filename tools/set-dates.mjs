@@ -1,7 +1,7 @@
 /**
  * Publish dates for the blog: one article per day within each group, starting 13 July 2026, no date repeated inside
  * a group. Groups: SEO city guides, Website Development (posts + guides), WhatsApp Automation (posts + guides) and
- * all other blog posts. Order inside a group follows the current publish order (oldest first, then brief number).
+ * all other blog posts. Order inside a group follows the current publish order (oldest first, then brief or topic number).
  *
  *   node tools/set-dates.mjs      (then npm test)
  *
@@ -43,7 +43,7 @@ function walk(o, D, M) {
 
 const report = [];
 for (const [g, list] of Object.entries(groups)) {
-  list.sort((a, b) => (a.j.date || "").localeCompare(b.j.date || "") || (a.j.brief_id || 0) - (b.j.brief_id || 0) || a.j.path.localeCompare(b.j.path));
+  list.sort((a, b) => (a.j.date || "").localeCompare(b.j.date || "") || (a.j.brief_id || a.j.topic_id || 0) - (b.j.brief_id || b.j.topic_id || 0) || a.j.path.localeCompare(b.j.path));
   list.forEach((r, i) => {
     const D = day(i);
     const M = (r.j.modified || "") > D ? r.j.modified.slice(0, 19) : D;

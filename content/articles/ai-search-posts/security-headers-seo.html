@@ -1,0 +1,41 @@
+<p><strong>Security headers and SEO</strong> connect through trust. Headers such as HSTS, Content Security Policy (CSP), X-Content-Type-Options and Cross-Origin-Opener-Policy (COOP) tell browsers how to protect visitors on your site. They are not direct ranking factors, beyond HTTPS being a light signal. Still, they reduce the risk of hacks, malware warnings and spam injections, which can badly damage rankings and trust.</p>
+<h2>Why security headers matter for SEO</h2>
+<p>Without good security headers, SEO suffers in a quiet way. A hacked site can be flagged with a "This site may be harmful" warning, lose rankings or have spam pages injected into its index. Security headers make many common attacks harder. As a result, they protect the trust that rankings, clicks and conversions depend on. Our guides to <a href="/website-security/">website security</a> and <a href="/business-website-security/">business website security</a> cover the wider picture.</p>
+<h2>The main security headers</h2>
+<table>
+<thead><tr><th>Header</th><th>What it does</th></tr></thead>
+<tbody>
+<tr><td>Strict-Transport-Security (HSTS)</td><td>Forces browsers to use HTTPS on future visits</td></tr>
+<tr><td>Content-Security-Policy (CSP)</td><td>Limits which scripts, styles and sources can load</td></tr>
+<tr><td>X-Content-Type-Options</td><td>Stops browsers from guessing file types</td></tr>
+<tr><td>Referrer-Policy</td><td>Controls how much referrer data you share</td></tr>
+<tr><td>Permissions-Policy</td><td>Turns off browser features you do not use, such as the camera</td></tr>
+<tr><td>Cross-Origin-Opener-Policy (COOP)</td><td>Isolates your page from pop-ups on other origins</td></tr>
+<tr><td>X-Frame-Options or frame-ancestors</td><td>Prevents other sites from framing your pages</td></tr>
+</tbody>
+</table>
+<h2>HSTS</h2>
+<p>HSTS tells browsers to always use HTTPS for your domain. Start with a short <code>max-age</code>, such as one day, then raise it to a year once you are sure every subdomain supports HTTPS. Only add <code>preload</code> when you are certain, because removal from the preload list is slow.</p>
+<h2>Content Security Policy</h2>
+<p>CSP is the most powerful header and the easiest to get wrong. A strict policy can block your own scripts, analytics or embeds. So begin with <code>Content-Security-Policy-Report-Only</code>, collect reports for a week or two, fix what breaks and then enforce. Keep inline scripts to a minimum, since they make a strong policy harder.</p>
+<h2>COOP and other isolation headers</h2>
+<p>COOP keeps your page in its own browsing context, which protects against some cross-site attacks. It can affect pop-up sign-in flows, so test logins and payment windows after you add it. In addition, check third-party widgets, since some rely on cross-origin access.</p>
+<h2>How to add security headers</h2>
+<ol>
+<li>Check your current headers in browser DevTools under the Network tab.</li>
+<li>Add headers at the server, CDN or hosting level, for example in a <code>_headers</code> file or server config.</li>
+<li>Start with HSTS, X-Content-Type-Options, Referrer-Policy and Permissions-Policy, which rarely break anything.</li>
+<li>Add CSP in report-only mode, then enforce it once reports are clean.</li>
+<li>Retest key pages, forms and checkout after each change.</li>
+</ol>
+<h2>Do security headers affect crawlers?</h2>
+<p>Search engine and AI crawlers ignore most browser security headers, so they will not block indexing. However, a broken CSP can stop scripts that render content, which may hide text from users and from Google's renderer. That is why report-only testing matters. See <a href="/javascript-seo-ai/">JavaScript SEO for AI</a> for the rendering side.</p>
+<h2>Security headers SEO checklist</h2>
+<ul>
+<li>HTTPS everywhere with HSTS.</li>
+<li>CSP tested in report-only mode before enforcement.</li>
+<li>X-Content-Type-Options set to nosniff.</li>
+<li>Referrer-Policy and Permissions-Policy set.</li>
+<li>Framing restricted with frame-ancestors.</li>
+</ul>
+<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers" target="_blank" rel="noopener">MDN reference on HTTP headers</a> explains every option. Security headers SEO checks also appear in our <a href="/technical-seo-checklist/">technical SEO checklist</a>, and our <a href="/best-seo-services-in-india/">SEO services</a> can review and set them for you.</p>

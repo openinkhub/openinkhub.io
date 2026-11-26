@@ -1,0 +1,167 @@
+{
+  "url": "https://openinkhub.io/ai-visibility-checker/",
+  "path": "/ai-visibility-checker/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 57,
+  "pillar": "Commercial",
+  "intent": "Transactional",
+  "format": "Tool",
+  "title": "AI Visibility Checker: Test Your Brand in AI 2027",
+  "h1": "AI Visibility Checker: How to Test Your Brand in AI Answers",
+  "date": "2026-09-23T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "Use this AI visibility checker method to test how ChatGPT, Gemini and Perplexity see your brand, score the results and know what to fix first.",
+  "keyphrase_override": "ai visibility checker",
+  "keyphrase_secondary_override": [
+    "check ai visibility",
+    "ai brand check",
+    "chatgpt brand check",
+    "ai visibility score"
+  ],
+  "categories": [
+    {
+      "name": "GEO",
+      "path": "/category/geo/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "How can I check my brand's AI visibility for free?",
+      "a": "<p>Ask ChatGPT, Gemini and Perplexity ten buyer questions about your category, note whether they mention you and how they describe you, and repeat monthly.</p>"
+    },
+    {
+      "q": "Why do results differ between AI tools?",
+      "a": "<p>Each assistant uses different search sources, models and settings, so the same question can name different brands in each tool.</p>"
+    },
+    {
+      "q": "What is a good AI visibility score?",
+      "a": "<p>There is no universal benchmark. Compare yourself with your closest competitors on the same prompts and track your trend over time.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>AI Visibility Checker: How to Test Your Brand in AI Answers</h1>\n<p><strong>An AI visibility checker</strong> tells you whether ChatGPT, Gemini, Perplexity and other assistants mention your brand when buyers ask about your category. You can run a reliable check yourself in about an hour: ask each tool ten buyer questions, score whether you appear and how you are described, then repeat each month. This guide gives you that method, plus a simple scoring sheet.</p>\n<h2>Why check your AI visibility</h2>\n<p>More buyers now ask an AI tool for recommendations before they search or visit a site. If the answer names three competitors and not you, you lose that buyer before you know they existed. A regular check shows where you stand and whether your work is moving the numbers.</p>\n<h2>Step 1: Write ten buyer prompts</h2>\n<p>Use the words your customers use. Mix these types:</p>\n<ul>\n<li><strong>Discovery:</strong> \"Which web design agencies in Kolkata build ecommerce sites?\"</li>\n<li><strong>Comparison:</strong> \"Is a freelancer or an agency better for a small clinic's SEO?\"</li>\n<li><strong>Cost:</strong> \"How much does monthly SEO cost in India?\"</li>\n<li><strong>Problem:</strong> \"Why is my business not showing on Google Maps?\"</li>\n<li><strong>Brand:</strong> \"What does [your brand] do, and is it reliable?\"</li>\n</ul>\n<p>For a fuller method, see our guide to building an <a href=\"/ai-prompt-set/\">AI prompt set</a>.</p>\n<h2>Step 2: Run the prompts in each tool</h2>\n<ol>\n<li>Open ChatGPT, Gemini, Perplexity and Copilot in a private or logged-out window where possible.</li>\n<li>Paste each prompt exactly as written.</li>\n<li>Run each prompt twice, since answers vary.</li>\n<li>Copy the answer and any cited sources into a sheet.</li>\n</ol>\n<h2>Step 3: Score the results</h2>\n<table>\n<thead><tr><th>Check</th><th>Points</th></tr></thead>\n<tbody>\n<tr><td>Brand mentioned</td><td>2</td></tr>\n<tr><td>Brand mentioned first or second</td><td>1</td></tr>\n<tr><td>Your website cited as a source</td><td>1</td></tr>\n<tr><td>Description is accurate</td><td>1</td></tr>\n</tbody>\n</table>\n<p>Each prompt run can score up to 5 points. Add up the total and divide by the maximum possible to get a percentage. That percentage is your AI visibility score for the month.</p>\n<h2>Step 4: Read the gaps</h2>\n<ul>\n<li><strong>Not mentioned at all:</strong> you likely need stronger pages and more mentions on the sources AI tools cite.</li>\n<li><strong>Mentioned, but described wrongly:</strong> your brand facts are inconsistent; see <a href=\"/entity-seo/\">entity SEO</a>.</li>\n<li><strong>Mentioned, but never cited:</strong> your pages may be hard to quote or hard to crawl.</li>\n<li><strong>Competitors always first:</strong> study the sources cited, as in our <a href=\"/ai-competitor-analysis/\">AI competitor analysis</a> template.</li>\n</ul>\n<h2>Why results differ between tools</h2>\n<p>Each assistant uses different search sources, models and settings. Gemini can lean on Google Search, while Perplexity runs its own web retrieval and lists sources openly. So the same prompt may name different brands in each tool. That is normal; track each tool separately rather than averaging them into one number.</p>\n<h2>Paid tools vs a manual AI visibility checker</h2>\n<p>A manual check works well for ten to thirty prompts. If you need hundreds of prompts, several countries or daily data, a paid tool saves time; our comparison of <a href=\"/ai-search-tracking-tools/\">AI search tracking tools</a> covers what to look for. Either way, keep the prompts the same each month so the trend means something.</p>\n<h2>Get an expert check</h2>\n<p>If you want a second opinion, our <a href=\"/report/\">SEO, AEO, GEO and AIO audit report</a> includes an AI visibility snapshot for your brand, with the gaps explained in plain language. For background on how AI features work in Google, see its guide to <a href=\"https://developers.google.com/search/docs/appearance/ai-features\" target=\"_blank\" rel=\"noopener\">AI features and your website</a>. When you are ready to improve the score your AI visibility checker gives you, our <a href=\"/generative-engine-optimization/\">generative engine optimization service</a> can help.</p>\n<h2>Frequently asked questions</h2><h3>How can I check my brand's AI visibility for free?</h3><p>Ask ChatGPT, Gemini and Perplexity ten buyer questions about your category, note whether they mention you and how they describe you, and repeat monthly.</p><h3>Why do results differ between AI tools?</h3><p>Each assistant uses different search sources, models and settings, so the same question can name different brands in each tool.</p><h3>What is a good AI visibility score?</h3><p>There is no universal benchmark. Compare yourself with your closest competitors on the same prompts and track your trend over time.</p>",
+  "head": {
+    "title": "AI Visibility Checker: Test Your Brand in AI 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/ai-visibility-checker/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "Use this AI visibility checker method to test how ChatGPT, Gemini and Perplexity see your brand, score the results and know what to fix first."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "AI Visibility Checker: Test Your Brand in AI 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "Use this AI visibility checker method to test how ChatGPT, Gemini and Perplexity see your brand, score the results and know what to fix first."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/ai-visibility-checker/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-09-23T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "GEO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/ai-visibility-checker/#article",
+            "headline": "AI Visibility Checker: Test Your Brand in AI 2027",
+            "description": "Use this AI visibility checker method to test how ChatGPT, Gemini and Perplexity see your brand, score the results and know what to fix first.",
+            "url": "https://openinkhub.io/ai-visibility-checker/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-09-23T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "ai visibility checker, check ai visibility, ai brand check, chatgpt brand check, ai visibility score",
+            "articleSection": "GEO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/ai-visibility-checker/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "GEO",
+                "item": "https://openinkhub.io/category/geo/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI Visibility Checker: Test Your Brand in AI 2027",
+                "item": "https://openinkhub.io/ai-visibility-checker/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

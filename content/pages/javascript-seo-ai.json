@@ -1,0 +1,167 @@
+{
+  "url": "https://openinkhub.io/javascript-seo-ai/",
+  "path": "/javascript-seo-ai/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 30,
+  "pillar": "AIO",
+  "intent": "Technical",
+  "format": "Technical",
+  "title": "JavaScript SEO for AI: Do Bots See Your Content? 2027",
+  "h1": "Does JavaScript Hide Your Content From AI Bots?",
+  "date": "2026-08-27T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "JavaScript SEO for AI: why many AI crawlers do not run JavaScript, how to test what they see and the rendering fixes that keep content visible.",
+  "keyphrase_override": "javascript seo ai",
+  "keyphrase_secondary_override": [
+    "javascript rendering",
+    "ai crawlers",
+    "server-side rendering",
+    "client-side rendering"
+  ],
+  "categories": [
+    {
+      "name": "AIO",
+      "path": "/category/aio/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Do AI crawlers run JavaScript?",
+      "a": "<p>Many AI crawlers fetch only the raw HTML and do not run JavaScript, so content that appears only after scripts run may be invisible to them.</p>"
+    },
+    {
+      "q": "How can I check what an AI bot sees?",
+      "a": "<p>View the page source or fetch the page with a tool such as curl. If the main text is missing from the raw HTML, many AI bots will miss it too.</p>"
+    },
+    {
+      "q": "What is the best fix for JavaScript-heavy sites?",
+      "a": "<p>Server-side rendering or static generation, so the main content and links are in the HTML the server sends.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>Does JavaScript Hide Your Content From AI Bots?</h1>\n<p><strong>JavaScript SEO for AI</strong> is about making sure AI crawlers can see your content even if they do not run JavaScript. Googlebot renders JavaScript, but many AI crawlers fetch only the raw HTML the server sends. So if your main text, links or prices appear only after scripts run, tools like ChatGPT search, Perplexity and Claude may see an almost empty page.</p>\n<h2>Why AI bots miss JavaScript content</h2>\n<p>Rendering JavaScript costs time and computing power. Google invested in a rendering service years ago, and it explains the process in its guide to <a href=\"https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics\" target=\"_blank\" rel=\"noopener\">JavaScript SEO basics</a>. Many newer AI crawlers, however, read the HTML response and move on. As a result, a single-page app that builds everything in the browser can look blank to them.</p>\n<p>For JavaScript SEO, AI assistants now matter almost as much as Google, since they are a growing source of traffic and recommendations. Our general guide to <a href=\"/javascript-seo/\">JavaScript SEO</a> covers the Google side in depth.</p>\n<h2>How to test what AI bots see</h2>\n<ol>\n<li><strong>View source.</strong> Right-click a page and choose \"View page source\", not \"Inspect\". If the main text is missing, bots that skip JavaScript will miss it too.</li>\n<li><strong>Fetch with curl.</strong> Run <code>curl -A \"GPTBot\" https://yourdomain.com/page/</code> and search the output for a key sentence.</li>\n<li><strong>Disable JavaScript.</strong> Turn it off in your browser and reload. Whatever disappears is at risk.</li>\n<li><strong>Check links.</strong> Make sure navigation uses real <code>&lt;a href&gt;</code> links in the HTML, so crawlers can find other pages.</li>\n</ol>\n<h2>Rendering options compared</h2>\n<table>\n<thead><tr><th>Method</th><th>How it works</th><th>AI bot friendly?</th></tr></thead>\n<tbody>\n<tr><td>Client-side rendering</td><td>Browser builds the page from scripts</td><td>Poor</td></tr>\n<tr><td>Server-side rendering</td><td>Server sends complete HTML for each request</td><td>Good</td></tr>\n<tr><td>Static generation</td><td>Pages built as HTML in advance</td><td>Very good</td></tr>\n<tr><td>Hybrid or islands</td><td>Static HTML with small interactive parts</td><td>Very good</td></tr>\n</tbody>\n</table>\n<p>For most content sites, static generation or server-side rendering is the safest choice. Frameworks such as Next.js, Nuxt and Astro support both.</p>\n<h2>Common JavaScript problems for AI crawlers</h2>\n<ul>\n<li>Text loaded from an API after the page opens.</li>\n<li>Tabs or accordions that only fetch content on click.</li>\n<li>Prices or stock levels injected by script.</li>\n<li>Links built as buttons with click handlers instead of real URLs.</li>\n<li>Infinite scroll with no paginated fallback.</li>\n<li>Metadata such as titles and canonicals set only by JavaScript.</li>\n</ul>\n<h2>Fixes that work</h2>\n<p>First, move key content into the server response. Then keep interactive extras, such as filters or calculators, on top of that base. Next, make sure titles, descriptions, canonicals and structured data are present in the HTML. Finally, make JavaScript SEO AI testing part of every release and retest with curl, since a framework update can quietly change rendering.</p>\n<h2>What about dynamic rendering?</h2>\n<p>Dynamic rendering serves a pre-rendered version to bots and the JavaScript version to people. Google now describes it as a workaround rather than a long-term solution. It also adds a maintenance burden and risks drift between versions. So prefer proper server-side or static rendering where you can.</p>\n<h2>JavaScript SEO AI checklist</h2>\n<ul>\n<li>Main text present in view-source.</li>\n<li>Navigation links are real anchors.</li>\n<li>Meta tags and schema present without scripts.</li>\n<li>Important images have alt text in the HTML.</li>\n<li>AI crawlers allowed, as in our guide to <a href=\"/ai-crawlers-robots-txt/\">AI crawlers in robots.txt</a>.</li>\n</ul>\n<p>This checklist fits inside the wider <a href=\"/technical-seo-checklist/\">technical SEO checklist for AI search</a>. Our <a href=\"/artificial-intelligence-optimization/\">AI optimization service</a> can audit rendering across your templates and fix what bots cannot see.</p>\n<h2>Frequently asked questions</h2><h3>Do AI crawlers run JavaScript?</h3><p>Many AI crawlers fetch only the raw HTML and do not run JavaScript, so content that appears only after scripts run may be invisible to them.</p><h3>How can I check what an AI bot sees?</h3><p>View the page source or fetch the page with a tool such as curl. If the main text is missing from the raw HTML, many AI bots will miss it too.</p><h3>What is the best fix for JavaScript-heavy sites?</h3><p>Server-side rendering or static generation, so the main content and links are in the HTML the server sends.</p>",
+  "head": {
+    "title": "JavaScript SEO for AI: Do Bots See Your Content? 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/javascript-seo-ai/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "JavaScript SEO for AI: why many AI crawlers do not run JavaScript, how to test what they see and the rendering fixes that keep content visible."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "JavaScript SEO for AI: Do Bots See Your Content? 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "JavaScript SEO for AI: why many AI crawlers do not run JavaScript, how to test what they see and the rendering fixes that keep content visible."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/javascript-seo-ai/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-08-27T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "AIO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/javascript-seo-ai/#article",
+            "headline": "JavaScript SEO for AI: Do Bots See Your Content? 2027",
+            "description": "JavaScript SEO for AI: why many AI crawlers do not run JavaScript, how to test what they see and the rendering fixes that keep content visible.",
+            "url": "https://openinkhub.io/javascript-seo-ai/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-08-27T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "javascript seo ai, javascript rendering, ai crawlers, server-side rendering, client-side rendering",
+            "articleSection": "AIO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/javascript-seo-ai/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AIO",
+                "item": "https://openinkhub.io/category/aio/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "JavaScript SEO for AI: Do Bots See Your Content? 2027",
+                "item": "https://openinkhub.io/javascript-seo-ai/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

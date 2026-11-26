@@ -1,0 +1,167 @@
+{
+  "url": "https://openinkhub.io/how-to-do-aeo/",
+  "path": "/how-to-do-aeo/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 4,
+  "pillar": "AEO",
+  "intent": "How-to",
+  "format": "How-to",
+  "title": "How to Do AEO: 7 Steps to Win AI Answers in 2027",
+  "h1": "How to Do Answer Engine Optimization in 7 Steps",
+  "date": "2026-08-01T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "How to do AEO in 7 steps: pick questions, write answer-first sections, add FAQs and schema, fix technical basics and track where your answers appear.",
+  "keyphrase_override": "how to do aeo",
+  "keyphrase_secondary_override": [
+    "answer engine optimization steps",
+    "aeo strategy",
+    "aeo checklist",
+    "answer-first content"
+  ],
+  "categories": [
+    {
+      "name": "AEO",
+      "path": "/category/aeo/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "What is the first step in AEO?",
+      "a": "<p>Start by listing the real questions your buyers ask, then check which of your pages already rank for them. Those pages are your fastest AEO wins.</p>"
+    },
+    {
+      "q": "Do I need special tools for AEO?",
+      "a": "<p>No. Google Search Console, the People Also Ask box and your own sales questions are enough to start. Paid tools help later with tracking at scale.</p>"
+    },
+    {
+      "q": "How do I know if AEO is working?",
+      "a": "<p>Watch for featured snippets, more impressions on question queries in Search Console, and your brand appearing in AI answers for your tracked questions.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>How to Do Answer Engine Optimization in 7 Steps</h1>\n<p><strong>How to do AEO:</strong> list the questions your buyers ask, match each one to a page, open that page with a short direct answer, structure the rest for easy extraction, add genuine FAQs and valid schema, fix crawl and speed basics, then track where your answers appear. Those seven steps cover most of answer engine optimization for a small or mid-sized site.</p>\n<p>Below, each step comes with the practical detail you need to act on it this week.</p>\n<h2>Step 1: Collect real questions</h2>\n<p>Start with what people actually ask, not with a keyword tool. Look at sales call notes, support tickets, WhatsApp chats, People Also Ask boxes and the question queries in Google Search Console. Aim for 30 to 50 questions across the buying journey. Our guide to <a href=\"/question-research-seo/\">question research for SEO</a> lists the best sources.</p>\n<h2>Step 2: Map one main question to one page</h2>\n<p>Next, decide which page should answer each question. One page can handle a main question plus a few close follow-ups. However, two pages chasing the same question will compete, so merge or refocus them; our article on <a href=\"/keyword-cannibalization/\">keyword cannibalization</a> shows how.</p>\n<h2>Step 3: Write the answer first</h2>\n<p>Under the main heading, give a complete answer in 40 to 60 words. Use the words of the question, state the fact plainly and avoid a slow wind-up. Then add context, examples and limits below it. This pattern, explained in our guide to <a href=\"/answer-first-content/\">answer-first content</a>, is the heart of how to do AEO well.</p>\n<h2>Step 4: Structure for extraction</h2>\n<p>Engines quote content that is easy to lift. So match the format to the question:</p>\n<ul>\n<li>Processes become numbered steps.</li>\n<li>Comparisons become tables with clear column names.</li>\n<li>Definitions become one or two plain sentences.</li>\n<li>Options become short bulleted lists.</li>\n</ul>\n<p>Also, use headings phrased like the questions people type. Our guide to <a href=\"/featured-snippet-optimization/\">featured snippet optimization</a> goes deeper on formats.</p>\n<h2>Step 5: Add FAQs and schema</h2>\n<p>Add three to eight real follow-up questions near the end of the page. Keep each answer short and specific. Then add valid structured data, such as Article, Organization and BreadcrumbList. FAQ rich results now show for very few sites, yet clear question and answer blocks still help readers and AI tools; see <a href=\"/faq-schema/\">does FAQ schema still work</a> for the detail.</p>\n<h2>Step 6: Fix the technical basics</h2>\n<p>An answer engine cannot quote a page it cannot fetch. Check that key pages are indexable, load fast on mobile and show their main text in the raw HTML. In addition, review which AI crawlers your robots.txt allows. Our <a href=\"/technical-seo-checklist/\">technical SEO checklist</a> covers each item.</p>\n<h2>Step 7: Track and repeat</h2>\n<p>Finally, measure results every month. In Search Console, filter for question queries and watch impressions and clicks. Note which pages win featured snippets. Then run your main questions in AI tools and record whether they cite you. Our guide to <a href=\"/gsc-ai-overviews/\">Search Console reporting for AEO</a> gives a simple template.</p>\n<p>After that, repeat the cycle with the next batch of questions. AEO is not a one-off project; buyer questions change, and so do the pages that answer them best.</p>\n<h2>How long does it take?</h2>\n<p>Once you know how to do AEO, the timing is fairly predictable. Pages that already rank can win snippets within a few weeks of an answer-first rewrite. New topics take longer, often three to six months, because the page must first earn rankings and trust. Google's guide to <a href=\"https://developers.google.com/search/docs/fundamentals/creating-helpful-content\" target=\"_blank\" rel=\"noopener\">creating helpful content</a> is worth reading before you begin.</p>\n<p>If you want a team to handle it, our <a href=\"/best-answer-engine-optimization-services/\">answer engine optimization services</a> follow exactly this process, and an <a href=\"/report/\">AEO audit</a> shows which step to tackle first.</p>\n<h2>Frequently asked questions</h2><h3>What is the first step in AEO?</h3><p>Start by listing the real questions your buyers ask, then check which of your pages already rank for them. Those pages are your fastest AEO wins.</p><h3>Do I need special tools for AEO?</h3><p>No. Google Search Console, the People Also Ask box and your own sales questions are enough to start. Paid tools help later with tracking at scale.</p><h3>How do I know if AEO is working?</h3><p>Watch for featured snippets, more impressions on question queries in Search Console, and your brand appearing in AI answers for your tracked questions.</p>",
+  "head": {
+    "title": "How to Do AEO: 7 Steps to Win AI Answers in 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/how-to-do-aeo/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "How to do AEO in 7 steps: pick questions, write answer-first sections, add FAQs and schema, fix technical basics and track where your answers appear."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "How to Do AEO: 7 Steps to Win AI Answers in 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "How to do AEO in 7 steps: pick questions, write answer-first sections, add FAQs and schema, fix technical basics and track where your answers appear."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/how-to-do-aeo/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-08-01T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "AEO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/how-to-do-aeo/#article",
+            "headline": "How to Do AEO: 7 Steps to Win AI Answers in 2027",
+            "description": "How to do AEO in 7 steps: pick questions, write answer-first sections, add FAQs and schema, fix technical basics and track where your answers appear.",
+            "url": "https://openinkhub.io/how-to-do-aeo/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-08-01T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "how to do aeo, answer engine optimization steps, aeo strategy, aeo checklist, answer-first content",
+            "articleSection": "AEO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/how-to-do-aeo/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AEO",
+                "item": "https://openinkhub.io/category/aeo/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "How to Do AEO: 7 Steps to Win AI Answers in 2027",
+                "item": "https://openinkhub.io/how-to-do-aeo/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

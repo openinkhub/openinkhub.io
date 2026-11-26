@@ -1,0 +1,31 @@
+<p><strong>To track AI traffic in GA4,</strong> create a custom channel group with an "AI assistants" channel that matches referral sources such as chatgpt.com, perplexity.ai, gemini.google.com and copilot.microsoft.com, place it above the Referral channel, and then use it in your acquisition reports. Custom channel groups also apply to past data, so you see historical AI visits as soon as it is set up.</p>
+<h2>Why AI traffic needs its own channel</h2>
+<p>Many teams go looking for their AI traffic: GA4 files visits from ChatGPT or Perplexity under Referral by default, mixed in with every other website that links to you. As a result, the AI share is hard to see. A dedicated channel makes AI traffic visible in every report, next to Organic Search, Paid Search and Direct.</p>
+<h2>Step-by-step setup</h2>
+<ol>
+<li>In GA4, open <strong>Admin</strong>, then <strong>Data display</strong>, then <strong>Channel groups</strong>.</li>
+<li>Click <strong>Create new channel group</strong> and name it, for example "Channels with AI".</li>
+<li>Click <strong>Add new channel</strong> and call it "AI assistants".</li>
+<li>Set the condition to <strong>Source</strong> matches regex, and enter a pattern such as <code>.*(chatgpt|openai|perplexity|gemini\.google|copilot\.microsoft|claude\.ai|you\.com).*</code></li>
+<li>Save, then drag "AI assistants" above "Referral" in the list, since GA4 applies the first matching rule.</li>
+<li>Save the channel group.</li>
+</ol>
+<p>Google's help article on <a href="https://support.google.com/analytics/answer/13051316" target="_blank" rel="noopener">custom channel groups</a> explains each screen in detail.</p>
+<h2>See the data in reports</h2>
+<p>Open <strong>Reports</strong>, then <strong>Acquisition</strong>, then <strong>Traffic acquisition</strong>. Next, change the primary dimension to your new channel group. You will now see "AI assistants" as its own row, with sessions, engagement and key events. In addition, you can build an exploration that shows AI traffic by landing page, which tells you which pages AI tools send people to.</p>
+<h2>Why some AI traffic stays hidden</h2>
+<p>Not every AI visit carries a referrer. Some mobile apps and desktop apps open links without passing the source, so those visits land in Direct. Also, a person who reads an AI answer and then searches your brand on Google shows up as Organic Search. So your AI channel is a minimum count, not the full picture.</p>
+<p>To fill the gap, add a "How did you hear about us?" question to forms. Our guide to <a href="/ai-search-roi/">AI search ROI</a> explains how to combine both sources.</p>
+<h2>Track conversions from AI traffic</h2>
+<p>Make sure your key events, such as form submissions, calls and purchases, are marked in GA4. Then compare the conversion rate of AI traffic with other channels. Visitors from AI tools often arrive with a clear question already answered, so their intent can be high. Report this figure monthly in your <a href="/ai-visibility-dashboard/">AI visibility dashboard</a>.</p>
+<h2>Keep the regex up to date</h2>
+<p>New assistants appear often, and existing ones change domains. Review your source list every quarter. Check the Referral channel for new AI-related domains, then add them to the pattern. A short note in your analytics log about each change helps future reviews.</p>
+<h2>AI traffic GA4 checklist</h2>
+<ul>
+<li>Custom channel group created with an AI assistants channel.</li>
+<li>AI channel placed above Referral.</li>
+<li>Key events marked as conversions.</li>
+<li>Landing page exploration saved for AI traffic.</li>
+<li>Regex reviewed every quarter.</li>
+</ul>
+<p>Pair this setup with prompt tracking from our <a href="/ai-prompt-set/">AI prompt set</a> guide, so you see both mentions and visits. Our <a href="/generative-engine-optimization/">GEO service</a> can set up AI traffic GA4 reporting for you, and our guide to <a href="/ai-search-tracking-tools/">AI search tracking tools</a> covers the visibility side.</p>

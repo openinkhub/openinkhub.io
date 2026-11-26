@@ -1,0 +1,35 @@
+<p><strong>Markdown for AI</strong> means offering a plain-text or Markdown copy of a web page so language models can read it without menus, scripts and layout code. It can help documentation sites and developer tools, where AI assistants often fetch pages directly. For most business websites, though, clean semantic HTML already works well, and Markdown copies add little.</p>
+<h2>Why the idea exists</h2>
+<p>A modern page can carry hundreds of kilobytes of HTML, CSS and JavaScript around a few hundred words of content. When an AI tool fetches the page, it must strip all of that to find the text. A Markdown version skips that step: headings, lists, links and code blocks stay, while everything else goes. In addition, Markdown is compact, so more content fits within a model's context window.</p>
+<h2>When Markdown versions help</h2>
+<ul>
+<li><strong>Developer documentation:</strong> coding assistants often read docs, and Markdown keeps code samples intact.</li>
+<li><strong>Large knowledge bases:</strong> support articles that users paste into AI tools.</li>
+<li><strong>API references:</strong> long, structured pages that benefit from a clean text view.</li>
+</ul>
+<p>For these sites, a common pattern is to serve the Markdown at the same URL with <code>.md</code> added, and to list key pages in an llms.txt file. Our guide to <a href="/llms-txt/">llms.txt</a> explains that file.</p>
+<h2>When they add little</h2>
+<p>For a service business with 20 to 50 pages, the main text is usually easy to extract already, especially if the site is static or rendered on the server. Instead of Markdown copies, focus on clear headings, real text instead of images and fast loading. Our <a href="/technical-seo-checklist/">technical SEO checklist</a> covers those basics.</p>
+<h2>How to publish Markdown copies safely</h2>
+<ol>
+<li>Generate the Markdown from the same source as the HTML, so both always match.</li>
+<li>Keep the HTML page as the canonical version.</li>
+<li>Do not link the Markdown copies from your main navigation.</li>
+<li>Add an <code>X-Robots-Tag: noindex</code> header to the copies if you do not want them in search results.</li>
+<li>List the copies in llms.txt if you use one.</li>
+</ol>
+<h2>Avoid cloaking</h2>
+<p>The Markdown copy must say the same thing as the HTML page. Showing bots different content from what people see is called cloaking, and it breaks Google's <a href="https://developers.google.com/search/docs/essentials/spam-policies" target="_blank" rel="noopener">spam policies</a>. So never add extra claims, keywords or instructions to the copy. If you would not show it to a visitor, do not show it to a bot.</p>
+<h2>Better first steps than Markdown for AI</h2>
+<p>Before building Markdown versions, check that your HTML already serves AI tools well:</p>
+<ul>
+<li>Main content sits in a <code>&lt;main&gt;</code> element with clear headings.</li>
+<li>Text appears in the raw HTML, not only after JavaScript runs; see <a href="/javascript-seo-ai/">JavaScript SEO for AI</a>.</li>
+<li>Tables use real table markup.</li>
+<li>Images that carry meaning have alt text.</li>
+<li>AI crawlers are allowed, as described in <a href="/ai-crawlers-robots-txt/">AI crawlers in robots.txt</a>.</li>
+</ul>
+<p>Once those are in place, a Markdown layer becomes an optional extra rather than a fix for deeper problems.</p>
+<h2>How to test what AI tools see</h2>
+<p>Fetch a page with a simple tool such as curl and read the raw HTML. Then try a "reader view" in your browser. If the text looks complete and well ordered in both, AI tools can read it. If not, fix the HTML first; Markdown for AI should never hide a broken page.</p>
+<p>Our <a href="/artificial-intelligence-optimization/">AI optimization service</a> reviews how AI tools read your pages and recommends whether Markdown copies are worth adding.</p>

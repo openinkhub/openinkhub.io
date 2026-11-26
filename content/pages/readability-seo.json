@@ -1,0 +1,167 @@
+{
+  "url": "https://openinkhub.io/readability-seo/",
+  "path": "/readability-seo/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 47,
+  "pillar": "SEO Foundations",
+  "intent": "How-to",
+  "format": "How-to",
+  "title": "Readability SEO: Flesch, Passive Voice and Length 2027",
+  "h1": "Readability Metrics for SEO: Flesch, Passive Voice and Sentence Length",
+  "date": "2026-09-13T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "Readability SEO: what the Flesch score, passive voice and sentence length tell you, sensible targets and how to edit content that people finish.",
+  "keyphrase_override": "readability seo",
+  "keyphrase_secondary_override": [
+    "flesch reading ease",
+    "passive voice",
+    "sentence length",
+    "plain language"
+  ],
+  "categories": [
+    {
+      "name": "SEO",
+      "path": "/category/seo-services/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Is readability a Google ranking factor?",
+      "a": "<p>Not directly. Clear writing helps readers understand and stay, and those outcomes support rankings and AI answers.</p>"
+    },
+    {
+      "q": "What is a good Flesch reading ease score?",
+      "a": "<p>For most business content, a score of 50 to 70 is a good target. Technical topics can be lower if the audience expects it.</p>"
+    },
+    {
+      "q": "How much passive voice is acceptable?",
+      "a": "<p>Keeping passive sentences under about 10 percent is a useful guide. Use passive voice only when the actor does not matter.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>Readability Metrics for SEO: Flesch, Passive Voice and Sentence Length</h1>\n<p><strong>Readability SEO</strong> is about writing pages that people can read and understand quickly, using measures such as the Flesch reading ease score, sentence length and passive voice as guides. On its own, readability is not a direct Google ranking factor. However, clear writing keeps readers on the page, helps them act and makes your answers easier for search engines and AI tools to quote.</p>\n<h2>The Flesch reading ease score</h2>\n<p>The Flesch score rates text from 0 to 100 based on average sentence length and syllables per word. Higher means easier. Most business content reads well at 50 to 70. Technical or legal topics may score lower, which is fine if the audience expects it. Still, a very low score usually signals long sentences and heavy words that you can trim.</p>\n<table>\n<thead><tr><th>Score</th><th>Reading level</th><th>Typical use</th></tr></thead>\n<tbody>\n<tr><td>70 to 100</td><td>Easy</td><td>Consumer guides, local services</td></tr>\n<tr><td>50 to 70</td><td>Fairly easy to standard</td><td>Most business content</td></tr>\n<tr><td>30 to 50</td><td>Fairly difficult</td><td>B2B, technical topics</td></tr>\n<tr><td>Below 30</td><td>Difficult</td><td>Academic or legal text</td></tr>\n</tbody>\n</table>\n<h2>Sentence length</h2>\n<p>Aim for an average of 15 to 20 words per sentence, and keep sentences over 20 words to less than a quarter of the total. Long sentences are not wrong, but too many in a row tire readers. So split sentences that join two ideas with \"and\" or \"which\". Then vary the rhythm: a short sentence after a long one helps the point land.</p>\n<h2>Passive voice</h2>\n<p>Passive voice hides who does what, as in \"The report was sent.\" Active voice is clearer: \"We sent the report.\" Keep passive sentences under about 10 percent. Use passive only when the actor does not matter or is unknown, such as \"The site was built in 2019.\"</p>\n<h2>Other readability checks</h2>\n<ul>\n<li><strong>Paragraph length:</strong> keep most paragraphs under 100 words.</li>\n<li><strong>Headings:</strong> add a heading at least every 250 to 300 words.</li>\n<li><strong>Transition words:</strong> words such as \"so\", \"however\" and \"for example\" link ideas and guide readers.</li>\n<li><strong>Varied openings:</strong> avoid starting several sentences in a row with the same word.</li>\n<li><strong>Plain words:</strong> prefer \"use\" to \"utilise\" and \"help\" to \"facilitate\".</li>\n<li><strong>Lists and tables:</strong> turn steps and comparisons into structured formats.</li>\n</ul>\n<h2>How to edit for readability</h2>\n<ol>\n<li>Read the draft aloud. Where you stumble, readers will too.</li>\n<li>Cut warm-up phrases and filler words.</li>\n<li>Split long sentences and long paragraphs.</li>\n<li>Swap passive constructions for active ones.</li>\n<li>Replace jargon with plain words, or explain it once.</li>\n<li>Check the score with a readability tool, but trust your judgement.</li>\n</ol>\n<h2>Readability SEO and AI answers</h2>\n<p>AI tools quote passages that state a fact clearly in one or two sentences. Long, winding paragraphs are harder to extract and easier to misread. As a result, readable pages tend to be quoted more accurately. Our guide to <a href=\"/answer-first-content/\">answer-first content</a> shows how to structure sections for this.</p>\n<h2>Do not chase scores blindly</h2>\n<p>A tool can flag a long sentence, but it cannot judge whether your point is clear. So use scores as prompts, not rules. Some topics need precise terms, and that is fine. The goal is that your reader understands quickly, not that a number turns green.</p>\n<p>For a plain language reference, the <a href=\"https://www.plainlanguage.gov/guidelines/\" target=\"_blank\" rel=\"noopener\">US federal plain language guidelines</a> are clear and practical. Readability SEO also forms part of our <a href=\"/seo-checklist/\">SEO checklist with scoring</a>, and our <a href=\"/best-on-page-seo-services/\">on-page SEO services</a> include editing for clarity.</p>\n<h2>Frequently asked questions</h2><h3>Is readability a Google ranking factor?</h3><p>Not directly. Clear writing helps readers understand and stay, and those outcomes support rankings and AI answers.</p><h3>What is a good Flesch reading ease score?</h3><p>For most business content, a score of 50 to 70 is a good target. Technical topics can be lower if the audience expects it.</p><h3>How much passive voice is acceptable?</h3><p>Keeping passive sentences under about 10 percent is a useful guide. Use passive voice only when the actor does not matter.</p>",
+  "head": {
+    "title": "Readability SEO: Flesch, Passive Voice and Length 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/readability-seo/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "Readability SEO: what the Flesch score, passive voice and sentence length tell you, sensible targets and how to edit content that people finish."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "Readability SEO: Flesch, Passive Voice and Length 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "Readability SEO: what the Flesch score, passive voice and sentence length tell you, sensible targets and how to edit content that people finish."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/readability-seo/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-09-13T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "SEO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/readability-seo/#article",
+            "headline": "Readability SEO: Flesch, Passive Voice and Length 2027",
+            "description": "Readability SEO: what the Flesch score, passive voice and sentence length tell you, sensible targets and how to edit content that people finish.",
+            "url": "https://openinkhub.io/readability-seo/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-09-13T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "readability seo, flesch reading ease, passive voice, sentence length, plain language",
+            "articleSection": "SEO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/readability-seo/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "SEO",
+                "item": "https://openinkhub.io/category/seo-services/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Readability SEO: Flesch, Passive Voice and Length 2027",
+                "item": "https://openinkhub.io/readability-seo/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

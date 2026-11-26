@@ -1,0 +1,46 @@
+<p><strong>Schema markup</strong> is structured data, usually written in JSON-LD, that describes a page's content using the shared schema.org vocabulary, so search engines and AI tools can understand who you are, what the page is about and how its parts fit together. For most business sites, four types do the heavy lifting: Organization, Person, Article and, where it fits, FAQPage.</p>
+<h2>Why schema markup matters</h2>
+<p>Schema markup is not a direct ranking factor. However, it makes pages eligible for rich results, such as review stars, product details and breadcrumbs. It also helps engines connect your brand to its founders, logo, profiles and content, which supports entity understanding and AI answers. Google lists supported types in its <a href="https://developers.google.com/search/docs/appearance/structured-data/search-gallery" target="_blank" rel="noopener">structured data gallery</a>.</p>
+<h2>Organization schema</h2>
+<p>Add Organization (or a more specific type, such as LocalBusiness or ProfessionalService) to your home page. Include:</p>
+<ul>
+<li><code>name</code>, <code>url</code> and <code>logo</code></li>
+<li><code>contactPoint</code> with phone and contact type</li>
+<li><code>address</code> for local businesses</li>
+<li><code>sameAs</code> links to your official social and business profiles</li>
+<li><code>founder</code> pointing to a Person, where relevant</li>
+</ul>
+<p>This is the core of entity work; our guide to <a href="/entity-seo/">entity SEO</a> explains why consistent details matter.</p>
+<h2>Person schema</h2>
+<p>Use Person on author and team pages. Include the person's name, job title, a short description, an image and <code>sameAs</code> links to their LinkedIn or other profiles. Then link each article's <code>author</code> property to that Person. As a result, engines can see who wrote what, which supports the trust signals in our <a href="/eeat/">EEAT audit checklist</a>.</p>
+<h2>Article schema</h2>
+<p>Use Article or BlogPosting on every post. Include:</p>
+<ol>
+<li><code>headline</code> matching the visible title</li>
+<li><code>author</code> as a Person with a URL</li>
+<li><code>datePublished</code> and <code>dateModified</code></li>
+<li><code>image</code> with a large, relevant image</li>
+<li><code>publisher</code> linking to your Organization</li>
+</ol>
+<p>Accurate dates matter, because they help engines and AI tools judge freshness.</p>
+<h2>FAQPage schema</h2>
+<p>FAQPage markup still validates, but since 2023 Google shows FAQ rich results mainly for authoritative government and health sites. So add it only where a real FAQ appears on the page, and do not expect a visual boost. Our analysis of <a href="/faq-schema/">whether FAQ schema still works</a> covers the details.</p>
+<h2>Other useful types</h2>
+<ul>
+<li><strong>BreadcrumbList</strong> for site hierarchy on deep pages.</li>
+<li><strong>Product</strong> and <strong>Offer</strong> for ecommerce, with price and availability.</li>
+<li><strong>Service</strong> for service pages, describing what you offer and where.</li>
+<li><strong>VideoObject</strong> for pages built around a video.</li>
+</ul>
+<h2>How to add schema markup</h2>
+<p>Place JSON-LD in a <code>&lt;script type="application/ld+json"&gt;</code> block in the page head or body. Many CMS plugins generate it automatically, but check the output, since defaults are often incomplete. For a custom site, generate it from the same data that builds the page, so the two always match.</p>
+<h2>Test and maintain it</h2>
+<p>Use Google's Rich Results Test to check eligibility and the Schema Markup Validator to check general syntax. Then review the Enhancements reports in Search Console for errors. Meanwhile, update markup whenever page content changes, especially prices, dates and authors.</p>
+<h2>Common mistakes</h2>
+<ul>
+<li>Marking up content that is not visible on the page.</li>
+<li>Using fake reviews or ratings in markup.</li>
+<li>Leaving placeholder values from templates.</li>
+<li>Listing <code>sameAs</code> profiles you do not own.</li>
+</ul>
+<p>These break Google's structured data policies and can lead to manual actions. Schema markup also plays a role in <a href="/agentic-seo/">agentic SEO</a>, since agents use it to confirm facts. Our <a href="/best-on-page-seo-services/">on-page SEO services</a> include schema setup and audits, and the <a href="/technical-seo-checklist/">technical SEO checklist</a> shows where it fits.</p>

@@ -1,0 +1,51 @@
+<p><strong>Core Web Vitals</strong> are Google's three page experience metrics: Largest Contentful Paint (LCP) for loading, Interaction to Next Paint (INP) for responsiveness, and Cumulative Layout Shift (CLS) for visual stability. A page passes when, at the 75th percentile of real visits, LCP is within 2.5 seconds, INP is within 200 milliseconds and CLS is below 0.1. This fix guide shows how to find the cause of a poor score and the fixes that work most often.</p>
+<h2>The thresholds</h2>
+<table>
+<thead><tr><th>Metric</th><th>Good</th><th>Needs improvement</th><th>Poor</th></tr></thead>
+<tbody>
+<tr><td>LCP</td><td>≤ 2.5 s</td><td>2.5 to 4 s</td><td>&gt; 4 s</td></tr>
+<tr><td>INP</td><td>≤ 200 ms</td><td>200 to 500 ms</td><td>&gt; 500 ms</td></tr>
+<tr><td>CLS</td><td>≤ 0.1</td><td>0.1 to 0.25</td><td>&gt; 0.25</td></tr>
+</tbody>
+</table>
+<p>INP replaced First Input Delay (FID) as a Core Web Vital in March 2024. Google's <a href="https://web.dev/articles/vitals" target="_blank" rel="noopener">Web Vitals overview</a> explains each metric.</p>
+<h2>Find the problem first</h2>
+<ol>
+<li>Open Search Console's Core Web Vitals report to see which URL groups fail.</li>
+<li>Run a failing URL in PageSpeed Insights and check the field data at the top.</li>
+<li>Scroll to the diagnostics to see which element or script causes the issue.</li>
+<li>Reproduce it in Chrome DevTools using the Performance panel.</li>
+</ol>
+<p>Fix templates, not single pages, because one template often controls hundreds of URLs.</p>
+<h2>Fixing LCP</h2>
+<p>LCP measures when the largest visible element, often a hero image or heading, finishes rendering. Common fixes:</p>
+<ul>
+<li>Serve the hero image in WebP or AVIF at the right size.</li>
+<li>Preload the LCP image and avoid lazy-loading it.</li>
+<li>Reduce server response time with caching or a CDN.</li>
+<li>Remove render-blocking CSS and JavaScript from the head.</li>
+<li>Avoid sliders or carousels as the first element.</li>
+</ul>
+<h2>Fixing INP</h2>
+<p>INP measures how quickly the page responds after a click, tap or key press. So the usual cause is heavy JavaScript on the main thread. Common fixes:</p>
+<ul>
+<li>Break long tasks into smaller chunks.</li>
+<li>Remove unused scripts and third-party tags.</li>
+<li>Delay non-essential scripts until after interaction.</li>
+<li>Avoid large DOM updates in response to a single input.</li>
+</ul>
+<h2>Fixing CLS</h2>
+<p>CLS measures unexpected movement of content while the page loads. Common fixes:</p>
+<ul>
+<li>Set width and height on all images and video embeds.</li>
+<li>Reserve space for ads, banners and cookie notices.</li>
+<li>Load web fonts with <code>font-display: swap</code> and matching fallback sizes.</li>
+<li>Avoid inserting content above existing content after load.</li>
+</ul>
+<h2>Do Core Web Vitals affect rankings?</h2>
+<p>They are part of Google's page experience signals. Relevance and quality still matter far more, but when pages are similar, better experience can tip the balance. In addition, faster pages convert better and keep visitors longer, which helps every channel.</p>
+<h2>Core Web Vitals and AI crawlers</h2>
+<p>AI crawlers do not measure Core Web Vitals, yet slow servers and heavy pages can cause timeouts or partial fetches. A fast, light page is more reliably read by every bot. See our guide to <a href="/javascript-seo-ai/">JavaScript SEO for AI</a> for the rendering side.</p>
+<h2>Track progress</h2>
+<p>Field data in Search Console updates over a 28-day window, so changes take a few weeks to show. Use PageSpeed Insights lab data for quick checks, then confirm with field data later. For a deeper optimisation walkthrough, read our existing guide to <a href="/core-web-vitals-optimization/">Core Web Vitals optimization</a> and <a href="/website-speed-optimization/">website speed optimization</a>.</p>
+<p>Our <a href="/best-seo-services-in-india/">SEO services</a> include Core Web Vitals fixes, and the <a href="/technical-seo-checklist/">technical SEO checklist</a> shows how speed fits with other checks.</p>

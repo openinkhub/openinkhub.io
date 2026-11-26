@@ -1,0 +1,167 @@
+{
+  "url": "https://openinkhub.io/programmatic-seo/",
+  "path": "/programmatic-seo/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 33,
+  "pillar": "AIO",
+  "intent": "Strategy",
+  "format": "Strategy",
+  "title": "Programmatic SEO in the AI Era: What Works in 2027",
+  "h1": "Programmatic SEO in the AI Era: What Still Works",
+  "date": "2026-08-30T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "Programmatic SEO in the AI era: when template-driven pages still work, how to add unique value to each page and how to avoid scaled content problems.",
+  "keyphrase_override": "programmatic seo",
+  "keyphrase_secondary_override": [
+    "template pages",
+    "pseo",
+    "scaled content",
+    "location pages"
+  ],
+  "categories": [
+    {
+      "name": "AIO",
+      "path": "/category/aio/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Is programmatic SEO still allowed?",
+      "a": "<p>Yes, when each page is genuinely useful. Pages that only swap a keyword into the same text risk falling under Google's scaled content abuse policy.</p>"
+    },
+    {
+      "q": "What makes a programmatic page useful?",
+      "a": "<p>Unique data, local or specific details, real examples and content that answers the search better than a general page would.</p>"
+    },
+    {
+      "q": "How many programmatic pages should I launch at once?",
+      "a": "<p>Start with a small batch, check indexing and engagement, and expand only when those pages perform.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>Programmatic SEO in the AI Era: What Still Works</h1>\n<p><strong>Programmatic SEO</strong> is the creation of many pages from a template and a dataset, such as one page per city, product type or integration. It still works in the AI era, but only when each page offers something unique and useful. Pages that swap a keyword into the same text now risk falling under Google's scaled content abuse policy, and AI tools rarely cite them.</p>\n<h2>Where programmatic SEO still works</h2>\n<ul>\n<li><strong>Real data per page:</strong> prices, specifications, timetables or statistics that differ for each item.</li>\n<li><strong>Genuine local detail:</strong> service areas, local rules, real addresses and local examples.</li>\n<li><strong>Integration or comparison pages:</strong> each with specific features, limits and setup steps.</li>\n<li><strong>Directories:</strong> listings with reviews, hours and verified contact details.</li>\n</ul>\n<p>In each case, the template organises useful data. The data, not the template, gives the page its value.</p>\n<h2>Where it fails</h2>\n<p>It fails when the only difference between pages is a city or keyword name. For example, 500 pages that each say \"We offer the best plumbing in [city]\" with identical paragraphs add nothing. Google's <a href=\"https://developers.google.com/search/docs/essentials/spam-policies\" target=\"_blank\" rel=\"noopener\">spam policies</a> describe this as scaled content abuse. Meanwhile, AI assistants skip such pages because they contain no specific facts to quote.</p>\n<h2>How to add unique value to each page</h2>\n<ol>\n<li><strong>Start with the dataset.</strong> List the fields that differ for each page. If there are only one or two, the page set is probably too thin.</li>\n<li><strong>Add local or specific facts.</strong> For city pages, include real areas served, local needs and examples.</li>\n<li><strong>Write variable sections.</strong> Use conditional blocks so pages with different traits show different text.</li>\n<li><strong>Include visuals with data.</strong> Charts or tables built from each page's own figures.</li>\n<li><strong>Add human review.</strong> An editor checks a sample of every batch before it goes live.</li>\n<li><strong>Link pages logically.</strong> Connect each page to its hub and to close neighbours.</li>\n</ol>\n<h2>Launch in small batches</h2>\n<p>Start with 10 to 50 pages. Then check indexing in Search Console, engagement in analytics and rankings for a sample. Expand only when the first batch performs. If many pages stay \"Crawled, currently not indexed\", that is a strong hint they need more value. Our guide to <a href=\"/content-refresh/\">content refresh</a> explains how to improve weak pages.</p>\n<h2>Programmatic SEO and AI search</h2>\n<p>AI tools quote specific, verifiable facts. So a programmatic page with a real price range, a real timetable or a real feature list can earn citations. In contrast, a templated page full of general claims gives them nothing. That makes data quality the key factor for programmatic pages in AI search too. Our guide to <a href=\"/ai-content-quality/\">AI content quality</a> covers the review process.</p>\n<h2>Technical checks for template pages</h2>\n<ul>\n<li>Unique title, description and H1 for each page.</li>\n<li>Self-referencing canonical tags.</li>\n<li>Pages included in the XML sitemap.</li>\n<li>Internal links from hub pages so nothing is orphaned.</li>\n<li>Fast, server-rendered HTML, as in <a href=\"/javascript-seo-ai/\">JavaScript SEO for AI</a>.</li>\n</ul>\n<p>Use our <a href=\"/internal-linking/\">internal linking strategy</a> to plan hubs and spokes, and our <a href=\"/keyword-cannibalization/\">keyword cannibalization</a> guide to keep pages from competing.</p>\n<h2>Should you prune old programmatic pages?</h2>\n<p>If a large page set gets little traffic and few indexed URLs, consider pruning. Merge similar pages, improve the best ones and remove the rest with redirects where it makes sense. A smaller set of strong pages often outperforms a large set of thin ones.</p>\n<p>Our <a href=\"/artificial-intelligence-optimization/\">AI optimization service</a> reviews programmatic SEO page sets for value, indexing and AI readiness.</p>\n<h2>Frequently asked questions</h2><h3>Is programmatic SEO still allowed?</h3><p>Yes, when each page is genuinely useful. Pages that only swap a keyword into the same text risk falling under Google's scaled content abuse policy.</p><h3>What makes a programmatic page useful?</h3><p>Unique data, local or specific details, real examples and content that answers the search better than a general page would.</p><h3>How many programmatic pages should I launch at once?</h3><p>Start with a small batch, check indexing and engagement, and expand only when those pages perform.</p>",
+  "head": {
+    "title": "Programmatic SEO in the AI Era: What Works in 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/programmatic-seo/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "Programmatic SEO in the AI era: when template-driven pages still work, how to add unique value to each page and how to avoid scaled content problems."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "Programmatic SEO in the AI Era: What Works in 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "Programmatic SEO in the AI era: when template-driven pages still work, how to add unique value to each page and how to avoid scaled content problems."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/programmatic-seo/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-08-30T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "AIO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/programmatic-seo/#article",
+            "headline": "Programmatic SEO in the AI Era: What Works in 2027",
+            "description": "Programmatic SEO in the AI era: when template-driven pages still work, how to add unique value to each page and how to avoid scaled content problems.",
+            "url": "https://openinkhub.io/programmatic-seo/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-08-30T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "programmatic seo, template pages, pseo, scaled content, location pages",
+            "articleSection": "AIO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/programmatic-seo/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AIO",
+                "item": "https://openinkhub.io/category/aio/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Programmatic SEO in the AI Era: What Works in 2027",
+                "item": "https://openinkhub.io/programmatic-seo/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

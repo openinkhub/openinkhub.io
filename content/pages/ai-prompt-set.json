@@ -1,0 +1,167 @@
+{
+  "url": "https://openinkhub.io/ai-prompt-set/",
+  "path": "/ai-prompt-set/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 18,
+  "pillar": "GEO",
+  "intent": "How-to",
+  "format": "Template",
+  "title": "AI Prompt Set: Build a 30-Prompt Tracking List 2027",
+  "h1": "How to Build a 30-Prompt Tracking Set and Freeze It",
+  "date": "2026-08-15T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "Build an AI prompt set for tracking: 30 buyer prompts across five intent types, how to freeze them, and how to record results each month.",
+  "keyphrase_override": "ai prompt set",
+  "keyphrase_secondary_override": [
+    "prompt tracking",
+    "ai visibility tracking",
+    "llm prompts",
+    "share of voice"
+  ],
+  "categories": [
+    {
+      "name": "GEO",
+      "path": "/category/geo/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Why freeze the prompt set?",
+      "a": "<p>If the prompts change every month, you cannot tell whether visibility moved because of your work or because you asked different questions.</p>"
+    },
+    {
+      "q": "Why 30 prompts?",
+      "a": "<p>Thirty is enough to cover your main topics and intents, yet small enough to check by hand or with a simple tool every month.</p>"
+    },
+    {
+      "q": "How often should I re-run the prompts?",
+      "a": "<p>Monthly is a good rhythm. AI answers vary from run to run, so run each prompt more than once and record the share of runs that mention you.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>How to Build a 30-Prompt Tracking Set and Freeze It</h1>\n<p><strong>An AI prompt set</strong> is a fixed list of buyer questions that you run in AI assistants on a schedule to measure your brand's visibility. A good set has about 30 prompts spread across five intent types, stays frozen for at least six months, and records the same fields each time: mentioned or not, cited or not, how you are described and who else appears.</p>\n<h2>Why you need a frozen prompt set</h2>\n<p>AI answers change from run to run, between tools and over time. If you also change the questions each month, you cannot tell whether visibility moved because of your work or because you asked something new. So freeze the list. Then any change in results reflects the market or your efforts, not the test.</p>\n<p>This is the core of measuring generative engine optimization. Read <a href=\"/what-is-geo/\">what GEO is</a> for the wider context.</p>\n<h2>The five intent types</h2>\n<table>\n<thead><tr><th>Intent</th><th>Example prompt</th><th>Prompts</th></tr></thead>\n<tbody>\n<tr><td>Discovery</td><td>Which SEO agencies in Kolkata work with small businesses?</td><td>8</td></tr>\n<tr><td>Comparison</td><td>Is an SEO agency or a freelancer better for a clinic?</td><td>6</td></tr>\n<tr><td>Problem</td><td>Why is my website not showing on Google?</td><td>6</td></tr>\n<tr><td>Brand</td><td>What does Openink Hub do, and is it reliable?</td><td>4</td></tr>\n<tr><td>Cost</td><td>How much does monthly SEO cost in India?</td><td>6</td></tr>\n</tbody>\n</table>\n<p>Adjust the split for your business, but keep all five types. Brand prompts show how AI tools describe you; discovery prompts show whether they recommend you unprompted.</p>\n<h2>How to write good prompts</h2>\n<ul>\n<li>Use the buyer's words, taken from sales calls and search queries.</li>\n<li>Include a location or segment where it matters, such as \"for a small shop\".</li>\n<li>Avoid naming your brand except in the brand group.</li>\n<li>Keep each prompt to one question.</li>\n<li>Write them as a person would type or say them, not as keywords.</li>\n</ul>\n<p>Our guide to <a href=\"/question-research-seo/\">question research</a> helps you find real wording.</p>\n<h2>How to freeze and run the set</h2>\n<ol>\n<li>Save the 30 prompts in a sheet with an ID for each.</li>\n<li>Pick the tools to test, for example ChatGPT, Gemini, Perplexity and Copilot.</li>\n<li>Use a logged-out or clean session where possible, so personal history does not skew results.</li>\n<li>Run each prompt three times per tool, since answers vary.</li>\n<li>Log results on the same days each month.</li>\n</ol>\n<h2>What to record each month</h2>\n<ul>\n<li><strong>Mentioned:</strong> did the answer name your brand?</li>\n<li><strong>Cited:</strong> did it link to your site?</li>\n<li><strong>Position:</strong> first, middle or last among brands named.</li>\n<li><strong>Description:</strong> was it accurate?</li>\n<li><strong>Competitors:</strong> which rivals appeared?</li>\n<li><strong>Sources:</strong> which sites did the answer cite?</li>\n</ul>\n<p>From this, calculate your mention rate: prompts where you appear divided by total prompt runs. That single figure works well in a monthly report, as shown in our <a href=\"/ai-visibility-dashboard/\">AI visibility dashboard</a> template.</p>\n<h2>When to change the AI prompt set</h2>\n<p>Review the set every six to twelve months, or when you launch a new service. When you change it, keep most prompts and add new ones in a separate group. That way the trend line stays intact.</p>\n<h2>Tools or spreadsheet?</h2>\n<p>A spreadsheet works fine for 30 prompts and four tools. Paid tracking tools help when you need many markets, daily runs or charts; our comparison of <a href=\"/ai-search-tracking-tools/\">AI search tracking tools</a> covers the options. Either way, the frozen AI prompt set is what makes the numbers meaningful.</p>\n<p>For a broader method, the <a href=\"https://arxiv.org/abs/2311.09735\" target=\"_blank\" rel=\"noopener\">GEO research paper</a> used a similar fixed query set. Our <a href=\"/generative-engine-optimization/\">GEO service</a> includes prompt set design and monthly tracking.</p>\n<h2>Frequently asked questions</h2><h3>Why freeze the prompt set?</h3><p>If the prompts change every month, you cannot tell whether visibility moved because of your work or because you asked different questions.</p><h3>Why 30 prompts?</h3><p>Thirty is enough to cover your main topics and intents, yet small enough to check by hand or with a simple tool every month.</p><h3>How often should I re-run the prompts?</h3><p>Monthly is a good rhythm. AI answers vary from run to run, so run each prompt more than once and record the share of runs that mention you.</p>",
+  "head": {
+    "title": "AI Prompt Set: Build a 30-Prompt Tracking List 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/ai-prompt-set/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "Build an AI prompt set for tracking: 30 buyer prompts across five intent types, how to freeze them, and how to record results each month."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "AI Prompt Set: Build a 30-Prompt Tracking List 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "Build an AI prompt set for tracking: 30 buyer prompts across five intent types, how to freeze them, and how to record results each month."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/ai-prompt-set/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-08-15T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "GEO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/ai-prompt-set/#article",
+            "headline": "AI Prompt Set: Build a 30-Prompt Tracking List 2027",
+            "description": "Build an AI prompt set for tracking: 30 buyer prompts across five intent types, how to freeze them, and how to record results each month.",
+            "url": "https://openinkhub.io/ai-prompt-set/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-08-15T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "ai prompt set, prompt tracking, ai visibility tracking, llm prompts, share of voice",
+            "articleSection": "GEO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/ai-prompt-set/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "GEO",
+                "item": "https://openinkhub.io/category/geo/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI Prompt Set: Build a 30-Prompt Tracking List 2027",
+                "item": "https://openinkhub.io/ai-prompt-set/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

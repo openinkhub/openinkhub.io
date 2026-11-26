@@ -1,0 +1,57 @@
+<p><strong>AI crawlers in robots.txt:</strong> each major AI company runs one or more named bots, and you can allow or block each one with a <code>User-agent</code> rule in your robots.txt file. The key ones are GPTBot, OAI-SearchBot and ChatGPT-User from OpenAI, ClaudeBot from Anthropic, PerplexityBot from Perplexity, and the Google-Extended token from Google. Most businesses that want AI visibility allow the search bots and decide case by case on training bots.</p>
+<h2>What each AI crawler does</h2>
+<table>
+<thead><tr><th>User agent</th><th>Company</th><th>Purpose</th></tr></thead>
+<tbody>
+<tr><td>OAI-SearchBot</td><td>OpenAI</td><td>Finds pages for ChatGPT search results</td></tr>
+<tr><td>GPTBot</td><td>OpenAI</td><td>Collects content that may train future models</td></tr>
+<tr><td>ChatGPT-User</td><td>OpenAI</td><td>Fetches a page when a user asks ChatGPT to open it</td></tr>
+<tr><td>ClaudeBot</td><td>Anthropic</td><td>Collects web content for Anthropic's models</td></tr>
+<tr><td>PerplexityBot</td><td>Perplexity</td><td>Indexes pages for Perplexity answers</td></tr>
+<tr><td>Google-Extended</td><td>Google</td><td>Controls use of content for Gemini models and grounding</td></tr>
+</tbody>
+</table>
+<p>Check each company's documentation before you write rules, since names and purposes change. OpenAI's list sits in its <a href="https://platform.openai.com/docs/bots" target="_blank" rel="noopener">bots overview</a>, and Google's in its <a href="https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers" target="_blank" rel="noopener">common crawlers guide</a>.</p>
+<h2>Search bots vs training bots</h2>
+<p>This split matters most. Search bots, such as OAI-SearchBot and PerplexityBot, fetch pages so an assistant can cite them in answers today. Training bots, such as GPTBot, gather content that may shape future models. So you can block training while still appearing in AI search results.</p>
+<p>Google-Extended works differently. It is not a separate crawler; Googlebot does the fetching, and the token only tells Google whether it may use your content for Gemini. Blocking it does not change Google Search crawling or rankings.</p>
+<h2>A sample AI crawlers robots.txt policy</h2>
+<p>This example allows AI search and user-triggered fetches, but opts out of model training:</p>
+<pre><code>User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: *
+Allow: /
+Sitemap: https://www.example.com/sitemap.xml</code></pre>
+<p>If you want maximum AI visibility, allow the training bots too. Many brands do, because models that learn about you may mention you more often. It is a business choice, not a technical one.</p>
+<h2>Common mistakes</h2>
+<ul>
+<li>Blocking every AI bot with a single rule, then wondering why assistants ignore you.</li>
+<li>Assuming robots.txt stops scrapers that do not follow it.</li>
+<li>Letting a firewall or CDN bot filter block AI search bots silently.</li>
+<li>Forgetting staging or duplicate domains that need their own rules.</li>
+</ul>
+<h2>Does robots.txt stop every AI crawler?</h2>
+<p>No. robots.txt is a public request, not a lock. The major companies say their named bots follow it, but unknown scrapers may not. For those, use firewall or CDN rules that block by user agent and behaviour. Meanwhile, check your server logs to see which bots actually visit.</p>
+<h2>How to check your current rules</h2>
+<p>Review your AI crawlers robots.txt setup at least twice a year, because new bots appear often:</p>
+<ol>
+<li>Open yourdomain.com/robots.txt in a browser.</li>
+<li>Look for each AI user agent listed above.</li>
+<li>Check your CDN or security plugin for bot blocking settings.</li>
+<li>Review server logs for hits from these bots.</li>
+<li>Test a key page with a fetch using the bot's user agent string.</li>
+</ol>
+<p>Getting your AI crawlers robots.txt rules right is the first step in AI optimization. Next, make sure the pages they fetch show text without JavaScript, as explained in <a href="/javascript-seo-ai/">JavaScript SEO for AI</a>. For the bigger plan, read our <a href="/technical-seo-checklist/">technical SEO checklist</a> or <a href="/how-to-rank-in-chatgpt/">how to rank in ChatGPT</a>. Our <a href="/artificial-intelligence-optimization/">AI optimization service</a> can review your crawler policy for you.</p>

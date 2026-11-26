@@ -1,0 +1,167 @@
+{
+  "url": "https://openinkhub.io/llms-txt/",
+  "path": "/llms-txt/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 27,
+  "pillar": "AIO",
+  "intent": "Technical",
+  "format": "Technical",
+  "title": "llms.txt: Does It Help and How to Create One 2027",
+  "h1": "llms.txt: Does It Help? How to Create One",
+  "date": "2026-08-24T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "What llms.txt is, what it can and cannot do for AI visibility, and how to create a simple llms.txt file for your website in a few minutes.",
+  "keyphrase_override": "llms.txt",
+  "keyphrase_secondary_override": [
+    "llms txt file",
+    "ai crawlers",
+    "llm friendly content",
+    "robots.txt"
+  ],
+  "categories": [
+    {
+      "name": "AIO",
+      "path": "/category/aio/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Does Google use llms.txt?",
+      "a": "<p>Google has not said it uses llms.txt for Search or AI Overviews, so do not expect ranking gains from it.</p>"
+    },
+    {
+      "q": "Is llms.txt the same as robots.txt?",
+      "a": "<p>No. robots.txt tells crawlers what they may fetch; llms.txt is a proposed guide that points language models to your most useful pages.</p>"
+    },
+    {
+      "q": "Is it worth creating an llms.txt file?",
+      "a": "<p>It takes little time and does no harm, so it can be worth adding, but treat it as a small extra and not as a strategy.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>llms.txt: Does It Help? How to Create One</h1>\n<p><strong>llms.txt</strong> is a proposed plain-text file, placed at the root of a website, that gives large language models a short summary of the site and links to its most useful pages. It was suggested in 2024 as a way to help AI tools find clean, relevant content. However, no major search engine has confirmed that it uses the file for ranking or citations, so treat it as a small, low-cost extra rather than a strategy.</p>\n<h2>What llms.txt is meant to do</h2>\n<p>Web pages carry menus, ads, scripts and footers that make them harder for a model to read. The idea is to offer a tidy map instead: a title, a one-paragraph summary and grouped lists of links to key pages, written in Markdown. The proposal is documented at <a href=\"https://llmstxt.org/\" target=\"_blank\" rel=\"noopener\">llmstxt.org</a>.</p>\n<p>Some versions also suggest an <code>llms-full.txt</code> file that includes the full text of key pages. That mainly suits documentation sites.</p>\n<h2>Does llms.txt help?</h2>\n<p>Here is the honest answer. Google has not said it reads the file for Search or AI Overviews. OpenAI, Anthropic and Perplexity have not published rules that use it for citations either. Some AI developer tools and coding assistants do read it when pointed at a docs site.</p>\n<p>So the file may help in narrow cases, such as developer documentation. For a typical business site, it is unlikely to change AI visibility on its own. Our article on <a href=\"/ai-search-myths/\">AI search myths</a> covers this and similar claims.</p>\n<h2>llms.txt vs robots.txt</h2>\n<table>\n<thead><tr><th>Point</th><th>robots.txt</th><th>llms.txt</th></tr></thead>\n<tbody>\n<tr><td>Purpose</td><td>Tells crawlers what they may fetch</td><td>Points models to useful pages</td></tr>\n<tr><td>Status</td><td>Long-standing web standard</td><td>Community proposal</td></tr>\n<tr><td>Format</td><td>Directives</td><td>Markdown</td></tr>\n<tr><td>Effect on access</td><td>Can block bots</td><td>None</td></tr>\n</tbody>\n</table>\n<p>In short, robots.txt controls access, while the newer file only suggests what to read. For crawler rules, see our guide to <a href=\"/ai-crawlers-robots-txt/\">AI crawlers in robots.txt</a>.</p>\n<h2>How to create an llms.txt file</h2>\n<ol>\n<li>Create a text file named <code>llms.txt</code>.</li>\n<li>Start with a heading line: <code># Your Brand Name</code>.</li>\n<li>Add a one-paragraph summary as a quote, starting with <code>&gt;</code>.</li>\n<li>Add sections such as <code>## Services</code> and <code>## Guides</code>.</li>\n<li>Under each, list links as <code>- [Page title](https://yourdomain.com/page/): one-line description</code>.</li>\n<li>Upload it to your site root so it loads from the root of your domain.</li>\n<li>Update it when you add or remove key pages.</li>\n</ol>\n<h2>A short example</h2>\n<pre><code># Example Agency\n&gt; Example Agency offers SEO and web design for small businesses in Kolkata.\n\n## Services\n- [SEO services](https://www.example.com/seo/): monthly SEO plans\n- [Web design](https://www.example.com/web-design/): business websites\n\n## Guides\n- [What is local SEO](https://www.example.com/local-seo/): beginner guide</code></pre>\n<h2>Who should add one</h2>\n<p>Software companies, API providers and businesses with large help centres gain the most, because developers often point coding assistants at their docs. Publishers with deep archives may also find it useful as a curated reading list. For a local shop or a small service firm, it is a ten-minute task with an uncertain payoff, so do it after the basics rather than before. Either way, keep the list short and focused on pages you would want a new customer to read first.</p>\n<h2>What matters more than llms.txt</h2>\n<p>Clean HTML with real text, clear headings, fast pages, correct robots rules and consistent brand facts all matter far more. Then add answer-first writing on key pages. These steps help Google, Bing and every AI assistant, whether they read the file or not. Our guide to <a href=\"/markdown-for-ai/\">Markdown versions of pages for AI</a> explains a related idea, and the <a href=\"/technical-seo-checklist/\">technical SEO checklist</a> covers the essentials.</p>\n<p>Our <a href=\"/artificial-intelligence-optimization/\">AI optimization service</a> can set up the file along with the work that moves results.</p>\n<h2>Frequently asked questions</h2><h3>Does Google use llms.txt?</h3><p>Google has not said it uses llms.txt for Search or AI Overviews, so do not expect ranking gains from it.</p><h3>Is llms.txt the same as robots.txt?</h3><p>No. robots.txt tells crawlers what they may fetch; llms.txt is a proposed guide that points language models to your most useful pages.</p><h3>Is it worth creating an llms.txt file?</h3><p>It takes little time and does no harm, so it can be worth adding, but treat it as a small extra and not as a strategy.</p>",
+  "head": {
+    "title": "llms.txt: Does It Help and How to Create One 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/llms-txt/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "What llms.txt is, what it can and cannot do for AI visibility, and how to create a simple llms.txt file for your website in a few minutes."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "llms.txt: Does It Help and How to Create One 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "What llms.txt is, what it can and cannot do for AI visibility, and how to create a simple llms.txt file for your website in a few minutes."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/llms-txt/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-08-24T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "AIO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/llms-txt/#article",
+            "headline": "llms.txt: Does It Help and How to Create One 2027",
+            "description": "What llms.txt is, what it can and cannot do for AI visibility, and how to create a simple llms.txt file for your website in a few minutes.",
+            "url": "https://openinkhub.io/llms-txt/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-08-24T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "llms.txt, llms txt file, ai crawlers, llm friendly content, robots.txt",
+            "articleSection": "AIO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/llms-txt/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AIO",
+                "item": "https://openinkhub.io/category/aio/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "llms.txt: Does It Help and How to Create One 2027",
+                "item": "https://openinkhub.io/llms-txt/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

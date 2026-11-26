@@ -1,0 +1,167 @@
+{
+  "url": "https://openinkhub.io/seo-checklist/",
+  "path": "/seo-checklist/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 40,
+  "pillar": "SEO Foundations",
+  "intent": "Template",
+  "format": "Pillar/Lead magnet",
+  "title": "SEO Checklist: Webpage Checks With Scoring for 2027",
+  "h1": "Webpage SEO Checklist With Scoring",
+  "date": "2026-09-06T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "A webpage SEO checklist with a simple scoring method: technical, on-page, content, links and AI readiness checks grouped so you can fix the biggest gaps first.",
+  "keyphrase_override": "seo checklist",
+  "keyphrase_secondary_override": [
+    "on-page seo checklist",
+    "seo audit checklist",
+    "page seo score",
+    "technical seo"
+  ],
+  "categories": [
+    {
+      "name": "SEO",
+      "path": "/category/seo-services/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "How do I score a page with an SEO checklist?",
+      "a": "<p>Give each check a pass, warn or fail, weight the groups by impact, and add up the points so you can compare pages and track progress.</p>"
+    },
+    {
+      "q": "How often should I run an SEO checklist?",
+      "a": "<p>Run it before publishing each page and repeat it on key pages every quarter or after major site changes.</p>"
+    },
+    {
+      "q": "Is a perfect checklist score necessary?",
+      "a": "<p>No. A checklist finds problems; rankings depend on usefulness and authority too, so fix the high-impact issues first.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>Webpage SEO Checklist With Scoring</h1>\n<p><strong>This SEO checklist</strong> helps you score any webpage in five groups: technical health, on-page basics, content quality, links and AI readiness. Mark each check as pass, warn or fail, weight the groups by impact, and add up the points out of 100. The score shows which pages need work first and lets you track progress over time.</p>\n<h2>How the scoring works</h2>\n<table>\n<thead><tr><th>Group</th><th>Weight</th><th>Checks</th></tr></thead>\n<tbody>\n<tr><td>Technical health</td><td>25 points</td><td>5 checks × 5 points</td></tr>\n<tr><td>On-page basics</td><td>25 points</td><td>5 checks × 5 points</td></tr>\n<tr><td>Content quality</td><td>25 points</td><td>5 checks × 5 points</td></tr>\n<tr><td>Links</td><td>15 points</td><td>3 checks × 5 points</td></tr>\n<tr><td>AI readiness</td><td>10 points</td><td>2 checks × 5 points</td></tr>\n</tbody>\n</table>\n<p>Give 5 points for a pass, 2 for a warn and 0 for a fail. A score above 80 is strong, 60 to 80 needs work, and below 60 means urgent fixes.</p>\n<h2>1. Technical health (25)</h2>\n<ul>\n<li>The page returns a 200 status and is indexable, with no stray noindex.</li>\n<li>A self-referencing canonical tag points to the correct URL.</li>\n<li>Core Web Vitals pass on mobile; see our <a href=\"/core-web-vitals/\">Core Web Vitals fix guide</a>.</li>\n<li>Main content appears in the raw HTML without JavaScript.</li>\n<li>The page uses HTTPS with no mixed content warnings.</li>\n</ul>\n<h2>2. On-page basics (25)</h2>\n<ul>\n<li>A unique title tag of about 50 to 60 characters includes the main keyword.</li>\n<li>The meta description is 70 to 160 characters and states a clear benefit.</li>\n<li>There is exactly one H1, and it matches the page topic.</li>\n<li>Headings follow a logical order and describe each section.</li>\n<li>Images have descriptive alt text and sensible file sizes.</li>\n</ul>\n<p>Our guide to <a href=\"/title-tag/\">title tag and meta description formulas</a> helps with the first two checks.</p>\n<h2>3. Content quality (25)</h2>\n<ul>\n<li>The opening answers the main question within the first 60 words.</li>\n<li>The page covers the topic better than the current top results.</li>\n<li>Facts are current, with sources for statistics.</li>\n<li>An author or reviewer is named, with relevant experience.</li>\n<li>Text is easy to read, with short paragraphs and clear sentences.</li>\n</ul>\n<h2>4. Links (15)</h2>\n<ul>\n<li>At least three relevant internal links point to related pages.</li>\n<li>Other pages on the site link to this one, so it is not orphaned.</li>\n<li>Outbound links go to trustworthy sources where they help.</li>\n</ul>\n<h2>5. AI readiness (10)</h2>\n<ul>\n<li>Key AI crawlers can access the page, as checked in our guide to <a href=\"/ai-crawlers-robots-txt/\">AI crawlers in robots.txt</a>.</li>\n<li>Valid structured data describes the page, such as Article or Service schema.</li>\n</ul>\n<h2>How to use the SEO checklist</h2>\n<p>First, score your 10 most important pages, usually the home page, main service pages and top blog posts. Next, sort by score and fix the lowest first. Then rescore after each round of changes. Over time, add the checklist to your publishing process so every new page starts with a high score.</p>\n<p>For a deeper technical review, use our <a href=\"/technical-seo-checklist/\">technical SEO checklist for AI search</a>. For on-page detail, read <a href=\"/what-is-on-page-seo-step-by-step-optimization/\">what on-page SEO is</a>.</p>\n<h2>Limits of any checklist</h2>\n<p>A high score does not guarantee rankings. Search engines also weigh relevance, authority and how well a page satisfies the searcher. So treat the score as a health check, not a target in itself. Google's <a href=\"https://developers.google.com/search/docs/fundamentals/seo-starter-guide\" target=\"_blank\" rel=\"noopener\">SEO starter guide</a> remains the best foundation behind every item here.</p>\n<p>Want an expert to run this SEO checklist across your site? Our <a href=\"/report/\">SEO, AEO, GEO and AIO audit</a> scores your key pages, and our <a href=\"/best-on-page-seo-services/\">on-page SEO services</a> fix what it finds.</p>\n<h2>Frequently asked questions</h2><h3>How do I score a page with an SEO checklist?</h3><p>Give each check a pass, warn or fail, weight the groups by impact, and add up the points so you can compare pages and track progress.</p><h3>How often should I run an SEO checklist?</h3><p>Run it before publishing each page and repeat it on key pages every quarter or after major site changes.</p><h3>Is a perfect checklist score necessary?</h3><p>No. A checklist finds problems; rankings depend on usefulness and authority too, so fix the high-impact issues first.</p>",
+  "head": {
+    "title": "SEO Checklist: Webpage Checks With Scoring for 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/seo-checklist/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "A webpage SEO checklist with a simple scoring method: technical, on-page, content, links and AI readiness checks grouped so you can fix the biggest gaps first."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "SEO Checklist: Webpage Checks With Scoring for 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "A webpage SEO checklist with a simple scoring method: technical, on-page, content, links and AI readiness checks grouped so you can fix the biggest gaps first."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/seo-checklist/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-09-06T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "SEO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/seo-checklist/#article",
+            "headline": "SEO Checklist: Webpage Checks With Scoring for 2027",
+            "description": "A webpage SEO checklist with a simple scoring method: technical, on-page, content, links and AI readiness checks grouped so you can fix the biggest gaps first.",
+            "url": "https://openinkhub.io/seo-checklist/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-09-06T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "seo checklist, on-page seo checklist, seo audit checklist, page seo score, technical seo",
+            "articleSection": "SEO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/seo-checklist/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "SEO",
+                "item": "https://openinkhub.io/category/seo-services/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "SEO Checklist: Webpage Checks With Scoring for 2027",
+                "item": "https://openinkhub.io/seo-checklist/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

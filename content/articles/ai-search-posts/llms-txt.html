@@ -1,0 +1,43 @@
+<p><strong>llms.txt</strong> is a proposed plain-text file, placed at the root of a website, that gives large language models a short summary of the site and links to its most useful pages. It was suggested in 2024 as a way to help AI tools find clean, relevant content. However, no major search engine has confirmed that it uses the file for ranking or citations, so treat it as a small, low-cost extra rather than a strategy.</p>
+<h2>What llms.txt is meant to do</h2>
+<p>Web pages carry menus, ads, scripts and footers that make them harder for a model to read. The idea is to offer a tidy map instead: a title, a one-paragraph summary and grouped lists of links to key pages, written in Markdown. The proposal is documented at <a href="https://llmstxt.org/" target="_blank" rel="noopener">llmstxt.org</a>.</p>
+<p>Some versions also suggest an <code>llms-full.txt</code> file that includes the full text of key pages. That mainly suits documentation sites.</p>
+<h2>Does llms.txt help?</h2>
+<p>Here is the honest answer. Google has not said it reads the file for Search or AI Overviews. OpenAI, Anthropic and Perplexity have not published rules that use it for citations either. Some AI developer tools and coding assistants do read it when pointed at a docs site.</p>
+<p>So the file may help in narrow cases, such as developer documentation. For a typical business site, it is unlikely to change AI visibility on its own. Our article on <a href="/ai-search-myths/">AI search myths</a> covers this and similar claims.</p>
+<h2>llms.txt vs robots.txt</h2>
+<table>
+<thead><tr><th>Point</th><th>robots.txt</th><th>llms.txt</th></tr></thead>
+<tbody>
+<tr><td>Purpose</td><td>Tells crawlers what they may fetch</td><td>Points models to useful pages</td></tr>
+<tr><td>Status</td><td>Long-standing web standard</td><td>Community proposal</td></tr>
+<tr><td>Format</td><td>Directives</td><td>Markdown</td></tr>
+<tr><td>Effect on access</td><td>Can block bots</td><td>None</td></tr>
+</tbody>
+</table>
+<p>In short, robots.txt controls access, while the newer file only suggests what to read. For crawler rules, see our guide to <a href="/ai-crawlers-robots-txt/">AI crawlers in robots.txt</a>.</p>
+<h2>How to create an llms.txt file</h2>
+<ol>
+<li>Create a text file named <code>llms.txt</code>.</li>
+<li>Start with a heading line: <code># Your Brand Name</code>.</li>
+<li>Add a one-paragraph summary as a quote, starting with <code>&gt;</code>.</li>
+<li>Add sections such as <code>## Services</code> and <code>## Guides</code>.</li>
+<li>Under each, list links as <code>- [Page title](https://yourdomain.com/page/): one-line description</code>.</li>
+<li>Upload it to your site root so it loads from the root of your domain.</li>
+<li>Update it when you add or remove key pages.</li>
+</ol>
+<h2>A short example</h2>
+<pre><code># Example Agency
+&gt; Example Agency offers SEO and web design for small businesses in Kolkata.
+
+## Services
+- [SEO services](https://www.example.com/seo/): monthly SEO plans
+- [Web design](https://www.example.com/web-design/): business websites
+
+## Guides
+- [What is local SEO](https://www.example.com/local-seo/): beginner guide</code></pre>
+<h2>Who should add one</h2>
+<p>Software companies, API providers and businesses with large help centres gain the most, because developers often point coding assistants at their docs. Publishers with deep archives may also find it useful as a curated reading list. For a local shop or a small service firm, it is a ten-minute task with an uncertain payoff, so do it after the basics rather than before. Either way, keep the list short and focused on pages you would want a new customer to read first.</p>
+<h2>What matters more than llms.txt</h2>
+<p>Clean HTML with real text, clear headings, fast pages, correct robots rules and consistent brand facts all matter far more. Then add answer-first writing on key pages. These steps help Google, Bing and every AI assistant, whether they read the file or not. Our guide to <a href="/markdown-for-ai/">Markdown versions of pages for AI</a> explains a related idea, and the <a href="/technical-seo-checklist/">technical SEO checklist</a> covers the essentials.</p>
+<p>Our <a href="/artificial-intelligence-optimization/">AI optimization service</a> can set up the file along with the work that moves results.</p>

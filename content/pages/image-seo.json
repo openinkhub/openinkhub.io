@@ -1,0 +1,167 @@
+{
+  "url": "https://openinkhub.io/image-seo/",
+  "path": "/image-seo/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 45,
+  "pillar": "SEO Foundations",
+  "intent": "How-to",
+  "format": "How-to",
+  "title": "Image SEO and Video SEO for Search and AI in 2027",
+  "h1": "Image and Video SEO for Search and AI",
+  "date": "2026-09-11T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "Image SEO and video SEO guide: file names, alt text, formats, sizes, structured data and the steps that help images and videos show in search and AI.",
+  "keyphrase_override": "image seo",
+  "keyphrase_secondary_override": [
+    "alt text",
+    "video seo",
+    "image optimization",
+    "webp images"
+  ],
+  "categories": [
+    {
+      "name": "SEO",
+      "path": "/category/seo-services/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "What is good alt text?",
+      "a": "<p>Alt text that describes the image in a short phrase, in the context of the page, without stuffing keywords.</p>"
+    },
+    {
+      "q": "Which image format is best for SEO?",
+      "a": "<p>WebP or AVIF for photos and SVG for simple graphics usually give the best quality for the smallest file size.</p>"
+    },
+    {
+      "q": "How do I get my videos into Google Search?",
+      "a": "<p>Host the video on a page about it, add VideoObject structured data, include a thumbnail and let Google crawl the video file or embed.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>Image and Video SEO for Search and AI</h1>\n<p><strong>Image SEO</strong> and video SEO help your visual content appear in Google Images, video results, Discover and AI answers. The essentials are descriptive file names and alt text, modern formats at sensible sizes, pages that give each image or video clear context, and structured data where it applies. Done well, image SEO also speeds up your pages and makes them more accessible.</p>\n<h2>Image SEO basics</h2>\n<ul>\n<li><strong>File names:</strong> use short descriptive names, such as <code>kolkata-office-team.webp</code>, not <code>IMG_4821.jpg</code>.</li>\n<li><strong>Alt text:</strong> describe what the image shows in the context of the page, in a short phrase.</li>\n<li><strong>Format:</strong> use WebP or AVIF for photos and SVG for logos and simple graphics.</li>\n<li><strong>Size:</strong> resize images to the largest size they display at, then compress them.</li>\n<li><strong>Dimensions:</strong> set width and height attributes to prevent layout shifts.</li>\n<li><strong>Lazy loading:</strong> add <code>loading=\"lazy\"</code> to images below the fold, but not to the main image.</li>\n</ul>\n<h2>How to write good alt text</h2>\n<p>Alt text serves people who use screen readers first, and search engines second. So describe what matters about the image for this page. For example, \"Team reviewing a website audit on a laptop\" beats \"SEO SEO agency best SEO\". Skip alt text on purely decorative images by using an empty <code>alt=\"\"</code>. Our <a href=\"/accessibility-seo/\">accessibility SEO checklist</a> covers this in more depth.</p>\n<h2>Context matters</h2>\n<p>Search engines understand images partly through the text around them. Place images near the paragraph they illustrate, and use captions where they add meaning. In addition, use original photos and graphics where you can; unique images help your page stand out, while stock photos appear on thousands of sites.</p>\n<h2>Video SEO basics</h2>\n<ol>\n<li><strong>Give each video its own page</strong> or a clear section on a relevant page.</li>\n<li><strong>Write a clear title and description</strong> that match what people search for.</li>\n<li><strong>Add a transcript</strong> below the video, so the content is readable as text.</li>\n<li><strong>Use chapters</strong> on YouTube or key moments markup, so search can link to parts of the video.</li>\n<li><strong>Add VideoObject structured data</strong> with name, description, thumbnail and upload date.</li>\n<li><strong>Provide a good thumbnail</strong> that shows the topic clearly.</li>\n</ol>\n<p>Google's guide to <a href=\"https://developers.google.com/search/docs/appearance/video\" target=\"_blank\" rel=\"noopener\">video best practices</a> lists every requirement.</p>\n<h2>YouTube and your site</h2>\n<p>YouTube is a search engine of its own, and AI tools often cite videos for how-to questions. So publish on YouTube, then embed the video on the matching page of your site with a transcript and summary. That way, both the video and the page can rank and support each other. Our article on <a href=\"/reddit-ai-citations/\">why Reddit and YouTube win AI citations</a> explains the AI side.</p>\n<h2>Images, video and AI answers</h2>\n<p>AI tools mostly read text, so transcripts, captions and alt text are how they understand your visuals. Charts should come with a written summary of the key numbers. Likewise, infographics need the same facts in HTML text. Otherwise, AI tools and many crawlers miss the content entirely.</p>\n<h2>Speed and Core Web Vitals</h2>\n<p>Large images are the most common cause of slow Largest Contentful Paint. Therefore, serve the hero image in a modern format, at the right size, and preload it if it is the main element. Our <a href=\"/core-web-vitals/\">Core Web Vitals fix guide</a> and the existing guide to <a href=\"/website-speed-optimization/\">website speed optimization</a> cover the detail.</p>\n<h2>Image SEO checklist</h2>\n<ul>\n<li>Descriptive file names and alt text on every meaningful image.</li>\n<li>WebP, AVIF or SVG formats at the right size.</li>\n<li>Width and height set on all images.</li>\n<li>Transcripts and VideoObject markup for videos.</li>\n<li>An image sitemap or images listed in your XML sitemap for large galleries.</li>\n</ul>\n<p>Our <a href=\"/best-on-page-seo-services/\">on-page SEO services</a> include image SEO and video optimization across your key pages.</p>\n<h2>Frequently asked questions</h2><h3>What is good alt text?</h3><p>Alt text that describes the image in a short phrase, in the context of the page, without stuffing keywords.</p><h3>Which image format is best for SEO?</h3><p>WebP or AVIF for photos and SVG for simple graphics usually give the best quality for the smallest file size.</p><h3>How do I get my videos into Google Search?</h3><p>Host the video on a page about it, add VideoObject structured data, include a thumbnail and let Google crawl the video file or embed.</p>",
+  "head": {
+    "title": "Image SEO and Video SEO for Search and AI in 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/image-seo/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "Image SEO and video SEO guide: file names, alt text, formats, sizes, structured data and the steps that help images and videos show in search and AI."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "Image SEO and Video SEO for Search and AI in 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "Image SEO and video SEO guide: file names, alt text, formats, sizes, structured data and the steps that help images and videos show in search and AI."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/image-seo/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-09-11T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "SEO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/image-seo/#article",
+            "headline": "Image SEO and Video SEO for Search and AI in 2027",
+            "description": "Image SEO and video SEO guide: file names, alt text, formats, sizes, structured data and the steps that help images and videos show in search and AI.",
+            "url": "https://openinkhub.io/image-seo/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-09-11T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "image seo, alt text, video seo, image optimization, webp images",
+            "articleSection": "SEO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/image-seo/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "SEO",
+                "item": "https://openinkhub.io/category/seo-services/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Image SEO and Video SEO for Search and AI in 2027",
+                "item": "https://openinkhub.io/image-seo/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

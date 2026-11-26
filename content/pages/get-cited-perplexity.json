@@ -1,0 +1,167 @@
+{
+  "url": "https://openinkhub.io/get-cited-perplexity/",
+  "path": "/get-cited-perplexity/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 17,
+  "pillar": "GEO",
+  "intent": "How-to",
+  "format": "How-to",
+  "title": "Get Cited by Perplexity, Gemini and Claude in 2027",
+  "h1": "How to Earn Recommendations From Perplexity, Gemini and Claude",
+  "date": "2026-08-14T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "How to get cited by Perplexity, Gemini and Claude: how each assistant picks sources, the crawlers to allow and the content that earns recommendations.",
+  "keyphrase_override": "get cited perplexity",
+  "keyphrase_secondary_override": [
+    "perplexity citations",
+    "gemini recommendations",
+    "claude search",
+    "ai assistant visibility"
+  ],
+  "categories": [
+    {
+      "name": "GEO",
+      "path": "/category/geo/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Why does Perplexity show citations?",
+      "a": "<p>Perplexity searches the web for each question and lists its sources, so pages that answer clearly and load easily for crawlers have a good chance of being cited.</p>"
+    },
+    {
+      "q": "Does Gemini use Google Search rankings?",
+      "a": "<p>Gemini can ground answers in Google Search, so pages that rank and show clear answers in Google are well placed to appear in Gemini.</p>"
+    },
+    {
+      "q": "Do I need different content for each assistant?",
+      "a": "<p>No. The same clear, factual, well-structured pages work across assistants. The differences are mainly in crawlers and source mix.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>How to Earn Recommendations From Perplexity, Gemini and Claude</h1>\n<p><strong>To get cited, Perplexity, Gemini and Claude all need the same things from your site:</strong> pages their crawlers can reach, specific questions answered clearly near the top of each section, dated and sourced facts, and a brand that other trusted sites mention. Each assistant searches the web in its own way. Still, all three reward a page that answers the question better than the alternatives.</p>\n<h2>How Perplexity picks sources</h2>\n<p>Perplexity runs a web search for almost every question and lists its sources beside the answer. Its crawler, PerplexityBot, indexes pages for this purpose, and the company documents it in its <a href=\"https://docs.perplexity.ai/guides/bots\" target=\"_blank\" rel=\"noopener\">crawler guide</a>. Because Perplexity shows citations so openly, a page with a clear, specific answer has a real chance to appear, even if it is not the biggest site.</p>\n<p>So if you want to get cited, Perplexity rewards pages that own a narrow question completely, with a direct answer, a short table and a dated source.</p>\n<h2>How Gemini recommends brands</h2>\n<p>Gemini can ground its answers in Google Search. That means pages that rank and show clear snippets in Google are well placed to appear in Gemini too. In addition, Gemini draws on Google's understanding of entities, such as your business profile and Knowledge Graph data.</p>\n<p>As a result, Gemini work looks a lot like strong Google SEO plus accurate entity data. Our guide to <a href=\"/google-ai-overviews-optimization/\">Google AI Overviews optimization</a> covers the overlap, and <a href=\"/entity-seo/\">entity SEO</a> covers the profile side.</p>\n<h2>How Claude finds web content</h2>\n<p>Claude can search the web when a question needs current information, and Anthropic runs crawlers such as ClaudeBot. Like other assistants, Claude favours pages that are easy to read, specific and trustworthy. Check that your robots.txt does not block Anthropic's bots if you want to appear. Our guide to <a href=\"/ai-crawlers-robots-txt/\">AI crawlers in robots.txt</a> lists the user agents.</p>\n<h2>Shared steps for all three assistants</h2>\n<ol>\n<li><strong>Allow access:</strong> review robots.txt and firewall rules for PerplexityBot, ClaudeBot and Google's crawlers.</li>\n<li><strong>Serve HTML:</strong> make sure key text does not depend on JavaScript.</li>\n<li><strong>Answer first:</strong> open each section with a 40 to 60 word answer.</li>\n<li><strong>Add proof:</strong> include dates, numbers, sources and author details.</li>\n<li><strong>Stay current:</strong> update prices and facts, since assistants prefer fresh information.</li>\n<li><strong>Earn mentions:</strong> appear in lists, reviews and forum threads that the assistants cite.</li>\n</ol>\n<h2>Content types that earn citations</h2>\n<ul>\n<li>Clear definitions of industry terms.</li>\n<li>Comparison tables with dated values.</li>\n<li>Step-by-step guides with numbered lists.</li>\n<li>Original data, such as survey results or price studies.</li>\n<li>Local guides with specific, verifiable details.</li>\n</ul>\n<p>For the data angle, see our playbook on <a href=\"/original-data-seo/\">original research that earns citations</a>.</p>\n<h2>Do you need different content for each assistant?</h2>\n<p>No. Writing separate versions for each tool wastes effort and can create duplicate content. Instead, build one excellent page per question, then make sure each assistant can reach it. The differences between Perplexity, Gemini and Claude lie mostly in crawlers and source mix, not in what good content looks like.</p>\n<h2>Track your citations</h2>\n<p>Run the same buyer prompts in each assistant every month and log whether you get cited (Perplexity makes this easy, since it lists every source), how the answer describes you and which sources appear instead. Our guide to the <a href=\"/ai-prompt-set/\">AI prompt set</a> gives a template, and <a href=\"/ai-competitor-analysis/\">AI competitor analysis</a> shows how to find citation gaps.</p>\n<p>If you would like a team to run this work, our <a href=\"/generative-engine-optimization/\">generative engine optimization service</a> covers Perplexity, Gemini, Claude and ChatGPT together.</p>\n<h2>Frequently asked questions</h2><h3>Why does Perplexity show citations?</h3><p>Perplexity searches the web for each question and lists its sources, so pages that answer clearly and load easily for crawlers have a good chance of being cited.</p><h3>Does Gemini use Google Search rankings?</h3><p>Gemini can ground answers in Google Search, so pages that rank and show clear answers in Google are well placed to appear in Gemini.</p><h3>Do I need different content for each assistant?</h3><p>No. The same clear, factual, well-structured pages work across assistants. The differences are mainly in crawlers and source mix.</p>",
+  "head": {
+    "title": "Get Cited by Perplexity, Gemini and Claude in 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/get-cited-perplexity/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "How to get cited by Perplexity, Gemini and Claude: how each assistant picks sources, the crawlers to allow and the content that earns recommendations."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "Get Cited by Perplexity, Gemini and Claude in 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "How to get cited by Perplexity, Gemini and Claude: how each assistant picks sources, the crawlers to allow and the content that earns recommendations."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/get-cited-perplexity/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-08-14T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "GEO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/get-cited-perplexity/#article",
+            "headline": "Get Cited by Perplexity, Gemini and Claude in 2027",
+            "description": "How to get cited by Perplexity, Gemini and Claude: how each assistant picks sources, the crawlers to allow and the content that earns recommendations.",
+            "url": "https://openinkhub.io/get-cited-perplexity/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-08-14T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "get cited perplexity, perplexity citations, gemini recommendations, claude search, ai assistant visibility",
+            "articleSection": "GEO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/get-cited-perplexity/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "GEO",
+                "item": "https://openinkhub.io/category/geo/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Get Cited by Perplexity, Gemini and Claude in 2027",
+                "item": "https://openinkhub.io/get-cited-perplexity/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

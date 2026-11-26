@@ -1,0 +1,168 @@
+{
+  "url": "https://openinkhub.io/ai-crawlers-robots-txt/",
+  "path": "/ai-crawlers-robots-txt/",
+  "status": 200,
+  "type": "post",
+  "topic_id": 26,
+  "pillar": "AIO",
+  "intent": "Technical",
+  "format": "Technical",
+  "title": "AI Crawlers in robots.txt: Which Bots to Allow 2027",
+  "h1": "Which AI Crawlers to Allow: GPTBot, ClaudeBot, PerplexityBot and Google-Extended",
+  "date": "2026-08-23T10:00:00",
+  "modified": "2026-11-27T02:30:58",
+  "author": "Hiten Neotia",
+  "excerpt": "AI crawlers in robots.txt: what GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot and Google-Extended do, and a sample policy for your site.",
+  "keyphrase_override": "ai crawlers robots.txt",
+  "keyphrase_secondary_override": [
+    "gptbot",
+    "claudebot",
+    "perplexitybot",
+    "google-extended",
+    "robots.txt"
+  ],
+  "categories": [
+    {
+      "name": "AIO",
+      "path": "/category/aio/"
+    },
+    {
+      "name": "Blogs",
+      "path": "/category/best-seo-content-agency/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Does blocking GPTBot remove me from ChatGPT search?",
+      "a": "<p>No. OpenAI uses GPTBot for model training and OAI-SearchBot for ChatGPT search, so you can block one and allow the other.</p>"
+    },
+    {
+      "q": "Does Google-Extended affect Google Search rankings?",
+      "a": "<p>No. Google-Extended only controls whether content is used for Gemini models and grounding; it does not change Google Search crawling or ranking.</p>"
+    },
+    {
+      "q": "Do all AI crawlers obey robots.txt?",
+      "a": "<p>The major companies say their crawlers follow robots.txt, but robots.txt is a request, not a lock, so use firewall rules for bots that ignore it.</p>"
+    }
+  ],
+  "content_source": "topic-posts",
+  "content_html": "<h1>Which AI Crawlers to Allow: GPTBot, ClaudeBot, PerplexityBot and Google-Extended</h1>\n<p><strong>AI crawlers in robots.txt:</strong> each major AI company runs one or more named bots, and you can allow or block each one with a <code>User-agent</code> rule in your robots.txt file. The key ones are GPTBot, OAI-SearchBot and ChatGPT-User from OpenAI, ClaudeBot from Anthropic, PerplexityBot from Perplexity, and the Google-Extended token from Google. Most businesses that want AI visibility allow the search bots and decide case by case on training bots.</p>\n<h2>What each AI crawler does</h2>\n<table>\n<thead><tr><th>User agent</th><th>Company</th><th>Purpose</th></tr></thead>\n<tbody>\n<tr><td>OAI-SearchBot</td><td>OpenAI</td><td>Finds pages for ChatGPT search results</td></tr>\n<tr><td>GPTBot</td><td>OpenAI</td><td>Collects content that may train future models</td></tr>\n<tr><td>ChatGPT-User</td><td>OpenAI</td><td>Fetches a page when a user asks ChatGPT to open it</td></tr>\n<tr><td>ClaudeBot</td><td>Anthropic</td><td>Collects web content for Anthropic's models</td></tr>\n<tr><td>PerplexityBot</td><td>Perplexity</td><td>Indexes pages for Perplexity answers</td></tr>\n<tr><td>Google-Extended</td><td>Google</td><td>Controls use of content for Gemini models and grounding</td></tr>\n</tbody>\n</table>\n<p>Check each company's documentation before you write rules, since names and purposes change. OpenAI's list sits in its <a href=\"https://platform.openai.com/docs/bots\" target=\"_blank\" rel=\"noopener\">bots overview</a>, and Google's in its <a href=\"https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers\" target=\"_blank\" rel=\"noopener\">common crawlers guide</a>.</p>\n<h2>Search bots vs training bots</h2>\n<p>This split matters most. Search bots, such as OAI-SearchBot and PerplexityBot, fetch pages so an assistant can cite them in answers today. Training bots, such as GPTBot, gather content that may shape future models. So you can block training while still appearing in AI search results.</p>\n<p>Google-Extended works differently. It is not a separate crawler; Googlebot does the fetching, and the token only tells Google whether it may use your content for Gemini. Blocking it does not change Google Search crawling or rankings.</p>\n<h2>A sample AI crawlers robots.txt policy</h2>\n<p>This example allows AI search and user-triggered fetches, but opts out of model training:</p>\n<pre><code>User-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: ChatGPT-User\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: *\nAllow: /\nSitemap: https://www.example.com/sitemap.xml</code></pre>\n<p>If you want maximum AI visibility, allow the training bots too. Many brands do, because models that learn about you may mention you more often. It is a business choice, not a technical one.</p>\n<h2>Common mistakes</h2>\n<ul>\n<li>Blocking every AI bot with a single rule, then wondering why assistants ignore you.</li>\n<li>Assuming robots.txt stops scrapers that do not follow it.</li>\n<li>Letting a firewall or CDN bot filter block AI search bots silently.</li>\n<li>Forgetting staging or duplicate domains that need their own rules.</li>\n</ul>\n<h2>Does robots.txt stop every AI crawler?</h2>\n<p>No. robots.txt is a public request, not a lock. The major companies say their named bots follow it, but unknown scrapers may not. For those, use firewall or CDN rules that block by user agent and behaviour. Meanwhile, check your server logs to see which bots actually visit.</p>\n<h2>How to check your current rules</h2>\n<p>Review your AI crawlers robots.txt setup at least twice a year, because new bots appear often:</p>\n<ol>\n<li>Open yourdomain.com/robots.txt in a browser.</li>\n<li>Look for each AI user agent listed above.</li>\n<li>Check your CDN or security plugin for bot blocking settings.</li>\n<li>Review server logs for hits from these bots.</li>\n<li>Test a key page with a fetch using the bot's user agent string.</li>\n</ol>\n<p>Getting your AI crawlers robots.txt rules right is the first step in AI optimization. Next, make sure the pages they fetch show text without JavaScript, as explained in <a href=\"/javascript-seo-ai/\">JavaScript SEO for AI</a>. For the bigger plan, read our <a href=\"/technical-seo-checklist/\">technical SEO checklist</a> or <a href=\"/how-to-rank-in-chatgpt/\">how to rank in ChatGPT</a>. Our <a href=\"/artificial-intelligence-optimization/\">AI optimization service</a> can review your crawler policy for you.</p>\n<h2>Frequently asked questions</h2><h3>Does blocking GPTBot remove me from ChatGPT search?</h3><p>No. OpenAI uses GPTBot for model training and OAI-SearchBot for ChatGPT search, so you can block one and allow the other.</p><h3>Does Google-Extended affect Google Search rankings?</h3><p>No. Google-Extended only controls whether content is used for Gemini models and grounding; it does not change Google Search crawling or ranking.</p><h3>Do all AI crawlers obey robots.txt?</h3><p>The major companies say their crawlers follow robots.txt, but robots.txt is a request, not a lock, so use firewall rules for bots that ignore it.</p>",
+  "head": {
+    "title": "AI Crawlers in robots.txt: Which Bots to Allow 2027",
+    "lang": "en-US",
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/ai-crawlers-robots-txt/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "AI crawlers in robots.txt: what GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot and Google-Extended do, and a sample policy for your site."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "AI Crawlers in robots.txt: Which Bots to Allow 2027"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "AI crawlers in robots.txt: what GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot and Google-Extended do, and a sample policy for your site."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/ai-crawlers-robots-txt/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "property",
+        "key": "article:published_time",
+        "content": "2026-08-23T10:00:00+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:modified_time",
+        "content": "2026-11-27T02:30:58+05:30"
+      },
+      {
+        "attr": "property",
+        "key": "article:section",
+        "content": "AIO"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ],
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "BlogPosting",
+            "@id": "https://openinkhub.io/ai-crawlers-robots-txt/#article",
+            "headline": "AI Crawlers in robots.txt: Which Bots to Allow 2027",
+            "description": "AI crawlers in robots.txt: what GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot and Google-Extended do, and a sample policy for your site.",
+            "url": "https://openinkhub.io/ai-crawlers-robots-txt/",
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
+            "datePublished": "2026-08-23T10:00:00+05:30",
+            "dateModified": "2026-11-27T02:30:58+05:30",
+            "keywords": "ai crawlers robots.txt, gptbot, claudebot, perplexitybot, google-extended, robots.txt",
+            "articleSection": "AIO",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/ai-crawlers-robots-txt/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "AIO",
+                "item": "https://openinkhub.io/category/aio/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "AI Crawlers in robots.txt: Which Bots to Allow 2027",
+                "item": "https://openinkhub.io/ai-crawlers-robots-txt/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
