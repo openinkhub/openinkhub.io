@@ -639,3 +639,8 @@ main :is(p, li, td, dd, small, blockquote) a:not([class]):hover{text-decoration-
 .brochure-form .bf-status{font-size:15px;color:var(--ink)}
 .brochure-form.bf-done .field,.brochure-form.bf-done .bf-plans,.brochure-form.bf-done .form-actions{display:none}
 .post-cta-btns{display:flex;flex-wrap:wrap;gap:10px;flex-shrink:0}
+.prose ul.city-stats{list-style:none;padding:0;margin:28px 0 36px;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.prose ul.city-stats li{margin:0;padding:20px 18px;border-top:3px solid var(--blue)}
+.prose ul.city-stats b{font-size:clamp(1.35rem,2.2vw,1.7rem)}
+.prose ul.city-stats span{line-height:1.45}
+@media (max-width:900px){.prose ul.city-stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
