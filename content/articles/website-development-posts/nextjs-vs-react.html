@@ -1,0 +1,46 @@
+<p>Next.js vs React is not really a contest between rivals. React is a JavaScript library for building user interfaces. Next.js is a framework built on top of React that adds routing, server-side rendering, static generation, image optimisation and other production features. Choose Next.js for public websites that must rank on Google and load fast. Choose plain React for apps behind a login, such as dashboards and internal tools, where you control the rendering setup.</p>
+
+<h2>Next.js vs React: the key differences</h2>
+<table>
+<thead><tr><th></th><th>React</th><th>Next.js</th></tr></thead>
+<tbody>
+<tr><td>What it is</td><td>UI library</td><td>Full framework using React</td></tr>
+<tr><td>Rendering</td><td>In the browser by default</td><td>Server, static or browser, per page</td></tr>
+<tr><td>Routing</td><td>Add a library</td><td>Built in, file-based</td></tr>
+<tr><td>SEO</td><td>Needs extra setup</td><td>Strong by default</td></tr>
+<tr><td>Image optimisation</td><td>Add tools yourself</td><td>Built in</td></tr>
+<tr><td>Backend features</td><td>None</td><td>API routes and server actions</td></tr>
+<tr><td>Best for</td><td>Dashboards, internal apps</td><td>Marketing sites, ecommerce, content</td></tr>
+</tbody>
+</table>
+
+<h2>SEO</h2>
+<p>A plain React app usually sends a nearly empty HTML page, then builds the content in the browser with JavaScript. Google can render JavaScript, but it takes extra time and other crawlers may struggle. Next.js renders pages on the server or at build time, so search engines receive complete HTML immediately. It also makes titles, descriptions and sitemaps easier to manage. Google explains the issues in its <a href="https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics" target="_blank" rel="noopener">JavaScript SEO basics</a>.</p>
+
+<h2>Performance</h2>
+<p>Next.js includes many speed features out of the box: automatic code splitting, image optimisation, font optimisation and the option to pre-build pages. As a result, first loads are usually faster, which helps Core Web Vitals. With plain React, you can achieve similar results, but you must set up each piece yourself. For apps behind a login, the difference matters less, because users load the app once and then stay.</p>
+
+<h2>Developer experience</h2>
+<p>React gives freedom: you pick the router, data tools and build setup. That suits teams with strong opinions or unusual needs. Next.js gives conventions: file-based routing, built-in data fetching and deployment patterns. This means less setup and more consistency across projects. See the <a href="https://nextjs.org/docs" target="_blank" rel="noopener">Next.js documentation</a> for its features.</p>
+
+<h2>When to choose Next.js</h2>
+<ul>
+<li>Marketing websites and landing pages that need to rank.</li>
+<li>Ecommerce storefronts, including headless commerce.</li>
+<li>Blogs and content platforms, often with a headless CMS.</li>
+<li>Any public site where speed affects sales.</li>
+</ul>
+
+<h2>When plain React is enough</h2>
+<ul>
+<li>Admin dashboards and internal tools.</li>
+<li>Apps that live entirely behind a login.</li>
+<li>Widgets embedded in other sites.</li>
+<li>Projects with an existing backend that already serves pages.</li>
+</ul>
+
+<h2>Common mistakes when choosing</h2>
+<p>First, building a public marketing site as a browser-only React app, then fighting SEO problems. Next, using Next.js for a simple internal tool where its server features add needless complexity. Then, ignoring hosting: Next.js server features need a platform that supports them. Finally, mixing rendering modes without a plan, which confuses caching.</p>
+
+<h2>Making the decision</h2>
+<p>Ask one question first: does this page need to be found on Google and load fast for new visitors? If yes, the Next.js vs React decision leans to Next.js. If it is behind a login, React alone is often fine. Our <a href="/frontend-development/">frontend development</a> team builds with both. To learn why many brands now pick it for their sites, read <a href="/nextjs-website-development/">Next.js website development</a>, or compare frameworks in <a href="/react-vs-angular-vs-vue/">React vs Angular vs Vue</a>.</p>
