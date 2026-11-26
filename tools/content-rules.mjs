@@ -240,13 +240,13 @@ export function titleYear(rec, fixes, { year, maxLen = 60, skipPaths = [], skipT
   fixes.push("title-year");
 }
 
-/** Blog posts and guides: the title ends with the year ("Topic: subtitle 2027"), any other year removed, within maxLen. */
+/** Blog posts and guides: the title ends with "in <year>" ("Topic: subtitle in 2027"), any other year removed, within maxLen. */
 export function blogTitleYear(rec, fixes, { year, maxLen = 60, types = ["post", "guide"] }) {
   const title = rec.head?.title || "";
   if (!title || !types.includes(rec.type)) return;
   const Y = String(year);
   let core = title.replace(/\s+[|–-]\s+openink Hub$/i, "").trim();
-  const endsRight = new RegExp(`\b${Y}$`).test(core) && !/\b20\d\d\b/.test(core.slice(0, -4));
+  const endsRight = core.endsWith(` in ${Y}`) && !/\b20\d\d\b/.test(core.slice(0, -8));
   if (!endsRight) {
     core = core
       .replace(/\s*\(\s*20\d\d\s+([A-Za-z][^)]*)\)/g, " $1") // "(2026 Guide)" -> "Guide"
@@ -255,7 +255,7 @@ export function blogTitleYear(rec, fixes, { year, maxLen = 60, types = ["post", 
       .replace(/(^|\s)20\d\d(?=\s|:|$)/g, "$1")               // bare "2026"
       .replace(/\s+([:,])/g, "$1").replace(/\s{2,}/g, " ").replace(/[\s:|,&–-]+$/, "").trim();
     const STOP = /\b(and|or|the|a|an|of|for|in|to|with|by|on|at|from|vs)$|&$/i;
-    const fit = (c) => `${c} ${Y}`;
+    const fit = (c) => `${c} in ${Y}`;
     let next = fit(core);
     if (next.length > maxLen) {
       // shorten the subtitle: drop list items, then words, from the end
@@ -268,7 +268,7 @@ export function blogTitleYear(rec, fixes, { year, maxLen = 60, types = ["post", 
       }
       const words = core.split(/\s+/);
       for (let k = words.length - 1; k >= 3; k--) tries.push(words.slice(0, k).join(" "));
-      next = tries.map((t) => t.replace(/[\s:|,&–-]+$/, "")).filter((t) => !STOP.test(t)).map(fit).find((t) => t.length <= maxLen) || next;
+      next = tries.map((t) => t.replace(/[\s:|,&–-]+$/, "")).filter((t) => !STOP.test(t) && !/\b(Local|Lead|Voice|Start|Auto)$/i.test(t)).map(fit).find((t) => t.length <= maxLen) || next;
     }
     core = next;
   }
