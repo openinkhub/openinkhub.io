@@ -9,7 +9,7 @@
   "title": "Technical SEO for Websites: Why It Matters in 2027",
   "h1": "What Is Technical SEO and Why Does Your Website Need It?",
   "date": "2026-11-26T15:29:32",
-  "modified": "2026-11-26T15:30:08",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "What technical SEO is and why your website needs it: crawling, indexing, speed, mobile, structured data and a practical audit checklist.",
   "keyphrase_override": "technical SEO",
@@ -19,6 +19,10 @@
     "technical SEO audit"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -124,7 +128,7 @@
             "url": "https://openinkhub.io/technical-seo-for-websites/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:29:32+05:30",
-            "dateModified": "2026-11-26T15:30:08+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "technical SEO, technical SEO for websites, technical SEO checklist, technical SEO audit",
             "author": {
               "@type": "Person",

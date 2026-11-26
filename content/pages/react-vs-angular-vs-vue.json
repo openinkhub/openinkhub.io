@@ -9,7 +9,7 @@
   "title": "React vs Angular vs Vue: Best Framework in 2027",
   "h1": "React vs Angular vs Vue: Which Frontend Framework Is Best?",
   "date": "2026-11-26T14:56:56",
-  "modified": "2026-11-26T14:56:56",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "React vs Angular vs Vue compared on learning curve, performance, SEO, ecosystem and hiring, to help you pick the right frontend framework.",
   "keyphrase_override": "React vs Angular vs Vue",
@@ -21,6 +21,10 @@
     "best frontend framework"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/react-vs-angular-vs-vue/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T14:56:56+05:30",
-            "dateModified": "2026-11-26T14:56:56+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "React vs Angular vs Vue, React vs Angular, React vs Vue, Angular vs Vue, frontend framework comparison, best frontend framework",
             "author": {
               "@type": "Person",

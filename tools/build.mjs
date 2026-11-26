@@ -893,9 +893,8 @@ function categoryTpl(rec, posts, x, cards, filters) {
     ${rec._cover ? `<div class="hero-visual"><!--seo:content--><img src="${E(rel(rec._cover.src))}" alt="${E(rec._cover.alt)}" width="1200" height="630" fetchpriority="high"><!--/seo:content--></div>` : ""}
   </div>
 </section>`;
-  // stats, the shared "Next step" cards and the state list on the SEO page are site-wide boilerplate/navigation:
-  // shown, but kept outside <!--seo:content--> so they do not count towards content overlap between categories
-  if (x.stats?.length) out += `<section class="section section-tight"><div class="wrap"><ul class="about-stats figures">${x.stats.map((s) => `<li><span>${E(s.label)}</span><b>${E(s.value)}</b></li>`).join("")}</ul></div></section>`;
+  // no stat strip on category and tag pages. The shared "Next step" cards and the state list on the SEO page are
+  // site-wide boilerplate/navigation: shown, but kept outside <!--seo:content--> so they do not count towards overlap
   const b = x.browse || { title: "All articles" };
   out += `<section class="${secOpen()}"><div class="wrap"><!--seo:content-->${head(b)}<!--/seo:content--><div class="chips">${filters}</div><div class="post-grid">${cards}</div></div></section>`;
   if (x.states) {
@@ -921,7 +920,8 @@ function listingTpl(rec, posts, label) {
   const intro = (rec.content_html || "").replace(/<[^>]+>/g, " ").trim();
   const h1 = rec.h1 || rec.title;
   // images on the first cards only (the rest are text cards), so big archives stay light
-  const maxImg = Math.max(0, (RULES.thresholds.pageWeight.maxImagesPerPage || 30) - 6);
+  const PW = RULES.thresholds.pageWeight;
+  const maxImg = Math.max(0, (PW.maxImagesPerPageOverrides?.[rec.path] ?? PW.maxImagesPerPage ?? 30) - 6);
   const cards = posts.map((p, i) => postCard(i < maxImg ? p : { ...p, featured_image: null })).join("") || "<p>No articles yet.</p>";
   const months = RECS.filter((r) => r.type === "archive").sort((a, b) => b.path.localeCompare(a.path));
   const filters = CATS.filter((c) => c.count).map((c) =>

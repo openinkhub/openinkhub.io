@@ -9,7 +9,7 @@
   "title": "How Long Does Website Development Take in 2027",
   "h1": "How Long Does Website Development Take? Timeline and Process",
   "date": "2026-11-26T14:40:51",
-  "modified": "2026-11-26T14:42:08",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "How long website development takes by project type, the timeline for each stage, what causes delays and how to launch your website on schedule.",
   "keyphrase_override": "website development timeline",
@@ -21,6 +21,10 @@
     "website delays"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/website-development-timeline/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T14:40:51+05:30",
-            "dateModified": "2026-11-26T14:42:08+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "website development timeline, how long to build a website, website project timeline, website development stages, website launch timeline, website delays",
             "author": {
               "@type": "Person",

@@ -9,7 +9,7 @@
   "title": "Website Speed Optimization: How to Load Faster in 2027",
   "h1": "How to Improve Website Loading Speed and Performance",
   "date": "2026-11-26T15:29:32",
-  "modified": "2026-11-26T15:29:32",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Website speed optimization step by step: images, caching, CDN, code, fonts and third-party scripts, plus how to measure results and avoid mistakes.",
   "keyphrase_override": "website speed optimization",
@@ -21,6 +21,10 @@
     "image optimization"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/website-speed-optimization/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:29:32+05:30",
-            "dateModified": "2026-11-26T15:29:32+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "website speed optimization, website performance optimization, improve website speed, website speed SEO, CDN optimization, image optimization",
             "author": {
               "@type": "Person",

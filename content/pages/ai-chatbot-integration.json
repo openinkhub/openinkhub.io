@@ -9,7 +9,7 @@
   "title": "AI Chatbot Integration for Business Websites in 2027",
   "h1": "How to Integrate AI Chatbots Into Business Websites",
   "date": "2026-11-26T15:21:41",
-  "modified": "2026-11-26T15:21:41",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "AI chatbot integration for business websites: use cases, platforms, setup steps, costs, security and the mistakes that make chatbots frustrating.",
   "keyphrase_override": "AI chatbot integration",
@@ -21,6 +21,10 @@
     "AI customer support"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/ai-chatbot-integration/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:21:41+05:30",
-            "dateModified": "2026-11-26T15:21:41+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "AI chatbot integration, AI chatbot for business, chatbot cost, chatbot platforms, website chatbot, AI customer support",
             "author": {
               "@type": "Person",

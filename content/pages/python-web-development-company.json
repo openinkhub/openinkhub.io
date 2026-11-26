@@ -9,7 +9,7 @@
   "title": "Python Web Development Company: What to Expect 2027",
   "h1": "Python Web Development Company: What to Expect",
   "date": "2026-11-26T15:47:55",
-  "modified": "2026-11-26T15:47:55",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "What to expect from a Python web development company: Django and FastAPI projects, costs in India, how to choose a partner and when Python fits.",
   "keyphrase_override": "Python web development company",
@@ -21,6 +21,10 @@
     "Flask development"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/python-web-development-company/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:47:55+05:30",
-            "dateModified": "2026-11-26T15:47:55+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "Python web development company, Python development services, hire Python developers, Python web app cost, Django development, Flask development",
             "author": {
               "@type": "Person",

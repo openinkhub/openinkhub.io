@@ -9,7 +9,7 @@
   "title": "Full Stack Web Development: Complete Guide for 2027",
   "h1": "What Is Full Stack Web Development? Complete Guide",
   "date": "2026-11-26T15:05:03",
-  "modified": "2026-11-26T15:05:03",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Full stack web development explained: front end, back end and databases, the skills involved, popular stacks, typical costs and common mistakes.",
   "keyphrase_override": "full stack web development",
@@ -21,6 +21,10 @@
     "MEAN stack"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/full-stack-web-development/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:05:03+05:30",
-            "dateModified": "2026-11-26T15:05:03+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "full stack web development, full stack developer skills, full stack development cost, full stack stack, MERN stack, MEAN stack",
             "author": {
               "@type": "Person",

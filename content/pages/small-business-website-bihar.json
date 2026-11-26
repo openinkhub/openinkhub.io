@@ -9,7 +9,7 @@
   "title": "Small Business Website in Bihar: Benefits and Costs 2027",
   "h1": "How Small Businesses in Bihar Can Benefit From Professional Websites",
   "date": "2026-11-26T15:37:47",
-  "modified": "2026-11-26T15:39:29",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Why a small business website helps shops, clinics, schools and service firms in Bihar win local customers, plus costs and must-have features.",
   "keyphrase_override": "small business website",
@@ -22,6 +22,10 @@
     "Bihar web development"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -127,7 +131,7 @@
             "url": "https://openinkhub.io/small-business-website-bihar/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:37:47+05:30",
-            "dateModified": "2026-11-26T15:39:29+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "small business website, website development for small business in Bihar, small business website Bihar, website cost Bihar, local SEO Bihar, small business web design Bihar, Bihar web development",
             "author": {
               "@type": "Person",

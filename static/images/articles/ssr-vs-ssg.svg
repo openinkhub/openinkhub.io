@@ -1,7 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="SSR vs SSG: Which Rendering Method to Use in 2027">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1424"/><stop offset="1" stop-color="#0352a3"/></linearGradient></defs>
-<rect width="1200" height="630" fill="url(#g)"/><circle cx="1080" cy="110" r="180" fill="#046bd2" opacity=".25"/><circle cx="1130" cy="560" r="120" fill="#eef5fd" opacity=".08"/>
-<text x="80" y="110" fill="#9cc6f5" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="600" letter-spacing="2">WEBSITE DEVELOPMENT · SUPPORTING</text>
-<text x="80" y="277" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="60" font-weight="700">SSR vs SSG: Which Rendering</text>
-<text x="80" y="353" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="60" font-weight="700">Method to Use in 2027</text>
-<text x="80" y="560" fill="#cfe3fa" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="600">openink Hub</text></svg>
+<defs><linearGradient id="g" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a1630"/><stop offset="1" stop-color="#1d4ed8"/></linearGradient><pattern id="p" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2.4" fill="#38bdf8"/></pattern>
+<style>.ic{fill:none;stroke:#38bdf8;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}.ic .f{fill:#38bdf8;stroke:none}</style></defs>
+<rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#p)" opacity=".14"/><circle cx="997" cy="143" r="210" fill="#38bdf8" opacity=".14"/><circle cx="103" cy="600" r="170" fill="#1d4ed8" opacity=".5"/>
+<rect x="772" y="135" width="360" height="360" rx="44" fill="#fff" fill-opacity=".08" stroke="#38bdf8" stroke-opacity=".45" stroke-width="2" transform="rotate(-6 952 315)"/><g class="ic" transform="translate(827 190) scale(1.25)"><rect x="12" y="38" width="78" height="124" rx="12"/><rect x="110" y="38" width="78" height="124" rx="12"/><path d="M30 70h42M30 94h30M128 70h42M128 94h30M51 130v14M149 124v20"/></g>
+<rect x="72" y="66" width="445" height="46" rx="23" fill="#38bdf8"/>
+<text x="94" y="97" fill="#0a1630" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="1.2">MODERN WEBSITE ARCHITECTURE</text>
+<text x="72" y="274" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">SSR vs SSG: Which</text>
+<text x="72" y="338" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">Rendering Method to</text>
+<text x="72" y="402" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">Use in 2027</text>
+<rect x="72" y="532" width="64" height="6" rx="3" fill="#38bdf8"/>
+<text x="72" y="578" fill="#fff" fill-opacity=".9" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">openink Hub</text>
+<text x="236" y="578" fill="#fff" fill-opacity=".6" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">Guide 070</text></svg>

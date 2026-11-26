@@ -9,7 +9,7 @@
   "title": "Signs You Need a Website Redesign in 2027",
   "h1": "Signs Your Business Website Needs a Redesign",
   "date": "2026-11-26T15:37:47",
-  "modified": "2026-11-26T15:39:51",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "The clearest signs you need a website redesign: poor mobile experience, slow pages, low conversions and hard updates, plus cost and planning tips.",
   "keyphrase_override": "signs you need a website redesign",
@@ -22,6 +22,10 @@
     "website redesign ROI"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -127,7 +131,7 @@
             "url": "https://openinkhub.io/signs-you-need-a-website-redesign/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:37:47+05:30",
-            "dateModified": "2026-11-26T15:39:51+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "signs you need a website redesign, website redesign, when to redesign website, website redesign signs, website redesign cost, website redesign process, website redesign ROI",
             "author": {
               "@type": "Person",

@@ -9,7 +9,7 @@
   "title": "React Website Development Services: What to Expect 2027",
   "h1": "React Website Development Services: What to Expect and How to Choose",
   "date": "2026-11-26T15:37:47",
-  "modified": "2026-11-26T15:39:29",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "React website development services explained: what is included, costs in India, SEO with React, timelines and how to choose a React team.",
   "keyphrase_override": "React website development",
@@ -22,6 +22,10 @@
     "React SEO"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -127,7 +131,7 @@
             "url": "https://openinkhub.io/react-website-development/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:37:47+05:30",
-            "dateModified": "2026-11-26T15:39:29+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "React website development, React development company, hire React developers, React website cost, React web development services, React vs other frameworks, React SEO",
             "author": {
               "@type": "Person",

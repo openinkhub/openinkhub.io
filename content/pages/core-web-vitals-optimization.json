@@ -9,7 +9,7 @@
   "title": "Core Web Vitals Optimization Guide for 2027",
   "h1": "Core Web Vitals Explained: How to Improve Website Performance",
   "date": "2026-11-26T15:29:32",
-  "modified": "2026-11-26T15:29:32",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Core Web Vitals optimization explained: what LCP, INP and CLS measure, how to improve each one and how page experience affects SEO.",
   "keyphrase_override": "Core Web Vitals optimization",
@@ -21,6 +21,10 @@
     "website performance optimization"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/core-web-vitals-optimization/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:29:32+05:30",
-            "dateModified": "2026-11-26T15:29:32+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "Core Web Vitals optimization, LCP, INP, CLS, Core Web Vitals SEO, website performance optimization",
             "author": {
               "@type": "Person",

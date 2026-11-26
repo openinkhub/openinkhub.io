@@ -9,7 +9,7 @@
   "title": "Ecommerce Website Development Process for 2027",
   "h1": "Ecommerce Website Development Process From Design to Launch",
   "date": "2026-11-26T14:40:51",
-  "modified": "2026-11-26T14:42:08",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "The ecommerce website development process from planning and design to catalog setup, payments, testing and launch, with what to expect at each step.",
   "keyphrase_override": "ecommerce website development process",
@@ -21,6 +21,10 @@
     "ecommerce testing"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/ecommerce-website-development-process/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T14:40:51+05:30",
-            "dateModified": "2026-11-26T14:42:08+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "ecommerce website development process, ecommerce build stages, ecommerce launch checklist, ecommerce migration, ecommerce payments integration, ecommerce testing",
             "author": {
               "@type": "Person",

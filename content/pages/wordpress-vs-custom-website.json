@@ -9,7 +9,7 @@
   "title": "WordPress vs Custom Website: Which to Pick in 2027",
   "h1": "WordPress vs Custom Website Development: Which Is Better?",
   "date": "2026-11-26T14:56:56",
-  "modified": "2026-11-26T14:56:56",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "WordPress vs custom website development compared on cost, SEO, security, speed and scaling, with a simple way to decide which suits your business.",
   "keyphrase_override": "WordPress vs custom website",
@@ -21,6 +21,10 @@
     "WordPress scalability"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/wordpress-vs-custom-website/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T14:56:56+05:30",
-            "dateModified": "2026-11-26T14:56:56+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "WordPress vs custom website, WordPress vs custom development, custom website vs WordPress cost, WordPress SEO, custom website SEO, WordPress scalability",
             "author": {
               "@type": "Person",

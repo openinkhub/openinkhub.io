@@ -9,7 +9,7 @@
   "title": "WordPress Website Cost in India: Prices for 2027",
   "h1": "WordPress Website Development Cost in India",
   "date": "2026-11-26T14:40:51",
-  "modified": "2026-11-26T15:50:33",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "WordPress website cost in India: theme vs custom builds, plugins, hosting and maintenance, with typical price ranges and tips to avoid overpaying.",
   "keyphrase_override": "WordPress website cost",
@@ -21,6 +21,10 @@
     "WordPress hosting cost"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/wordpress-website-cost/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T14:40:51+05:30",
-            "dateModified": "2026-11-26T15:50:33+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "WordPress website cost, WordPress development cost India, WordPress theme cost, WordPress plugin cost, WordPress maintenance cost, WordPress hosting cost",
             "author": {
               "@type": "Person",

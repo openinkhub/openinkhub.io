@@ -9,7 +9,7 @@
   "title": "Progressive Web App Development: Cost and Process 2027",
   "h1": "Progressive Web App Development: Benefits, Cost and Process",
   "date": "2026-11-26T15:47:55",
-  "modified": "2026-11-26T15:48:44",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Progressive web app development explained: the build process, costs in India, choosing a PWA partner and when a PWA beats a native app.",
   "keyphrase_override": "progressive web app development",
@@ -21,6 +21,10 @@
     "PWA SEO"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/progressive-web-app-development/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:47:55+05:30",
-            "dateModified": "2026-11-26T15:48:44+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "progressive web app development, PWA development company, hire PWA developers, PWA cost, PWA vs native app, PWA SEO",
             "author": {
               "@type": "Person",

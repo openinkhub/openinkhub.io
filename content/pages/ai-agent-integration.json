@@ -9,7 +9,7 @@
   "title": "AI Agent Integration for Website Operations in 2027",
   "h1": "What Are AI Agents and How Can They Automate Website Operations?",
   "date": "2026-11-26T15:21:41",
-  "modified": "2026-11-26T15:21:41",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "What AI agents are and how AI agent integration can automate website operations such as support, lead handling and updates, with costs and safeguards.",
   "keyphrase_override": "AI agent integration",
@@ -21,6 +21,10 @@
     "website automation"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/ai-agent-integration/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:21:41+05:30",
-            "dateModified": "2026-11-26T15:21:41+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "AI agent integration, AI agents for business, AI automation, AI agent architecture, AI agent cost, website automation",
             "author": {
               "@type": "Person",

@@ -9,7 +9,7 @@
   "title": "Business Website Security: How to Stay Safe in 2027",
   "h1": "How to Secure a Business Website From Cyber Threats",
   "date": "2026-11-26T15:29:32",
-  "modified": "2026-11-26T15:30:08",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Business website security step by step: the biggest threats, HTTPS, updates, firewalls, backups, monitoring, typical costs and common mistakes.",
   "keyphrase_override": "business website security",
@@ -21,6 +21,10 @@
     "website monitoring"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/business-website-security/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:29:32+05:30",
-            "dateModified": "2026-11-26T15:30:08+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "business website security, website security, website security best practices, website security cost, website firewall, website monitoring",
             "author": {
               "@type": "Person",

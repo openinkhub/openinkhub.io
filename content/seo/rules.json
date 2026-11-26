@@ -184,7 +184,9 @@
       "maxImagesPerPage": 30,
       "maxImagesPerPageOverrides": {
         "_note": "gallery pages whose extra images are all lazy-loaded screenshots",
-        "/our-success-stories/": 160
+        "/our-success-stories/": 160,
+        "/category/website-development/": 200,
+        "/category/best-seo-content-agency/": 220
       }
     },
     "faq": {

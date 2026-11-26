@@ -9,7 +9,7 @@
   "title": "Progressive Web Apps: How PWAs Work in 2027",
   "h1": "What Are Progressive Web Apps and How Do They Work?",
   "date": "2026-11-26T15:21:41",
-  "modified": "2026-11-26T15:21:41",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Progressive web apps explained: how PWAs work, their benefits over native apps, typical costs, SEO impact and the common mistakes teams make.",
   "keyphrase_override": "progressive web apps",
@@ -22,6 +22,10 @@
     "PWA SEO"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -127,7 +131,7 @@
             "url": "https://openinkhub.io/progressive-web-apps/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:21:41+05:30",
-            "dateModified": "2026-11-26T15:21:41+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "progressive web apps, progressive web applications, PWA explained, PWA benefits, PWA vs native app, PWA cost, PWA SEO",
             "author": {
               "@type": "Person",

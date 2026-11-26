@@ -9,7 +9,7 @@
   "title": "Shopify vs WordPress for Ecommerce in 2027",
   "h1": "Shopify vs WordPress for Ecommerce: Complete Comparison",
   "date": "2026-11-26T14:40:51",
-  "modified": "2026-11-26T15:50:33",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Shopify vs WordPress for ecommerce: hosting, cost, content, SEO, apps and control compared, with a simple way to decide which fits your online store.",
   "keyphrase_override": "Shopify vs WordPress",
@@ -20,6 +20,10 @@
     "best ecommerce platform"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -125,7 +129,7 @@
             "url": "https://openinkhub.io/shopify-vs-wordpress/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T14:40:51+05:30",
-            "dateModified": "2026-11-26T15:50:33+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "Shopify vs WordPress, WooCommerce vs Shopify, Shopify vs WordPress SEO, WordPress ecommerce, best ecommerce platform",
             "author": {
               "@type": "Person",

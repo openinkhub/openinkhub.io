@@ -9,7 +9,7 @@
   "title": "Kubernetes and CI/CD for Website Deployment in 2027",
   "h1": "Kubernetes and CI/CD: Modern Website Deployment Explained",
   "date": "2026-11-26T15:29:32",
-  "modified": "2026-11-26T15:29:32",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "Kubernetes and CI/CD explained: how container orchestration and automated pipelines deploy websites reliably, plus costs and common mistakes.",
   "keyphrase_override": "Kubernetes and CI/CD",
@@ -21,6 +21,10 @@
     "modern deployment"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/kubernetes-ci-cd/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:29:32+05:30",
-            "dateModified": "2026-11-26T15:29:32+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "Kubernetes and CI/CD, Kubernetes deployment, CI/CD pipeline, Kubernetes benefits, CI/CD benefits, modern deployment",
             "author": {
               "@type": "Person",

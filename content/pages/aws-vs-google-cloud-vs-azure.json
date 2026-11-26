@@ -9,7 +9,7 @@
   "title": "AWS vs Google Cloud vs Azure for Websites in 2027",
   "h1": "AWS vs Google Cloud vs Azure for Website Hosting",
   "date": "2026-11-26T15:21:41",
-  "modified": "2026-11-26T15:21:41",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "AWS vs Google Cloud vs Azure for website hosting: services, pricing, performance, India regions and which cloud suits a business website.",
   "keyphrase_override": "AWS vs Google Cloud vs Azure",
@@ -21,6 +21,10 @@
     "best cloud for websites"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -126,7 +130,7 @@
             "url": "https://openinkhub.io/aws-vs-google-cloud-vs-azure/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:21:41+05:30",
-            "dateModified": "2026-11-26T15:21:41+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "AWS vs Google Cloud vs Azure, cloud hosting comparison, AWS vs Azure, Google Cloud vs AWS, cloud hosting cost, best cloud for websites",
             "author": {
               "@type": "Person",

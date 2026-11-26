@@ -13,7 +13,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { makeCover } from "./covers.mjs";
+import { makeArticleCover } from "./covers.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const BRIEFS = path.join(ROOT, "content", "articles", "website-development-briefs.json");
@@ -22,13 +22,14 @@ const PAGES = path.join(ROOT, "content", "pages");
 const BASE = "https://openinkhub.io";
 const IMAGE = `${BASE}/wp-content/uploads/2026/07/business-process-optimization-1.webp`;
 const BLOGS = { name: "Blogs", path: "/category/best-seo-content-agency/" };
+const WEBDEV = { name: "Website Development", path: "/category/website-development/" };
 const AUTHOR = "Hiten Neotia";
 const now = new Date().toISOString().slice(0, 19);
 const E = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const FILLER = /\b(guide|explained|benefits|examples|for business|cost)$/i;
 
 // 1200x630 title card, written to static/images/articles/<slug>.svg
-const cover = (b) => makeCover({ dir: "articles", slug: b.slug, title: b.seo_title || b.title, label: `Website development · ${b.role}` });
+const cover = (b) => makeArticleCover({ dir: "articles", slug: b.slug, title: b.seo_title || b.title, hub: b.hub, cluster: b.cluster, id: b.id });
 
 const data = JSON.parse(fs.readFileSync(BRIEFS, "utf8"));
 let made = 0;
@@ -47,7 +48,10 @@ for (const b of data.briefs.filter((x) => x.status === "published")) {
   const img = cover(b);
   const desc = b.description;
   // keep hand-added categories and tags; keep `modified` unless the page actually changed
-  const cats = prev?.categories?.some((c) => c.path === BLOGS.path) ? prev.categories : [BLOGS, ...(prev?.categories || [])];
+  // every brief post is listed under Website Development (first, so cards show that tag) and the main Blogs category
+  let cats = prev?.categories || [];
+  if (!cats.some((c) => c.path === WEBDEV.path)) cats = [WEBDEV, ...cats];
+  if (!cats.some((c) => c.path === BLOGS.path)) cats = [...cats, BLOGS];
   const build = (mod) => ({
     url, path: p, status: 200, type: "post", brief_id: b.id, brief_hub: b.hub, cluster: b.cluster,
     title, h1: b.h1, date, modified: mod, author: AUTHOR, excerpt: desc,

@@ -9,7 +9,7 @@
   "title": "API Security: Why It Matters and How to Do It in 2027",
   "h1": "What Is API Security and Why Is It Important?",
   "date": "2026-11-26T15:29:32",
-  "modified": "2026-11-26T15:29:32",
+  "modified": "2026-11-26T16:34:05",
   "author": "Hiten Neotia",
   "excerpt": "What API security is, why it matters, the most common API threats and the best practices that protect your data, apps and customers.",
   "keyphrase_override": "API security",
@@ -20,6 +20,10 @@
     "API encryption"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -125,7 +129,7 @@
             "url": "https://openinkhub.io/api-security/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-26T15:29:32+05:30",
-            "dateModified": "2026-11-26T15:29:32+05:30",
+            "dateModified": "2026-11-26T16:34:05+05:30",
             "keywords": "API security, API security best practices, API authentication, API rate limiting, API encryption",
             "author": {
               "@type": "Person",
