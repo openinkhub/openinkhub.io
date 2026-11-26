@@ -382,13 +382,14 @@
         ],
         "text": "Website for an eClinical platform: EDC, eConsent, ePRO, RTSM and telehealth, each with a clear product page. Answer-first copy and schema help buyers and AI tools.",
         "pagespeed": {
-          "performance": 82,
+          "performance": 92,
           "accessibility": 97,
           "best_practices": 100,
           "seo": 100,
           "pa": 35,
           "rd": 210
-        }
+        },
+        "pagespeed_report": "https://pagespeed.web.dev/analysis/https-etrialtrack-in/94f8cb729bmf5rxs14y5kg?hl=en&form_factor=mobile"
       }
     ],
     "cta": {
