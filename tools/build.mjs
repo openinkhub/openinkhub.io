@@ -114,6 +114,28 @@ function planMarkers(html) {
   return html.replace(/<span data-plan="([a-z]+)">([\s\S]*?)<\/span>/g, (m, k, t) => { const p = AIP.plans.find((x) => x.key === k); return p ? planLink(p, t) : t; })
     .replace(/<div data-brochure-form="([a-z]+)"><\/div>/g, (m, k) => brochureForm(k === "all" ? null : k, k === "all" ? "brochure" : `brochure-${k}`));
 }
+// AI SEO platform (site-config ai_seo). On SEO / AEO / AIO / GEO / audit / on-page SEO pages the sign-up is the CTA:
+// first hero button, first button in the post box and the closing band, and the target of in-content links to the platform.
+// Everywhere else (and for author credits) links to the platform point to its home page.
+const AIS = CFG.ai_seo, AIS_RE = AIS && new RegExp(AIS.page_pattern, "i");
+const isSeoPage = (p) => !!AIS_RE && p !== "/" && AIS_RE.test(p);
+function seoCta(p, html) {
+  if (!AIS) return html;
+  const seo = isSeoPage(p);
+  html = html.replace(/(<a\b[^>]*?)href="https?:\/\/(?:www\.)?openinkhub\.cloud\/?"/g, (m, a, off, s) => {
+    const author = /author[^<>]*:\s*(<[^>]+>\s*)*$/i.test(s.slice(Math.max(0, off - 60), off));
+    return `${a}href="${E(seo && !author ? AIS.signup_url : AIS.platform_url)}"`;
+  });
+  if (!seo) return html;
+  const signup = (cls) => `<a class="${cls}" href="${E(AIS.signup_url)}" target="_blank" rel="noopener">${E(AIS.signup_label)}${icon("arrow")}</a>`;
+  return html
+    .replace(/<div class="((?:cta-row )?hero-ctas)">([\s\S]*?)<\/div>/, (m, cls, inner) => inner.includes(AIS.signup_url) ? m :
+      `<div class="${cls}">${signup("btn btn-primary")}${inner.replace(/<a class="btn btn-ghost" href="\/contact-us\/">Contact Us<\/a>/, "").replace(/btn btn-primary/g, "btn btn-ghost")}</div>`)
+    .replace(/(<aside class="post-cta">[\s\S]*?)(<a class="btn btn-primary"[^>]*>[\s\S]*?<\/a>)<\/aside>/, (m, a, b) =>
+      `${a}<div class="post-cta-btns">${signup("btn btn-primary")}${b.replace("btn btn-primary", "btn btn-outline-light")}</div></aside>`)
+    .replace(/<div class="cta-actions">/, `<div class="cta-actions">\n      ${signup("btn btn-light")}`)
+    .replace(/(<div class="cta-actions">[\s\S]*?)<a class="btn btn-light" href="(?!https:\/\/openinkhub\.cloud)/, '$1<a class="btn btn-outline-light" href="');
+}
 const CITY_OF = new Map();
 if (fs.existsSync(path.join(C, "city-posts"))) for (const f of fs.readdirSync(path.join(C, "city-posts")).filter((x) => x.endsWith(".json")))
   for (const c of [].concat(load(path.join(C, "city-posts", f)))) CITY_OF.set(`/${c.file}/`, c);
@@ -1301,7 +1323,7 @@ function main() {
       : r.type === "archive" ? listingTpl(r, byMonth[r.path] || [], "Archive")
       : pageTpl(r);
     BROCHURE_JS = false;
-    write(r.path, fixAnchors(planMarkers(out)));
+    write(r.path, seoCta(r.path, fixAnchors(planMarkers(out))));
   }
   sitemaps();
   notFound();

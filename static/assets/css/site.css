@@ -638,3 +638,4 @@ main :is(p, li, td, dd, small, blockquote) a:not([class]):hover{text-decoration-
 .brochure-form .bf-status:empty{display:none}
 .brochure-form .bf-status{font-size:15px;color:var(--ink)}
 .brochure-form.bf-done .field,.brochure-form.bf-done .bf-plans,.brochure-form.bf-done .form-actions{display:none}
+.post-cta-btns{display:flex;flex-wrap:wrap;gap:10px;flex-shrink:0}
