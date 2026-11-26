@@ -1,0 +1,53 @@
+<p>Docker packages an application, together with everything it needs to run, into a portable unit called a container. The same container runs identically on a developer's laptop, a test server and production. Docker in web development removes the classic "it works on my machine" problem, speeds up onboarding, simplifies deployments and makes scaling easier. It is free for most small teams, and the main cost is the time to containerise your apps and set up a workflow.</p>
+
+<h2>What a container is</h2>
+<p>A container holds your code, the language runtime (such as Node.js, PHP or Python), libraries and settings. Unlike a virtual machine, it shares the host's operating system kernel, so it starts in seconds and uses little memory. You describe a container in a short text file called a Dockerfile, then build it into an image that anyone can run. The <a href="https://docs.docker.com/get-started/" target="_blank" rel="noopener">Docker getting-started guide</a> walks through the basics.</p>
+
+<h2>How Docker in web development works day to day</h2>
+<ol>
+<li><strong>Local development:</strong> one command starts the app, database and cache exactly as configured.</li>
+<li><strong>Testing:</strong> the CI pipeline builds the image and runs tests inside it.</li>
+<li><strong>Staging:</strong> the same image is deployed for review.</li>
+<li><strong>Production:</strong> the tested image goes live, unchanged.</li>
+<li><strong>Scaling:</strong> more copies of the container run when traffic grows.</li>
+</ol>
+<p>For example, a team building a Laravel portal can run PHP, MySQL and Redis in containers, so a new developer is productive on day one instead of spending a day installing software.</p>
+
+<h2>Benefits of Docker</h2>
+<ul>
+<li><strong>Consistency:</strong> identical environments from laptop to production.</li>
+<li><strong>Faster onboarding:</strong> new developers start in minutes.</li>
+<li><strong>Reliable deployments:</strong> what you tested is exactly what you ship.</li>
+<li><strong>Isolation:</strong> different projects can use different versions without conflicts.</li>
+<li><strong>Portability:</strong> move between hosts or clouds with little change.</li>
+<li><strong>Scaling:</strong> works naturally with orchestration tools such as Kubernetes.</li>
+</ul>
+
+<h2>Docker vs traditional server setup</h2>
+<table>
+<thead><tr><th></th><th>Traditional setup</th><th>Docker</th></tr></thead>
+<tbody>
+<tr><td>Environment setup</td><td>Manual, per machine</td><td>Defined once in a file</td></tr>
+<tr><td>Version conflicts</td><td>Common</td><td>Rare</td></tr>
+<tr><td>Deploying</td><td>Copy files, configure server</td><td>Run the image</td></tr>
+<tr><td>Rollback</td><td>Often manual</td><td>Run the previous image</td></tr>
+</tbody>
+</table>
+
+<h2>What Docker adoption costs</h2>
+<p>Docker Engine is open source, and Docker Desktop is free for small businesses and personal use, while larger companies need a paid subscription. The real cost is engineering time: writing Dockerfiles, setting up a registry and building a CI/CD pipeline. For most web projects that is a few days of work, which pays back quickly through smoother releases.</p>
+
+<h2>When Docker makes sense</h2>
+<ul>
+<li>Custom web apps with several services, such as an API, database and queue.</li>
+<li>Teams with more than one or two developers.</li>
+<li>Projects that deploy often.</li>
+<li>Apps that need to scale or move between clouds.</li>
+</ul>
+<p>A simple WordPress website on managed hosting usually does not need Docker, although agencies often use it for local development.</p>
+
+<h2>Common Docker mistakes</h2>
+<p>First, huge images full of build tools, which slow deploys. Next, storing passwords inside images. Then, running containers as the root user. After that, saving important data inside containers instead of volumes or managed databases. Finally, never updating base images, which leaves security holes.</p>
+
+<h2>Getting started</h2>
+<p>Start by containerising one app for local development, then add it to your CI pipeline. Openink Hub's <a href="/web-architecture-cloud-development/">web architecture and cloud development</a> team uses Docker in web development projects across India. Next steps: <a href="/kubernetes-ci-cd/">Kubernetes and CI/CD</a> and <a href="/microservices-vs-monolithic-architecture/">microservices vs monolithic architecture</a>.</p>

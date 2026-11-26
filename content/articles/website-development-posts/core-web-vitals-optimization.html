@@ -1,0 +1,53 @@
+<p>Core Web Vitals optimization means improving the three metrics Google uses to measure real page experience. Largest Contentful Paint (LCP) measures how fast the main content appears, and should be 2.5 seconds or less. Interaction to Next Paint (INP) measures how quickly the page responds to taps and clicks, and should be 200 milliseconds or less. Cumulative Layout Shift (CLS) measures how much the layout jumps, and should be 0.1 or less. Good scores make visitors happier and can support rankings.</p>
+
+<h2>The three Core Web Vitals</h2>
+<table>
+<thead><tr><th>Metric</th><th>Measures</th><th>Good</th><th>Poor</th></tr></thead>
+<tbody>
+<tr><td>LCP</td><td>Loading of main content</td><td>≤ 2.5 s</td><td>&gt; 4 s</td></tr>
+<tr><td>INP</td><td>Responsiveness to input</td><td>≤ 200 ms</td><td>&gt; 500 ms</td></tr>
+<tr><td>CLS</td><td>Visual stability</td><td>≤ 0.1</td><td>&gt; 0.25</td></tr>
+</tbody>
+</table>
+<p>Google measures these at the 75th percentile of real visits, so most of your visitors must have a good experience. The thresholds come from <a href="https://web.dev/articles/vitals" target="_blank" rel="noopener">web.dev's Web Vitals guide</a>.</p>
+
+<h2>Improving LCP</h2>
+<ul>
+<li>Find the LCP element, usually the hero image or main heading.</li>
+<li>Compress that image, serve WebP or AVIF and size it correctly.</li>
+<li>Preload it and never lazy-load the above-the-fold image.</li>
+<li>Use fast hosting, caching and a CDN to cut server response time.</li>
+<li>Remove render-blocking CSS and JavaScript from the top of the page.</li>
+</ul>
+
+<h2>Improving INP</h2>
+<ul>
+<li>Cut the amount of JavaScript, especially third-party scripts.</li>
+<li>Break long tasks into smaller pieces.</li>
+<li>Defer non-essential scripts such as chat widgets until after load or interaction.</li>
+<li>Avoid heavy work in click and input handlers.</li>
+<li>Test on a mid-range Android phone, not only a fast laptop.</li>
+</ul>
+
+<h2>Improving CLS</h2>
+<ul>
+<li>Set width and height on every image and video.</li>
+<li>Reserve space for ads, embeds and banners.</li>
+<li>Avoid inserting content above what the visitor is reading.</li>
+<li>Load web fonts carefully so text does not jump.</li>
+</ul>
+
+<h2>How Core Web Vitals affect SEO</h2>
+<p>Core Web Vitals are part of Google's page experience signals. They will not lift a weak page above a much more helpful one, but they can make the difference between similar pages. More importantly, faster, stable pages convert better, so the business benefit is real even beyond rankings. Our guide to <a href="/website-development-and-seo/">website development and SEO</a> covers the wider picture.</p>
+
+<h2>Measuring correctly</h2>
+<p>Use field data from real users, shown in Search Console's Core Web Vitals report and PageSpeed Insights, as your main measure. Lab tests like Lighthouse are useful for debugging, but they do not always match real visitors. After each fix, allow about four weeks for field data to update.</p>
+
+<h2>Platform tips</h2>
+<p>On WordPress, choose a lightweight theme, limit plugins and use a caching plugin with a CDN. On Shopify, remove unused apps and compress theme images. On Next.js, use the built-in image component, server components and static generation where possible.</p>
+
+<h2>Common Core Web Vitals mistakes</h2>
+<p>First, chasing a perfect Lighthouse score instead of real-user data. Next, lazy-loading the hero image. Then, adding one more tracking script every month. Finally, fixing desktop while most visitors use phones.</p>
+
+<h2>Getting help</h2>
+<p>Openink Hub's <a href="/website-seo-performance/">website SEO and performance</a> team delivers Core Web Vitals optimization for business websites and stores across India. Related reading: <a href="/website-speed-optimization/">website speed optimization</a>.</p>

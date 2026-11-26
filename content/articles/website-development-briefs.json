@@ -3920,7 +3920,29 @@
       ],
       "aeo_direct_answer": "Vercel is optimised for modern frontend frameworks like Next.js, offering automatic deployments, edge network delivery and preview environments. Traditional hosting offers more control and flexibility but requires manual configuration. Choose Vercel for speed and developer experience; choose traditional hosting for custom server needs and cost control at scale.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "vercel-vs-traditional-hosting",
+      "keyphrase": "Vercel vs traditional hosting",
+      "seo_title": "Vercel vs Traditional Hosting for Websites in 2027",
+      "description": "Vercel vs traditional hosting compared on cost, speed, control and workflow, with clear advice on which suits Next.js, WordPress and custom sites.",
+      "faqs": [
+        [
+          "Vercel vs traditional hosting: which is better?",
+          "Vercel is better for Next.js and other modern front ends that want automatic deploys and a global edge network. Traditional hosting is better for WordPress, PHP apps and full server control."
+        ],
+        [
+          "How do they compare on pricing?",
+          "Vercel has a free hobby tier and per-seat team plans with usage-based extras. Shared hosting and VPS plans are usually cheaper and more predictable for simple sites."
+        ],
+        [
+          "How do they compare on performance?",
+          "Vercel serves pages from a global edge network, which is very fast for static and cached pages. A well-tuned VPS with a CDN can also be fast."
+        ],
+        [
+          "When should I choose Vercel?",
+          "When your site uses Next.js or a similar framework and your team values preview deployments, automatic builds and minimal server management."
+        ]
+      ]
     },
     {
       "id": 78,
@@ -3948,7 +3970,29 @@
       ],
       "aeo_direct_answer": "Docker packages applications and dependencies into portable containers, ensuring consistent environments from development to production. It simplifies deployment, scaling and CI/CD. Benefits include reproducibility, isolation and faster onboarding; it adds a learning curve and operational overhead for small teams.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "docker-web-development",
+      "keyphrase": "Docker in web development",
+      "seo_title": "Docker in Web Development: A Simple Guide for 2027",
+      "description": "Docker in web development explained: containers, consistent environments, deployment and CI/CD, plus the costs and the common mistakes to avoid.",
+      "faqs": [
+        [
+          "What is Docker?",
+          "Docker is a tool that packages an application with everything it needs, such as code, runtime and libraries, into a container that runs the same way everywhere."
+        ],
+        [
+          "How is Docker used in web development?",
+          "Developers use it to run the same environment on every laptop, test in CI pipelines and deploy identical containers to staging and production."
+        ],
+        [
+          "What are the benefits of Docker?",
+          "Consistent environments, faster onboarding, easier deployments, simple scaling and fewer 'works on my machine' problems."
+        ],
+        [
+          "How much does Docker adoption cost?",
+          "Docker itself is free for most small businesses, though larger companies need paid Docker Desktop plans. The main cost is the time to containerise apps and set up pipelines."
+        ]
+      ]
     },
     {
       "id": 79,
@@ -3976,7 +4020,29 @@
       ],
       "aeo_direct_answer": "Kubernetes orchestrates containerised applications, handling scaling, load balancing, rolling updates and self-healing. CI/CD automates build, test and deployment pipelines. Together they enable reliable, scalable modern deployments, but add complexity best suited to larger teams and high-traffic systems.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "kubernetes-ci-cd",
+      "keyphrase": "Kubernetes and CI/CD",
+      "seo_title": "Kubernetes and CI/CD for Website Deployment in 2027",
+      "description": "Kubernetes and CI/CD explained: how container orchestration and automated pipelines deploy websites reliably, plus costs and common mistakes.",
+      "faqs": [
+        [
+          "What is Kubernetes?",
+          "Kubernetes is an open-source system that runs containers across a cluster of servers, handling scaling, load balancing, rolling updates and restarts automatically."
+        ],
+        [
+          "What is CI/CD?",
+          "Continuous integration and continuous delivery: every code change is automatically built and tested, then deployed to staging or production through a pipeline."
+        ],
+        [
+          "How do they work together for website deployment?",
+          "The CI/CD pipeline builds and tests a container image, then tells Kubernetes to roll it out gradually, and rolls back if health checks fail."
+        ],
+        [
+          "How much does Kubernetes and CI/CD cost?",
+          "CI/CD tools often have free tiers. Managed Kubernetes adds cluster and server costs plus the time of skilled engineers, so it suits larger applications."
+        ]
+      ]
     },
     {
       "id": 80,
@@ -4004,7 +4070,29 @@
       ],
       "aeo_direct_answer": "Website development affects SEO through site architecture, page speed, mobile responsiveness, JavaScript rendering, HTTPS, structured data, crawlability and internal linking. Poor development choices can block indexing or slow pages; SEO-friendly development builds a fast, crawlable, secure foundation that supports rankings.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-development-and-seo",
+      "keyphrase": "website development and SEO",
+      "seo_title": "Website Development and SEO: What Matters in 2027",
+      "description": "How website development and SEO connect: architecture, speed, mobile design, rendering, HTTPS and structured data, plus how to test and avoid mistakes.",
+      "faqs": [
+        [
+          "How does website development affect SEO?",
+          "Development decides how easily search engines can crawl, render and understand your pages, and how fast and usable they are for visitors. Both affect rankings."
+        ],
+        [
+          "Which technical factors matter most?",
+          "Crawlable links, clean URLs, fast loading, mobile-friendly design, server-rendered content, HTTPS, structured data and a clear internal linking structure."
+        ],
+        [
+          "How much does SEO-friendly development cost?",
+          "Building SEO in from the start adds little to the budget. Fixing a poorly built site later usually costs far more."
+        ],
+        [
+          "How do I test my site's SEO?",
+          "Use Google Search Console, PageSpeed Insights, a crawler to find broken links and duplicates, and the URL Inspection tool to see rendered pages."
+        ]
+      ]
     },
     {
       "id": 81,
@@ -4032,7 +4120,29 @@
       ],
       "aeo_direct_answer": "Core Web Vitals are Google's page experience metrics: LCP measures loading, INP measures interactivity and CLS measures visual stability. Good scores improve UX and can support rankings. Improve them through image optimisation, caching, CDN delivery, code splitting, font optimisation and reducing third-party scripts.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "core-web-vitals-optimization",
+      "keyphrase": "Core Web Vitals optimization",
+      "seo_title": "Core Web Vitals Optimization Guide for 2027",
+      "description": "Core Web Vitals optimization explained: what LCP, INP and CLS measure, how to improve each one and how page experience affects SEO.",
+      "faqs": [
+        [
+          "What are Core Web Vitals?",
+          "They are Google's three key page experience metrics: Largest Contentful Paint for loading, Interaction to Next Paint for responsiveness and Cumulative Layout Shift for visual stability."
+        ],
+        [
+          "What do LCP, INP and CLS measure?",
+          "LCP measures how fast the main content appears, INP measures how quickly the page reacts to taps and clicks, and CLS measures how much the layout jumps around."
+        ],
+        [
+          "How do I improve Core Web Vitals?",
+          "Optimise and preload the main image, use fast hosting and a CDN, cut and defer JavaScript, set image dimensions and reserve space for ads and embeds."
+        ],
+        [
+          "How do Core Web Vitals affect SEO?",
+          "They are part of Google's page experience signals. Good scores will not outrank better content, but they help when pages are otherwise similar and they improve conversions."
+        ]
+      ]
     },
     {
       "id": 82,
@@ -4060,7 +4170,29 @@
       ],
       "aeo_direct_answer": "Improve website loading speed by optimising images, enabling browser caching and CDN delivery, minifying CSS and JavaScript, reducing third-party scripts, using modern image formats, deferring non-critical resources and improving server response time. Measure with PageSpeed Insights and Core Web Vitals in Search Console.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-speed-optimization",
+      "keyphrase": "website speed optimization",
+      "seo_title": "Website Speed Optimization: How to Load Faster in 2027",
+      "description": "Website speed optimization step by step: images, caching, CDN, code, fonts and third-party scripts, plus how to measure results and avoid mistakes.",
+      "faqs": [
+        [
+          "How do I improve website loading speed?",
+          "Compress and resize images, use modern formats, enable caching and a CDN, remove unused plugins and scripts, defer non-critical JavaScript and use good hosting."
+        ],
+        [
+          "What are the biggest performance bottlenecks?",
+          "Large images, slow hosting, too many third-party scripts, heavy themes or page builders, render-blocking CSS and JavaScript, and web fonts."
+        ],
+        [
+          "How much does speed optimization cost?",
+          "A basic speed audit and fixes on a small site can be inexpensive. Deep work on large or custom sites costs more, depending on what needs rebuilding."
+        ],
+        [
+          "How do I measure performance improvements?",
+          "Use PageSpeed Insights and the Core Web Vitals report in Search Console for real-user data, and test before and after each change."
+        ]
+      ]
     },
     {
       "id": 83,
@@ -4088,7 +4220,29 @@
       ],
       "aeo_direct_answer": "Technical SEO covers the infrastructure that helps search engines crawl, render and index a site: HTTPS, XML sitemaps, robots.txt, canonical tags, structured data, Core Web Vitals, mobile-friendliness, JavaScript rendering and clean URL structure. It is foundational for rankings and often overlooked.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "technical-seo-for-websites",
+      "keyphrase": "technical SEO",
+      "seo_title": "Technical SEO for Websites: Why It Matters in 2027",
+      "description": "What technical SEO is and why your website needs it: crawling, indexing, speed, mobile, structured data and a practical audit checklist.",
+      "faqs": [
+        [
+          "What is technical SEO?",
+          "It is the work that helps search engines crawl, render and index your site, such as HTTPS, sitemaps, robots.txt, canonical tags, structured data, speed and mobile-friendliness."
+        ],
+        [
+          "Why does my website need technical SEO?",
+          "Great content cannot rank if search engines cannot find, render or understand it. Technical SEO removes those barriers."
+        ],
+        [
+          "What does a technical SEO audit cover?",
+          "Crawlability, indexing, redirects, broken links, duplicate content, site speed, mobile usability, structured data, internal linking and security."
+        ],
+        [
+          "How much does technical SEO cost?",
+          "A one-time audit for a small site can be affordable. Larger sites and ongoing monitoring cost more, depending on size and complexity."
+        ]
+      ]
     },
     {
       "id": 84,
@@ -4116,7 +4270,29 @@
       ],
       "aeo_direct_answer": "Website architecture and internal linking shape how search engines crawl and understand a site. A clear hierarchy, logical URL structure, descriptive anchor text, hub-and-spoke topic clusters and limited click depth improve crawl efficiency, distribute authority and strengthen topical relevance.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-architecture-seo",
+      "keyphrase": "website architecture",
+      "seo_title": "Website Architecture and Internal Linking for SEO in 2027",
+      "description": "How website architecture and internal linking affect SEO: hierarchy, URLs, topic clusters, anchor text and how to audit your site structure.",
+      "faqs": [
+        [
+          "How does website architecture affect SEO?",
+          "A clear structure helps search engines find every page, understand which pages matter most and see how topics relate. It also helps visitors navigate."
+        ],
+        [
+          "How should I structure internal links?",
+          "Link from hub pages to related subpages and back, link between closely related posts, and keep important pages within a few clicks of the home page."
+        ],
+        [
+          "What anchor text should I use?",
+          "Descriptive words that tell readers and search engines what the linked page is about. Avoid vague text like 'click here' and avoid exact-match stuffing."
+        ],
+        [
+          "How do I audit internal linking?",
+          "Crawl the site to find orphan pages, broken links, redirect chains and pages buried too deep, then review Search Console's links report."
+        ]
+      ]
     },
     {
       "id": 85,
@@ -4144,7 +4320,29 @@
       ],
       "aeo_direct_answer": "JavaScript rendering affects SEO because search engines must execute JavaScript to see content, which can delay or prevent indexing. Server-side rendering, static generation and prerendering ensure content is visible immediately. Test with Search Console URL Inspection and rendering tools to catch issues early.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "javascript-seo",
+      "keyphrase": "JavaScript SEO",
+      "seo_title": "JavaScript SEO: How Rendering Affects Rankings in 2027",
+      "description": "JavaScript SEO explained: how rendering affects indexing, SSR vs SSG vs client-side rendering, how to test pages and the mistakes to avoid.",
+      "faqs": [
+        [
+          "How does JavaScript rendering affect SEO?",
+          "If content only appears after JavaScript runs in the browser, search engines must render it first, which can delay indexing or miss content entirely."
+        ],
+        [
+          "What is the difference between SSR, SSG and client-side rendering?",
+          "SSR builds HTML on the server per request, SSG builds it ahead of time, and client-side rendering builds it in the visitor's browser with JavaScript."
+        ],
+        [
+          "How do I make JavaScript websites SEO-friendly?",
+          "Use server-side rendering or static generation for public pages, use real links with href attributes, keep metadata in the HTML and avoid hiding content behind clicks."
+        ],
+        [
+          "How do I test JavaScript rendering?",
+          "Use the URL Inspection tool in Search Console to view the rendered HTML, compare it with the page source and check that key content and links appear."
+        ]
+      ]
     },
     {
       "id": 86,
@@ -4172,7 +4370,29 @@
       ],
       "aeo_direct_answer": "Secure a business website with HTTPS, a web application firewall, regular CMS and plugin updates, strong access controls, backups, malware scanning, monitoring and an incident response plan. Security is both a technical and operational discipline; budget for ongoing maintenance and periodic audits.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "business-website-security",
+      "keyphrase": "business website security",
+      "seo_title": "Business Website Security: How to Stay Safe in 2027",
+      "description": "Business website security step by step: the biggest threats, HTTPS, updates, firewalls, backups, monitoring, typical costs and common mistakes.",
+      "faqs": [
+        [
+          "How do I secure my business website?",
+          "Use HTTPS, keep the CMS, themes and plugins updated, use strong passwords with two-factor login, add a web application firewall, take off-site backups and monitor for problems."
+        ],
+        [
+          "What are the biggest cyber threats?",
+          "Outdated plugins, stolen or weak passwords, malware injections, spam and bot attacks, DDoS floods and phishing that targets site admins."
+        ],
+        [
+          "How much does website security cost?",
+          "Basic protection is often included in good hosting or a maintenance plan. Firewalls, monitoring and security audits add monthly or one-time costs."
+        ],
+        [
+          "How do I monitor my website for threats?",
+          "Use uptime monitoring, malware scanning, login alerts, file change detection and Search Console security reports, and review logs regularly."
+        ]
+      ]
     },
     {
       "id": 87,
@@ -4200,7 +4420,29 @@
       ],
       "aeo_direct_answer": "API security protects data and services from unauthorised access, injection, abuse and data leaks. Best practices include authentication with OAuth or API keys, authorisation scopes, rate limiting, input validation, encryption in transit and at rest, logging and regular security testing.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "api-security",
+      "keyphrase": "API security",
+      "seo_title": "API Security: Why It Matters and How to Do It in 2027",
+      "description": "What API security is, why it matters, the most common API threats and the best practices that protect your data, apps and customers.",
+      "faqs": [
+        [
+          "What is API security?",
+          "It is protecting the APIs behind your website and apps from unauthorised access, abuse, injection attacks and data leaks."
+        ],
+        [
+          "Why is API security important?",
+          "APIs often expose customer data and business actions directly. One weak endpoint can leak records or let attackers place orders or change data."
+        ],
+        [
+          "What are common API security threats?",
+          "Broken authorisation that lets users see others' data, weak authentication, excessive data exposure, missing rate limits and injection attacks."
+        ],
+        [
+          "How do I secure my APIs?",
+          "Authenticate every request, check permissions on every object, validate input, limit rates, use HTTPS, return only needed fields and log and monitor traffic."
+        ]
+      ]
     },
     {
       "id": 88,
@@ -4228,7 +4470,29 @@
       ],
       "aeo_direct_answer": "Protect a website from malware, spam and data breaches through regular updates, strong passwords and MFA, a WAF, malware scanning, backups, comment and form spam controls, least-privilege access and monitoring. Have an incident response plan ready and test backups regularly so recovery is fast.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-malware-protection",
+      "keyphrase": "website malware protection",
+      "seo_title": "Website Malware Protection and Spam Defence in 2027",
+      "description": "Website malware protection, spam control and data breach prevention: practical steps, typical costs and what to do if your site is hacked.",
+      "faqs": [
+        [
+          "How do I protect my website from malware?",
+          "Keep software updated, remove unused plugins, use strong passwords with two-factor login, add a firewall, scan regularly and keep clean off-site backups."
+        ],
+        [
+          "How do I prevent spam and data breaches?",
+          "Use spam filters and invisible challenges on forms, limit who can access data, encrypt sensitive information and collect only the data you need."
+        ],
+        [
+          "How much does website protection cost?",
+          "Basic scanning and firewalls can be free or low cost. Professional monitoring and clean-up plans cost a monthly fee."
+        ],
+        [
+          "What should I do after a breach?",
+          "Take the site offline or into maintenance, change all passwords, restore a clean backup or clean the files, patch the cause, check for data exposure and notify where required."
+        ]
+      ]
     },
     {
       "id": 89,
@@ -4256,7 +4520,29 @@
       ],
       "aeo_direct_answer": "HTTPS encrypts traffic between browsers and servers using SSL or TLS certificates, protecting data and improving trust, SEO and browser compatibility. Set up a certificate, force HTTPS redirects, fix mixed content and renew certificates automatically. HTTPS is a baseline requirement for any business website.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-ssl-security",
+      "keyphrase": "SSL certificate",
+      "seo_title": "HTTPS and SSL Certificate Guide for Websites in 2027",
+      "description": "HTTPS and SSL certificate guide: what they are, why every website needs one, how to set it up, the SEO effect and the mistakes to avoid.",
+      "faqs": [
+        [
+          "What is HTTPS and SSL?",
+          "HTTPS is the secure version of HTTP. It uses an SSL/TLS certificate to encrypt data between the visitor's browser and your server."
+        ],
+        [
+          "Why does my website need SSL?",
+          "It protects visitors' data, prevents 'Not secure' browser warnings, builds trust and is required for modern features like payments and many browser APIs."
+        ],
+        [
+          "How do I set up SSL?",
+          "Get a certificate from your host or a free authority such as Let's Encrypt, install it, redirect all HTTP traffic to HTTPS and fix any mixed content."
+        ],
+        [
+          "How does SSL affect SEO?",
+          "HTTPS is a light ranking signal and part of page experience. More importantly, browser warnings on HTTP sites drive visitors away."
+        ]
+      ]
     },
     {
       "id": 90,
@@ -4284,7 +4570,29 @@
       ],
       "aeo_direct_answer": "A website maintenance checklist includes CMS and plugin updates, security patches, backups, uptime and malware monitoring, performance checks, broken link audits, content refreshes, SEO reviews, analytics and form testing. Frequency varies: security updates monthly or more, content and SEO reviews quarterly.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-maintenance-checklist",
+      "keyphrase": "website maintenance checklist",
+      "seo_title": "Website Maintenance Checklist for 2027",
+      "description": "A practical website maintenance checklist: what to update weekly, monthly, quarterly and yearly, plus costs, DIY tasks and common mistakes.",
+      "faqs": [
+        [
+          "What should be in a website maintenance checklist?",
+          "Software updates, backups, security scans, uptime checks, speed tests, broken link checks, form tests, content reviews, SEO checks and renewals."
+        ],
+        [
+          "How often should a website be updated?",
+          "Security updates as soon as they are released, plugins and themes at least monthly, and content whenever information changes or at least every quarter."
+        ],
+        [
+          "How much does website maintenance cost?",
+          "In India, plans typically range from about ₹1,500 to ₹25,000 a month, depending on the site's size, platform and support needs."
+        ],
+        [
+          "What tasks can I do myself?",
+          "Content edits, checking forms, reviewing analytics and checking for broken pages are easy. Updates, security and backups are safer with an expert."
+        ]
+      ]
     },
     {
       "id": 91,

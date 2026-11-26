@@ -1,0 +1,53 @@
+<p>HTTPS is the secure version of HTTP, the protocol browsers use to load websites. It relies on an SSL certificate, more precisely a TLS certificate today, to encrypt data between the visitor's browser and your server and to prove your site is genuine. Every website needs one: it protects form and login data, prevents "Not secure" browser warnings, builds trust, supports modern browser features and is a light Google ranking signal. Many hosts now provide free certificates.</p>
+
+<h2>What an SSL certificate does</h2>
+<ul>
+<li><strong>Encryption:</strong> data in transit cannot be read by others on the network.</li>
+<li><strong>Integrity:</strong> pages cannot be altered on the way, for example by injected ads.</li>
+<li><strong>Authentication:</strong> visitors know they reached your real site.</li>
+</ul>
+
+<h2>Types of SSL certificate</h2>
+<table>
+<thead><tr><th>Type</th><th>Validation</th><th>Good for</th></tr></thead>
+<tbody>
+<tr><td>Domain Validated (DV)</td><td>Proves control of the domain</td><td>Most websites, blogs, small business sites</td></tr>
+<tr><td>Organisation Validated (OV)</td><td>Checks the business exists</td><td>Companies wanting extra assurance</td></tr>
+<tr><td>Extended Validation (EV)</td><td>Strict business checks</td><td>Banks and large enterprises</td></tr>
+<tr><td>Wildcard</td><td>Covers all subdomains</td><td>Sites with many subdomains</td></tr>
+</tbody>
+</table>
+<p>For most businesses, a free DV certificate from <a href="https://letsencrypt.org/getting-started/" target="_blank" rel="noopener">Let's Encrypt</a> or the host is enough; the encryption is the same strength.</p>
+
+<h2>How to set up HTTPS</h2>
+<ol>
+<li>Get a certificate from your host, CDN or a certificate authority.</li>
+<li>Install it and enable automatic renewal.</li>
+<li>Redirect all HTTP URLs to HTTPS with 301 redirects.</li>
+<li>Update internal links, canonical tags and sitemaps to HTTPS.</li>
+<li>Fix mixed content: images, scripts and styles still loading over HTTP.</li>
+<li>Consider HSTS, which tells browsers to always use HTTPS.</li>
+<li>Update Search Console and analytics settings.</li>
+</ol>
+<p>On WordPress, update the site address settings and run a search-and-replace for old HTTP URLs. On Shopify, SSL is included automatically.</p>
+
+<h2>How SSL affects SEO</h2>
+<p>Google confirmed HTTPS as a lightweight ranking signal, and it is part of page experience. More importantly, browsers mark HTTP pages as "Not secure", which drives visitors away and hurts conversions. During a move to HTTPS, correct 301 redirects keep your rankings intact. Google's guide to <a href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes" target="_blank" rel="noopener">site moves with URL changes</a> applies here.</p>
+
+<h2>What SSL costs</h2>
+<p>Free DV certificates cover most websites. Paid OV, EV or wildcard certificates cost more each year, depending on the provider. The real cost is usually setup time, such as fixing mixed content on an older site.</p>
+
+<h2>Common SSL mistakes</h2>
+<ul>
+<li>Letting a certificate expire, which shows a scary browser warning.</li>
+<li>No redirect from HTTP, leaving duplicate versions of the site.</li>
+<li>Mixed content that breaks the padlock or blocks scripts.</li>
+<li>Redirect chains, such as HTTP to www to HTTPS in several hops.</li>
+<li>Forgetting subdomains not covered by the certificate.</li>
+</ul>
+
+<h2>SSL is the start, not the end</h2>
+<p>An SSL certificate protects data in transit, but it does not stop malware, weak passwords or outdated plugins. Combine it with the wider steps in our guide to <a href="/business-website-security/">business website security</a>.</p>
+
+<h2>Getting help</h2>
+<p>Openink Hub's <a href="/website-security/">website security</a> team sets up HTTPS, fixes mixed content and handles migrations for websites across India. Related reading: <a href="/website-malware-protection/">website malware protection</a>.</p>

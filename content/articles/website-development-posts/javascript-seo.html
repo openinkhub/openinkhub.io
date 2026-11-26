@@ -1,0 +1,54 @@
+<p>JavaScript SEO is about making sure search engines can see and index content that relies on JavaScript. If a page's content only appears after JavaScript runs in the browser, Google must render the page before it can read it, which can delay indexing, and some crawlers and AI tools may not render it at all. The fix is to deliver important content and links as HTML, through server-side rendering, static generation or prerendering, and then add interactivity on top.</p>
+
+<h2>How search engines handle JavaScript</h2>
+<ol>
+<li><strong>Crawl:</strong> Googlebot downloads the HTML.</li>
+<li><strong>Queue for rendering:</strong> if content needs JavaScript, the page waits to be rendered.</li>
+<li><strong>Render:</strong> a headless browser runs the JavaScript and builds the page.</li>
+<li><strong>Index:</strong> Google reads the rendered content and links.</li>
+</ol>
+<p>Google explains this process in its <a href="https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics" target="_blank" rel="noopener">JavaScript SEO basics</a>. Rendering usually happens quickly, but errors, blocked files or slow scripts can leave content unseen.</p>
+
+<h2>Rendering methods compared</h2>
+<table>
+<thead><tr><th>Method</th><th>How it works</th><th>SEO</th></tr></thead>
+<tbody>
+<tr><td>Client-side rendering (CSR)</td><td>Browser builds the page with JavaScript</td><td>Riskiest for public pages</td></tr>
+<tr><td>Server-side rendering (SSR)</td><td>Server sends complete HTML per request</td><td>Strong</td></tr>
+<tr><td>Static site generation (SSG)</td><td>HTML built ahead of time</td><td>Strong and fast</td></tr>
+<tr><td>Hydration</td><td>SSR or SSG HTML made interactive in the browser</td><td>Strong if HTML is complete</td></tr>
+</tbody>
+</table>
+<p>Our comparison of <a href="/ssr-vs-ssg/">SSR vs SSG</a> goes deeper.</p>
+
+<h2>Making JavaScript websites SEO-friendly</h2>
+<ul>
+<li>Use SSR or SSG for every page you want to rank, for example with Next.js or Nuxt.</li>
+<li>Use real <code>&lt;a href&gt;</code> links, not click handlers on divs.</li>
+<li>Put titles, descriptions, canonical tags and structured data in the server HTML.</li>
+<li>Do not hide key content behind tabs that load only on click.</li>
+<li>Return proper status codes, such as 404 for missing pages, not a "not found" message with a 200.</li>
+<li>Do not block JavaScript or CSS files in robots.txt.</li>
+<li>Keep bundles small so pages stay fast and meet Core Web Vitals.</li>
+</ul>
+
+<h2>Testing JavaScript rendering</h2>
+<ol>
+<li>Open the URL Inspection tool in Search Console and view the rendered HTML.</li>
+<li>Compare it with "view source" to see what depends on JavaScript.</li>
+<li>Check that main text, links and metadata appear in the rendered version.</li>
+<li>Run a crawler in both JavaScript and non-JavaScript modes.</li>
+<li>Watch the indexing report for "crawled, currently not indexed" pages.</li>
+</ol>
+
+<h2>Common JavaScript SEO mistakes</h2>
+<p>First, building a marketing website as a client-only single-page app. Next, infinite scroll without paginated URLs, so deeper content is never found. Then, changing content with JavaScript after load so the rendered page differs from the HTML. After that, soft 404s on missing routes. Finally, huge JavaScript bundles that slow the page on mobile.</p>
+
+<h2>Does this affect WordPress?</h2>
+<p>A standard WordPress or other server-rendered CMS website sends full HTML, so it is usually safe. Problems appear when heavy JavaScript plugins load key content, or when a headless front end is built without server rendering.</p>
+
+<h2>AI search and JavaScript</h2>
+<p>Many AI crawlers fetch HTML without rendering JavaScript. So server-rendered content is also more likely to be read and cited by AI answer engines.</p>
+
+<h2>Getting help</h2>
+<p>Openink Hub's <a href="/website-seo-performance/">website SEO and performance</a> team audits and fixes JavaScript SEO issues for React, Next.js and other sites across India. Related reading: <a href="/react-server-components/">React Server Components</a> and <a href="/technical-seo-for-websites/">technical SEO for websites</a>.</p>

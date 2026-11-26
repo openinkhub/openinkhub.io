@@ -1,0 +1,53 @@
+<p>API security is the practice of protecting the APIs behind your website, mobile app and integrations from unauthorised access, abuse, injection attacks and data leaks. APIs often expose customer records, orders and business actions directly, so a single weak endpoint can leak thousands of records or let an attacker change data. The core defences are strong authentication, permission checks on every request, input validation, rate limiting, encryption and monitoring.</p>
+
+<h2>Why API security is important</h2>
+<p>Modern websites rely on APIs for logins, payments, search, forms, CRM sync and mobile apps. Attackers know this and probe APIs directly, skipping the website's interface. For example, if an order API returns any order when you change the ID in the URL, an attacker can simply count through IDs and download every customer's details. Because APIs are built for machines, these attacks are easy to automate.</p>
+
+<h2>Common API security threats</h2>
+<table>
+<thead><tr><th>Threat</th><th>Example</th></tr></thead>
+<tbody>
+<tr><td>Broken object-level authorisation</td><td>User A can view User B's invoice by changing an ID</td></tr>
+<tr><td>Broken authentication</td><td>Weak tokens, no expiry, leaked API keys</td></tr>
+<tr><td>Excessive data exposure</td><td>API returns full records when the app needs two fields</td></tr>
+<tr><td>No rate limiting</td><td>Bots try thousands of passwords or scrape data</td></tr>
+<tr><td>Injection</td><td>Malicious input reaches the database or system</td></tr>
+<tr><td>Misconfiguration</td><td>Debug endpoints or open CORS settings left live</td></tr>
+</tbody>
+</table>
+<p>The <a href="https://owasp.org/API-Security/" target="_blank" rel="noopener">OWASP API Security Top 10</a> lists these risks in detail.</p>
+
+<h2>How to secure your APIs</h2>
+<ol>
+<li><strong>Authenticate every request</strong> with standards such as OAuth 2.0 or signed tokens, with short expiry.</li>
+<li><strong>Check permissions on every object,</strong> not just at login.</li>
+<li><strong>Validate all input</strong> for type, length and format.</li>
+<li><strong>Return only what is needed;</strong> never send full database records.</li>
+<li><strong>Rate-limit</strong> by user, key and IP address.</li>
+<li><strong>Use HTTPS everywhere</strong> and encrypt sensitive data at rest.</li>
+<li><strong>Keep keys on the server,</strong> rotate them and scope each to minimum access.</li>
+<li><strong>Log and monitor</strong> unusual patterns, such as many 403 errors.</li>
+<li><strong>Keep an inventory</strong> of every API and version, and retire old ones.</li>
+<li><strong>Test regularly,</strong> including automated security scans in CI/CD.</li>
+</ol>
+
+<h2>API security for integrations</h2>
+<p>When your website connects to payment gateways, CRMs or shipping APIs, verify webhook signatures, store credentials in a secrets manager and grant each integration only the permissions it needs. Our guide to <a href="/api-integration-services/">API integration</a> covers the connecting side.</p>
+
+<h2>What API security costs</h2>
+<p>Most good practices cost development time rather than licences. API gateways, web application firewalls and monitoring tools add monthly costs, and penetration tests are a one-time expense. Compared with the cost of a data breach, including notification duties under India's data protection rules, the investment is small.</p>
+
+<h2>Common API security mistakes</h2>
+<ul>
+<li>Trusting the front end to hide data instead of enforcing rules on the server.</li>
+<li>Sequential, guessable IDs without permission checks.</li>
+<li>API keys inside mobile apps or browser JavaScript.</li>
+<li>Detailed error messages that reveal internal systems.</li>
+<li>Old API versions left running and unpatched.</li>
+</ul>
+
+<h2>Where it fits</h2>
+<p>API security matters for any site with logins, ecommerce or integrations, whether it runs on WordPress, Shopify, Next.js or a custom backend. It is part of protecting your customers and your SEO reputation, since a breach damages trust quickly.</p>
+
+<h2>Getting help</h2>
+<p>Openink Hub's <a href="/website-security/">website security</a> and <a href="/backend-development/">backend development</a> teams build and review secure APIs for businesses across India. Related reading: <a href="/business-website-security/">business website security</a>.</p>
