@@ -12,7 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { simpleWords, longParagraphs, titleYear, shortSentences, realHeadings } from "./content-rules.mjs";
+import { simpleWords, longParagraphs, titleYear, blogTitleYear, shortSentences, realHeadings } from "./content-rules.mjs";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 export const RULES = JSON.parse(fs.readFileSync(path.join(ROOT, "content", "seo", "rules.json"), "utf8"));
@@ -234,6 +234,7 @@ export function fixRecord(rec) {
   // year in the title (2026), where it fits in 60 characters
   if (FIX.titleYear) {
     const ty = RULES.titleYear || {};
+    if (ty.blogYear) blogTitleYear(rec, fixes, { year: ty.blogYear, maxLen: RULES.thresholds.title.max, types: ty.blogTypes || ["post", "guide"] });
     titleYear(rec, fixes, { year: ty.year || new Date().getFullYear(), maxLen: RULES.thresholds.title.max, skipPaths: ty.skipPaths || [], overrides: ty.overrides || {}, skipTypes: ty.skipTypes || [] });
     title = rec.head.title;
   }

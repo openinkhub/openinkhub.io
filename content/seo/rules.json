@@ -562,6 +562,8 @@
   "titleYear": {
     "_note": "Adds the year to titles that have none, if it fits in the title limit.",
     "year": 2026,
+    "blogYear": 2027,
+    "blogTypes": ["post", "guide"],
     "skipPaths": [],
     "skipTypes": [],
     "overrides": {

@@ -239,3 +239,42 @@ export function titleYear(rec, fixes, { year, maxLen = 60, skipPaths = [], skipT
   if (rec.title === title) rec.title = next;
   fixes.push("title-year");
 }
+
+/** Blog posts and guides: the title ends with the year ("Topic: subtitle 2027"), any other year removed, within maxLen. */
+export function blogTitleYear(rec, fixes, { year, maxLen = 60, types = ["post", "guide"] }) {
+  const title = rec.head?.title || "";
+  if (!title || !types.includes(rec.type)) return;
+  const Y = String(year);
+  let core = title.replace(/\s+[|–-]\s+openink Hub$/i, "").trim();
+  const endsRight = new RegExp(`\b${Y}$`).test(core) && !/\b20\d\d\b/.test(core.slice(0, -4));
+  if (!endsRight) {
+    core = core
+      .replace(/\s*\(\s*20\d\d\s+([A-Za-z][^)]*)\)/g, " $1") // "(2026 Guide)" -> "Guide"
+      .replace(/\s*\(\s*20\d\d\s*\)/g, "")                    // "(2026)" / "(2027)"
+      .replace(/\s+(?:for|in|of)\s+20\d\d\b/gi, "")           // "for 2026"
+      .replace(/(^|\s)20\d\d(?=\s|:|$)/g, "$1")               // bare "2026"
+      .replace(/\s+([:,])/g, "$1").replace(/\s{2,}/g, " ").replace(/[\s:|,&–-]+$/, "").trim();
+    const STOP = /\b(and|or|the|a|an|of|for|in|to|with|by|on|at|from|vs)$|&$/i;
+    const fit = (c) => `${c} ${Y}`;
+    let next = fit(core);
+    if (next.length > maxLen) {
+      // shorten the subtitle: drop list items, then words, from the end
+      const tries = [];
+      const m = /^(.*?[:|])\s+(.*)$/.exec(core);
+      if (m) {
+        const segs = m[2].split(/\s*,\s*|\s+&\s+|\s+and\s+/).filter(Boolean);
+        for (let k = segs.length - 1; k >= 1; k--) tries.push(`${m[1]} ${k === 1 ? segs[0] : `${segs.slice(0, k - 1).join(", ")} & ${segs[k - 1]}`}`);
+        tries.push(m[1].slice(0, -1));
+      }
+      const words = core.split(/\s+/);
+      for (let k = words.length - 1; k >= 3; k--) tries.push(words.slice(0, k).join(" "));
+      next = tries.map((t) => t.replace(/[\s:|,&–-]+$/, "")).filter((t) => !STOP.test(t)).map(fit).find((t) => t.length <= maxLen) || next;
+    }
+    core = next;
+  }
+  if (core === title) return;
+  for (const x of rec.head.meta || []) if (["og:title", "twitter:title"].includes(x.key)) x.content = core;
+  rec.head.title = core;
+  rec.title = core;
+  fixes.push("title-year");
+}
