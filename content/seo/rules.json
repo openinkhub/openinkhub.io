@@ -692,5 +692,11 @@
         "/ai-voice-agent/"
       ]
     }
+  },
+  "service_articles": {
+    "_note": "service page -> service whose posts it shows under 'Read industry articles' when no post maps to it",
+    "/report/": "/best-seo-services-in-india/",
+    "/ai-blog-article-writing/": "/artificial-intelligence-optimization/",
+    "/social-media-optimization/": "/best-seo-services-in-india/"
   }
 }

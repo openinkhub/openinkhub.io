@@ -49,7 +49,7 @@ for (const p of POSTS) {
   let html = fs.readFileSync(file, "utf8").trim();
   const h1 = strip((/<h1>([\s\S]*?)<\/h1>/.exec(html) || [])[1] || p.title);
   const url = `${BASE}/${p.slug}/`;
-  const cover = makeCover({ dir: "articles", slug: p.slug, title: p.title, label: p.categories[0].name + " article" });
+  const cover = makeCover({ dir: "articles", slug: p.slug, title: p.title, label: p.categories[0].name });
   html = html.replace(/(<\/h1>)/, `$1\n<figure><img src="${cover.src}" alt="${cover.alt}" width="1200" height="630"></figure>`);
   // FAQs from the plain FAQ section (h3 question + p answer)
   const faqPart = html.split(/<h2>Frequently asked questions<\/h2>/i)[1] || "";

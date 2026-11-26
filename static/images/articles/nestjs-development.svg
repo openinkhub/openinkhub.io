@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="NestJS Development: When Businesses Use It in 2027">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f172a"/><stop offset="1" stop-color="#334155"/></linearGradient><pattern id="p" width="80" height="24" patternUnits="userSpaceOnUse"><path d="M0 12q20-14 40 0t40 0" fill="none" stroke="#34d399" stroke-width="2"/></pattern>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#061638"/><stop offset="1" stop-color="#0a4fb8"/></linearGradient><pattern id="p" width="80" height="24" patternUnits="userSpaceOnUse"><path d="M0 12q20-14 40 0t40 0" fill="none" stroke="#34d399" stroke-width="2"/></pattern>
 <style>.ic{fill:none;stroke:#34d399;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}.ic .f{fill:#34d399;stroke:none}</style></defs>
-<rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#p)" opacity=".14"/><circle cx="964" cy="86" r="210" fill="#34d399" opacity=".14"/><circle cx="136" cy="600" r="170" fill="#334155" opacity=".5"/>
+<rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#p)" opacity=".14"/><circle cx="964" cy="86" r="210" fill="#34d399" opacity=".14"/><circle cx="136" cy="600" r="170" fill="#0a4fb8" opacity=".5"/>
 <circle cx="952" cy="315" r="190" fill="#fff" fill-opacity=".08" stroke="#34d399" stroke-opacity=".45" stroke-width="2"/><g class="ic" transform="translate(827 190) scale(1.25)"><path d="M64 52 22 100l42 48M136 52l42 48-42 48M114 40 86 160"/></g>
 <rect x="72" y="66" width="520" height="46" rx="23" fill="#34d399"/>
-<text x="94" y="97" fill="#0f172a" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="1.2">BACKEND DEVELOPMENT TECHNOLOGIES</text>
+<text x="94" y="97" fill="#061638" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="1.2">BACKEND DEVELOPMENT TECHNOLOGIES</text>
 <text x="72" y="274" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">NestJS Development:</text>
 <text x="72" y="338" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">When Businesses Use It</text>
 <text x="72" y="402" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">in 2027</text>

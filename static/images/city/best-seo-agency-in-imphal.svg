@@ -1,8 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="SEO Agency in Imphal: Handloom, Local Trade &amp; AI Search">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1424"/><stop offset="1" stop-color="#0352a3"/></linearGradient></defs>
-<rect width="1200" height="630" fill="url(#g)"/><circle cx="1080" cy="110" r="180" fill="#046bd2" opacity=".25"/><circle cx="1130" cy="560" r="120" fill="#eef5fd" opacity=".08"/>
-<text x="80" y="110" fill="#9cc6f5" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="600" letter-spacing="2">SEO · AEO · GEO · AIO · MANIPUR</text>
-<text x="80" y="239" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="60" font-weight="700">SEO Agency in Imphal:</text>
-<text x="80" y="315" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="60" font-weight="700">Handloom, Local Trade &amp; AI</text>
-<text x="80" y="391" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="60" font-weight="700">Search</text>
-<text x="80" y="560" fill="#cfe3fa" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="600">openink Hub</text></svg>
+<defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#061638"/><stop offset="1" stop-color="#0a4fb8"/></linearGradient><pattern id="p" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2.4" fill="#7dd3fc"/></pattern>
+<style>.ic{fill:none;stroke:#7dd3fc;stroke-width:9;stroke-linecap:round;stroke-linejoin:round}.ic .f{fill:#7dd3fc;stroke:none}</style></defs>
+<rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#p)" opacity=".14"/><circle cx="1035" cy="165" r="210" fill="#7dd3fc" opacity=".14"/><circle cx="105" cy="600" r="170" fill="#0a4fb8" opacity=".5"/>
+<rect x="772" y="135" width="360" height="360" rx="44" fill="#fff" fill-opacity=".08" stroke="#7dd3fc" stroke-opacity=".45" stroke-width="2"/><g class="ic" transform="translate(827 190) scale(1.25)"><path d="M100 186S38 120 38 80a62 62 0 0 1 124 0c0 40-62 106-62 106Z"/><circle cx="100" cy="80" r="22"/></g>
+<rect x="72" y="66" width="505" height="46" rx="23" fill="#7dd3fc"/>
+<text x="94" y="97" fill="#061638" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="1.2">SEO · AEO · GEO · AIO · MANIPUR</text>
+<text x="72" y="274" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">SEO Agency in Imphal:</text>
+<text x="72" y="338" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">Handloom, Local Trade</text>
+<text x="72" y="402" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="54" font-weight="800">&amp; AI Search</text>
+<rect x="72" y="532" width="64" height="6" rx="3" fill="#7dd3fc"/>
+<text x="72" y="578" fill="#fff" fill-opacity=".9" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">openink Hub</text>
+<text x="236" y="578" fill="#fff" fill-opacity=".6" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">Blog</text></svg>

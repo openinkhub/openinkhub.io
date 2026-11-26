@@ -757,7 +757,7 @@ function serviceTpl(rec) {
 </section>
 <!--seo:content-->${out}<!--/seo:content-->
 ${k ? `<section class="section kit"><div class="wrap narrow prose">${localizeBody(k)}</div></section>` : ""}
-${faqs}`, "is-page is-service");
+${serviceArticles(rec)}${faqs}`, "is-page is-service");
 }
 
 function pageTpl(rec) {
@@ -793,6 +793,27 @@ ${contact}
 <section class="section"><div class="wrap narrow prose"><!--seo:content-->${hubGrids(localizeBody(shape(body, legal)))}<!--/seo:content--></div></section>${rec.plan_shared_html ? `<section class="section plan-shared"><div class="wrap narrow prose">${rec.plan_shared_html}</div></section>` : ""}
 ${(() => { const k = kitFor(rec, body, legal); return k ? `<section class="section kit"><div class="wrap narrow prose">${localizeBody(k)}</div></section>` : ""; })()}
 ${rec.plan ? `<section class="section section-alt" id="brochure"><div class="wrap narrow">${brochureForm(rec.plan)}</div></section>` : ""}${cityCompare(rec)}${hubArticles(rec)}${rec.plan ? "" : successCta(rec.path, "section section-alt")}${faqs}`, "is-page" + (legal ? " is-legal" : ""));
+}
+
+// "Read industry articles": 1-2 blog posts on each service page, taken from the posts that link to that service
+// (rules.json service_links; service_articles names a fallback service for pages no post maps to). Each service page
+// gets different posts where possible, newest non-city posts first.
+const ART_USED = new Set();
+function serviceArticles(rec, n = 2) {
+  const SA = RULES.service_articles || {};
+  const forSvc = (svc) => POSTS.filter((p) => p.path !== rec.path && (serviceFor(p) || []).includes(svc));
+  let pool = forSvc(rec.path);
+  if (!pool.length && SA[rec.path]) pool = forSvc(SA[rec.path]);
+  if (!pool.length) return "";
+  pool.sort((a, b) => (a.path.includes("best-seo-agency-in-") - b.path.includes("best-seo-agency-in-")) || (b.date || "").localeCompare(a.date || ""));
+  const city = (p) => p.path.includes("best-seo-agency-in-");
+  const picks = [...pool.filter((p) => !city(p) && !ART_USED.has(p.path)), ...pool.filter((p) => !city(p) && ART_USED.has(p.path)), ...pool.filter(city)].slice(0, n);
+  picks.forEach((p) => ART_USED.add(p.path));
+  const cat = (picks[0].categories || []).find((c) => c.path !== "/category/best-seo-content-agency/") || picks[0].categories?.[0];
+  return `<section class="section section-alt svc-articles"><div class="wrap"><div class="sec-head"><span class="eyebrow">From the blog</span><h2 class="sec-title">Read industry articles</h2>` +
+    `<div class="sec-lead"><p>Practical guides from our team on the questions businesses ask before they hire us.</p></div></div>` +
+    `<div class="post-grid">${picks.map(postCard).join("")}</div>` +
+    (cat ? `<p class="svc-articles-more"><a class="link-arrow" href="${E(cat.path)}">See all ${E(cat.name)} articles${icon("arrow")}</a></p>` : "") + `</div></section>`;
 }
 
 function related(rec, n = 3) {

@@ -15,19 +15,9 @@ const wrap = (t, n) => t.split(" ").reduce((ls, w) => {
   return ls;
 }, []);
 
-/** Write the card and return a featured_image record ({src, alt, width, height}). */
-export function makeCover({ dir, slug, title, label }) {
-  const lines = wrap(title, 30).slice(0, 4), y0 = 315 - (lines.length - 1) * 38;
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="${E(title)}">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0a1424"/><stop offset="1" stop-color="#0352a3"/></linearGradient></defs>
-<rect width="1200" height="630" fill="url(#g)"/><circle cx="1080" cy="110" r="180" fill="#046bd2" opacity=".25"/><circle cx="1130" cy="560" r="120" fill="#eef5fd" opacity=".08"/>
-<text x="80" y="110" fill="#9cc6f5" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="600" letter-spacing="2">${E(label.toUpperCase())}</text>
-${lines.map((l, i) => `<text x="80" y="${y0 + i * 76}" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="60" font-weight="700">${E(l)}</text>`).join("\n")}
-<text x="80" y="560" fill="#cfe3fa" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="600">openink Hub</text></svg>\n`;
-  const out = path.join(ROOT, "static", "images", dir);
-  fs.mkdirSync(out, { recursive: true });
-  fs.writeFileSync(path.join(out, `${slug}.svg`), svg);
-  return { src: `${BASE}/images/${dir}/${slug}.svg`, alt: title, width: 1200, height: 630 };
+/** Write the card and return a featured_image record ({src, alt, width, height}). Same design as makeArticleCover. */
+export function makeCover({ dir, slug, title, label, icon }) {
+  return makeArticleCover({ dir, slug, title, label, accentKey: label.replace(/ · [^·]+$/, ""), icon: icon || (dir === "city" ? "pin" : undefined) });
 }
 
 // ---------------------------------------------------------------- website development blog covers
@@ -53,9 +43,17 @@ const PALETTES = {
   "/technology-development-services/": ["#031c26", "#0369a1", "#fb923c"],
 };
 const DEFAULT_PALETTE = ["#0a1424", "#0352a3", "#9cc6f5"];
+// every blog cover shares one blue background; the accent colour (pill, icon, pattern) changes per category / hub
+const BG = ["#061638", "#0a4fb8"];
+const ACCENTS = ["#ffb547", "#41e0c4", "#fcd34d", "#f472b6", "#7dd3fc", "#34d399", "#c4b5fd", "#fb923c", "#fde047", "#a5f3fc", "#fda4af", "#bef264"];
+const CAT_ACCENT = { "SEO": "#fde047", "Local SEO": "#34d399", "AEO": "#f472b6", "GEO": "#c4b5fd", "AIO": "#a5f3fc",
+  "GMB": "#fb923c", "Backlinks": "#bef264", "WhatsApp Automation": "#4ade80", "Articles": "#fda4af", "Website Development": "#ffb547",
+  "SEO · AEO · GEO · AIO": "#7dd3fc" };
 
 // line illustrations drawn in a 200x200 box (stroke = accent colour)
 const ICONS = {
+  link: `<path d="M86 114a34 34 0 0 0 48 0l30-30a34 34 0 0 0-48-48l-14 14"/><path d="M114 86a34 34 0 0 0-48 0l-30 30a34 34 0 0 0 48 48l14-14"/>`,
+  people: `<circle cx="70" cy="70" r="26"/><circle cx="138" cy="78" r="20"/><path d="M22 170c0-30 22-52 48-52s48 22 48 52M118 170c0-24 10-42 30-42s32 18 32 42"/>`,
   browser: `<rect x="10" y="30" width="180" height="140" rx="14"/><path d="M10 64h180"/><circle cx="32" cy="47" r="5" class="f"/><circle cx="50" cy="47" r="5" class="f"/><circle cx="68" cy="47" r="5" class="f"/><path d="M36 96h80M36 120h128M36 144h100"/>`,
   code: `<path d="M64 52 22 100l42 48M136 52l42 48-42 48M114 40 86 160"/>`,
   cart: `<path d="M12 32h30l26 100h96l22-72H56"/><circle cx="84" cy="162" r="12"/><circle cx="150" cy="162" r="12"/>`,
@@ -75,6 +73,12 @@ const ICONS = {
 };
 const TOPICS = [
   [/-vs-|\bvs\b/i, "compare"],
+  [/whatsapp/i, "chat"],
+  [/\bats\b|ats-|hrms|\bhr-|recruit|hiring/i, "people"],
+  [/backlink|profile-creation|link-building/i, "link"],
+  [/gmb|google-business|geo-targeting|near-me/i, "pin"],
+  [/workflow|automation/i, "gear"],
+  [/answer-engine|\baeo\b/i, "chat"],
   [/ecommerce|shopify|woocommerce|commerce|store/i, "cart"],
   [/secur|ssl|malware|backup/i, "shield"],
   [/cost|price|pricing|budget/i, "rupee"],
@@ -100,17 +104,18 @@ const PATTERNS = [
   (c) => `<pattern id="p" width="80" height="24" patternUnits="userSpaceOnUse"><path d="M0 12q20-14 40 0t40 0" fill="none" stroke="${c}" stroke-width="2"/></pattern>`,
 ];
 
-export function makeArticleCover({ dir = "articles", slug, title, hub, cluster, id }) {
-  const [c1, c2, acc] = PALETTES[hub] || DEFAULT_PALETTE;
+export function makeArticleCover({ dir = "articles", slug, title, hub, cluster, id, label, accentKey, icon: iconName }) {
+  const [c1, c2] = BG;
+  const acc = hub && PALETTES[hub] ? PALETTES[hub][2] : CAT_ACCENT[accentKey] || ACCENTS[hash(accentKey || slug) % ACCENTS.length];
   const h = hash(slug);
   const angle = [[0, 0, 1, 1], [0, 1, 1, 0], [0, 0, 1, 0], [1, 0, 0, 1]][h % 4];
   const pattern = PATTERNS[(h >>> 3) % PATTERNS.length](acc);
   const shape = (h >>> 6) % 3;
-  const icon = ICONS[(TOPICS.find(([re]) => re.test(slug)) || [0, "browser"])[1]];
+  const icon = ICONS[iconName || (TOPICS.find(([re]) => re.test(slug)) || [0, /seo|rank|search/i.test(slug) ? "search" : "browser"])[1]];
   let size = 54, lines = wrap(title, 22);
   if (lines.length > 4) { size = 46; lines = wrap(title, 26).slice(0, 5); }
   const lh = Math.round(size * 1.18), y0 = 320 - ((lines.length - 1) * lh) / 2 + size / 3;
-  const topic = String(cluster || "Website development").replace(/^C\d+\s+/, "");
+  const topic = String(label || cluster || "Website development").replace(/^C\d+\s+/, "");
   const panel = [
     `<rect x="772" y="135" width="360" height="360" rx="44" fill="#fff" fill-opacity=".08" stroke="${acc}" stroke-opacity=".45" stroke-width="2"/>`,
     `<circle cx="952" cy="315" r="190" fill="#fff" fill-opacity=".08" stroke="${acc}" stroke-opacity=".45" stroke-width="2"/>`,
@@ -128,7 +133,7 @@ ${panel}<g class="ic" transform="translate(827 190) scale(1.25)">${icon}</g>
 ${lines.map((l, i) => `<text x="72" y="${Math.round(y0 + i * lh)}" fill="#fff" font-family="Segoe UI,Arial,sans-serif" font-size="${size}" font-weight="800">${E(l)}</text>`).join("\n")}
 <rect x="72" y="532" width="64" height="6" rx="3" fill="${acc}"/>
 <text x="72" y="578" fill="#fff" fill-opacity=".9" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">openink Hub</text>
-<text x="236" y="578" fill="#fff" fill-opacity=".6" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">Guide ${String(id || "").padStart(3, "0")}</text></svg>\n`;
+<text x="236" y="578" fill="#fff" fill-opacity=".6" font-family="Segoe UI,Arial,sans-serif" font-size="22" font-weight="600">${id ? "Guide " + String(id).padStart(3, "0") : ["articles", "city"].includes(dir) ? "Blog" : ""}</text></svg>\n`;
   const out = path.join(ROOT, "static", "images", dir);
   fs.mkdirSync(out, { recursive: true });
   fs.writeFileSync(path.join(out, `${slug}.svg`), svg);
