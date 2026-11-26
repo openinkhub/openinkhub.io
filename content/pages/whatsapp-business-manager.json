@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-business-manager/",
+  "path": "/whatsapp-business-manager/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "WhatsApp Manager",
+  "card_text": "Managing numbers, templates and access in Meta's WhatsApp Manager.",
+  "n": "16",
+  "title": "WhatsApp Business Manager: A Walkthrough",
+  "h1": "WhatsApp Business Manager: managing your account in Meta",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "A walkthrough of WhatsApp Business Manager in Meta: business portfolio, WhatsApp accounts, phone numbers, templates, quality rating, users and billing.",
+  "keyphrase_override": "whatsapp business manager",
+  "keyphrase_secondary_override": [
+    "whatsapp manager",
+    "meta business suite whatsapp",
+    "whatsapp business account"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Where do I find WhatsApp Manager?",
+      "a": "<p>Open Meta Business Suite or business settings, choose your business portfolio, and go to WhatsApp Manager from the accounts section.</p>"
+    },
+    {
+      "q": "Who should be admin?",
+      "a": "<p>At least two trusted people from your company. Give agencies and providers partner access, not personal admin access.</p>"
+    },
+    {
+      "q": "Where do I see my quality rating?",
+      "a": "<p>In WhatsApp Manager, under phone numbers. Each number shows its quality rating and messaging limit.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp Business Manager: managing your account in Meta</h1>\n<p>WhatsApp Business Manager, now called WhatsApp Manager inside Meta Business Suite, is where you control your WhatsApp Business Platform account. From there you manage phone numbers, message templates, quality ratings, messaging limits, users, partners and billing. Whether you use a provider or the Cloud API directly, knowing your way around WhatsApp Business Manager helps you keep control of your account and spot problems early.</p>\n\n<h2>Business portfolio and WhatsApp Business Accounts</h2>\n<p>Everything sits inside a Meta business portfolio, formerly called Business Manager. The portfolio represents your company. Inside it, you can have one or more WhatsApp Business Accounts, each holding phone numbers and templates. Many companies use one account per brand or region. Verifying the business portfolio with your legal documents is strongly recommended, because it builds trust and unlocks higher limits. Meta's <a href=\"https://www.facebook.com/business/help\" target=\"_blank\" rel=\"noopener\">Business Help Center</a> explains verification.</p>\n\n<h2>Phone numbers</h2>\n<p>The phone numbers section lists each number on the account with its display name, status, quality rating and messaging limit. Here you can:</p>\n<ul>\n<li>add a new number and verify it by SMS or voice call;</li>\n<li>check or change the display name, which Meta reviews;</li>\n<li>see whether a number is connected and active;</li>\n<li>set up two-step verification with a PIN.</li>\n</ul>\n<p>Turn on two-step verification for every number. It stops anyone from re-registering your number elsewhere.</p>\n\n<h2>Message templates</h2>\n<p>The templates section shows every template with its category, language and status: approved, pending, rejected or paused. You can create, edit and delete templates here, although most teams do this from their provider's platform. If a template is paused because of low quality, this is where you will see it. For more on templates, read our <a href=\"/whatsapp-template-library/\">template library guide</a>.</p>\n\n<h2>Quality rating and messaging limits</h2>\n<p>Each number has a quality rating shown as high, medium or low, based on how customers react to your messages. Blocks and reports lower it. Each number also has a messaging limit, which caps how many customers you can message first in a rolling 24 hours. The limit rises as you send good-quality messages over time. Check both after every big campaign. If quality drops, slow down and review which templates caused blocks. Our <a href=\"/whatsapp-analytics/\">WhatsApp analytics</a> guide covers this.</p>\n\n<h2>Users and partners</h2>\n<p>Access control is where many businesses go wrong. Follow three rules:</p>\n<ol>\n<li>Keep at least two trusted admins from your own company.</li>\n<li>Give agencies and providers <strong>partner access</strong> through business settings, not personal admin roles.</li>\n<li>Remove people as soon as they leave the company or the project ends.</li>\n</ol>\n<p>This way, your business always owns the account, even if you change providers. Our guide to <a href=\"/how-to-choose-a-whatsapp-api-provider/\">choosing a WhatsApp API provider</a> explains why that matters.</p>\n\n<h2>Billing and payment methods</h2>\n<p>If you pay Meta directly, the billing section holds your payment method and invoices for template messages. If you pay through a provider, they may handle this for you. Either way, review the monthly charges and compare them with your expected volume. Our <a href=\"/whatsapp-per-message-pricing/\">per-message pricing guide</a> explains how charges are calculated.</p>\n\n<h2>Account restrictions and reviews</h2>\n<p>If Meta restricts your account or a number, WhatsApp Manager shows the reason and a way to request a review. Read the policy cited carefully before appealing, and fix the cause first. See <a href=\"/how-to-unban-a-whatsapp-number/\">how to unban a WhatsApp number</a> for more on restrictions.</p>\n\n<h2>A monthly checklist</h2>\n<ul>\n<li>Quality rating and messaging limit for each number.</li>\n<li>Paused or rejected templates.</li>\n<li>User and partner access list.</li>\n<li>Billing and invoices.</li>\n<li>Business verification status.</li>\n</ul>\n\n<h2>Help with WhatsApp Business Manager</h2>\n<p>We set up your business portfolio, WhatsApp accounts, numbers and access correctly from the start, and review account health every month, as part of our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>.</p>\n<h2>Frequently asked questions</h2><h3>Where do I find WhatsApp Manager?</h3><p>Open Meta Business Suite or business settings, choose your business portfolio, and go to WhatsApp Manager from the accounts section.</p><h3>Who should be admin?</h3><p>At least two trusted people from your company. Give agencies and providers partner access, not personal admin access.</p><h3>Where do I see my quality rating?</h3><p>In WhatsApp Manager, under phone numbers. Each number shows its quality rating and messaging limit.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Business Manager: A Walkthrough | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-business-manager/#article",
+            "headline": "WhatsApp Business Manager: A Walkthrough",
+            "description": "A walkthrough of WhatsApp Business Manager in Meta: business portfolio, WhatsApp accounts, phone numbers, templates, quality rating, users and billing.",
+            "url": "https://openinkhub.io/whatsapp-business-manager/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-business-manager/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "WhatsApp Manager",
+                "item": "https://openinkhub.io/whatsapp-business-manager/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-business-manager/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "A walkthrough of WhatsApp Business Manager in Meta: business portfolio, WhatsApp accounts, phone numbers, templates, quality rating, users and billing."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Business Manager: A Walkthrough"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "A walkthrough of WhatsApp Business Manager in Meta: business portfolio, WhatsApp accounts, phone numbers, templates, quality rating, users and billing."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-business-manager/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

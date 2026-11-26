@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-business-app-vs-api/",
+  "path": "/whatsapp-business-app-vs-api/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Business App vs API",
+  "card_text": "Which WhatsApp Business option fits your size and needs.",
+  "n": "05",
+  "title": "WhatsApp Business App vs API Compared",
+  "h1": "WhatsApp Business App vs API: which one do you need?",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "WhatsApp Business App vs API compared on cost, users, automation, broadcasts, integrations and verification, with a simple way to decide which fits you.",
+  "keyphrase_override": "whatsapp business app vs api",
+  "keyphrase_secondary_override": [
+    "whatsapp business api vs app",
+    "difference between whatsapp business and api",
+    "whatsapp api"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Is the WhatsApp Business App free?",
+      "a": "<p>Yes, the app is free to download and use. The API has no setup fee from Meta but charges per template message.</p>"
+    },
+    {
+      "q": "Can I move my number from the app to the API?",
+      "a": "<p>Yes. You can migrate the number, or use coexistence where available to keep the app and API on the same number.</p>"
+    },
+    {
+      "q": "How many people can use the WhatsApp Business App?",
+      "a": "<p>The app can be linked to a few extra devices. For larger teams, the API with a shared inbox is the better fit.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp Business App vs API: which one do you need?</h1>\n<p>WhatsApp Business App vs API comes down to scale. The free WhatsApp Business App suits a single owner or a small team replying from a phone. The WhatsApp Business API, now usually the Cloud API, suits businesses that need several agents, chatbots, automation, CRM links or large broadcasts. If you send more than a few dozen business messages a day, or want any automation, you need the API.</p>\n\n<h2>WhatsApp Business App vs API: side by side</h2>\n<table>\n<thead><tr><th></th><th>Business App</th><th>Business API</th></tr></thead>\n<tbody>\n<tr><td>Cost</td><td>Free</td><td>Free setup from Meta; charges per template message</td></tr>\n<tr><td>Who uses it</td><td>One phone plus a few linked devices</td><td>Unlimited agents through a shared inbox</td></tr>\n<tr><td>Chatbots</td><td>No (greeting, away and quick replies only)</td><td>Yes, rule-based and AI</td></tr>\n<tr><td>Broadcasts</td><td>Small lists; only contacts who saved your number</td><td>Large opted-in audiences, with personalisation</td></tr>\n<tr><td>Integrations</td><td>None</td><td>CRM, store, helpdesk, payment links</td></tr>\n<tr><td>Templates</td><td>Not needed</td><td>Required to start chats outside 24 hours</td></tr>\n<tr><td>Reports</td><td>Basic message stats</td><td>Full delivery, read, reply and revenue reports</td></tr>\n<tr><td>Setup</td><td>Download and register</td><td>Meta business portfolio, number, display name, provider</td></tr>\n</tbody>\n</table>\n\n<h2>When the Business App is enough</h2>\n<ul>\n<li>You are a solo owner or a tiny team.</li>\n<li>You handle a manageable number of chats a day.</li>\n<li>Your customers mostly message you, not the other way round.</li>\n<li>You do not need to connect WhatsApp to other software.</li>\n</ul>\n<p>In that case, the app's catalog, labels, quick replies and away messages go a long way. Fill in your profile well, too. Our guide to the <a href=\"/whatsapp-business-description/\">WhatsApp business description</a> helps with that.</p>\n\n<h2>When you need the API</h2>\n<ul>\n<li>More than one person needs to answer the same number.</li>\n<li>You want a chatbot to answer questions or book slots.</li>\n<li>You send order, booking or payment updates automatically.</li>\n<li>You run campaigns to hundreds or thousands of opted-in customers.</li>\n<li>You want leads and chats saved to your CRM.</li>\n</ul>\n<p>Any one of these usually justifies the switch. The <a href=\"/whatsapp-cloud-api/\">WhatsApp Cloud API</a> guide explains setup in detail.</p>\n\n<h2>Moving from the app to the API</h2>\n<p>You can move an existing number. Traditionally, that meant removing it from the app before registering it on the API, which also meant the chat history stayed on the phone. More recently, Meta has offered a coexistence option for some Business App numbers, so the app and API can work on the same number. Check which route your provider supports before you start. Either way, plan the switch for a quiet day and tell regular customers if anything changes.</p>\n\n<h2>Cost comparison in practice</h2>\n<p>The app is free, but its hidden cost is time: one person tied to a phone, manual replies and missed chats. The API has a per-message cost for templates plus a platform fee. However, service replies inside the 24-hour window are free, and automation saves staff hours. Our <a href=\"/whatsapp-per-message-pricing/\">per-message pricing guide</a> explains how to estimate your bill.</p>\n\n<h2>Our recommendation</h2>\n<p>Start with the app if you are small and mostly reactive. Then move to the API as soon as you need a second agent, any automation or a CRM link. When comparing WhatsApp Business App vs API for your own business, list the jobs you want WhatsApp to do and check which column covers them. If you choose the API, our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a> can handle the migration and setup.</p>\n<h2>Frequently asked questions</h2><h3>Is the WhatsApp Business App free?</h3><p>Yes, the app is free to download and use. The API has no setup fee from Meta but charges per template message.</p><h3>Can I move my number from the app to the API?</h3><p>Yes. You can migrate the number, or use coexistence where available to keep the app and API on the same number.</p><h3>How many people can use the WhatsApp Business App?</h3><p>The app can be linked to a few extra devices. For larger teams, the API with a shared inbox is the better fit.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Business App vs API Compared | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-business-app-vs-api/#article",
+            "headline": "WhatsApp Business App vs API Compared",
+            "description": "WhatsApp Business App vs API compared on cost, users, automation, broadcasts, integrations and verification, with a simple way to decide which fits you.",
+            "url": "https://openinkhub.io/whatsapp-business-app-vs-api/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-business-app-vs-api/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Business App vs API",
+                "item": "https://openinkhub.io/whatsapp-business-app-vs-api/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-business-app-vs-api/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "WhatsApp Business App vs API compared on cost, users, automation, broadcasts, integrations and verification, with a simple way to decide which fits you."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Business App vs API Compared"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "WhatsApp Business App vs API compared on cost, users, automation, broadcasts, integrations and verification, with a simple way to decide which fits you."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-business-app-vs-api/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

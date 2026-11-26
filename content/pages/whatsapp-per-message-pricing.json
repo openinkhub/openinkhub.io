@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-per-message-pricing/",
+  "path": "/whatsapp-per-message-pricing/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Per-Message Pricing",
+  "card_text": "How Meta's per-message pricing for WhatsApp works.",
+  "n": "09",
+  "title": "WhatsApp Per-Message Pricing Explained",
+  "h1": "WhatsApp per-message pricing explained",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "WhatsApp per-message pricing explained: which messages Meta charges for, which are free, how categories and countries affect cost and how to budget.",
+  "keyphrase_override": "whatsapp per-message pricing",
+  "keyphrase_secondary_override": [
+    "whatsapp api pricing",
+    "whatsapp business api cost",
+    "whatsapp message charges india"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "When did WhatsApp move to per-message pricing?",
+      "a": "<p>Meta moved the WhatsApp Business Platform from conversation-based to per-message pricing on 1 July 2025.</p>"
+    },
+    {
+      "q": "Are customer service replies free?",
+      "a": "<p>Yes. Free-form replies inside the 24-hour customer service window are not charged, and utility templates sent inside that window are free too.</p>"
+    },
+    {
+      "q": "Where can I see the current rates?",
+      "a": "<p>Meta publishes its rate cards by country on its WhatsApp Business Platform pricing page.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp per-message pricing explained</h1>\n<p>WhatsApp per-message pricing is how Meta charges businesses on the WhatsApp Business Platform since 1 July 2025. Instead of paying for 24-hour conversations, you pay for each delivered template message. The price depends on the template category (marketing, utility or authentication) and the country of the customer's phone number. Many messages are free, including your replies inside an open customer service window.</p>\n\n<h2>What changed in July 2025</h2>\n<p>Before July 2025, Meta charged per conversation: a 24-hour session that could include many messages. Under the new model, each template message is billed on its own when it is delivered. Meta's <a href=\"https://developers.facebook.com/docs/whatsapp/pricing\" target=\"_blank\" rel=\"noopener\">pricing documentation</a> sets out the current rules. For most businesses, the change made costs easier to predict, because each campaign message has a clear price.</p>\n\n<h2>What is charged under WhatsApp per-message pricing</h2>\n<ul>\n<li><strong>Marketing templates</strong>: offers, launches, cart reminders and win-back messages. Charged per delivered message.</li>\n<li><strong>Utility templates</strong>: order, booking and account updates. Charged when sent outside an open service window.</li>\n<li><strong>Authentication templates</strong>: one-time passcodes. Charged per delivered message, usually at a lower rate.</li>\n</ul>\n<p>Marketing is usually the most expensive category, and authentication the cheapest. Exact rates differ by country and change over time, so always check Meta's current rate card for India and any other markets you serve.</p>\n\n<h2>What is free</h2>\n<ol>\n<li><strong>Service replies.</strong> When a customer messages you, a 24-hour customer service window opens. Free-form replies inside it are not charged.</li>\n<li><strong>Utility templates inside the window.</strong> If the window is open, utility templates sent in it are free too.</li>\n<li><strong>Click-to-WhatsApp ad chats.</strong> Conversations that start from these ads, or from a Facebook Page call-to-action, get a free entry window, longer than 24 hours, during which messages are free.</li>\n</ol>\n<p>This is why support-heavy businesses often pay very little. Most of their messages are replies.</p>\n\n<h2>How categories affect cost</h2>\n<p>Meta decides the category when it reviews a template. If a \"utility\" template includes promotional content, Meta can reclassify it as marketing. So keep updates purely informational, and put offers in separate marketing templates. Our <a href=\"/whatsapp-template-library/\">template library guide</a> explains the categories in detail.</p>\n\n<h2>How country affects cost</h2>\n<p>The price is based on the customer's country code, not yours. A message to a +91 number is priced at India rates, while one to a +971 number uses UAE rates. If you serve customers abroad, segment campaigns by country to see the real cost.</p>\n\n<h2>Budgeting for WhatsApp</h2>\n<p>A simple monthly estimate looks like this:</p>\n<ul>\n<li>Number of marketing messages × marketing rate.</li>\n<li>Plus utility messages sent outside open windows × utility rate.</li>\n<li>Plus authentication messages × authentication rate.</li>\n<li>Plus your provider's platform fee and any markup.</li>\n</ul>\n<p>Then compare this with what WhatsApp brings in. Cost per order or per booking is the number that matters. Our <a href=\"/whatsapp-analytics/\">WhatsApp analytics</a> guide shows how to track it.</p>\n\n<h2>Ways to keep costs down</h2>\n<p>First, segment campaigns instead of sending to everyone. Next, send utility updates while a service window is open where possible. Then use click-to-WhatsApp ads to start chats, since those come with a free window. Finally, ask your provider to show Meta's rate and their own fee separately. Our guide to <a href=\"/how-to-choose-a-whatsapp-api-provider/\">choosing a WhatsApp API provider</a> lists the questions to ask.</p>\n\n<h2>Need a cost estimate?</h2>\n<p>We can model your expected volume under WhatsApp per-message pricing and suggest ways to lower it, as part of our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>.</p>\n<h2>Frequently asked questions</h2><h3>When did WhatsApp move to per-message pricing?</h3><p>Meta moved the WhatsApp Business Platform from conversation-based to per-message pricing on 1 July 2025.</p><h3>Are customer service replies free?</h3><p>Yes. Free-form replies inside the 24-hour customer service window are not charged, and utility templates sent inside that window are free too.</p><h3>Where can I see the current rates?</h3><p>Meta publishes its rate cards by country on its WhatsApp Business Platform pricing page.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Per-Message Pricing Explained | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-per-message-pricing/#article",
+            "headline": "WhatsApp Per-Message Pricing Explained",
+            "description": "WhatsApp per-message pricing explained: which messages Meta charges for, which are free, how categories and countries affect cost and how to budget.",
+            "url": "https://openinkhub.io/whatsapp-per-message-pricing/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-per-message-pricing/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Per-Message Pricing",
+                "item": "https://openinkhub.io/whatsapp-per-message-pricing/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-per-message-pricing/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "WhatsApp per-message pricing explained: which messages Meta charges for, which are free, how categories and countries affect cost and how to budget."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Per-Message Pricing Explained"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "WhatsApp per-message pricing explained: which messages Meta charges for, which are free, how categories and countries affect cost and how to budget."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-per-message-pricing/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

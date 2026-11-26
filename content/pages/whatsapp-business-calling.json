@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-business-calling/",
+  "path": "/whatsapp-business-calling/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "WhatsApp Voice Calling",
+  "card_text": "Voice calls inside the same WhatsApp chat, routed to your team.",
+  "n": "07",
+  "title": "WhatsApp Business Calling: Voice in Chat",
+  "h1": "WhatsApp business calling: adding voice to your WhatsApp support",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "WhatsApp business calling lets customers call you from the chat and lets agents call back with consent. Here is how it works and when to use it.",
+  "keyphrase_override": "whatsapp business calling",
+  "keyphrase_secondary_override": [
+    "whatsapp calling api",
+    "whatsapp voice calls for business",
+    "call button whatsapp"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Can a business call a customer on WhatsApp?",
+      "a": "<p>Yes, with the customer's permission. The business asks for call consent in the chat, and once the customer agrees the agent can place the call.</p>"
+    },
+    {
+      "q": "Do customers pay for WhatsApp calls?",
+      "a": "<p>No. Calls use the customer's internet data, like normal WhatsApp calls. Business pricing for calling is set by Meta and can change, so check the current rate card.</p>"
+    },
+    {
+      "q": "Are calls recorded?",
+      "a": "<p>Only if you set that up and tell the customer. Recording must follow your privacy policy and local law.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp business calling: adding voice to your WhatsApp support</h1>\n<p>WhatsApp business calling adds voice to your WhatsApp support. Customers can tap a call button in the chat to reach your team, and agents can call customers back after the customer agrees. The call happens inside WhatsApp, over the internet, so there is no phone bill for the customer. Most importantly, the call sits next to the chat history, so agents know the context before they speak.</p>\n\n<h2>What WhatsApp business calling is</h2>\n<p>Meta added calling to the WhatsApp Business Platform so businesses can talk to customers without switching apps. Calls are routed to your software, not to one phone. That means you can send them to the right team, queue them and track them, just like chats. For technical details, see Meta's <a href=\"https://developers.facebook.com/docs/whatsapp/cloud-api/calling\" target=\"_blank\" rel=\"noopener\">calling documentation</a>.</p>\n\n<h2>Customer-initiated vs business-initiated calls</h2>\n<h3>Customer calls you</h3>\n<p>A call button appears on your business profile or in a message. The customer taps it, and the call rings your agents. This suits support lines and sales enquiries.</p>\n<h3>You call the customer</h3>\n<p>A business cannot cold-call on WhatsApp. First, it asks for permission in the chat, for example with a \"Call me\" button. Once the customer agrees, an agent can place the call. This keeps calling personal and avoids spam.</p>\n\n<h2>When voice beats text</h2>\n<ul>\n<li><strong>Complex questions</strong> that need back-and-forth, such as loan terms or a technical fault.</li>\n<li><strong>High-value sales</strong> where trust matters, such as property, cars or education.</li>\n<li><strong>Upset customers</strong> who want to be heard.</li>\n<li><strong>Older customers</strong> who prefer to talk rather than type.</li>\n<li><strong>Language needs</strong>, where a short call is quicker than long messages.</li>\n</ul>\n<p>However, voice should be an option, not the default. Most simple questions are still faster by text, and an <a href=\"/ai-whatsapp-bot/\">AI bot</a> can answer many of them instantly.</p>\n\n<h2>Setting up call routing</h2>\n<ol>\n<li>Decide which numbers and teams take calls, and during which hours.</li>\n<li>Set a fallback for missed calls, such as an automatic message offering a callback.</li>\n<li>Add a \"Call us\" button to key flows, for instance after a bot hand-off.</li>\n<li>Train agents to note the outcome of each call in the chat.</li>\n</ol>\n<p>Also tell customers your calling hours in the business profile. Outside those hours, the bot can take a callback request.</p>\n\n<h2>Linking calls to the chat history</h2>\n<p>The real value of calling inside WhatsApp is context. When a customer calls, the agent sees the earlier chat, tags and order details in the <a href=\"/whatsapp-team-inbox/\">team inbox</a>. After the call, notes and outcomes stay in the same thread. Then everything syncs to your CRM through <a href=\"/whatsapp-crm-integration/\">CRM integration</a>. As a result, no one has to ask \"can you explain again?\"</p>\n\n<h2>Costs and privacy</h2>\n<p>For the customer, a WhatsApp call uses mobile data, like any WhatsApp call. For the business, Meta sets calling prices, and they can change, so check the current rate card before launch. If you record calls, tell customers and follow your privacy policy and local law.</p>\n\n<h2>Adding calling to your WhatsApp setup</h2>\n<p>Voice calling is one of the modules in our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot service</a>. We enable it on your number, set routing and hours, and connect call records to your inbox and CRM. If you also want an AI agent to answer calls, see our <a href=\"/ai-voice-agent/\">AI voice agent</a> service.</p>\n<h2>Frequently asked questions</h2><h3>Can a business call a customer on WhatsApp?</h3><p>Yes, with the customer's permission. The business asks for call consent in the chat, and once the customer agrees the agent can place the call.</p><h3>Do customers pay for WhatsApp calls?</h3><p>No. Calls use the customer's internet data, like normal WhatsApp calls. Business pricing for calling is set by Meta and can change, so check the current rate card.</p><h3>Are calls recorded?</h3><p>Only if you set that up and tell the customer. Recording must follow your privacy policy and local law.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Business Calling: Voice in Chat | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-business-calling/#article",
+            "headline": "WhatsApp Business Calling: Voice in Chat",
+            "description": "WhatsApp business calling lets customers call you from the chat and lets agents call back with consent. Here is how it works and when to use it.",
+            "url": "https://openinkhub.io/whatsapp-business-calling/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-business-calling/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "WhatsApp Voice Calling",
+                "item": "https://openinkhub.io/whatsapp-business-calling/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-business-calling/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "WhatsApp business calling lets customers call you from the chat and lets agents call back with consent. Here is how it works and when to use it."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Business Calling: Voice in Chat"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "WhatsApp business calling lets customers call you from the chat and lets agents call back with consent. Here is how it works and when to use it."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-business-calling/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

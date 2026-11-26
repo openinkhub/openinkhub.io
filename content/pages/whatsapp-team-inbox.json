@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-team-inbox/",
+  "path": "/whatsapp-team-inbox/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Multi-Agent Live Chat",
+  "card_text": "One shared WhatsApp number answered by your whole team.",
+  "n": "08",
+  "title": "WhatsApp Team Inbox for Multiple Agents",
+  "h1": "WhatsApp team inbox: one number, many agents",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "A WhatsApp team inbox lets several agents answer one business number with assignment rules, notes, tags and hand-off from the bot. Here is how to set one up.",
+  "keyphrase_override": "whatsapp team inbox",
+  "keyphrase_secondary_override": [
+    "whatsapp multi agent",
+    "shared whatsapp inbox",
+    "whatsapp live chat"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "How many agents can use one WhatsApp number?",
+      "a": "<p>With the API and a team inbox, there is no practical limit. Each agent logs in to the inbox, not to a phone.</p>"
+    },
+    {
+      "q": "Can the bot pass a chat to a person?",
+      "a": "<p>Yes. The bot hands over with the full history, so the customer does not have to repeat anything.</p>"
+    },
+    {
+      "q": "Can managers see agent performance?",
+      "a": "<p>Yes. The inbox reports first-response time, resolution time and chats handled per agent.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp team inbox: one number, many agents</h1>\n<p>A WhatsApp team inbox lets several agents answer customers from one business number at the same time. Each agent logs in on a laptop or phone, sees the chats assigned to them and replies under your brand name. Managers can see every conversation, reassign chats and track response times. As a result, WhatsApp stops being one person's phone and becomes a proper support and sales channel.</p>\n\n<h2>Why one phone is not enough</h2>\n<p>Many businesses start with WhatsApp on a single phone. That works until messages pile up. Then replies slow down, chats get missed, and nobody knows who answered what. If the person with the phone is on leave, the channel stops. Also, there is no record when an employee leaves. A shared inbox on the <a href=\"/whatsapp-cloud-api/\">WhatsApp Cloud API</a> fixes all of this.</p>\n\n<h2>How a WhatsApp team inbox works</h2>\n<ol>\n<li>A customer messages your business number.</li>\n<li>The bot answers first, if you use one, and collects the basics.</li>\n<li>The chat is assigned to an agent or a team, based on your rules.</li>\n<li>The agent replies, adds notes and tags, and closes the chat when done.</li>\n<li>Everything is saved and synced to your CRM.</li>\n</ol>\n<p>Because the bot passes the full history, the customer never repeats themselves. See <a href=\"/ai-whatsapp-bot/\">AI WhatsApp bot</a> for how the hand-off works.</p>\n\n<h2>Assignment and routing rules</h2>\n<ul>\n<li><strong>Round robin</strong>: spreads chats evenly across agents.</li>\n<li><strong>By team</strong>: sales, support and billing each get their own queue.</li>\n<li><strong>By language or region</strong>: Hindi chats go to Hindi speakers, for example.</li>\n<li><strong>By customer</strong>: returning customers go back to the same agent.</li>\n<li><strong>By hours</strong>: after hours, the bot takes a message and assigns it in the morning.</li>\n</ul>\n<p>Start simple. In most cases, routing by team plus round robin is enough. You can add more rules once you see the patterns.</p>\n\n<h2>Notes, tags and saved replies</h2>\n<p>Internal notes let agents leave context for each other without the customer seeing it. Tags such as \"hot lead\", \"refund\" or \"VIP\" make chats easy to filter. Saved replies give agents approved answers for common questions, which keeps the tone consistent. In addition, agents can send approved templates when a customer's 24-hour window has closed.</p>\n\n<h2>Measuring response times</h2>\n<p>A team inbox gives managers the numbers that a phone never could:</p>\n<ul>\n<li><strong>First response time</strong>: how fast a person replies after hand-off.</li>\n<li><strong>Resolution time</strong>: how long a chat stays open.</li>\n<li><strong>Chats per agent</strong>: workload and coverage.</li>\n<li><strong>Open chats</strong>: the backlog at any moment.</li>\n</ul>\n<p>Review these weekly. For example, if first response time rises every Monday, add cover that morning. Our <a href=\"/whatsapp-analytics/\">WhatsApp analytics</a> guide covers the wider set of reports.</p>\n\n<h2>Tips for a smooth rollout</h2>\n<p>First, write a short reply guide: tone, greeting, sign-off and what to escalate. Next, set response targets, such as five minutes during business hours. Then run a one-week pilot with a few agents before moving the whole team. Finally, tell customers your hours in the profile and in the bot's welcome message.</p>\n\n<h2>Setting up your team inbox</h2>\n<p>Multi-agent live chat is part of our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>. We set up the inbox, users, teams and routing, connect the bot hand-off and link it to your CRM. If you are still choosing a platform, see <a href=\"/how-to-choose-a-whatsapp-api-provider/\">how to choose a WhatsApp API provider</a>.</p>\n<h2>Frequently asked questions</h2><h3>How many agents can use one WhatsApp number?</h3><p>With the API and a team inbox, there is no practical limit. Each agent logs in to the inbox, not to a phone.</p><h3>Can the bot pass a chat to a person?</h3><p>Yes. The bot hands over with the full history, so the customer does not have to repeat anything.</p><h3>Can managers see agent performance?</h3><p>Yes. The inbox reports first-response time, resolution time and chats handled per agent.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Team Inbox for Multiple Agents | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-team-inbox/#article",
+            "headline": "WhatsApp Team Inbox for Multiple Agents",
+            "description": "A WhatsApp team inbox lets several agents answer one business number with assignment rules, notes, tags and hand-off from the bot. Here is how to set one up.",
+            "url": "https://openinkhub.io/whatsapp-team-inbox/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-team-inbox/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Multi-Agent Live Chat",
+                "item": "https://openinkhub.io/whatsapp-team-inbox/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-team-inbox/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "A WhatsApp team inbox lets several agents answer one business number with assignment rules, notes, tags and hand-off from the bot. Here is how to set one up."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Team Inbox for Multiple Agents"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "A WhatsApp team inbox lets several agents answer one business number with assignment rules, notes, tags and hand-off from the bot. Here is how to set one up."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-team-inbox/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

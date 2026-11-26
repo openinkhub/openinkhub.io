@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/how-to-unban-a-whatsapp-number/",
+  "path": "/how-to-unban-a-whatsapp-number/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Unban a WhatsApp Number",
+  "card_text": "Why numbers get banned and how to appeal and prevent it.",
+  "n": "15",
+  "title": "How to Unban a WhatsApp Number",
+  "h1": "How to unban a WhatsApp number: appeals and prevention",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "How to unban a WhatsApp number: why bans happen, how to request a review in the app, what to do for API accounts and how to avoid bans in future.",
+  "keyphrase_override": "unban a whatsapp number",
+  "keyphrase_secondary_override": [
+    "whatsapp number banned",
+    "whatsapp account banned",
+    "whatsapp ban appeal"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "How long does a WhatsApp ban review take?",
+      "a": "<p>Reviews often finish within a day or two, but some take longer. Avoid filing many repeat appeals.</p>"
+    },
+    {
+      "q": "Can a permanently banned number be used again?",
+      "a": "<p>Rarely. If the review upholds the ban, the number usually cannot be used on WhatsApp again.</p>"
+    },
+    {
+      "q": "Can a third-party service unban my number?",
+      "a": "<p>No. Only WhatsApp can lift a ban. Be wary of anyone who claims otherwise and asks for money.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>How to unban a WhatsApp number: appeals and prevention</h1>\n<p>To unban a WhatsApp number, open WhatsApp on the banned number, tap the option to request a review, explain briefly why you think the ban is a mistake and wait for WhatsApp's decision. Only WhatsApp can lift a ban, and there is no paid service that can do it for you. If the ban is upheld, the number usually cannot be used on WhatsApp again, which is why preventing a ban matters far more than appealing one.</p>\n\n<h2>Why WhatsApp numbers get banned</h2>\n<p>WhatsApp bans numbers that break its terms of service. For businesses, the common causes are:</p>\n<ul>\n<li>sending bulk messages from the regular or Business App to people who did not opt in;</li>\n<li>using unofficial bulk senders, auto-clickers or modified WhatsApp apps;</li>\n<li>many recipients blocking or reporting the number in a short time;</li>\n<li>adding people to groups without permission;</li>\n<li>selling products banned under WhatsApp's commerce policy;</li>\n<li>scraping contacts or sending automated messages without the API.</li>\n</ul>\n<p>In most business cases, the root cause is messaging people at scale without permission.</p>\n\n<h2>Temporary vs permanent bans</h2>\n<p>A temporary ban usually appears as a countdown in the app. It often follows the use of an unofficial app or a burst of reports. After the timer ends, the number works again. However, repeat behaviour can turn it into a permanent ban. A permanent ban shows a message that the number is no longer allowed to use WhatsApp. That is the case where a review request matters.</p>\n\n<h2>How to unban a WhatsApp number in the app</h2>\n<ol>\n<li>Open WhatsApp or WhatsApp Business on the banned number.</li>\n<li>Tap the option to request a review, often labelled <strong>Request a review</strong> or <strong>Support</strong>.</li>\n<li>Verify the number with the code sent by SMS.</li>\n<li>Write a short, honest explanation. For example, explain that you only message existing customers and will stop any practice that caused the ban.</li>\n<li>Submit, then wait. Avoid sending repeated requests.</li>\n</ol>\n<p>You can also contact WhatsApp support through its <a href=\"https://faq.whatsapp.com/\" target=\"_blank\" rel=\"noopener\">Help Center</a>. If you used an unofficial app, uninstall it and switch to the official one before appealing.</p>\n\n<h2>API account restrictions</h2>\n<p>On the WhatsApp Business Platform, enforcement looks different. Instead of a sudden ban, you may see a falling quality rating, paused templates, a lower messaging limit or a restriction on your WhatsApp Business Account. You can view the reason and request a review in WhatsApp Manager, inside Meta Business Suite. Our <a href=\"/whatsapp-business-manager/\">WhatsApp Business Manager</a> walkthrough shows where to look.</p>\n\n<h2>Preventing bans in future</h2>\n<ul>\n<li><strong>Use the official API</strong> for anything beyond personal-scale messaging. See <a href=\"/whatsapp-cloud-api/\">WhatsApp Cloud API</a>.</li>\n<li><strong>Collect opt-in</strong> before you message anyone first.</li>\n<li><strong>Send useful, relevant messages</strong> to segmented audiences.</li>\n<li><strong>Offer an easy opt-out</strong> in every marketing message.</li>\n<li><strong>Grow volume gradually</strong> and watch your quality rating.</li>\n<li><strong>Never buy contact lists.</strong></li>\n</ul>\n<p>Our guide to <a href=\"/bulk-whatsapp-messages-guide/\">bulk WhatsApp messages</a> explains how to send at scale without these risks.</p>\n\n<h2>Beware of \"unban services\"</h2>\n<p>Some people sell services that claim to unban a WhatsApp number for a fee. They cannot. At best they file the same review you can file yourself. At worst they ask for your verification code and take over your account. Never share your WhatsApp code with anyone.</p>\n\n<h2>If the ban is upheld</h2>\n<p>If WhatsApp confirms the ban, you will need a new number. Before you start again, fix the cause. Set up the official API, rebuild your opt-in list and plan your messaging properly. We help businesses do exactly that through our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>, so the new number stays healthy.</p>\n<h2>Frequently asked questions</h2><h3>How long does a WhatsApp ban review take?</h3><p>Reviews often finish within a day or two, but some take longer. Avoid filing many repeat appeals.</p><h3>Can a permanently banned number be used again?</h3><p>Rarely. If the review upholds the ban, the number usually cannot be used on WhatsApp again.</p><h3>Can a third-party service unban my number?</h3><p>No. Only WhatsApp can lift a ban. Be wary of anyone who claims otherwise and asks for money.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "How to Unban a WhatsApp Number | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/how-to-unban-a-whatsapp-number/#article",
+            "headline": "How to Unban a WhatsApp Number",
+            "description": "How to unban a WhatsApp number: why bans happen, how to request a review in the app, what to do for API accounts and how to avoid bans in future.",
+            "url": "https://openinkhub.io/how-to-unban-a-whatsapp-number/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/how-to-unban-a-whatsapp-number/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Unban a WhatsApp Number",
+                "item": "https://openinkhub.io/how-to-unban-a-whatsapp-number/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/how-to-unban-a-whatsapp-number/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "How to unban a WhatsApp number: why bans happen, how to request a review in the app, what to do for API accounts and how to avoid bans in future."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "How to Unban a WhatsApp Number"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "How to unban a WhatsApp number: why bans happen, how to request a review in the app, what to do for API accounts and how to avoid bans in future."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/how-to-unban-a-whatsapp-number/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

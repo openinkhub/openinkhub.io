@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-chatbot-flow-builder/",
+  "path": "/whatsapp-chatbot-flow-builder/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Rule-Based Chatbot Flows",
+  "card_text": "Button and menu flows for predictable journeys, built without code.",
+  "n": "03",
+  "title": "WhatsApp Chatbot Flow Builder Guide",
+  "h1": "WhatsApp chatbot flow builder: designing rule-based flows",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "Use a WhatsApp chatbot flow builder to design menus, buttons and branching journeys for bookings, FAQs and lead capture, without writing code.",
+  "keyphrase_override": "whatsapp chatbot flow builder",
+  "keyphrase_secondary_override": [
+    "no-code whatsapp chatbot",
+    "whatsapp menu bot",
+    "rule-based chatbot"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "What is the difference between a flow and an AI chatbot?",
+      "a": "<p>A flow follows fixed paths you design, such as menus and buttons. An AI chatbot reads free text and decides what to say. Many businesses use flows for bookings and AI for open questions.</p>"
+    },
+    {
+      "q": "How many buttons can a WhatsApp message have?",
+      "a": "<p>Reply-button messages allow up to three buttons, and list messages allow up to ten options. Longer menus should be split into steps.</p>"
+    },
+    {
+      "q": "Can a flow collect form details?",
+      "a": "<p>Yes. A flow can ask for a name, city or date one question at a time, or open a WhatsApp Flows form, and then save the answers to your CRM.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp chatbot flow builder: designing rule-based flows</h1>\n<p>A WhatsApp chatbot flow builder lets you design conversations as a set of steps, buttons and branches, without writing code. Each step sends a message and waits for a choice. Then the flow moves to the next step based on that choice. Rule-based flows are predictable, quick to build and ideal for journeys you already know, such as bookings, order tracking and lead forms.</p>\n\n<h2>Rule-based flows vs AI replies</h2>\n<p>A flow follows the paths you draw. So it never says anything you did not approve. That makes it a safe choice for prices, policies and bookings. However, it cannot handle questions you did not plan for. An <a href=\"/ai-whatsapp-bot/\">AI WhatsApp bot</a> fills that gap by reading free text. In practice, the two work together: the flow handles the main menu, and AI handles the rest.</p>\n\n<h2>Building blocks of a WhatsApp flow</h2>\n<ul>\n<li><strong>Message</strong>: text, image, video or document.</li>\n<li><strong>Reply buttons</strong>: up to three quick choices.</li>\n<li><strong>List message</strong>: a menu of up to ten options.</li>\n<li><strong>Question</strong>: asks for a name, date or city and saves the answer.</li>\n<li><strong>Condition</strong>: branches on an answer, a tag or the time of day.</li>\n<li><strong>Action</strong>: tags the contact, updates the CRM or calls a webhook.</li>\n<li><strong>Hand-off</strong>: passes the chat to an agent.</li>\n</ul>\n<p>Meta also offers <a href=\"https://developers.facebook.com/docs/whatsapp/flows\" target=\"_blank\" rel=\"noopener\">WhatsApp Flows</a>, which open a short form inside the chat. These suit multi-field forms such as registrations.</p>\n\n<h2>Designing a flow in a WhatsApp chatbot flow builder</h2>\n<ol>\n<li><strong>Pick one goal.</strong> For example, \"book a site visit\" or \"track my order\". One flow, one job.</li>\n<li><strong>Write the happy path first.</strong> List the fewest steps a customer needs to reach the goal.</li>\n<li><strong>Add exits.</strong> Every step should offer \"talk to a person\" or \"main menu\".</li>\n<li><strong>Handle wrong input.</strong> If someone types instead of tapping, reply with the options again.</li>\n<li><strong>Save the data.</strong> Push answers to your CRM as the flow runs, not only at the end.</li>\n</ol>\n<p>Keep messages short. In fact, two lines and three buttons work better than a paragraph and a long list.</p>\n\n<h2>Common WhatsApp flow examples</h2>\n<h3>Main menu</h3>\n<p>A welcome message with buttons such as \"Products\", \"Track order\" and \"Talk to us\". This is the entry point for most chats.</p>\n<h3>Appointment booking</h3>\n<p>The customer picks a service, a date and a slot. Then the flow confirms the booking and schedules a reminder.</p>\n<h3>Lead capture</h3>\n<p>The flow asks for a name, city and requirement, then tags the lead and alerts sales. See <a href=\"/whatsapp-crm-integration/\">WhatsApp CRM integration</a> for how leads reach your CRM.</p>\n<h3>Order tracking</h3>\n<p>The customer enters an order number, and the flow fetches the status from your store.</p>\n\n<h2>Testing and improving flows</h2>\n<p>Before launch, test every branch on a real phone. Check that buttons fit, links open and data lands in the right fields. After launch, look at where people drop off. If many leave at one step, shorten it or change the wording. Also review chats that reached an agent, because they show what the flow is missing.</p>\n\n<h2>How we use a WhatsApp chatbot flow builder</h2>\n<p>As part of our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp automation service</a>, we map your top journeys, build the flows, connect them to your systems and test them with your team. Then we review the numbers each month and adjust. Most businesses start with three flows: a main menu, one booking or lead flow, and order or status tracking.</p>\n<h2>Frequently asked questions</h2><h3>What is the difference between a flow and an AI chatbot?</h3><p>A flow follows fixed paths you design, such as menus and buttons. An AI chatbot reads free text and decides what to say. Many businesses use flows for bookings and AI for open questions.</p><h3>How many buttons can a WhatsApp message have?</h3><p>Reply-button messages allow up to three buttons, and list messages allow up to ten options. Longer menus should be split into steps.</p><h3>Can a flow collect form details?</h3><p>Yes. A flow can ask for a name, city or date one question at a time, or open a WhatsApp Flows form, and then save the answers to your CRM.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Chatbot Flow Builder Guide | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-chatbot-flow-builder/#article",
+            "headline": "WhatsApp Chatbot Flow Builder Guide",
+            "description": "Use a WhatsApp chatbot flow builder to design menus, buttons and branching journeys for bookings, FAQs and lead capture, without writing code.",
+            "url": "https://openinkhub.io/whatsapp-chatbot-flow-builder/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-chatbot-flow-builder/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Rule-Based Chatbot Flows",
+                "item": "https://openinkhub.io/whatsapp-chatbot-flow-builder/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-chatbot-flow-builder/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "Use a WhatsApp chatbot flow builder to design menus, buttons and branching journeys for bookings, FAQs and lead capture, without writing code."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Chatbot Flow Builder Guide"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "Use a WhatsApp chatbot flow builder to design menus, buttons and branching journeys for bookings, FAQs and lead capture, without writing code."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-chatbot-flow-builder/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

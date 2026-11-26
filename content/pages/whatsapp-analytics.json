@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-analytics/",
+  "path": "/whatsapp-analytics/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Analytics & Reporting",
+  "card_text": "Delivery, read, reply and revenue reports for every message.",
+  "n": "12",
+  "title": "WhatsApp Analytics: Metrics That Matter",
+  "h1": "WhatsApp analytics: the metrics that show what is working",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "WhatsApp analytics explained: delivery, read and reply rates, response times, conversions and cost per result, and how to turn reports into decisions.",
+  "keyphrase_override": "whatsapp analytics",
+  "keyphrase_secondary_override": [
+    "whatsapp business analytics",
+    "whatsapp campaign reports",
+    "whatsapp metrics"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Can I see who read my message?",
+      "a": "<p>Yes, read receipts are reported per message, unless the customer has turned read receipts off. Those reads are counted as delivered only.</p>"
+    },
+    {
+      "q": "How do I track sales from WhatsApp?",
+      "a": "<p>Use tracked links or coupon codes in templates, and link orders back to the chat in your CRM or store.</p>"
+    },
+    {
+      "q": "What is a good reply rate?",
+      "a": "<p>It varies by industry and message type. Compare each campaign with your own average rather than a general benchmark.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp analytics: the metrics that show what is working</h1>\n<p>WhatsApp analytics shows what happens to every message you send and every chat you receive. It covers delivery, reads, replies, clicks and conversions for campaigns, plus response and resolution times for your team. With the right reports, you can see which messages make money, which annoy customers and where your team needs help. Without them, WhatsApp is guesswork.</p>\n\n<h2>Why WhatsApp needs its own reports</h2>\n<p>Website and ad analytics do not see inside WhatsApp. Once a customer taps \"chat\", the journey moves to a place your web tools cannot track. So you need reports from the WhatsApp platform itself, linked back to your CRM or store. That way, you can follow a customer from the first message to the final sale.</p>\n\n<h2>Message metrics</h2>\n<ul>\n<li><strong>Sent and delivered</strong>: the gap shows wrong numbers and people not on WhatsApp.</li>\n<li><strong>Read</strong>: how many opened the message. Some users turn off read receipts, so this is a minimum.</li>\n<li><strong>Replied</strong>: the clearest sign of interest.</li>\n<li><strong>Button clicks</strong>: taps on quick replies and links.</li>\n<li><strong>Blocks and opt-outs</strong>: the early warning that a message missed the mark.</li>\n</ul>\n<p>Read WhatsApp analytics per template and per segment, not just in total. In fact, a campaign average can hide one segment that loves the message and another that blocks it.</p>\n\n<h2>Team and support metrics</h2>\n<ul>\n<li><strong>First response time</strong>: how quickly a person replies after the bot hands off.</li>\n<li><strong>Resolution time</strong>: how long it takes to close a chat.</li>\n<li><strong>Bot containment</strong>: the share of chats the bot resolves alone.</li>\n<li><strong>Chats per agent</strong>: workload and coverage gaps.</li>\n<li><strong>Customer rating</strong>: a one-tap score sent after the chat closes.</li>\n</ul>\n<p>These come from the <a href=\"/whatsapp-team-inbox/\">team inbox</a> and the <a href=\"/ai-whatsapp-bot/\">AI bot</a>.</p>\n\n<h2>Revenue and cost metrics</h2>\n<p>The numbers that matter most to owners are money in and money out. To track them:</p>\n<ol>\n<li>Add tracked links or coupon codes to templates.</li>\n<li>Link orders and deals back to the chat in your CRM or store.</li>\n<li>Add the message cost for each send, using Meta's rates.</li>\n<li>Divide cost by results, for example cost per booking or per order.</li>\n</ol>\n<p>Then you can compare WhatsApp with email, SMS or ads on equal terms. <a href=\"/whatsapp-crm-integration/\">CRM integration</a> makes this link much easier.</p>\n\n<h2>Account health</h2>\n<p>Meta shows a quality rating and messaging limit for each number in WhatsApp Manager. Check them after every large send. If quality drops, slow down and review the templates that caused blocks. Our <a href=\"/whatsapp-business-manager/\">WhatsApp Business Manager</a> walkthrough shows where to find these.</p>\n\n<h2>Building a simple weekly WhatsApp analytics report</h2>\n<p>A one-page report is enough for most teams:</p>\n<ul>\n<li>Campaigns sent this week, with delivered, read, replied and converted.</li>\n<li>Top and bottom template by reply rate.</li>\n<li>Response and resolution times by team.</li>\n<li>Revenue and cost from WhatsApp.</li>\n<li>Quality rating and any warnings.</li>\n</ul>\n<p>Next, pick one thing to improve each week. For example, rewrite the worst template, or add cover to the slowest shift. Small, steady changes add up.</p>\n\n<h2>Reading benchmarks carefully</h2>\n<p>You will see many claims about WhatsApp open rates. Treat them with care. Results vary widely by industry, audience and message type. Instead, compare each campaign with your own past results. Our <a href=\"/whatsapp-statistics/\">WhatsApp statistics</a> page lists the figures that have clear sources.</p>\n\n<h2>WhatsApp analytics in our service</h2>\n<p>Analytics and reporting is one of the modules in our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>. We set up tracking, connect revenue data and send a monthly report with clear next steps.</p>\n<h2>Frequently asked questions</h2><h3>Can I see who read my message?</h3><p>Yes, read receipts are reported per message, unless the customer has turned read receipts off. Those reads are counted as delivered only.</p><h3>How do I track sales from WhatsApp?</h3><p>Use tracked links or coupon codes in templates, and link orders back to the chat in your CRM or store.</p><h3>What is a good reply rate?</h3><p>It varies by industry and message type. Compare each campaign with your own average rather than a general benchmark.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Analytics: Metrics That Matter | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-analytics/#article",
+            "headline": "WhatsApp Analytics: Metrics That Matter",
+            "description": "WhatsApp analytics explained: delivery, read and reply rates, response times, conversions and cost per result, and how to turn reports into decisions.",
+            "url": "https://openinkhub.io/whatsapp-analytics/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-analytics/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Analytics & Reporting",
+                "item": "https://openinkhub.io/whatsapp-analytics/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-analytics/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "WhatsApp analytics explained: delivery, read and reply rates, response times, conversions and cost per result, and how to turn reports into decisions."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Analytics: Metrics That Matter"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "WhatsApp analytics explained: delivery, read and reply rates, response times, conversions and cost per result, and how to turn reports into decisions."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-analytics/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-retargeting/",
+  "path": "/whatsapp-retargeting/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Re-Targeting Automation",
+  "card_text": "Automatic follow-ups for carts, inactive customers and lapsed leads.",
+  "n": "06",
+  "title": "WhatsApp Retargeting Automation Guide",
+  "h1": "WhatsApp retargeting: automatic follow-ups that win customers back",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "WhatsApp retargeting explained: trigger-based follow-ups for abandoned carts, quiet customers and cold leads, with timing, templates and opt-out rules.",
+  "keyphrase_override": "whatsapp retargeting",
+  "keyphrase_secondary_override": [
+    "whatsapp remarketing",
+    "whatsapp follow-up automation",
+    "win-back messages"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Is WhatsApp retargeting allowed by Meta?",
+      "a": "<p>Yes, if the customer has opted in to hear from you and you use approved templates. Always include an easy way to stop messages.</p>"
+    },
+    {
+      "q": "How soon should a follow-up go out?",
+      "a": "<p>It depends on the trigger. Cart reminders work best within a few hours, while win-back messages for inactive customers often go out after 30 to 90 days.</p>"
+    },
+    {
+      "q": "Can retargeting stop automatically when someone buys?",
+      "a": "<p>Yes. The sequence checks your store or CRM before each step and stops as soon as the customer converts or replies.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp retargeting: automatic follow-ups that win customers back</h1>\n<p>WhatsApp retargeting means sending automatic follow-up messages to people who showed interest but did not finish. Typical triggers are an abandoned cart, a lead who went quiet, a customer who has not ordered in months or a quote that was never accepted. Because WhatsApp messages are read quickly, a well-timed follow-up often brings back sales that email would miss.</p>\n\n<h2>What retargeting on WhatsApp looks like</h2>\n<p>In ads, retargeting shows a banner to past visitors. On WhatsApp, it is a personal message based on what the person did. For example: \"Hi Priya, you left the blue kurta in your cart. Sizes are running low. Tap to finish your order.\" The message is short, specific and easy to act on. It also only goes to people who opted in to WhatsApp updates.</p>\n\n<h2>Triggers that start a follow-up</h2>\n<ul>\n<li><strong>Abandoned cart</strong>: items added, checkout not finished.</li>\n<li><strong>Abandoned form</strong>: a lead started an enquiry but did not submit it.</li>\n<li><strong>No reply</strong>: a lead stopped answering after a quote or demo.</li>\n<li><strong>Inactive customer</strong>: no order or visit for a set period.</li>\n<li><strong>Post-purchase</strong>: time to review, refill or upgrade.</li>\n<li><strong>Expiring item</strong>: a plan, policy or warranty is about to end.</li>\n</ul>\n<p>Each trigger comes from your store, CRM or booking system. Then the automation picks the right template and sends it. See <a href=\"/whatsapp-crm-integration/\">WhatsApp CRM integration</a> for how these events reach WhatsApp.</p>\n\n<h2>Timing and frequency</h2>\n<p>Timing depends on the trigger. As a guide:</p>\n<ol>\n<li><strong>Carts:</strong> first reminder within one to four hours, an optional second the next day.</li>\n<li><strong>Quiet leads:</strong> two to three days after the last contact.</li>\n<li><strong>Inactive customers:</strong> 30 to 90 days, based on your normal buying cycle.</li>\n<li><strong>Renewals:</strong> 15 days and then 3 days before expiry.</li>\n</ol>\n<p>Also cap the total. Two reminders per trigger is usually enough. More than that tends to raise blocks, which lowers your quality rating.</p>\n\n<h2>Writing the follow-up</h2>\n<p>A good follow-up names the item or topic, gives one reason to act now and offers one button. Avoid guilt and pressure. Instead, be helpful: answer a likely doubt, mention free delivery or offer a quick call. For example, a quiet real estate lead might get: \"Hi Arjun, the 3BHK you asked about has two units left on the 8th floor. Would you like a site visit this weekend?\"</p>\n<p>Discounts can help, but use them carefully. If every reminder carries a coupon, customers learn to wait for it. So many brands send the first reminder without an offer and add one only in the second.</p>\n\n<h2>Respecting opt-outs</h2>\n<p>Every retargeting template should include a simple way to stop, such as a \"Stop updates\" button. When someone taps it, the automation must remove them from all marketing sequences straight away. Also stop the sequence as soon as the person buys or replies. Nobody wants a cart reminder after they have paid. Meta's <a href=\"https://business.whatsapp.com/policy\" target=\"_blank\" rel=\"noopener\">WhatsApp Business Messaging Policy</a> sets out the opt-in and opt-out rules.</p>\n\n<h2>Measuring what retargeting brings back</h2>\n<p>Track recovered orders, recovered revenue and the recovery rate per trigger. Then compare them with the message cost. Our step-by-step <a href=\"/whatsapp-abandoned-cart-recovery/\">abandoned cart recovery guide</a> shows this for online stores.</p>\n\n<h2>Setting up WhatsApp retargeting</h2>\n<p>We connect your triggers, write and submit the templates, set timing and stop rules, and report recovered revenue each month. It is one of the core automations in our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>.</p>\n<h2>Frequently asked questions</h2><h3>Is WhatsApp retargeting allowed by Meta?</h3><p>Yes, if the customer has opted in to hear from you and you use approved templates. Always include an easy way to stop messages.</p><h3>How soon should a follow-up go out?</h3><p>It depends on the trigger. Cart reminders work best within a few hours, while win-back messages for inactive customers often go out after 30 to 90 days.</p><h3>Can retargeting stop automatically when someone buys?</h3><p>Yes. The sequence checks your store or CRM before each step and stops as soon as the customer converts or replies.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Retargeting Automation Guide | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-retargeting/#article",
+            "headline": "WhatsApp Retargeting Automation Guide",
+            "description": "WhatsApp retargeting explained: trigger-based follow-ups for abandoned carts, quiet customers and cold leads, with timing, templates and opt-out rules.",
+            "url": "https://openinkhub.io/whatsapp-retargeting/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-retargeting/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Re-Targeting Automation",
+                "item": "https://openinkhub.io/whatsapp-retargeting/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-retargeting/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "WhatsApp retargeting explained: trigger-based follow-ups for abandoned carts, quiet customers and cold leads, with timing, templates and opt-out rules."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Retargeting Automation Guide"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "WhatsApp retargeting explained: trigger-based follow-ups for abandoned carts, quiet customers and cold leads, with timing, templates and opt-out rules."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-retargeting/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

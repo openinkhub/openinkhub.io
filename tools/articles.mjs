@@ -39,14 +39,15 @@ for (const file of fs.readdirSync(SRC).filter((n) => n.endsWith(".json"))) {
     const date = prev?.date && prev.status_published ? prev.date : now;
     const faqs = (a.faqs || []).map(([q, ans]) => ({ q, a: /^\s*</.test(ans) ? ans : `<p>${E(ans)}</p>` }));
     const draftBody = `<p><strong>This guide is being written.</strong> It will cover:</p><ul>${a.outline.map((o) => `<li>${E(o)}</li>`).join("")}</ul>` +
-      `<p>In the meantime, see our <a href="${set.hub}">website design and development services</a>.</p>`;
+      `<p>In the meantime, see our <a href="${set.hub}">${E(set.hub_label || "website design and development services")}</a>.</p>`;
     const body = isPub ? a.body_html + (faqs.length ? `<h2>Frequently asked questions</h2>${faqs.map((f) => `<h3>${E(f.q)}</h3>${f.a}`).join("")}` : "") : draftBody;
     const rec = {
       url, path: p, status: 200, type: "guide", guide: true, draft: !isPub, status_published: isPub,
-      hub: set.hub, card_title: a.card_title, card_text: a.card_text, n: a.n,
+      hub: set.hub, ...(set.flag ? { [set.flag]: true } : {}), card_title: a.card_title, card_text: a.card_text, n: a.n,
       title: a.title, h1: a.h1, date, modified: now, author: set.author || "Openink Hub",
       excerpt: a.description, keyphrase_override: a.keyphrase, keyphrase_secondary_override: a.secondary || [],
-      categories: [], tags: [], faqs, featured_image: null,
+      // keep categories added later by hand; otherwise use the set default
+      categories: prev?.categories?.length ? prev.categories : (set.categories || []), tags: prev?.tags || [], faqs, featured_image: null,
       content_html: `<h1>${E(a.h1)}</h1>\n${body}`,
       content_source: "articles",
       head: {
@@ -71,9 +72,14 @@ for (const file of fs.readdirSync(SRC).filter((n) => n.endsWith(".json"))) {
         publisher: { "@id": `${BASE}/#organization` }, image: IMAGE },
       { "@type": "BreadcrumbList", "@id": `${url}#breadcrumb`, itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: `${BASE}/` },
-        { "@type": "ListItem", position: 2, name: "Website Design & Development", item: BASE + set.hub },
+        { "@type": "ListItem", position: 2, name: set.hub_name || "Website Design & Development", item: BASE + set.hub },
         { "@type": "ListItem", position: 3, name: a.card_title, item: url }] },
     ] });
+    // unchanged page: keep its modified date, so re-running does not touch every file
+    if (prev && prev.content_html === rec.content_html && prev.title === rec.title && prev.excerpt === rec.excerpt && prev.draft === rec.draft) {
+      rec.modified = prev.modified;
+      rec.head.jsonld[0]["@graph"][0].dateModified = prev.modified + "+05:30";
+    }
     fs.writeFileSync(target, JSON.stringify(rec, null, 2) + "\n");
     made++; if (isPub) published++;
   }

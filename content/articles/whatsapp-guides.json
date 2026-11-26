@@ -1,0 +1,663 @@
+{
+  "_note": "WhatsApp Business guides, linked from /whatsapp-ai-chatbot/. Body: content/articles/whatsapp-guides/<slug>.html. To publish: set status to \"published\", then npm run articles && npm test.",
+  "hub": "/whatsapp-ai-chatbot/",
+  "hub_name": "WhatsApp AI Chatbot",
+  "hub_label": "WhatsApp AI chatbot and automation services",
+  "author": "Hiten Neotia",
+  "flag": "whatsapp_guide",
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "items": [
+    {
+      "n": "01",
+      "slug": "whatsapp-marketing-guide",
+      "status": "published",
+      "card_title": "WhatsApp Marketing Guide",
+      "card_text": "Strategy, opt-in, templates and measurement for WhatsApp marketing.",
+      "title": "WhatsApp Marketing Guide for Businesses",
+      "h1": "WhatsApp marketing: a practical guide for businesses",
+      "description": "A practical WhatsApp marketing guide: building an opt-in list, choosing message types, writing templates, staying within the rules and measuring results.",
+      "keyphrase": "whatsapp marketing",
+      "secondary": [
+        "whatsapp marketing strategy",
+        "whatsapp business marketing",
+        "whatsapp marketing tips"
+      ],
+      "outline": [
+        "Why WhatsApp marketing works",
+        "Building an opt-in list",
+        "Message types",
+        "Writing messages",
+        "Rules to follow",
+        "Measuring results",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Is WhatsApp marketing legal in India?",
+          "Yes, when customers have opted in and you use the official API with approved templates. Sending to bought lists breaks WhatsApp's rules and risks a ban."
+        ],
+        [
+          "What does WhatsApp marketing cost?",
+          "Meta charges per delivered marketing template, with rates set by country. Add the cost of your platform and any agency support."
+        ],
+        [
+          "How do I get people to opt in?",
+          "Ask at checkout, on your website, in click-to-WhatsApp ads and with QR codes in store. Say clearly what they will receive."
+        ]
+      ]
+    },
+    {
+      "n": "02",
+      "slug": "how-to-build-a-whatsapp-chatbot",
+      "status": "published",
+      "card_title": "WhatsApp Chatbot Guide",
+      "card_text": "Plan, build, test and launch a WhatsApp chatbot step by step.",
+      "title": "How to Build a WhatsApp Chatbot",
+      "h1": "How to build a WhatsApp chatbot: a step-by-step guide",
+      "description": "How to build a WhatsApp chatbot: pick the use case, get API access, design flows, add AI, connect your CRM, test and launch, with common mistakes.",
+      "keyphrase": "build a whatsapp chatbot",
+      "secondary": [
+        "whatsapp chatbot guide",
+        "create whatsapp bot",
+        "whatsapp bot setup"
+      ],
+      "outline": [
+        "Pick the first use case",
+        "Get API access",
+        "Design the conversation",
+        "Add AI answers",
+        "Connect systems",
+        "Test and launch",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "How long does it take to build a WhatsApp chatbot?",
+          "A simple FAQ or booking bot can go live in one to two weeks. Bots with AI, CRM sync and several flows take three to six weeks."
+        ],
+        [
+          "Do I need coding skills?",
+          "Not for flows built in a no-code builder. Custom integrations with your systems need a developer or an agency."
+        ],
+        [
+          "Can I build one on the WhatsApp Business App?",
+          "No. Chatbots need the WhatsApp Business Platform (API). The app only offers greeting and away messages and quick replies."
+        ]
+      ]
+    },
+    {
+      "n": "03",
+      "slug": "whatsapp-automation-guide",
+      "status": "published",
+      "card_title": "WhatsApp Automation Guide",
+      "card_text": "What to automate on WhatsApp first and how to roll it out.",
+      "title": "WhatsApp Automation Guide: What to Automate",
+      "h1": "WhatsApp automation guide: what to automate first",
+      "description": "A WhatsApp automation guide for teams: which journeys to automate first, the triggers to use, how to keep a human in the loop and how to roll out safely.",
+      "keyphrase": "whatsapp automation guide",
+      "secondary": [
+        "whatsapp automation workflows",
+        "automate whatsapp messages",
+        "whatsapp workflow"
+      ],
+      "outline": [
+        "What automation means on WhatsApp",
+        "Picking the first journeys",
+        "Triggers and actions",
+        "Keeping people in the loop",
+        "Rolling out",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can I automate WhatsApp messages for free?",
+          "The WhatsApp Business App has free greeting and away messages. Real workflow automation needs the API, where Meta charges per template message."
+        ],
+        [
+          "What should I automate first?",
+          "Start with high-volume, low-risk messages such as order updates, appointment reminders and common questions."
+        ],
+        [
+          "Will automation feel robotic to customers?",
+          "Not if messages are short, personal and offer a quick way to reach a person."
+        ]
+      ]
+    },
+    {
+      "n": "04",
+      "slug": "whatsapp-promotional-messages",
+      "status": "published",
+      "card_title": "Promotional Messages",
+      "card_text": "How to write and send WhatsApp promotions that people read.",
+      "title": "WhatsApp Promotional Messages: Rules & Tips",
+      "h1": "WhatsApp promotional messages: rules, examples and timing",
+      "description": "How to send WhatsApp promotional messages that people read: opt-in, marketing templates, offer formats, timing, frequency and examples you can adapt.",
+      "keyphrase": "whatsapp promotional messages",
+      "secondary": [
+        "whatsapp promotion message",
+        "whatsapp offer message",
+        "marketing templates"
+      ],
+      "outline": [
+        "What counts as promotional",
+        "Rules for promotions",
+        "Formats that work",
+        "Timing and frequency",
+        "Examples",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can I send promotional messages on WhatsApp?",
+          "Yes, to customers who opted in, using approved marketing templates on the API."
+        ],
+        [
+          "Why are some promotions not delivered?",
+          "Meta limits how many marketing messages one person receives from businesses, to protect users. Messages above that limit may not be delivered."
+        ],
+        [
+          "How many promotions per month is too many?",
+          "Watch blocks and opt-outs. If they rise, cut back. Many brands stay between two and four a month."
+        ]
+      ]
+    },
+    {
+      "n": "05",
+      "slug": "whatsapp-business-app-vs-api",
+      "status": "published",
+      "card_title": "Business App vs API",
+      "card_text": "Which WhatsApp Business option fits your size and needs.",
+      "title": "WhatsApp Business App vs API Compared",
+      "h1": "WhatsApp Business App vs API: which one do you need?",
+      "description": "WhatsApp Business App vs API compared on cost, users, automation, broadcasts, integrations and verification, with a simple way to decide which fits you.",
+      "keyphrase": "whatsapp business app vs api",
+      "secondary": [
+        "whatsapp business api vs app",
+        "difference between whatsapp business and api",
+        "whatsapp api"
+      ],
+      "outline": [
+        "Quick answer",
+        "Side-by-side comparison",
+        "When the app is enough",
+        "When you need the API",
+        "Moving from app to API",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Is the WhatsApp Business App free?",
+          "Yes, the app is free to download and use. The API has no setup fee from Meta but charges per template message."
+        ],
+        [
+          "Can I move my number from the app to the API?",
+          "Yes. You can migrate the number, or use coexistence where available to keep the app and API on the same number."
+        ],
+        [
+          "How many people can use the WhatsApp Business App?",
+          "The app can be linked to a few extra devices. For larger teams, the API with a shared inbox is the better fit."
+        ]
+      ]
+    },
+    {
+      "n": "06",
+      "slug": "whatsapp-business-api-use-cases",
+      "status": "published",
+      "card_title": "API Use Cases",
+      "card_text": "Real ways businesses use the WhatsApp Business API, by team.",
+      "title": "WhatsApp Business API Use Cases by Team",
+      "h1": "WhatsApp Business API use cases: sales, support, marketing and operations",
+      "description": "WhatsApp Business API use cases grouped by team: lead capture, support, order updates, reminders, payments, surveys and internal alerts, with examples.",
+      "keyphrase": "whatsapp business api use cases",
+      "secondary": [
+        "whatsapp api use cases",
+        "whatsapp api examples",
+        "whatsapp business uses"
+      ],
+      "outline": [
+        "Sales use cases",
+        "Support use cases",
+        "Marketing use cases",
+        "Operations use cases",
+        "Choosing where to start",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "What is the most common WhatsApp API use case?",
+          "Transactional updates, such as order confirmations, delivery alerts and appointment reminders, are the most common starting point."
+        ],
+        [
+          "Can the API be used for internal teams?",
+          "It is built for customer conversations. Some firms use it for alerts to field staff, but internal chat tools are often better for staff."
+        ],
+        [
+          "Can one number serve several use cases?",
+          "Yes. One number can handle sales, support and updates, with routing that sends each chat to the right team."
+        ]
+      ]
+    },
+    {
+      "n": "07",
+      "slug": "how-to-choose-a-whatsapp-api-provider",
+      "status": "published",
+      "card_title": "Choosing an API Provider",
+      "card_text": "What to compare before you pick a WhatsApp API partner.",
+      "title": "How to Choose a WhatsApp API Provider",
+      "h1": "How to choose a WhatsApp API provider: a checklist",
+      "description": "How to choose a WhatsApp API provider: Meta partner status, pricing markups, features, support, data ownership and exit terms, with a checklist.",
+      "keyphrase": "whatsapp api provider",
+      "secondary": [
+        "whatsapp business api provider",
+        "whatsapp bsp",
+        "best whatsapp api provider india"
+      ],
+      "outline": [
+        "What a provider does",
+        "Direct Cloud API vs provider",
+        "What to compare",
+        "Pricing questions to ask",
+        "Red flags",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "What is a WhatsApp BSP?",
+          "A Business Solution Provider is a Meta partner that helps businesses access the WhatsApp Business Platform and usually adds tools such as an inbox, bots and campaigns."
+        ],
+        [
+          "Do providers charge more than Meta?",
+          "Many add a markup per message or a monthly fee. Ask for Meta's rate and the provider's fee shown separately."
+        ],
+        [
+          "Can I switch providers later?",
+          "Yes. Your number can move between providers. Make sure your contract lets you export contacts, templates and chat history."
+        ]
+      ]
+    },
+    {
+      "n": "08",
+      "slug": "whatsapp-statistics",
+      "status": "published",
+      "card_title": "WhatsApp Statistics",
+      "card_text": "Key WhatsApp usage figures for businesses, with sources.",
+      "title": "WhatsApp Statistics for Businesses",
+      "h1": "WhatsApp statistics for businesses: the numbers that matter",
+      "description": "WhatsApp statistics for businesses: global and Indian user numbers, business adoption and how to read the figures, with sources and how to track your own.",
+      "keyphrase": "whatsapp statistics",
+      "secondary": [
+        "whatsapp users in india",
+        "whatsapp business statistics",
+        "whatsapp usage"
+      ],
+      "outline": [
+        "Global user numbers",
+        "India",
+        "Business use",
+        "Reading statistics carefully",
+        "Your own numbers",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "How many people use WhatsApp?",
+          "Meta has said WhatsApp has more than 3 billion monthly users worldwide."
+        ],
+        [
+          "Which country has the most WhatsApp users?",
+          "India is WhatsApp's largest market, with more than 500 million users reported."
+        ],
+        [
+          "Are open rates for WhatsApp really higher than email?",
+          "WhatsApp messages are usually read faster and more often than marketing emails, but exact rates vary. Measure your own read rates."
+        ]
+      ]
+    },
+    {
+      "n": "09",
+      "slug": "whatsapp-per-message-pricing",
+      "status": "published",
+      "card_title": "Per-Message Pricing",
+      "card_text": "How Meta's per-message pricing for WhatsApp works.",
+      "title": "WhatsApp Per-Message Pricing Explained",
+      "h1": "WhatsApp per-message pricing explained",
+      "description": "WhatsApp per-message pricing explained: which messages Meta charges for, which are free, how categories and countries affect cost and how to budget.",
+      "keyphrase": "whatsapp per-message pricing",
+      "secondary": [
+        "whatsapp api pricing",
+        "whatsapp business api cost",
+        "whatsapp message charges india"
+      ],
+      "outline": [
+        "What changed",
+        "What is charged",
+        "What is free",
+        "Categories and countries",
+        "Budgeting",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "When did WhatsApp move to per-message pricing?",
+          "Meta moved the WhatsApp Business Platform from conversation-based to per-message pricing on 1 July 2025."
+        ],
+        [
+          "Are customer service replies free?",
+          "Yes. Free-form replies inside the 24-hour customer service window are not charged, and utility templates sent inside that window are free too."
+        ],
+        [
+          "Where can I see the current rates?",
+          "Meta publishes its rate cards by country on its WhatsApp Business Platform pricing page."
+        ]
+      ]
+    },
+    {
+      "n": "10",
+      "slug": "bulk-whatsapp-messages-guide",
+      "status": "published",
+      "card_title": "Bulk WhatsApp Messages",
+      "card_text": "Sending bulk WhatsApp messages safely, without bans.",
+      "title": "Bulk WhatsApp Messages: The Safe Way",
+      "h1": "Bulk WhatsApp messages: how to send them without getting banned",
+      "description": "How to send bulk WhatsApp messages safely: why unofficial senders get numbers banned, how the official API works, and the steps to send at scale.",
+      "keyphrase": "bulk whatsapp messages",
+      "secondary": [
+        "bulk whatsapp sender",
+        "send bulk whatsapp",
+        "whatsapp bulk message software"
+      ],
+      "outline": [
+        "Why bulk senders get banned",
+        "The official way",
+        "Preparing your list",
+        "Sending in stages",
+        "After the send",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can I send bulk WhatsApp messages from the normal app?",
+          "Not safely. Bulk sending from the app or with unofficial tools is against WhatsApp's terms and often leads to a banned number."
+        ],
+        [
+          "How many bulk messages can I send per day?",
+          "On the API, your daily limit depends on your messaging tier, which grows with good quality and volume."
+        ],
+        [
+          "Do I need the contact's permission?",
+          "Yes. You need opt-in from every contact before sending business-initiated messages."
+        ]
+      ]
+    },
+    {
+      "n": "11",
+      "slug": "send-whatsapp-broadcast-message",
+      "status": "published",
+      "card_title": "Send a Broadcast",
+      "card_text": "Step-by-step: sending a WhatsApp broadcast, app or API.",
+      "title": "How to Send a WhatsApp Broadcast Message",
+      "h1": "How to send a WhatsApp broadcast message: app and API steps",
+      "description": "Step-by-step: how to send a WhatsApp broadcast message from the Business App and from the API, with limits, opt-in rules and tips to get replies.",
+      "keyphrase": "whatsapp broadcast message",
+      "secondary": [
+        "send whatsapp broadcast",
+        "whatsapp broadcast list",
+        "whatsapp broadcast steps",
+        "whatsapp broadcast limit"
+      ],
+      "outline": [
+        "Broadcast in the Business App",
+        "Broadcast on the API",
+        "Writing the message",
+        "Checking results",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Why did my broadcast not reach some contacts?",
+          "In the Business App, only contacts who saved your number receive broadcasts. On the API, the message may fail if the number is not on WhatsApp or the customer has blocked you."
+        ],
+        [
+          "What is the broadcast list limit in the app?",
+          "Each broadcast list in the WhatsApp Business App holds up to 256 contacts."
+        ],
+        [
+          "Do replies to a broadcast come to one chat?",
+          "No. Each reply arrives as a separate one-to-one chat."
+        ]
+      ]
+    },
+    {
+      "n": "12",
+      "slug": "whatsapp-abandoned-cart-recovery",
+      "status": "published",
+      "card_title": "Abandoned Cart Recovery",
+      "card_text": "Win back lost carts with timed WhatsApp reminders.",
+      "title": "WhatsApp Abandoned Cart Recovery Guide",
+      "h1": "WhatsApp abandoned cart recovery: a step-by-step setup",
+      "description": "Set up WhatsApp abandoned cart recovery: capture opt-in, time your reminders, write the messages, add offers carefully and measure recovered revenue.",
+      "keyphrase": "whatsapp abandoned cart recovery",
+      "secondary": [
+        "abandoned cart whatsapp",
+        "cart recovery message",
+        "shopify whatsapp cart"
+      ],
+      "outline": [
+        "Why carts are abandoned",
+        "Capturing opt-in",
+        "Timing the reminders",
+        "Writing the message",
+        "Measuring recovery",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Is cart recovery a marketing or utility message?",
+          "Meta treats cart reminders as marketing messages, so they need marketing opt-in and a marketing template."
+        ],
+        [
+          "How many reminders should I send?",
+          "One or two. A first reminder within a few hours, and an optional second one the next day."
+        ],
+        [
+          "Should every reminder include a discount?",
+          "No. Many shoppers return with a simple reminder. Save discounts for the second message or for high-value carts."
+        ]
+      ]
+    },
+    {
+      "n": "13",
+      "slug": "whatsapp-vs-rcs",
+      "status": "published",
+      "card_title": "WhatsApp vs RCS",
+      "card_text": "How WhatsApp and RCS business messaging compare.",
+      "title": "WhatsApp vs RCS for Business Messaging",
+      "h1": "WhatsApp vs RCS: which business messaging channel to use",
+      "description": "WhatsApp vs RCS compared for business: reach, features, verification, pricing and where each fits, with advice for brands in India.",
+      "keyphrase": "whatsapp vs rcs",
+      "secondary": [
+        "rcs business messaging",
+        "rcs vs whatsapp business",
+        "rich communication services"
+      ],
+      "outline": [
+        "What RCS is",
+        "Side-by-side comparison",
+        "Reach in India",
+        "When to use each",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Is RCS replacing SMS?",
+          "RCS upgrades SMS on supported phones with images, buttons and verified sender names. Where RCS is unavailable, messages can fall back to SMS."
+        ],
+        [
+          "Does RCS work on iPhones?",
+          "Apple added RCS support in iOS 18, but business messaging support depends on the carrier and country."
+        ],
+        [
+          "Should I use both channels?",
+          "Many brands use WhatsApp for conversations and RCS or SMS for one-way alerts and fallbacks."
+        ]
+      ]
+    },
+    {
+      "n": "14",
+      "slug": "whatsapp-message-template-examples",
+      "status": "published",
+      "card_title": "Template Examples",
+      "card_text": "Ready-to-adapt WhatsApp message templates by category.",
+      "title": "WhatsApp Message Template Examples",
+      "h1": "WhatsApp message template examples you can adapt",
+      "description": "WhatsApp message template examples for marketing, utility and authentication: welcome, order, reminder, payment, feedback and offer templates with tips.",
+      "keyphrase": "whatsapp message template examples",
+      "secondary": [
+        "whatsapp template examples",
+        "whatsapp business message samples",
+        "utility template examples"
+      ],
+      "outline": [
+        "How to use these examples",
+        "Utility examples",
+        "Marketing examples",
+        "Authentication example",
+        "Tips for approval",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can I copy these templates as they are?",
+          "Use them as a starting point. Change the wording to match your brand and fill in clear sample values when you submit them."
+        ],
+        [
+          "How many variables can a template have?",
+          "Templates can carry several variables, but each one needs clear text around it. Too many variables in a short message can lead to rejection."
+        ],
+        [
+          "Can templates include buttons?",
+          "Yes. Templates can carry quick-reply buttons, a call button or a website link button."
+        ]
+      ]
+    },
+    {
+      "n": "15",
+      "slug": "how-to-unban-a-whatsapp-number",
+      "status": "published",
+      "card_title": "Unban a WhatsApp Number",
+      "card_text": "Why numbers get banned and how to appeal and prevent it.",
+      "title": "How to Unban a WhatsApp Number",
+      "h1": "How to unban a WhatsApp number: appeals and prevention",
+      "description": "How to unban a WhatsApp number: why bans happen, how to request a review in the app, what to do for API accounts and how to avoid bans in future.",
+      "keyphrase": "unban a whatsapp number",
+      "secondary": [
+        "whatsapp number banned",
+        "whatsapp account banned",
+        "whatsapp ban appeal"
+      ],
+      "outline": [
+        "Why numbers get banned",
+        "Temporary vs permanent bans",
+        "Appealing in the app",
+        "API account restrictions",
+        "Preventing bans",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "How long does a WhatsApp ban review take?",
+          "Reviews often finish within a day or two, but some take longer. Avoid filing many repeat appeals."
+        ],
+        [
+          "Can a permanently banned number be used again?",
+          "Rarely. If the review upholds the ban, the number usually cannot be used on WhatsApp again."
+        ],
+        [
+          "Can a third-party service unban my number?",
+          "No. Only WhatsApp can lift a ban. Be wary of anyone who claims otherwise and asks for money."
+        ]
+      ]
+    },
+    {
+      "n": "16",
+      "slug": "whatsapp-business-manager",
+      "status": "published",
+      "card_title": "WhatsApp Manager",
+      "card_text": "Managing numbers, templates and access in Meta's WhatsApp Manager.",
+      "title": "WhatsApp Business Manager: A Walkthrough",
+      "h1": "WhatsApp Business Manager: managing your account in Meta",
+      "description": "A walkthrough of WhatsApp Business Manager in Meta: business portfolio, WhatsApp accounts, phone numbers, templates, quality rating, users and billing.",
+      "keyphrase": "whatsapp business manager",
+      "secondary": [
+        "whatsapp manager",
+        "meta business suite whatsapp",
+        "whatsapp business account"
+      ],
+      "outline": [
+        "Business portfolio and WhatsApp accounts",
+        "Phone numbers",
+        "Message templates",
+        "Quality and limits",
+        "Users and partners",
+        "Billing",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Where do I find WhatsApp Manager?",
+          "Open Meta Business Suite or business settings, choose your business portfolio, and go to WhatsApp Manager from the accounts section."
+        ],
+        [
+          "Who should be admin?",
+          "At least two trusted people from your company. Give agencies and providers partner access, not personal admin access."
+        ],
+        [
+          "Where do I see my quality rating?",
+          "In WhatsApp Manager, under phone numbers. Each number shows its quality rating and messaging limit."
+        ]
+      ]
+    },
+    {
+      "n": "17",
+      "slug": "whatsapp-business-description",
+      "status": "published",
+      "card_title": "Business Description",
+      "card_text": "Write a WhatsApp business profile description that converts.",
+      "title": "WhatsApp Business Description: Examples",
+      "h1": "WhatsApp business description: how to write one, with examples",
+      "description": "How to write a WhatsApp business description: what to include, character limits, keywords and examples for shops, clinics, agencies and service firms.",
+      "keyphrase": "whatsapp business description",
+      "secondary": [
+        "whatsapp business profile",
+        "whatsapp about for business",
+        "whatsapp business bio"
+      ],
+      "outline": [
+        "Where the description appears",
+        "What to include",
+        "Examples by business type",
+        "Other profile fields",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "How long can a WhatsApp business description be?",
+          "The description field allows up to 512 characters. The short About line is much shorter, so keep it to one line."
+        ],
+        [
+          "Can I add links to the description?",
+          "Add your website in the website field instead. Up to two websites can be listed on the profile."
+        ],
+        [
+          "How often should I update it?",
+          "Update it when your hours, services or offers change, and check it at least once a quarter."
+        ]
+      ]
+    }
+  ]
+}

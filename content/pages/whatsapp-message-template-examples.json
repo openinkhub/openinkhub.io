@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-message-template-examples/",
+  "path": "/whatsapp-message-template-examples/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Template Examples",
+  "card_text": "Ready-to-adapt WhatsApp message templates by category.",
+  "n": "14",
+  "title": "WhatsApp Message Template Examples",
+  "h1": "WhatsApp message template examples you can adapt",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "WhatsApp message template examples for marketing, utility and authentication: welcome, order, reminder, payment, feedback and offer templates with tips.",
+  "keyphrase_override": "whatsapp message template examples",
+  "keyphrase_secondary_override": [
+    "whatsapp template examples",
+    "whatsapp business message samples",
+    "utility template examples"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Can I copy these templates as they are?",
+      "a": "<p>Use them as a starting point. Change the wording to match your brand and fill in clear sample values when you submit them.</p>"
+    },
+    {
+      "q": "How many variables can a template have?",
+      "a": "<p>Templates can carry several variables, but each one needs clear text around it. Too many variables in a short message can lead to rejection.</p>"
+    },
+    {
+      "q": "Can templates include buttons?",
+      "a": "<p>Yes. Templates can carry quick-reply buttons, a call button or a website link button.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp message template examples you can adapt</h1>\n<p>These WhatsApp message template examples cover the messages most businesses need: welcome, order, appointment, payment, feedback, offers, win-back and one-time passcodes. Each example shows the category it belongs to and uses numbered variables such as {{1}} for details like the customer's name. Adapt the wording to your brand, add clear sample values when you submit, and you will have a strong starting library.</p>\n\n<h2>How to use these WhatsApp message template examples</h2>\n<ol>\n<li>Pick the example closest to what you need.</li>\n<li>Change the wording to match how your brand speaks.</li>\n<li>Choose the right category: utility, marketing or authentication.</li>\n<li>Add realistic sample values for each variable when submitting.</li>\n<li>Add buttons where they help the customer act.</li>\n</ol>\n<p>For how templates are structured and approved, see our <a href=\"/whatsapp-template-library/\">WhatsApp template library</a> guide.</p>\n\n<h2>Utility template examples</h2>\n<h3>Order confirmation</h3>\n<p><em>\"Hi {{1}}, thanks for your order {{2}}. We have received ₹{{3}} and will ship your items within 2 days. We will message you here when they are on the way.\"</em> Button: Track order.</p>\n<h3>Shipping update</h3>\n<p><em>\"Good news, {{1}}! Your order {{2}} has shipped with {{3}}. Expected delivery: {{4}}.\"</em> Button: Track shipment.</p>\n<h3>Appointment reminder</h3>\n<p><em>\"Hi {{1}}, this is a reminder of your appointment with {{2}} on {{3}} at {{4}}. Please arrive 10 minutes early.\"</em> Buttons: Confirm, Reschedule.</p>\n<h3>Payment reminder</h3>\n<p><em>\"Hi {{1}}, your payment of ₹{{2}} for {{3}} is due on {{4}}. Tap below to pay securely.\"</em> Button: Pay now.</p>\n<h3>Feedback request</h3>\n<p><em>\"Hi {{1}}, how was your experience with us today? Your feedback helps us improve.\"</em> Buttons: Great, Okay, Not good.</p>\n\n<h2>Marketing template examples</h2>\n<h3>Welcome message</h3>\n<p><em>\"Welcome to {{1}}, {{2}}! You will now get early access to new arrivals and member-only offers here. Reply STOP anytime to opt out.\"</em></p>\n<h3>Festive offer</h3>\n<p><em>\"Hi {{1}}, our festive sale is live! Enjoy {{2}}% off on selected styles until {{3}}.\"</em> Button: Shop now.</p>\n<h3>Back in stock</h3>\n<p><em>\"{{1}}, the {{2}} you liked is back in stock. Sizes are limited, so grab yours soon.\"</em> Button: View product.</p>\n<h3>Win-back</h3>\n<p><em>\"We miss you, {{1}}! It has been a while since your last visit. Here is a special code for your next order: {{2}}.\"</em> Button: Copy code.</p>\n<p>For more on offers, read our <a href=\"/whatsapp-promotional-messages/\">WhatsApp promotional messages</a> guide.</p>\n\n<h2>Authentication template example</h2>\n<p><em>\"{{1}} is your verification code. For your security, do not share this code.\"</em> Button: Copy code. Authentication templates follow a fixed format set by Meta, so you mostly choose options rather than writing free text.</p>\n\n<h2>Tips for getting templates approved</h2>\n<ul>\n<li>Never start or end a message with a variable.</li>\n<li>Give each variable enough text around it to make its meaning clear.</li>\n<li>Keep utility templates free of offers, or they will be classed as marketing.</li>\n<li>Avoid all-caps, too many emojis and vague text such as \"Click here\".</li>\n<li>Do not ask for card numbers, PINs or passwords.</li>\n</ul>\n<p>Meta's <a href=\"https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates\" target=\"_blank\" rel=\"noopener\">template guidelines</a> list the current rules.</p>\n\n<h2>Languages</h2>\n<p>If your customers speak Hindi or another regional language, submit each template in that language too, under the same template name. Have a native speaker check the tone, because a literal translation can sound stiff.</p>\n\n<h2>Need templates written for you?</h2>\n<p>We write, submit and manage templates as part of our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>. You can also see how templates power <a href=\"/whatsapp-abandoned-cart-recovery/\">cart recovery</a> and other automations.</p>\n<h2>Frequently asked questions</h2><h3>Can I copy these templates as they are?</h3><p>Use them as a starting point. Change the wording to match your brand and fill in clear sample values when you submit them.</p><h3>How many variables can a template have?</h3><p>Templates can carry several variables, but each one needs clear text around it. Too many variables in a short message can lead to rejection.</p><h3>Can templates include buttons?</h3><p>Yes. Templates can carry quick-reply buttons, a call button or a website link button.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Message Template Examples | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-message-template-examples/#article",
+            "headline": "WhatsApp Message Template Examples",
+            "description": "WhatsApp message template examples for marketing, utility and authentication: welcome, order, reminder, payment, feedback and offer templates with tips.",
+            "url": "https://openinkhub.io/whatsapp-message-template-examples/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-message-template-examples/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Template Examples",
+                "item": "https://openinkhub.io/whatsapp-message-template-examples/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-message-template-examples/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "WhatsApp message template examples for marketing, utility and authentication: welcome, order, reminder, payment, feedback and offer templates with tips."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Message Template Examples"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "WhatsApp message template examples for marketing, utility and authentication: welcome, order, reminder, payment, feedback and offer templates with tips."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-message-template-examples/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

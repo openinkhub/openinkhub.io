@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/how-to-build-a-whatsapp-chatbot/",
+  "path": "/how-to-build-a-whatsapp-chatbot/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "WhatsApp Chatbot Guide",
+  "card_text": "Plan, build, test and launch a WhatsApp chatbot step by step.",
+  "n": "02",
+  "title": "How to Build a WhatsApp Chatbot",
+  "h1": "How to build a WhatsApp chatbot: a step-by-step guide",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "How to build a WhatsApp chatbot: pick the use case, get API access, design flows, add AI, connect your CRM, test and launch, with common mistakes.",
+  "keyphrase_override": "build a whatsapp chatbot",
+  "keyphrase_secondary_override": [
+    "whatsapp chatbot guide",
+    "create whatsapp bot",
+    "whatsapp bot setup"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "How long does it take to build a WhatsApp chatbot?",
+      "a": "<p>A simple FAQ or booking bot can go live in one to two weeks. Bots with AI, CRM sync and several flows take three to six weeks.</p>"
+    },
+    {
+      "q": "Do I need coding skills?",
+      "a": "<p>Not for flows built in a no-code builder. Custom integrations with your systems need a developer or an agency.</p>"
+    },
+    {
+      "q": "Can I build one on the WhatsApp Business App?",
+      "a": "<p>No. Chatbots need the WhatsApp Business Platform (API). The app only offers greeting and away messages and quick replies.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>How to build a WhatsApp chatbot: a step-by-step guide</h1>\n<p>To build a WhatsApp chatbot, you need four things: access to the WhatsApp Business API, a clear first use case, a conversation design and a platform that runs the bot and connects it to your systems. Then you test with real users and improve it every week. This guide walks through each step, with the mistakes we see most often when businesses build a WhatsApp chatbot for the first time.</p>\n\n<h2>Step 1: pick the first use case</h2>\n<p>Do not try to automate everything at once. Instead, choose one job that is frequent, simple and valuable. Good first choices include:</p>\n<ul>\n<li>answering the top 20 customer questions;</li>\n<li>booking appointments or demos;</li>\n<li>qualifying leads from ads;</li>\n<li>tracking orders.</li>\n</ul>\n<p>Look at your last 200 chats or calls. The most common request is usually the right place to start.</p>\n\n<h2>Step 2: get WhatsApp API access</h2>\n<p>A chatbot cannot run on the regular WhatsApp or WhatsApp Business App. You need the WhatsApp Business Platform, usually through the <a href=\"/whatsapp-cloud-api/\">Cloud API</a>. That involves a Meta business portfolio, a WhatsApp Business Account, a phone number and an approved display name. Business verification is strongly recommended. Many companies use a provider for this step. Our guide to <a href=\"/how-to-choose-a-whatsapp-api-provider/\">choosing a WhatsApp API provider</a> lists what to compare.</p>\n\n<h2>Step 3: design the conversation</h2>\n<p>Sketch the conversation on paper first. Write the welcome message, the main menu and each path to a goal. Keep every message to two or three lines. Then add buttons wherever the answer is a choice, because tapping is easier than typing. Finally, add an exit on every step: \"Talk to a person\" or \"Main menu\". A <a href=\"/whatsapp-chatbot-flow-builder/\">chatbot flow builder</a> lets you turn this sketch into a working flow without code.</p>\n\n<h2>Step 4: add AI answers</h2>\n<p>Buttons handle predictable paths. However, customers also type free questions. An AI layer can read those, detect the intent and answer from your approved content. Start with a short knowledge base: your FAQs, policies, prices and service areas. Also set clear limits, such as \"never quote a price not in the list\". See <a href=\"/ai-whatsapp-bot/\">AI WhatsApp bot</a> for how this works in practice.</p>\n\n<h2>Step 5: connect your systems</h2>\n<p>A bot becomes useful when it can act. For example, it can check an order in your store, book a slot in your calendar or create a lead in your CRM. These connections use APIs or webhooks. Plan them early, because they often take longer than the conversation design. Our <a href=\"/whatsapp-crm-integration/\">CRM integration</a> guide covers the common setups.</p>\n\n<h2>Step 6: test and launch</h2>\n<ol>\n<li>Test every path on a real phone, in every language you support.</li>\n<li>Ask five colleagues to try to break it.</li>\n<li>Launch to a small share of traffic, such as one ad campaign.</li>\n<li>Read the conversations daily for the first two weeks.</li>\n<li>Fix gaps, then open it to all traffic.</li>\n</ol>\n\n<h2>Common mistakes</h2>\n<ul>\n<li><strong>Long messages.</strong> Walls of text get skipped.</li>\n<li><strong>No human option.</strong> Frustrated users block the number.</li>\n<li><strong>Too many menu levels.</strong> Three taps to an answer is the limit.</li>\n<li><strong>No owner.</strong> Someone must review and update the bot every week.</li>\n</ul>\n\n<h2>Timeline and next steps</h2>\n<p>A simple FAQ or booking bot can be live in one to two weeks once API access is ready. A bot with AI, CRM sync and several flows usually takes three to six weeks. If you would rather not build a WhatsApp chatbot yourself, our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot service</a> handles design, build, integration and ongoing tuning.</p>\n<h2>Frequently asked questions</h2><h3>How long does it take to build a WhatsApp chatbot?</h3><p>A simple FAQ or booking bot can go live in one to two weeks. Bots with AI, CRM sync and several flows take three to six weeks.</p><h3>Do I need coding skills?</h3><p>Not for flows built in a no-code builder. Custom integrations with your systems need a developer or an agency.</p><h3>Can I build one on the WhatsApp Business App?</h3><p>No. Chatbots need the WhatsApp Business Platform (API). The app only offers greeting and away messages and quick replies.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "How to Build a WhatsApp Chatbot | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/how-to-build-a-whatsapp-chatbot/#article",
+            "headline": "How to Build a WhatsApp Chatbot",
+            "description": "How to build a WhatsApp chatbot: pick the use case, get API access, design flows, add AI, connect your CRM, test and launch, with common mistakes.",
+            "url": "https://openinkhub.io/how-to-build-a-whatsapp-chatbot/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/how-to-build-a-whatsapp-chatbot/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "WhatsApp Chatbot Guide",
+                "item": "https://openinkhub.io/how-to-build-a-whatsapp-chatbot/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/how-to-build-a-whatsapp-chatbot/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "How to build a WhatsApp chatbot: pick the use case, get API access, design flows, add AI, connect your CRM, test and launch, with common mistakes."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "How to Build a WhatsApp Chatbot"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "How to build a WhatsApp chatbot: pick the use case, get API access, design flows, add AI, connect your CRM, test and launch, with common mistakes."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/how-to-build-a-whatsapp-chatbot/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

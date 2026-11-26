@@ -1,0 +1,472 @@
+{
+  "_note": "WhatsApp feature guides (one per Openink Hub module), linked from /whatsapp-ai-chatbot/. Body: content/articles/whatsapp-features/<slug>.html. To publish: set status to \"published\", then npm run articles && npm test.",
+  "hub": "/whatsapp-ai-chatbot/",
+  "hub_name": "WhatsApp AI Chatbot",
+  "hub_label": "WhatsApp AI chatbot and automation services",
+  "author": "Hiten Neotia",
+  "flag": "whatsapp_guide",
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "items": [
+    {
+      "n": "01",
+      "slug": "whatsapp-cloud-api",
+      "status": "published",
+      "card_title": "Official WhatsApp Cloud API",
+      "card_text": "Meta-hosted API access, setup steps, limits and verification.",
+      "title": "WhatsApp Cloud API: Setup, Limits & Costs",
+      "h1": "WhatsApp Cloud API: what it is and how to set it up for your business",
+      "description": "The WhatsApp Cloud API explained: what Meta hosts, how setup works, messaging limits, the 24-hour window and how Openink Hub connects it for you.",
+      "keyphrase": "whatsapp cloud api",
+      "secondary": [
+        "whatsapp business api",
+        "meta cloud api",
+        "whatsapp api setup"
+      ],
+      "outline": [
+        "What the Cloud API is",
+        "Cloud API vs Business App",
+        "Setup steps",
+        "Messaging limits and quality",
+        "The 24-hour window",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Is the WhatsApp Cloud API free?",
+          "Setting up the Cloud API costs nothing, and replies inside an open customer service window are free. Meta charges per delivered template message for marketing, utility and authentication messages, at rates that depend on the country."
+        ],
+        [
+          "Do I need a new phone number for the Cloud API?",
+          "Usually you use a number that is not active in the regular WhatsApp app. Meta also offers a coexistence option for some WhatsApp Business App numbers, so check your number before you start."
+        ],
+        [
+          "How long does Cloud API setup take?",
+          "If your Meta business portfolio is already verified, a number can go live in a day or two. Business verification and display name review can add a few days."
+        ]
+      ]
+    },
+    {
+      "n": "02",
+      "slug": "ai-whatsapp-bot",
+      "status": "published",
+      "card_title": "AI Chatbot",
+      "card_text": "AI replies that understand intent and language, with hand-off to people.",
+      "title": "AI WhatsApp Bot for Business | How It Works",
+      "h1": "AI WhatsApp bot: how AI replies work on WhatsApp",
+      "description": "How an AI WhatsApp bot reads intent, answers from your own content, captures leads and hands complex chats to a person, plus how to train it well.",
+      "keyphrase": "ai whatsapp bot",
+      "secondary": [
+        "ai chatbot for whatsapp",
+        "whatsapp gpt bot",
+        "conversational ai whatsapp"
+      ],
+      "outline": [
+        "What an AI bot does",
+        "How it understands messages",
+        "Training it on your content",
+        "When to hand off to people",
+        "Measuring quality",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can an AI WhatsApp bot reply in Hindi and other languages?",
+          "Yes. Modern language models detect the language of each message and reply in it, including Hindi, Hinglish and major regional languages. Test your top questions in each language before launch."
+        ],
+        [
+          "Will the AI bot make things up?",
+          "It can if it is left to guess. We limit answers to your approved content, add fallbacks for unknown questions and send anything uncertain to a person."
+        ],
+        [
+          "Do I still need human agents?",
+          "Yes, for complaints, negotiations and anything sensitive. The bot handles the repeat questions so your team has time for those chats."
+        ]
+      ]
+    },
+    {
+      "n": "03",
+      "slug": "whatsapp-chatbot-flow-builder",
+      "status": "published",
+      "card_title": "Rule-Based Chatbot Flows",
+      "card_text": "Button and menu flows for predictable journeys, built without code.",
+      "title": "WhatsApp Chatbot Flow Builder Guide",
+      "h1": "WhatsApp chatbot flow builder: designing rule-based flows",
+      "description": "Use a WhatsApp chatbot flow builder to design menus, buttons and branching journeys for bookings, FAQs and lead capture, without writing code.",
+      "keyphrase": "whatsapp chatbot flow builder",
+      "secondary": [
+        "no-code whatsapp chatbot",
+        "whatsapp menu bot",
+        "rule-based chatbot"
+      ],
+      "outline": [
+        "Rule-based flows vs AI",
+        "Building blocks of a flow",
+        "Designing a flow step by step",
+        "Common flow examples",
+        "Testing and improving",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "What is the difference between a flow and an AI chatbot?",
+          "A flow follows fixed paths you design, such as menus and buttons. An AI chatbot reads free text and decides what to say. Many businesses use flows for bookings and AI for open questions."
+        ],
+        [
+          "How many buttons can a WhatsApp message have?",
+          "Reply-button messages allow up to three buttons, and list messages allow up to ten options. Longer menus should be split into steps."
+        ],
+        [
+          "Can a flow collect form details?",
+          "Yes. A flow can ask for a name, city or date one question at a time, or open a WhatsApp Flows form, and then save the answers to your CRM."
+        ]
+      ]
+    },
+    {
+      "n": "04",
+      "slug": "whatsapp-broadcast-messaging",
+      "status": "published",
+      "card_title": "Broadcast Messaging",
+      "card_text": "Send approved messages to opted-in contacts at scale.",
+      "title": "WhatsApp Broadcast Messaging Software",
+      "h1": "WhatsApp broadcast messaging: sending to thousands, the official way",
+      "description": "How WhatsApp broadcast messaging works on the official API: opt-in, approved templates, segments, limits and delivery reports, without risking your number.",
+      "keyphrase": "whatsapp broadcast messaging",
+      "secondary": [
+        "whatsapp broadcast software",
+        "bulk whatsapp api",
+        "whatsapp mass messaging"
+      ],
+      "outline": [
+        "Broadcast lists vs API broadcasts",
+        "What you need before sending",
+        "Segmenting the audience",
+        "Limits and quality rating",
+        "Reading delivery reports",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "How many contacts can I broadcast to at once?",
+          "On the API, your limit depends on your messaging tier, which grows as you send good-quality messages. New numbers start low and can rise to unlimited over time."
+        ],
+        [
+          "Do customers need to save my number?",
+          "No. Unlike broadcast lists in the WhatsApp Business App, API broadcasts reach opted-in customers even if they have not saved your number."
+        ],
+        [
+          "Can I broadcast without an approved template?",
+          "No. Any business-initiated message outside the 24-hour service window must use a template Meta has approved."
+        ]
+      ]
+    },
+    {
+      "n": "05",
+      "slug": "whatsapp-campaign-management",
+      "status": "published",
+      "card_title": "Campaign Management",
+      "card_text": "Plan, schedule and compare WhatsApp campaigns in one place.",
+      "title": "WhatsApp Campaign Management Guide",
+      "h1": "WhatsApp campaign management: planning, scheduling and measuring campaigns",
+      "description": "WhatsApp campaign management from brief to results: goals, audiences, templates, schedules, A/B tests and the reports that show what worked.",
+      "keyphrase": "whatsapp campaign management",
+      "secondary": [
+        "whatsapp marketing campaigns",
+        "whatsapp campaign planning",
+        "whatsapp a/b testing"
+      ],
+      "outline": [
+        "What campaign management covers",
+        "Setting a campaign goal",
+        "Building the calendar",
+        "Testing messages",
+        "Reporting on results",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "How often should I run WhatsApp campaigns?",
+          "Most brands do well with one to four marketing messages a month per customer. Watch block rates and your quality rating, and slow down if either moves the wrong way."
+        ],
+        [
+          "Can I schedule campaigns in advance?",
+          "Yes. Campaigns can be scheduled for a set date and time, and staggered so replies arrive at a pace your team can handle."
+        ],
+        [
+          "What should I measure first?",
+          "Start with delivered, read and replied rates, then track clicks, orders or bookings per campaign. Cost per result tells you which campaigns to repeat."
+        ]
+      ]
+    },
+    {
+      "n": "06",
+      "slug": "whatsapp-retargeting",
+      "status": "published",
+      "card_title": "Re-Targeting Automation",
+      "card_text": "Automatic follow-ups for carts, inactive customers and lapsed leads.",
+      "title": "WhatsApp Retargeting Automation Guide",
+      "h1": "WhatsApp retargeting: automatic follow-ups that win customers back",
+      "description": "WhatsApp retargeting explained: trigger-based follow-ups for abandoned carts, quiet customers and cold leads, with timing, templates and opt-out rules.",
+      "keyphrase": "whatsapp retargeting",
+      "secondary": [
+        "whatsapp remarketing",
+        "whatsapp follow-up automation",
+        "win-back messages"
+      ],
+      "outline": [
+        "What retargeting on WhatsApp means",
+        "Triggers that start a follow-up",
+        "Timing and frequency",
+        "Writing the follow-up",
+        "Respecting opt-outs",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Is WhatsApp retargeting allowed by Meta?",
+          "Yes, if the customer has opted in to hear from you and you use approved templates. Always include an easy way to stop messages."
+        ],
+        [
+          "How soon should a follow-up go out?",
+          "It depends on the trigger. Cart reminders work best within a few hours, while win-back messages for inactive customers often go out after 30 to 90 days."
+        ],
+        [
+          "Can retargeting stop automatically when someone buys?",
+          "Yes. The sequence checks your store or CRM before each step and stops as soon as the customer converts or replies."
+        ]
+      ]
+    },
+    {
+      "n": "07",
+      "slug": "whatsapp-business-calling",
+      "status": "published",
+      "card_title": "WhatsApp Voice Calling",
+      "card_text": "Voice calls inside the same WhatsApp chat, routed to your team.",
+      "title": "WhatsApp Business Calling: Voice in Chat",
+      "h1": "WhatsApp business calling: adding voice to your WhatsApp support",
+      "description": "WhatsApp business calling lets customers call you from the chat and lets agents call back with consent. Here is how it works and when to use it.",
+      "keyphrase": "whatsapp business calling",
+      "secondary": [
+        "whatsapp calling api",
+        "whatsapp voice calls for business",
+        "call button whatsapp"
+      ],
+      "outline": [
+        "What business calling is",
+        "Customer-initiated vs business-initiated calls",
+        "When voice beats text",
+        "Setting up call routing",
+        "Linking calls to the chat history",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can a business call a customer on WhatsApp?",
+          "Yes, with the customer's permission. The business asks for call consent in the chat, and once the customer agrees the agent can place the call."
+        ],
+        [
+          "Do customers pay for WhatsApp calls?",
+          "No. Calls use the customer's internet data, like normal WhatsApp calls. Business pricing for calling is set by Meta and can change, so check the current rate card."
+        ],
+        [
+          "Are calls recorded?",
+          "Only if you set that up and tell the customer. Recording must follow your privacy policy and local law."
+        ]
+      ]
+    },
+    {
+      "n": "08",
+      "slug": "whatsapp-team-inbox",
+      "status": "published",
+      "card_title": "Multi-Agent Live Chat",
+      "card_text": "One shared WhatsApp number answered by your whole team.",
+      "title": "WhatsApp Team Inbox for Multiple Agents",
+      "h1": "WhatsApp team inbox: one number, many agents",
+      "description": "A WhatsApp team inbox lets several agents answer one business number with assignment rules, notes, tags and hand-off from the bot. Here is how to set one up.",
+      "keyphrase": "whatsapp team inbox",
+      "secondary": [
+        "whatsapp multi agent",
+        "shared whatsapp inbox",
+        "whatsapp live chat"
+      ],
+      "outline": [
+        "Why one phone is not enough",
+        "How a team inbox works",
+        "Assignment and routing rules",
+        "Notes, tags and canned replies",
+        "Measuring response times",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "How many agents can use one WhatsApp number?",
+          "With the API and a team inbox, there is no practical limit. Each agent logs in to the inbox, not to a phone."
+        ],
+        [
+          "Can the bot pass a chat to a person?",
+          "Yes. The bot hands over with the full history, so the customer does not have to repeat anything."
+        ],
+        [
+          "Can managers see agent performance?",
+          "Yes. The inbox reports first-response time, resolution time and chats handled per agent."
+        ]
+      ]
+    },
+    {
+      "n": "09",
+      "slug": "whatsapp-template-library",
+      "status": "published",
+      "card_title": "Template Message Library",
+      "card_text": "Pre-approved message templates, ready to reuse and personalise.",
+      "title": "WhatsApp Template Library & Approval Tips",
+      "h1": "WhatsApp template library: organising approved message templates",
+      "description": "Build a WhatsApp template library: template categories, variables, buttons, approval rules and naming tips that keep your approved templates easy to reuse.",
+      "keyphrase": "whatsapp template library",
+      "secondary": [
+        "whatsapp template approval",
+        "whatsapp template categories",
+        "hsm templates"
+      ],
+      "outline": [
+        "Why templates exist",
+        "The three template categories",
+        "Parts of a template",
+        "Getting templates approved",
+        "Organising the library",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "How long does template approval take?",
+          "Many templates are reviewed within minutes, though some take up to a day or two. Rejected templates can be edited and sent again."
+        ],
+        [
+          "Why was my template rejected?",
+          "Common reasons are a wrong category, vague variables, missing context around placeholders or content that breaks WhatsApp's commerce policy."
+        ],
+        [
+          "Can I change an approved template?",
+          "You can edit it, but the edit goes back for review. For big changes, create a new template and retire the old one."
+        ]
+      ]
+    },
+    {
+      "n": "10",
+      "slug": "whatsapp-catalog",
+      "status": "published",
+      "card_title": "Catalog & Commerce",
+      "card_text": "Product catalogs, carts and orders inside the chat.",
+      "title": "WhatsApp Catalog: Sell Inside the Chat",
+      "h1": "WhatsApp catalog: selling products inside the chat",
+      "description": "Set up a WhatsApp catalog so customers can browse products, build a cart and order in the chat, with sync from your store and Meta Commerce Manager.",
+      "keyphrase": "whatsapp catalog",
+      "secondary": [
+        "whatsapp commerce",
+        "whatsapp shop",
+        "product messages"
+      ],
+      "outline": [
+        "What a WhatsApp catalog is",
+        "Connecting your product data",
+        "Single and multi-product messages",
+        "From cart to order",
+        "Keeping stock in sync",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can I link my Shopify or WooCommerce store?",
+          "Yes. Product data can sync to Meta Commerce Manager, which feeds the WhatsApp catalog, so prices and stock stay current."
+        ],
+        [
+          "Can customers pay inside WhatsApp?",
+          "In India, payments can be collected through supported payment gateways or a payment link in the chat. The exact options depend on your provider."
+        ],
+        [
+          "Which products are not allowed?",
+          "WhatsApp's commerce policy bans items such as drugs, weapons, alcohol and some financial products. Check the policy before you list."
+        ]
+      ]
+    },
+    {
+      "n": "11",
+      "slug": "whatsapp-crm-integration",
+      "status": "published",
+      "card_title": "CRM & Lead Sync",
+      "card_text": "Every WhatsApp lead and chat saved to your CRM automatically.",
+      "title": "WhatsApp CRM Integration: Sync Leads",
+      "h1": "WhatsApp CRM integration: syncing chats and leads automatically",
+      "description": "WhatsApp CRM integration keeps every lead, tag and chat in your CRM. See what to sync, how to map fields and how to trigger messages from CRM events.",
+      "keyphrase": "whatsapp crm integration",
+      "secondary": [
+        "whatsapp crm",
+        "whatsapp lead management",
+        "whatsapp zoho hubspot integration"
+      ],
+      "outline": [
+        "Why sync WhatsApp to a CRM",
+        "What data to sync",
+        "Field mapping",
+        "Triggering messages from CRM events",
+        "Common CRMs",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Which CRMs can connect to WhatsApp?",
+          "Most CRMs with an API or webhooks can connect, including Zoho, HubSpot, Salesforce, LeadSquared and custom CRMs."
+        ],
+        [
+          "Does the CRM get the full chat history?",
+          "It can. Some teams sync every message, while others sync a summary, tags and the lead status to keep records tidy."
+        ],
+        [
+          "Can the CRM send WhatsApp messages?",
+          "Yes. A CRM event, such as a stage change, can trigger an approved template to the contact."
+        ]
+      ]
+    },
+    {
+      "n": "12",
+      "slug": "whatsapp-analytics",
+      "status": "published",
+      "card_title": "Analytics & Reporting",
+      "card_text": "Delivery, read, reply and revenue reports for every message.",
+      "title": "WhatsApp Analytics: Metrics That Matter",
+      "h1": "WhatsApp analytics: the metrics that show what is working",
+      "description": "WhatsApp analytics explained: delivery, read and reply rates, response times, conversions and cost per result, and how to turn reports into decisions.",
+      "keyphrase": "whatsapp analytics",
+      "secondary": [
+        "whatsapp business analytics",
+        "whatsapp campaign reports",
+        "whatsapp metrics"
+      ],
+      "outline": [
+        "Why WhatsApp needs its own reports",
+        "Message metrics",
+        "Team and support metrics",
+        "Revenue and cost metrics",
+        "Building a weekly report",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can I see who read my message?",
+          "Yes, read receipts are reported per message, unless the customer has turned read receipts off. Those reads are counted as delivered only."
+        ],
+        [
+          "How do I track sales from WhatsApp?",
+          "Use tracked links or coupon codes in templates, and link orders back to the chat in your CRM or store."
+        ],
+        [
+          "What is a good reply rate?",
+          "It varies by industry and message type. Compare each campaign with your own average rather than a general benchmark."
+        ]
+      ]
+    }
+  ]
+}

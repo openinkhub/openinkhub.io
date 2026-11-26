@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/how-to-choose-a-whatsapp-api-provider/",
+  "path": "/how-to-choose-a-whatsapp-api-provider/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Choosing an API Provider",
+  "card_text": "What to compare before you pick a WhatsApp API partner.",
+  "n": "07",
+  "title": "How to Choose a WhatsApp API Provider",
+  "h1": "How to choose a WhatsApp API provider: a checklist",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "How to choose a WhatsApp API provider: Meta partner status, pricing markups, features, support, data ownership and exit terms, with a checklist.",
+  "keyphrase_override": "whatsapp api provider",
+  "keyphrase_secondary_override": [
+    "whatsapp business api provider",
+    "whatsapp bsp",
+    "best whatsapp api provider india"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "What is a WhatsApp BSP?",
+      "a": "<p>A Business Solution Provider is a Meta partner that helps businesses access the WhatsApp Business Platform and usually adds tools such as an inbox, bots and campaigns.</p>"
+    },
+    {
+      "q": "Do providers charge more than Meta?",
+      "a": "<p>Many add a markup per message or a monthly fee. Ask for Meta's rate and the provider's fee shown separately.</p>"
+    },
+    {
+      "q": "Can I switch providers later?",
+      "a": "<p>Yes. Your number can move between providers. Make sure your contract lets you export contacts, templates and chat history.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>How to choose a WhatsApp API provider: a checklist</h1>\n<p>A WhatsApp API provider, often called a Business Solution Provider or BSP, gives your business access to the WhatsApp Business Platform plus the tools to use it: a shared inbox, chatbot builder, campaigns and reports. Choosing the right WhatsApp API provider affects your monthly cost, what you can automate and how easily you can leave later. This checklist covers what to compare before you sign.</p>\n\n<h2>What a WhatsApp API provider does</h2>\n<ul>\n<li>Helps with Meta business verification, number registration and display name approval.</li>\n<li>Hosts or connects to the Cloud API on your behalf.</li>\n<li>Provides software: team inbox, chatbot, broadcasts, templates and analytics.</li>\n<li>Offers integrations with CRMs, stores and helpdesks.</li>\n<li>Gives support when something breaks.</li>\n</ul>\n\n<h2>Going direct vs using a provider</h2>\n<p>Since Meta launched the <a href=\"/whatsapp-cloud-api/\">Cloud API</a>, any business can connect directly. However, direct access gives you only the raw API. You would still need to build the inbox, bot and reporting yourself. That makes sense for companies with strong developer teams. For most businesses, a provider or an implementation partner is faster and cheaper overall.</p>\n\n<h2>What to compare</h2>\n<ol>\n<li><strong>Meta partner status.</strong> Check that the provider is listed in Meta's partner directory.</li>\n<li><strong>Features you will actually use.</strong> Inbox, AI bot, flow builder, campaigns, catalog, calling and reports.</li>\n<li><strong>Integrations.</strong> Does it connect to your CRM, store and helpdesk without custom work?</li>\n<li><strong>Agent seats.</strong> Is there a per-user fee? How many agents are included?</li>\n<li><strong>Limits.</strong> Contacts, messages, bots or workflows capped by plan.</li>\n<li><strong>Support.</strong> Hours, language, response times and an Indian support team if you need one.</li>\n<li><strong>Data ownership.</strong> Can you export contacts, templates and chat history at any time?</li>\n<li><strong>Exit terms.</strong> Notice period, lock-in and help with moving your number.</li>\n</ol>\n\n<h2>Pricing questions to ask</h2>\n<p>Provider pricing is often hard to compare. So ask every provider the same questions, in writing:</p>\n<ul>\n<li>What is Meta's charge per message, and what is your markup, shown separately?</li>\n<li>What is the monthly platform fee, and what does it include?</li>\n<li>Are there setup fees or charges for extra numbers?</li>\n<li>Do you charge for free service conversations?</li>\n<li>Is the AI bot billed separately, per message or per seat?</li>\n</ul>\n<p>Then model your expected monthly volume across each provider. Our <a href=\"/whatsapp-per-message-pricing/\">per-message pricing guide</a> explains Meta's side of the bill.</p>\n\n<h2>Red flags</h2>\n<ul>\n<li>Promises of \"unlimited free messages\" or sending without templates.</li>\n<li>\"No opt-in needed\" or offers to send to purchased lists.</li>\n<li>Unofficial or \"WhatsApp Web\" based tools sold as API access.</li>\n<li>The provider owning your WhatsApp Business Account instead of you.</li>\n<li>No way to export your data.</li>\n</ul>\n<p>Any of these can lead to a banned number. Our guide on <a href=\"/bulk-whatsapp-messages-guide/\">bulk WhatsApp messages</a> explains why unofficial tools are risky.</p>\n\n<h2>A quick decision checklist</h2>\n<p>Before signing, confirm that: your business portfolio owns the account; Meta and provider fees are shown separately; the features you need are on the plan you are buying; your CRM connects; and you can export data and move your number. If all five are true, you are in good shape.</p>\n\n<h2>Where Openink Hub fits</h2>\n<p>We work as an implementation partner. We set up the official API in your own Meta account, build the bots and automations, connect your systems and report on results through our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>. Whichever WhatsApp API provider you choose, keep ownership of your account.</p>\n<h2>Frequently asked questions</h2><h3>What is a WhatsApp BSP?</h3><p>A Business Solution Provider is a Meta partner that helps businesses access the WhatsApp Business Platform and usually adds tools such as an inbox, bots and campaigns.</p><h3>Do providers charge more than Meta?</h3><p>Many add a markup per message or a monthly fee. Ask for Meta's rate and the provider's fee shown separately.</p><h3>Can I switch providers later?</h3><p>Yes. Your number can move between providers. Make sure your contract lets you export contacts, templates and chat history.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "How to Choose a WhatsApp API Provider | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/how-to-choose-a-whatsapp-api-provider/#article",
+            "headline": "How to Choose a WhatsApp API Provider",
+            "description": "How to choose a WhatsApp API provider: Meta partner status, pricing markups, features, support, data ownership and exit terms, with a checklist.",
+            "url": "https://openinkhub.io/how-to-choose-a-whatsapp-api-provider/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/how-to-choose-a-whatsapp-api-provider/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Choosing an API Provider",
+                "item": "https://openinkhub.io/how-to-choose-a-whatsapp-api-provider/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/how-to-choose-a-whatsapp-api-provider/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "How to choose a WhatsApp API provider: Meta partner status, pricing markups, features, support, data ownership and exit terms, with a checklist."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "How to Choose a WhatsApp API Provider"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "How to choose a WhatsApp API provider: Meta partner status, pricing markups, features, support, data ownership and exit terms, with a checklist."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/how-to-choose-a-whatsapp-api-provider/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

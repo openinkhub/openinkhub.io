@@ -1,0 +1,151 @@
+{
+  "url": "https://openinkhub.io/send-whatsapp-broadcast-message/",
+  "path": "/send-whatsapp-broadcast-message/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Send a Broadcast",
+  "card_text": "Step-by-step: sending a WhatsApp broadcast, app or API.",
+  "n": "11",
+  "title": "How to Send a WhatsApp Broadcast Message",
+  "h1": "How to send a WhatsApp broadcast message: app and API steps",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "Step-by-step: how to send a WhatsApp broadcast message from the Business App and from the API, with limits, opt-in rules and tips to get replies.",
+  "keyphrase_override": "whatsapp broadcast message",
+  "keyphrase_secondary_override": [
+    "send whatsapp broadcast",
+    "whatsapp broadcast list",
+    "whatsapp broadcast steps",
+    "whatsapp broadcast limit"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Why did my broadcast not reach some contacts?",
+      "a": "<p>In the Business App, only contacts who saved your number receive broadcasts. On the API, the message may fail if the number is not on WhatsApp or the customer has blocked you.</p>"
+    },
+    {
+      "q": "What is the broadcast list limit in the app?",
+      "a": "<p>Each broadcast list in the WhatsApp Business App holds up to 256 contacts.</p>"
+    },
+    {
+      "q": "Do replies to a broadcast come to one chat?",
+      "a": "<p>No. Each reply arrives as a separate one-to-one chat.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>How to send a WhatsApp broadcast message: app and API steps</h1>\n<p>To send a WhatsApp broadcast message, you have two options. In the WhatsApp Business App, you create a broadcast list of up to 256 contacts and send one message that each person receives privately. On the WhatsApp Business API, you choose an approved template and an opted-in audience, and send to thousands at once. The app is fine for small lists. The API is the right choice for anything larger or regular.</p>\n\n<h2>How to send a WhatsApp broadcast message in the Business App</h2>\n<ol>\n<li>Open WhatsApp Business and tap the menu or the new chat icon.</li>\n<li>Choose <strong>New broadcast</strong>.</li>\n<li>Select up to 256 contacts for the list and confirm.</li>\n<li>Type your message, add an image or document if needed, and send.</li>\n</ol>\n<p>Each person receives the message as a normal one-to-one chat. However, there is a catch: only contacts who have saved your number in their phone will receive it. So a large share of your list may never see the message. Also, replies arrive as separate chats, which you answer one by one. Menu names can change between app versions, so look for \"broadcast\" if the label differs.</p>\n\n<h2>How to send a broadcast on the WhatsApp API</h2>\n<ol>\n<li><strong>Prepare the audience.</strong> Import or select opted-in contacts, ideally by segment.</li>\n<li><strong>Pick a template.</strong> Choose an approved marketing or utility template, or create one and wait for approval.</li>\n<li><strong>Fill the variables.</strong> Map fields such as name or order number to each contact.</li>\n<li><strong>Schedule or send.</strong> Send now, or schedule for the best time.</li>\n<li><strong>Handle replies.</strong> Route replies to a chatbot or your team inbox.</li>\n</ol>\n<p>On the API, contacts do not need to save your number. In addition, your verified business name appears, and you get delivery and read reports. Our <a href=\"/whatsapp-broadcast-messaging/\">WhatsApp broadcast messaging</a> page explains how this works at scale.</p>\n\n<h2>App vs API broadcasts at a glance</h2>\n<table>\n<thead><tr><th></th><th>Business App</th><th>Business API</th></tr></thead>\n<tbody>\n<tr><td>List size</td><td>Up to 256 per list</td><td>Your daily messaging limit</td></tr>\n<tr><td>Who receives it</td><td>Only contacts who saved your number</td><td>All opted-in contacts on WhatsApp</td></tr>\n<tr><td>Personalisation</td><td>None</td><td>Name and other variables</td></tr>\n<tr><td>Buttons</td><td>No</td><td>Quick replies, links and calls</td></tr>\n<tr><td>Reports</td><td>Basic ticks</td><td>Delivered, read, replied and clicked</td></tr>\n<tr><td>Cost</td><td>Free</td><td>Per delivered template</td></tr>\n</tbody>\n</table>\n\n<h2>Writing a broadcast that gets replies</h2>\n<p>Keep it short and personal. Open with the customer's name, say why you are writing and end with one action. For example: \"Hi Kavya, our new monsoon collection is live. As a member, you get free delivery this week. Tap below to browse.\" Avoid sending the same broadcast every few days, because people will block the number. Our <a href=\"/whatsapp-message-template-examples/\">template examples</a> page has more wording ideas.</p>\n\n<h2>Checking the results</h2>\n<p>After sending, look at how many messages were delivered, read and replied to. On the API, also check button clicks and blocks. If delivery is low, your list may contain wrong numbers or people not on WhatsApp. If blocks are high, the message or audience needs work. Then adjust before the next send.</p>\n\n<h2>Staying within the rules</h2>\n<p>Whether you use the app or the API, only message people who agreed to hear from you. Large unsolicited broadcasts from the app can get your number banned. On the API, Meta's opt-in and template rules apply. Our <a href=\"/bulk-whatsapp-messages-guide/\">bulk WhatsApp messages</a> guide covers safe sending in detail.</p>\n\n<h2>Need help?</h2>\n<p>If you want to send a WhatsApp broadcast message to a large audience every week, we can set up the API, templates, segments and reply handling through our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>.</p>\n<h2>Frequently asked questions</h2><h3>Why did my broadcast not reach some contacts?</h3><p>In the Business App, only contacts who saved your number receive broadcasts. On the API, the message may fail if the number is not on WhatsApp or the customer has blocked you.</p><h3>What is the broadcast list limit in the app?</h3><p>Each broadcast list in the WhatsApp Business App holds up to 256 contacts.</p><h3>Do replies to a broadcast come to one chat?</h3><p>No. Each reply arrives as a separate one-to-one chat.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "How to Send a WhatsApp Broadcast Message | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/send-whatsapp-broadcast-message/#article",
+            "headline": "How to Send a WhatsApp Broadcast Message",
+            "description": "Step-by-step: how to send a WhatsApp broadcast message from the Business App and from the API, with limits, opt-in rules and tips to get replies.",
+            "url": "https://openinkhub.io/send-whatsapp-broadcast-message/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/send-whatsapp-broadcast-message/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Send a Broadcast",
+                "item": "https://openinkhub.io/send-whatsapp-broadcast-message/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/send-whatsapp-broadcast-message/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "Step-by-step: how to send a WhatsApp broadcast message from the Business App and from the API, with limits, opt-in rules and tips to get replies."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "How to Send a WhatsApp Broadcast Message"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "Step-by-step: how to send a WhatsApp broadcast message from the Business App and from the API, with limits, opt-in rules and tips to get replies."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/send-whatsapp-broadcast-message/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

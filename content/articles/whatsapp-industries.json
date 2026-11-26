@@ -1,0 +1,396 @@
+{
+  "_note": "WhatsApp guides by industry, linked from /whatsapp-ai-chatbot/. Body: content/articles/whatsapp-industries/<slug>.html. To publish: set status to \"published\", then npm run articles && npm test.",
+  "hub": "/whatsapp-ai-chatbot/",
+  "hub_name": "WhatsApp AI Chatbot",
+  "hub_label": "WhatsApp AI chatbot and automation services",
+  "author": "Hiten Neotia",
+  "flag": "whatsapp_guide",
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "items": [
+    {
+      "n": "01",
+      "slug": "whatsapp-for-education",
+      "status": "published",
+      "card_title": "Education",
+      "card_text": "Admissions, fee reminders and parent updates for schools and coaching.",
+      "title": "WhatsApp for Education: Admissions & Updates",
+      "h1": "WhatsApp for education: admissions, fees and parent updates",
+      "description": "How schools, colleges and coaching institutes use WhatsApp for education: admission enquiries, counselling, fee reminders, class updates and results.",
+      "keyphrase": "whatsapp for education",
+      "secondary": [
+        "whatsapp for schools",
+        "whatsapp for coaching institutes",
+        "admission chatbot"
+      ],
+      "outline": [
+        "Admissions enquiries",
+        "Counselling and demos",
+        "Fee reminders",
+        "Class and exam updates",
+        "Getting started",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can schools message parents in bulk on WhatsApp?",
+          "Yes, with the parents' opt-in and approved templates. Class updates and fee reminders usually fall under the utility category."
+        ],
+        [
+          "Can the bot answer admission questions after hours?",
+          "Yes. It can share fees, courses and deadlines at any hour and book a counselling call for the next day."
+        ],
+        [
+          "Is student data safe?",
+          "Messages are encrypted in transit, and access in the inbox is limited by role. Share only what each message needs."
+        ]
+      ]
+    },
+    {
+      "n": "02",
+      "slug": "whatsapp-for-ecommerce",
+      "status": "published",
+      "card_title": "E-commerce",
+      "card_text": "Catalogs, cart recovery, order updates and returns on WhatsApp.",
+      "title": "WhatsApp for Ecommerce Stores",
+      "h1": "WhatsApp for ecommerce: from browsing to repeat orders",
+      "description": "WhatsApp for ecommerce covers product discovery, cart recovery, COD confirmation, order tracking, returns and repeat purchases. Here is a practical setup.",
+      "keyphrase": "whatsapp for ecommerce",
+      "secondary": [
+        "whatsapp for online stores",
+        "cod confirmation whatsapp",
+        "whatsapp order updates"
+      ],
+      "outline": [
+        "Product discovery",
+        "Cart recovery",
+        "COD confirmation",
+        "Order and delivery updates",
+        "Returns and reviews",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can WhatsApp reduce COD returns?",
+          "Confirming cash-on-delivery orders on WhatsApp before dispatch helps filter fake or impulse orders, which lowers return-to-origin rates."
+        ],
+        [
+          "Which store platforms connect?",
+          "Shopify, WooCommerce and most custom stores can send order events to WhatsApp through webhooks or an app."
+        ],
+        [
+          "Should order updates be marketing or utility?",
+          "Order confirmations and delivery updates are utility messages. Offers and new arrivals are marketing."
+        ]
+      ]
+    },
+    {
+      "n": "03",
+      "slug": "whatsapp-for-finance-insurance",
+      "status": "published",
+      "card_title": "Finance & Insurance",
+      "card_text": "Lead capture, document collection, renewals and payment reminders.",
+      "title": "WhatsApp for Finance & Insurance Firms",
+      "h1": "WhatsApp for finance and insurance: leads, documents and renewals",
+      "description": "How banks, NBFCs, brokers and insurers use WhatsApp for finance: lead qualification, KYC document collection, EMI and premium reminders, and claims updates.",
+      "keyphrase": "whatsapp for finance",
+      "secondary": [
+        "whatsapp for insurance",
+        "whatsapp for nbfc",
+        "whatsapp banking"
+      ],
+      "outline": [
+        "Qualifying loan and policy leads",
+        "Collecting documents",
+        "EMI and renewal reminders",
+        "Claims and service updates",
+        "Compliance points",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can customers send KYC documents on WhatsApp?",
+          "Yes. Customers can share photos or PDFs in the chat, and the files can be saved straight to your system. Delete copies you do not need to keep."
+        ],
+        [
+          "Is WhatsApp allowed for financial services?",
+          "Yes, but WhatsApp's commerce policy limits some products, and your regulator's rules still apply. Get compliance sign-off on templates."
+        ],
+        [
+          "Can premium reminders include a payment link?",
+          "Yes. A utility template can carry a secure payment link from your gateway."
+        ]
+      ]
+    },
+    {
+      "n": "04",
+      "slug": "whatsapp-for-healthcare",
+      "status": "published",
+      "card_title": "Healthcare",
+      "card_text": "Appointment booking, reminders, reports and follow-ups for clinics.",
+      "title": "WhatsApp for Healthcare Clinics",
+      "h1": "WhatsApp for healthcare: bookings, reminders and patient follow-ups",
+      "description": "WhatsApp for healthcare helps clinics and hospitals book appointments, send reminders, share reports and run follow-ups, while protecting patient privacy.",
+      "keyphrase": "whatsapp for healthcare",
+      "secondary": [
+        "whatsapp for clinics",
+        "whatsapp for hospitals",
+        "appointment reminder whatsapp"
+      ],
+      "outline": [
+        "Appointment booking",
+        "Reminders that cut no-shows",
+        "Sharing reports safely",
+        "Follow-ups and reviews",
+        "Privacy rules",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can patients book appointments on WhatsApp?",
+          "Yes. A flow shows doctors and open slots, confirms the booking and adds it to your calendar or hospital system."
+        ],
+        [
+          "Can we send lab reports on WhatsApp?",
+          "Many clinics do, after the patient opts in. A secure download link is safer than sending the file itself."
+        ],
+        [
+          "Can the bot give medical advice?",
+          "No. The bot should handle bookings and general information only, and send any medical question to qualified staff."
+        ]
+      ]
+    },
+    {
+      "n": "05",
+      "slug": "whatsapp-for-automobile-dealers",
+      "status": "published",
+      "card_title": "Automobile",
+      "card_text": "Test drives, service bookings and reminders for dealers and workshops.",
+      "title": "WhatsApp for Automobile Dealers",
+      "h1": "WhatsApp for automobile dealers: test drives, service and renewals",
+      "description": "How car and two-wheeler dealers use WhatsApp for test drive bookings, quotes, service reminders, insurance renewals and delivery updates.",
+      "keyphrase": "whatsapp for automobile dealers",
+      "secondary": [
+        "whatsapp for car dealers",
+        "whatsapp for two wheeler dealers",
+        "service reminder whatsapp"
+      ],
+      "outline": [
+        "Lead capture from ads",
+        "Test drive bookings",
+        "Quotes and finance",
+        "Service reminders",
+        "Delivery and feedback",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can buyers book a test drive on WhatsApp?",
+          "Yes. The bot asks for the model, location and time, confirms the slot and alerts the sales executive."
+        ],
+        [
+          "How do service reminders work?",
+          "Your DMS or CRM shares the due date, and WhatsApp sends a reminder with a link or button to book the slot."
+        ],
+        [
+          "Can we share brochures and price lists?",
+          "Yes. PDFs, images and short videos can be sent in the chat or attached to a template."
+        ]
+      ]
+    },
+    {
+      "n": "06",
+      "slug": "whatsapp-for-real-estate",
+      "status": "published",
+      "card_title": "Real Estate",
+      "card_text": "Instant replies to property leads, site visits and brochures.",
+      "title": "WhatsApp for Real Estate Leads",
+      "h1": "WhatsApp for real estate: faster replies to property leads",
+      "description": "WhatsApp for real estate helps builders and brokers qualify property leads, share brochures, book site visits and nurture buyers until booking.",
+      "keyphrase": "whatsapp for real estate",
+      "secondary": [
+        "whatsapp marketing for real estate",
+        "real estate chatbot",
+        "site visit booking"
+      ],
+      "outline": [
+        "Answering portal and ad leads",
+        "Qualifying buyers",
+        "Brochures and virtual tours",
+        "Site visit booking",
+        "Nurturing long decisions",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can WhatsApp capture leads from property portals?",
+          "Yes. Leads from portals and ads can be pushed to WhatsApp so the buyer gets a reply within seconds."
+        ],
+        [
+          "Can we share project videos on WhatsApp?",
+          "Yes. Videos, floor plans and location maps can be shared in the chat."
+        ],
+        [
+          "How should we follow up with slow buyers?",
+          "Send useful updates, such as construction progress or new launches, once or twice a month rather than daily pushes."
+        ]
+      ]
+    },
+    {
+      "n": "07",
+      "slug": "whatsapp-for-it-services",
+      "status": "published",
+      "card_title": "IT Services",
+      "card_text": "Support tickets, demos, renewals and status alerts for IT firms.",
+      "title": "WhatsApp for IT Services Companies",
+      "h1": "WhatsApp for IT services: support, demos and renewals",
+      "description": "How IT and SaaS companies use WhatsApp for demo bookings, support tickets, outage alerts, renewal reminders and onboarding checklists.",
+      "keyphrase": "whatsapp for it services",
+      "secondary": [
+        "whatsapp for saas",
+        "whatsapp support tickets",
+        "whatsapp for it companies"
+      ],
+      "outline": [
+        "Demo and enquiry handling",
+        "Support tickets",
+        "Status and outage alerts",
+        "Onboarding",
+        "Renewals",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can WhatsApp create support tickets?",
+          "Yes. A message can open a ticket in your helpdesk, and status changes can be sent back to the customer on WhatsApp."
+        ],
+        [
+          "Is WhatsApp suitable for B2B?",
+          "Yes. Many decision makers prefer a quick WhatsApp reply to a long email thread, especially for demos and renewals."
+        ],
+        [
+          "Can we send outage alerts?",
+          "Yes, as utility templates to customers who have opted in to service alerts."
+        ]
+      ]
+    },
+    {
+      "n": "08",
+      "slug": "whatsapp-for-events-webinars",
+      "status": "published",
+      "card_title": "Events & Webinars",
+      "card_text": "Registrations, reminders, links and follow-ups for events.",
+      "title": "WhatsApp for Events & Webinars",
+      "h1": "WhatsApp for events and webinars: registrations to replays",
+      "description": "WhatsApp for events and webinars: take registrations, send joining links and reminders, share tickets and replays, and collect feedback after the event.",
+      "keyphrase": "whatsapp for events",
+      "secondary": [
+        "whatsapp for webinars",
+        "webinar reminder whatsapp",
+        "event registration whatsapp"
+      ],
+      "outline": [
+        "Registrations",
+        "Reminders and joining links",
+        "Tickets and check-in",
+        "Replays and follow-up",
+        "Feedback",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Do WhatsApp reminders improve webinar attendance?",
+          "They usually help, because WhatsApp messages are seen faster than email. Send one a day before and one shortly before the start."
+        ],
+        [
+          "Can we send QR tickets on WhatsApp?",
+          "Yes. A template can carry the ticket image or a link that opens the QR code."
+        ],
+        [
+          "How do we collect feedback?",
+          "Send a short rating question with buttons after the event, then ask one open question."
+        ]
+      ]
+    },
+    {
+      "n": "09",
+      "slug": "whatsapp-for-travel-tourism",
+      "status": "published",
+      "card_title": "Travel & Tourism",
+      "card_text": "Enquiries, itineraries, bookings and trip updates for travel firms.",
+      "title": "WhatsApp for Travel & Tourism Businesses",
+      "h1": "WhatsApp for travel and tourism: enquiries, itineraries and trip support",
+      "description": "How travel agents, tour operators and hotels use WhatsApp for travel: enquiries, quotes, itineraries, payment reminders, trip alerts and reviews.",
+      "keyphrase": "whatsapp for travel",
+      "secondary": [
+        "whatsapp for travel agents",
+        "whatsapp for hotels",
+        "whatsapp for tour operators"
+      ],
+      "outline": [
+        "Handling enquiries",
+        "Quotes and itineraries",
+        "Payments and documents",
+        "On-trip support",
+        "Reviews and repeat trips",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Can travellers get help on WhatsApp during a trip?",
+          "Yes. WhatsApp works on Wi-Fi abroad, so travellers can reach your team without roaming calls."
+        ],
+        [
+          "Can we share itineraries as PDFs?",
+          "Yes. Itineraries, vouchers and tickets can be sent as documents in the chat."
+        ],
+        [
+          "How do we collect balance payments?",
+          "Send a utility reminder with a payment link a set number of days before travel."
+        ]
+      ]
+    },
+    {
+      "n": "10",
+      "slug": "whatsapp-for-marketing-agencies",
+      "status": "published",
+      "card_title": "Marketing Agencies",
+      "card_text": "Run WhatsApp for clients: campaigns, reports and white-label work.",
+      "title": "WhatsApp for Marketing Agencies",
+      "h1": "WhatsApp for marketing agencies: running WhatsApp for clients",
+      "description": "How marketing agencies can offer WhatsApp to clients: account setup, click-to-WhatsApp ads, campaigns, chatbots, reporting and pricing the service.",
+      "keyphrase": "whatsapp for marketing agencies",
+      "secondary": [
+        "whatsapp services for agencies",
+        "click to whatsapp ads for clients",
+        "whatsapp reseller"
+      ],
+      "outline": [
+        "Why clients ask for WhatsApp",
+        "Account ownership",
+        "Services you can offer",
+        "Reporting to clients",
+        "Pricing the work",
+        "FAQs"
+      ],
+      "faqs": [
+        [
+          "Who should own the WhatsApp account, the agency or the client?",
+          "The client. Their business portfolio should own the number and templates, and the agency should get partner access."
+        ],
+        [
+          "Can agencies run click-to-WhatsApp ads for clients?",
+          "Yes. The ads run from the client's ad account and open a chat with the client's WhatsApp number."
+        ],
+        [
+          "How should agencies charge for WhatsApp?",
+          "Most charge a setup fee and a monthly retainer, and pass Meta's message charges through at cost."
+        ]
+      ]
+    }
+  ]
+}

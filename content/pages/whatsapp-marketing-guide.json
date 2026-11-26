@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-marketing-guide/",
+  "path": "/whatsapp-marketing-guide/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "WhatsApp Marketing Guide",
+  "card_text": "Strategy, opt-in, templates and measurement for WhatsApp marketing.",
+  "n": "01",
+  "title": "WhatsApp Marketing Guide for Businesses",
+  "h1": "WhatsApp marketing: a practical guide for businesses",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "A practical WhatsApp marketing guide: building an opt-in list, choosing message types, writing templates, staying within the rules and measuring results.",
+  "keyphrase_override": "whatsapp marketing",
+  "keyphrase_secondary_override": [
+    "whatsapp marketing strategy",
+    "whatsapp business marketing",
+    "whatsapp marketing tips"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Is WhatsApp marketing legal in India?",
+      "a": "<p>Yes, when customers have opted in and you use the official API with approved templates. Sending to bought lists breaks WhatsApp's rules and risks a ban.</p>"
+    },
+    {
+      "q": "What does WhatsApp marketing cost?",
+      "a": "<p>Meta charges per delivered marketing template, with rates set by country. Add the cost of your platform and any agency support.</p>"
+    },
+    {
+      "q": "How do I get people to opt in?",
+      "a": "<p>Ask at checkout, on your website, in click-to-WhatsApp ads and with QR codes in store. Say clearly what they will receive.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp marketing: a practical guide for businesses</h1>\n<p>WhatsApp marketing means using WhatsApp to reach customers who have agreed to hear from you, with offers, updates and conversations that lead to sales. Done well, it feels personal, gets read quickly and drives replies. Done badly, it gets your number blocked. This guide covers the basics: building an opt-in list, choosing message types, writing messages, following the rules and measuring results.</p>\n\n<h2>Why WhatsApp marketing works</h2>\n<p>WhatsApp is where many customers already talk to friends and family. Meta reports more than 3 billion monthly users worldwide, and India is its largest market. Messages land on the lock screen, next to personal chats. So a relevant message is hard to miss. In addition, customers can reply in one tap, which turns a campaign into a conversation. Email and SMS rarely do that.</p>\n\n<h2>Building an opt-in list</h2>\n<p>Everything starts with permission. WhatsApp requires opt-in before a business messages someone first. Good places to ask include:</p>\n<ul>\n<li>Checkout pages, with a clear \"Get order updates and offers on WhatsApp\" tick box.</li>\n<li>Website chat buttons and pop-ups.</li>\n<li>Click-to-WhatsApp ads on Facebook and Instagram.</li>\n<li>QR codes on packaging, bills and shop counters.</li>\n<li>Your contact form and newsletter sign-up.</li>\n</ul>\n<p>Say clearly what people will receive and how often. Never upload bought or scraped lists. That is the fastest route to a ban, as our guide to <a href=\"/how-to-unban-a-whatsapp-number/\">unbanning a WhatsApp number</a> explains.</p>\n\n<h2>Types of WhatsApp marketing messages</h2>\n<ol>\n<li><strong>Offers and sales</strong>: festive deals, flash sales, new arrivals.</li>\n<li><strong>Reminders</strong>: abandoned carts, back-in-stock alerts, reorder nudges.</li>\n<li><strong>Content</strong>: tips, guides and short videos that build trust.</li>\n<li><strong>Invitations</strong>: events, webinars and store openings.</li>\n<li><strong>Win-back</strong>: messages for customers who have gone quiet.</li>\n</ol>\n<p>All of these are marketing templates. Meanwhile, order and booking updates are utility messages, which customers expect and rarely block. Our <a href=\"/whatsapp-promotional-messages/\">promotional messages guide</a> goes deeper into offers.</p>\n\n<h2>Writing messages people read</h2>\n<p>Keep it short: two to four lines is plenty. Use the customer's name, mention something relevant to them and give one clear action with a button. A strong image helps for products. Also write the way you speak. For example: \"Hi Neha, the sneakers you liked are back in your size. Grab them before Sunday?\" is far better than a block of capital letters and emojis.</p>\n\n<h2>Rules for WhatsApp marketing</h2>\n<ul>\n<li>Use the official WhatsApp Business API for anything beyond a few contacts.</li>\n<li>Send marketing only with an approved template outside the 24-hour window.</li>\n<li>Offer an easy opt-out in every marketing message.</li>\n<li>Do not promote banned products under WhatsApp's commerce policy.</li>\n<li>Watch your quality rating, and slow down if it drops.</li>\n</ul>\n<p>Meta also limits how many marketing messages one person receives from businesses in a period, so very frequent sends may not be delivered.</p>\n\n<h2>Measuring WhatsApp marketing results</h2>\n<p>Track delivered, read, replied, clicked and converted for every campaign. Then add the message cost to get cost per order or per lead. Compare segments and templates, and repeat what works. Our <a href=\"/whatsapp-analytics/\">WhatsApp analytics</a> guide lists the key metrics, and <a href=\"/whatsapp-campaign-management/\">campaign management</a> explains how to plan a calendar.</p>\n\n<h2>Getting started</h2>\n<p>First, get your number on the <a href=\"/whatsapp-cloud-api/\">WhatsApp Cloud API</a>. Next, start collecting opt-ins. Then send one useful campaign a month and learn from the numbers. If you want help with strategy, templates and automation, our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a> covers WhatsApp marketing end to end.</p>\n<h2>Frequently asked questions</h2><h3>Is WhatsApp marketing legal in India?</h3><p>Yes, when customers have opted in and you use the official API with approved templates. Sending to bought lists breaks WhatsApp's rules and risks a ban.</p><h3>What does WhatsApp marketing cost?</h3><p>Meta charges per delivered marketing template, with rates set by country. Add the cost of your platform and any agency support.</p><h3>How do I get people to opt in?</h3><p>Ask at checkout, on your website, in click-to-WhatsApp ads and with QR codes in store. Say clearly what they will receive.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Marketing Guide for Businesses | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-marketing-guide/#article",
+            "headline": "WhatsApp Marketing Guide for Businesses",
+            "description": "A practical WhatsApp marketing guide: building an opt-in list, choosing message types, writing templates, staying within the rules and measuring results.",
+            "url": "https://openinkhub.io/whatsapp-marketing-guide/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-marketing-guide/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "WhatsApp Marketing Guide",
+                "item": "https://openinkhub.io/whatsapp-marketing-guide/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-marketing-guide/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "A practical WhatsApp marketing guide: building an opt-in list, choosing message types, writing templates, staying within the rules and measuring results."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Marketing Guide for Businesses"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "A practical WhatsApp marketing guide: building an opt-in list, choosing message types, writing templates, staying within the rules and measuring results."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-marketing-guide/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

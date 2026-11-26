@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-catalog/",
+  "path": "/whatsapp-catalog/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Catalog & Commerce",
+  "card_text": "Product catalogs, carts and orders inside the chat.",
+  "n": "10",
+  "title": "WhatsApp Catalog: Sell Inside the Chat",
+  "h1": "WhatsApp catalog: selling products inside the chat",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "Set up a WhatsApp catalog so customers can browse products, build a cart and order in the chat, with sync from your store and Meta Commerce Manager.",
+  "keyphrase_override": "whatsapp catalog",
+  "keyphrase_secondary_override": [
+    "whatsapp commerce",
+    "whatsapp shop",
+    "product messages"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Can I link my Shopify or WooCommerce store?",
+      "a": "<p>Yes. Product data can sync to Meta Commerce Manager, which feeds the WhatsApp catalog, so prices and stock stay current.</p>"
+    },
+    {
+      "q": "Can customers pay inside WhatsApp?",
+      "a": "<p>In India, payments can be collected through supported payment gateways or a payment link in the chat. The exact options depend on your provider.</p>"
+    },
+    {
+      "q": "Which products are not allowed?",
+      "a": "<p>WhatsApp's commerce policy bans items such as drugs, weapons, alcohol and some financial products. Check the policy before you list.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp catalog: selling products inside the chat</h1>\n<p>A WhatsApp catalog lets customers browse your products inside the chat, add items to a cart and send the order to you, without leaving WhatsApp. On the WhatsApp Business Platform, the catalog is connected to Meta Commerce Manager, so it can stay in sync with your online store. For many Indian shoppers who already chat with sellers on WhatsApp, this turns a conversation into a sale in a few taps.</p>\n\n<h2>What a WhatsApp catalog is</h2>\n<p>Think of the catalog as a mini storefront attached to your business number. Each item has a name, image, price, description and link. Customers can open it from your profile or from a product message. Then they pick items, adjust quantities and send the cart as an order message. Your team or bot confirms the order, takes payment and arranges delivery.</p>\n\n<h2>Connecting your product data</h2>\n<ol>\n<li><strong>Create a catalog</strong> in Meta Commerce Manager inside your business portfolio.</li>\n<li><strong>Add products</strong> manually, by spreadsheet, or with a data feed from your store.</li>\n<li><strong>Connect the catalog</strong> to your WhatsApp Business Account.</li>\n<li><strong>Turn on the cart</strong> so customers can place multi-item orders.</li>\n</ol>\n<p>For Shopify, WooCommerce and most custom stores, a feed keeps prices and stock updated automatically. Meta's <a href=\"https://developers.facebook.com/docs/whatsapp/cloud-api/guides/sell-products-and-services\" target=\"_blank\" rel=\"noopener\">guide to selling products on WhatsApp</a> explains catalog setup in detail.</p>\n\n<h2>Single and multi-product messages</h2>\n<p>Besides the full catalog, you can send products directly in a chat:</p>\n<ul>\n<li><strong>Single-product message</strong>: one item with image, price and a \"View\" button. This is useful when a customer asks about a specific product.</li>\n<li><strong>Multi-product message</strong>: up to a set number of items grouped into sections, such as \"New arrivals\" or \"Under ₹999\".</li>\n<li><strong>Catalog message</strong>: opens your whole catalog from a button.</li>\n</ul>\n<p>An <a href=\"/ai-whatsapp-bot/\">AI WhatsApp bot</a> can pick the right products based on what the customer typed, for example \"black running shoes size 9\".</p>\n\n<h2>From cart to order</h2>\n<p>When a customer sends a cart, the order arrives in your inbox with the items and total. Next, the bot or agent confirms delivery details. Then payment can be collected with a payment link from your gateway, or as cash on delivery. Finally, order updates go out as utility templates: confirmed, shipped, out for delivery and delivered. For COD orders, a quick confirmation message before dispatch helps reduce returns. Our <a href=\"/whatsapp-for-ecommerce/\">WhatsApp for ecommerce</a> guide covers the full journey.</p>\n\n<h2>Keeping stock and prices in sync</h2>\n<p>Nothing frustrates a customer more than ordering an item that is out of stock. So a live feed from your store is worth the setup. Also review the catalog monthly for broken images, old prices and hidden items. In addition, check that every product is allowed under WhatsApp's commerce policy, which restricts items such as alcohol, weapons and some health products.</p>\n\n<h2>Using the catalog in campaigns</h2>\n<p>Catalog messages work well in campaigns. For example, a festive broadcast can carry a multi-product message with your best sellers. Likewise, a <a href=\"/whatsapp-retargeting/\">retargeting</a> message can show the exact item a customer left behind. As a result, the path from message to purchase stays short.</p>\n\n<h2>Setting up catalog and commerce</h2>\n<p>Catalog and commerce is one of the modules in our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>. We connect your product feed, set up the cart and order flow, add payment links and automate order updates.</p>\n<h2>Frequently asked questions</h2><h3>Can I link my Shopify or WooCommerce store?</h3><p>Yes. Product data can sync to Meta Commerce Manager, which feeds the WhatsApp catalog, so prices and stock stay current.</p><h3>Can customers pay inside WhatsApp?</h3><p>In India, payments can be collected through supported payment gateways or a payment link in the chat. The exact options depend on your provider.</p><h3>Which products are not allowed?</h3><p>WhatsApp's commerce policy bans items such as drugs, weapons, alcohol and some financial products. Check the policy before you list.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Catalog: Sell Inside the Chat | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-catalog/#article",
+            "headline": "WhatsApp Catalog: Sell Inside the Chat",
+            "description": "Set up a WhatsApp catalog so customers can browse products, build a cart and order in the chat, with sync from your store and Meta Commerce Manager.",
+            "url": "https://openinkhub.io/whatsapp-catalog/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-catalog/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Catalog & Commerce",
+                "item": "https://openinkhub.io/whatsapp-catalog/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-catalog/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "Set up a WhatsApp catalog so customers can browse products, build a cart and order in the chat, with sync from your store and Meta Commerce Manager."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Catalog: Sell Inside the Chat"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "Set up a WhatsApp catalog so customers can browse products, build a cart and order in the chat, with sync from your store and Meta Commerce Manager."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-catalog/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

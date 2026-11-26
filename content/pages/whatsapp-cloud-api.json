@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-cloud-api/",
+  "path": "/whatsapp-cloud-api/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Official WhatsApp Cloud API",
+  "card_text": "Meta-hosted API access, setup steps, limits and verification.",
+  "n": "01",
+  "title": "WhatsApp Cloud API: Setup, Limits & Costs",
+  "h1": "WhatsApp Cloud API: what it is and how to set it up for your business",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "The WhatsApp Cloud API explained: what Meta hosts, how setup works, messaging limits, the 24-hour window and how Openink Hub connects it for you.",
+  "keyphrase_override": "whatsapp cloud api",
+  "keyphrase_secondary_override": [
+    "whatsapp business api",
+    "meta cloud api",
+    "whatsapp api setup"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Is the WhatsApp Cloud API free?",
+      "a": "<p>Setting up the Cloud API costs nothing, and replies inside an open customer service window are free. Meta charges per delivered template message for marketing, utility and authentication messages, at rates that depend on the country.</p>"
+    },
+    {
+      "q": "Do I need a new phone number for the Cloud API?",
+      "a": "<p>Usually you use a number that is not active in the regular WhatsApp app. Meta also offers a coexistence option for some WhatsApp Business App numbers, so check your number before you start.</p>"
+    },
+    {
+      "q": "How long does Cloud API setup take?",
+      "a": "<p>If your Meta business portfolio is already verified, a number can go live in a day or two. Business verification and display name review can add a few days.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp Cloud API: what it is and how to set it up for your business</h1>\n<p>The WhatsApp Cloud API is Meta's hosted version of the WhatsApp Business Platform. It lets your business send and receive WhatsApp messages from software, not from a phone. Meta runs the servers, so you do not host anything yourself. As a result, you get the official route to automation, chatbots and broadcasts, with a verified business profile and no risk of the bans that come with unofficial tools.</p>\n\n<h2>What the WhatsApp Cloud API does</h2>\n<p>In short, the API is a connection between WhatsApp and your own systems. Your website, CRM or chatbot sends a request, and the message reaches the customer's WhatsApp. When the customer replies, the message comes back to your system through a webhook.</p>\n<p>Because it is software-based, one number can serve a whole team. It can also run a chatbot, send order updates and run campaigns at the same time. For example, a store can confirm orders automatically while agents answer product questions from a <a href=\"/whatsapp-team-inbox/\">shared team inbox</a>.</p>\n\n<h2>Cloud API vs the WhatsApp Business App</h2>\n<p>The free WhatsApp Business App works well for a single shop owner on one phone. However, it has no real automation, no API access and limited broadcast lists. The Cloud API removes those limits. On the other hand, it needs setup, approved templates and a provider or developer to connect it. Our <a href=\"/whatsapp-business-app-vs-api/\">Business App vs API comparison</a> covers the choice in more detail.</p>\n\n<h2>How Cloud API setup works</h2>\n<ol>\n<li><strong>Meta business portfolio.</strong> First, you need a business portfolio in Meta Business Suite. Business verification is strongly advised, because it unlocks higher limits.</li>\n<li><strong>WhatsApp Business Account.</strong> Next, a WhatsApp Business Account is created inside the portfolio. It holds your numbers and templates.</li>\n<li><strong>Phone number.</strong> Then you add a number that can receive an SMS or voice code. Usually it must not be active in the regular WhatsApp app at the same time.</li>\n<li><strong>Display name.</strong> Meta reviews the business name customers will see. It should match your brand.</li>\n<li><strong>Templates and webhooks.</strong> Finally, you submit message templates and point the webhook at your software, so replies arrive in your inbox or bot.</li>\n</ol>\n<p>Meta's own <a href=\"https://developers.facebook.com/docs/whatsapp/cloud-api\" target=\"_blank\" rel=\"noopener\">Cloud API documentation</a> lists the technical steps. In practice, most businesses ask a partner to handle them. That is the first step of our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>.</p>\n\n<h2>Messaging limits and quality rating</h2>\n<p>New numbers start with a daily limit on how many customers you can message first. The limit rises as you send more messages that customers welcome. Meanwhile, Meta tracks a quality rating for each number, based on blocks and reports. A low rating can pause templates or lower your limit. So the best way to grow your limit is simple: message people who asked to hear from you, and keep messages useful.</p>\n\n<h2>The 24-hour customer service window</h2>\n<p>When a customer messages you, a 24-hour window opens. Inside it, your team or bot can reply freely, with any text, image or document. Outside it, the business can only start a chat with an approved template. This rule keeps WhatsApp free of spam. It also shapes how you plan automation. For instance, reminders and campaigns always use templates, while support replies usually do not. See our <a href=\"/whatsapp-template-library/\">template library guide</a> for how templates work.</p>\n\n<h2>What the WhatsApp Cloud API costs</h2>\n<p>Meta does not charge for setup or hosting. Instead, it charges per delivered template message, with rates that depend on the category and the customer's country. Replies inside the service window are free. Our guide to <a href=\"/whatsapp-per-message-pricing/\">per-message pricing</a> explains the categories and how to budget.</p>\n\n<h2>Getting started</h2>\n<p>If you already have a verified Meta business portfolio, a number can often go live within a day or two. Otherwise, allow a few extra days for verification. Once the number is live, you can add a chatbot, campaigns and CRM sync step by step.</p>\n<h2>Frequently asked questions</h2><h3>Is the WhatsApp Cloud API free?</h3><p>Setting up the Cloud API costs nothing, and replies inside an open customer service window are free. Meta charges per delivered template message for marketing, utility and authentication messages, at rates that depend on the country.</p><h3>Do I need a new phone number for the Cloud API?</h3><p>Usually you use a number that is not active in the regular WhatsApp app. Meta also offers a coexistence option for some WhatsApp Business App numbers, so check your number before you start.</p><h3>How long does Cloud API setup take?</h3><p>If your Meta business portfolio is already verified, a number can go live in a day or two. Business verification and display name review can add a few days.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Cloud API: Setup, Limits & Costs | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-cloud-api/#article",
+            "headline": "WhatsApp Cloud API: Setup, Limits & Costs",
+            "description": "The WhatsApp Cloud API explained: what Meta hosts, how setup works, messaging limits, the 24-hour window and how Openink Hub connects it for you.",
+            "url": "https://openinkhub.io/whatsapp-cloud-api/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-cloud-api/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Official WhatsApp Cloud API",
+                "item": "https://openinkhub.io/whatsapp-cloud-api/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-cloud-api/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "The WhatsApp Cloud API explained: what Meta hosts, how setup works, messaging limits, the 24-hour window and how Openink Hub connects it for you."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Cloud API: Setup, Limits & Costs"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "The WhatsApp Cloud API explained: what Meta hosts, how setup works, messaging limits, the 24-hour window and how Openink Hub connects it for you."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-cloud-api/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

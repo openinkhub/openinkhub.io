@@ -120,5 +120,19 @@
       "to": "<p>Industry applications</p>",
       "replace": "<table><thead><tr><th>Area</th><th>Purpose</th></tr></thead><tbody><tr><td>Entity Clarity</td><td>Help AI understand who you are and what you do</td></tr><tr><td>Content Depth</td><td>Cover topics comprehensively</td></tr><tr><td>Structured Data</td><td>Improve machine-readable context</td></tr><tr><td>Internal Linking</td><td>Reinforce relationships between topics</td></tr><tr><td>Technical SEO</td><td>Ensure content is accessible and performant</td></tr><tr><td>Brand Consistency</td><td>Maintain consistent naming and messaging across channels</td></tr></tbody></table>"
     }
+  ],
+  "/whatsapp-ai-chatbot/": [
+    {
+      "note": "Feature guides grid after the 12 modules",
+      "from": "<p>Platform architecture</p>",
+      "to": "<h2>The WhatsApp Automation feature stack</h2>",
+      "replace": "<p>Feature guides</p><h2>Explore each WhatsApp automation feature</h2><!--hub:whatsapp-features--><p>Platform architecture</p>"
+    },
+    {
+      "note": "Industry and WhatsApp guides grids before the FAQs",
+      "from": "<p>Ask us anything</p>",
+      "to": "<h2>Frequently Asked Questions About WhatsApp Automation</h2>",
+      "replace": "<p>By industry</p><h2>WhatsApp automation for your industry</h2><!--hub:whatsapp-industries--><p>Guides</p><h2>WhatsApp Business guides</h2><!--hub:whatsapp-guides--><p>Ask us anything</p>"
+    }
   ]
 }

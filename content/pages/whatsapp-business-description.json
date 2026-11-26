@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-business-description/",
+  "path": "/whatsapp-business-description/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Business Description",
+  "card_text": "Write a WhatsApp business profile description that converts.",
+  "n": "17",
+  "title": "WhatsApp Business Description: Examples",
+  "h1": "WhatsApp business description: how to write one, with examples",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "How to write a WhatsApp business description: what to include, character limits, keywords and examples for shops, clinics, agencies and service firms.",
+  "keyphrase_override": "whatsapp business description",
+  "keyphrase_secondary_override": [
+    "whatsapp business profile",
+    "whatsapp about for business",
+    "whatsapp business bio"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "How long can a WhatsApp business description be?",
+      "a": "<p>The description field allows up to 512 characters. The short About line is much shorter, so keep it to one line.</p>"
+    },
+    {
+      "q": "Can I add links to the description?",
+      "a": "<p>Add your website in the website field instead. Up to two websites can be listed on the profile.</p>"
+    },
+    {
+      "q": "How often should I update it?",
+      "a": "<p>Update it when your hours, services or offers change, and check it at least once a quarter.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp business description: how to write one, with examples</h1>\n<p>A good WhatsApp business description tells a customer in a few lines who you are, what you offer, where you serve and how to reach you. It appears on your WhatsApp business profile, which customers open before they message or buy. The description field allows up to 512 characters, so you have room for the essentials but not for an essay. Clear, specific wording builds trust and cuts down on \"what do you do?\" questions.</p>\n\n<h2>Where the description appears</h2>\n<p>When a customer taps your business name in a chat, they see your profile. It shows your logo, display name, a short \"About\" line, the business description, category, address, hours, email and websites. On the API, the same fields are set through your provider or the API itself. So the description works like a mini homepage inside WhatsApp.</p>\n\n<h2>What to include in your WhatsApp business description</h2>\n<ol>\n<li><strong>What you do</strong>, in plain words. \"Dental clinic\", not \"smile solutions\".</li>\n<li><strong>Who you serve</strong>, such as families, small businesses or students.</li>\n<li><strong>Where</strong>, such as your city, area or \"delivery across India\".</li>\n<li><strong>What makes you different</strong>: years in business, certifications or a key promise.</li>\n<li><strong>What customers can do on WhatsApp</strong>, for example \"Message us to book, order or ask anything\".</li>\n<li><strong>Hours</strong>, if you do not fill in the hours field.</li>\n</ol>\n<p>Use words customers would search for. WhatsApp's business search and directories pick up names and categories, and clear wording also helps people recognise you.</p>\n\n<h2>Examples by business type</h2>\n<h3>Clothing store</h3>\n<p><em>\"Handloom sarees and kurtas from Bengal weavers. Free delivery across India on orders over ₹1,499. Browse our catalog, ask for sizes or order right here on WhatsApp. Open 10 am to 8 pm, Monday to Saturday.\"</em></p>\n<h3>Clinic</h3>\n<p><em>\"Family dental clinic in Ranchi since 2012. Check-ups, cleaning, fillings, braces and implants. Message us to book an appointment or ask about fees. For emergencies, call the number on our profile.\"</em></p>\n<h3>Marketing agency</h3>\n<p><em>\"Digital marketing agency for small businesses in India. SEO, websites and WhatsApp automation. Send us a message for a free 15-minute consultation. Replies within one working hour.\"</em></p>\n<h3>Restaurant</h3>\n<p><em>\"North Indian and Mughlai kitchen in Salt Lake, Kolkata. Order for delivery or takeaway on WhatsApp, or reserve a table. Open daily 12 to 11 pm.\"</em></p>\n\n<h2>Other profile fields to fill in</h2>\n<ul>\n<li><strong>Display name</strong>: your real brand name, which Meta reviews on the API.</li>\n<li><strong>Profile photo</strong>: a clear logo that reads well as a small circle.</li>\n<li><strong>About</strong>: one short line, such as \"Open now: replies within 10 minutes\".</li>\n<li><strong>Category</strong>: the closest match to your business.</li>\n<li><strong>Address and map</strong>: for local businesses.</li>\n<li><strong>Websites</strong>: up to two links, such as your site and your booking page.</li>\n<li><strong>Email</strong>: for customers who prefer it.</li>\n</ul>\n<p>Keep your address and hours consistent with your Google listing. Our <a href=\"/google-my-business/\">Google Business Profile</a> service covers that side.</p>\n\n<h2>Mistakes to avoid</h2>\n<p>First, avoid vague slogans that do not say what you sell. Next, do not stuff keywords or repeat your name. Then remove old offers once they expire. Finally, never put phone numbers of individual staff in the description, because they change.</p>\n\n<h2>Keep it current</h2>\n<p>Update your WhatsApp business description whenever hours, services or locations change, and review it every quarter. If you are moving to the API, we set up the full business profile as part of our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>. For the wider choice between app and API, see <a href=\"/whatsapp-business-app-vs-api/\">WhatsApp Business App vs API</a>, and for using the profile in campaigns, read our <a href=\"/whatsapp-marketing-guide/\">WhatsApp marketing guide</a>.</p>\n<h2>Frequently asked questions</h2><h3>How long can a WhatsApp business description be?</h3><p>The description field allows up to 512 characters. The short About line is much shorter, so keep it to one line.</p><h3>Can I add links to the description?</h3><p>Add your website in the website field instead. Up to two websites can be listed on the profile.</p><h3>How often should I update it?</h3><p>Update it when your hours, services or offers change, and check it at least once a quarter.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Business Description: Examples | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-business-description/#article",
+            "headline": "WhatsApp Business Description: Examples",
+            "description": "How to write a WhatsApp business description: what to include, character limits, keywords and examples for shops, clinics, agencies and service firms.",
+            "url": "https://openinkhub.io/whatsapp-business-description/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-business-description/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Business Description",
+                "item": "https://openinkhub.io/whatsapp-business-description/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-business-description/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "How to write a WhatsApp business description: what to include, character limits, keywords and examples for shops, clinics, agencies and service firms."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Business Description: Examples"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "How to write a WhatsApp business description: what to include, character limits, keywords and examples for shops, clinics, agencies and service firms."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-business-description/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

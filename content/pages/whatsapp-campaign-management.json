@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-campaign-management/",
+  "path": "/whatsapp-campaign-management/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Campaign Management",
+  "card_text": "Plan, schedule and compare WhatsApp campaigns in one place.",
+  "n": "05",
+  "title": "WhatsApp Campaign Management Guide",
+  "h1": "WhatsApp campaign management: planning, scheduling and measuring campaigns",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "WhatsApp campaign management from brief to results: goals, audiences, templates, schedules, A/B tests and the reports that show what worked.",
+  "keyphrase_override": "whatsapp campaign management",
+  "keyphrase_secondary_override": [
+    "whatsapp marketing campaigns",
+    "whatsapp campaign planning",
+    "whatsapp a/b testing"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "How often should I run WhatsApp campaigns?",
+      "a": "<p>Most brands do well with one to four marketing messages a month per customer. Watch block rates and your quality rating, and slow down if either moves the wrong way.</p>"
+    },
+    {
+      "q": "Can I schedule campaigns in advance?",
+      "a": "<p>Yes. Campaigns can be scheduled for a set date and time, and staggered so replies arrive at a pace your team can handle.</p>"
+    },
+    {
+      "q": "What should I measure first?",
+      "a": "<p>Start with delivered, read and replied rates, then track clicks, orders or bookings per campaign. Cost per result tells you which campaigns to repeat.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp campaign management: planning, scheduling and measuring campaigns</h1>\n<p>WhatsApp campaign management is the work of planning, sending and measuring a series of WhatsApp messages toward one business goal. A campaign is more than a single broadcast. It has a target audience, a message plan, a schedule, a way to handle replies and a clear measure of success. Managing campaigns in one place stops teams from over-messaging customers and shows which campaigns actually pay off.</p>\n\n<h2>What campaign management covers</h2>\n<ul>\n<li><strong>Goal and offer</strong>: what you want people to do.</li>\n<li><strong>Audience</strong>: which segment receives which message.</li>\n<li><strong>Templates</strong>: approved messages for each step.</li>\n<li><strong>Schedule</strong>: dates, send times and pacing.</li>\n<li><strong>Reply handling</strong>: the bot flow or agents who answer.</li>\n<li><strong>Reporting</strong>: results per campaign, segment and template.</li>\n</ul>\n\n<h2>Setting a campaign goal</h2>\n<p>Start with one goal you can count. For example, \"200 test-drive bookings this month\", \"recover 15% of abandoned carts\" or \"fill a webinar with 300 registrations\". A clear goal decides everything else. It tells you which audience to pick, which button to add and which number to watch. On the other hand, a vague goal such as \"brand awareness\" makes it hard to judge success.</p>\n\n<h2>Building the campaign calendar</h2>\n<p>WhatsApp is a personal channel, so frequency matters. Plan campaigns on a shared calendar and cap how many marketing messages each customer gets per month. For most brands, one to four is enough. Also leave space for utility messages such as order updates, which customers expect. Then schedule sends for times your audience is active. Evenings and weekend mornings often work well for consumers, while weekday mornings suit B2B.</p>\n<p>Finally, stagger large sends. If 20,000 people receive a message at once, replies arrive at once too. Sending in batches keeps response times short.</p>\n\n<h2>Testing messages</h2>\n<p>Small tests save money. Before a full send, split a sample into two groups and change one thing:</p>\n<ol>\n<li>the opening line,</li>\n<li>the image or video header,</li>\n<li>the button text,</li>\n<li>or the offer itself.</li>\n</ol>\n<p>Next, send the winner to the rest of the segment. Over time, these tests build a clear picture of what your customers respond to. Keep the winning versions in your <a href=\"/whatsapp-template-library/\">template library</a> for reuse.</p>\n\n<h2>Handling replies</h2>\n<p>A campaign that works creates conversations. So decide in advance who answers them. A <a href=\"/whatsapp-chatbot-flow-builder/\">chatbot flow</a> can handle common replies such as \"price?\" or \"book now\", while agents take the rest in a shared inbox. Without this step, good campaigns can produce slow replies and lost sales.</p>\n\n<h2>Reporting on results</h2>\n<p>Good WhatsApp campaign management reports each campaign on a single line: audience size, delivered, read, replied, clicked, converted and cost. Then add cost per result, such as cost per booking or per order. This makes campaigns easy to compare. For instance, a small segmented send with a 12% reply rate may beat a big generic send with a 2% rate, even at a higher cost per message. See <a href=\"/whatsapp-analytics/\">WhatsApp analytics</a> for the metrics behind these reports.</p>\n\n<h2>Campaigns that run themselves</h2>\n<p>Some campaigns are better as automations. Cart reminders, win-back messages and renewal nudges can run every day based on triggers. Our <a href=\"/whatsapp-retargeting/\">WhatsApp retargeting</a> guide covers these. In short, one-off campaigns drive spikes, while automated ones bring steady results.</p>\n\n<h2>How we handle WhatsApp campaign management</h2>\n<p>Through our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp automation service</a>, we plan the calendar with you, write and submit templates, build segments, set up reply handling and report results every month. As a result, your team sees one clear view of every campaign.</p>\n<h2>Frequently asked questions</h2><h3>How often should I run WhatsApp campaigns?</h3><p>Most brands do well with one to four marketing messages a month per customer. Watch block rates and your quality rating, and slow down if either moves the wrong way.</p><h3>Can I schedule campaigns in advance?</h3><p>Yes. Campaigns can be scheduled for a set date and time, and staggered so replies arrive at a pace your team can handle.</p><h3>What should I measure first?</h3><p>Start with delivered, read and replied rates, then track clicks, orders or bookings per campaign. Cost per result tells you which campaigns to repeat.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Campaign Management Guide | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-campaign-management/#article",
+            "headline": "WhatsApp Campaign Management Guide",
+            "description": "WhatsApp campaign management from brief to results: goals, audiences, templates, schedules, A/B tests and the reports that show what worked.",
+            "url": "https://openinkhub.io/whatsapp-campaign-management/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-campaign-management/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Campaign Management",
+                "item": "https://openinkhub.io/whatsapp-campaign-management/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-campaign-management/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "WhatsApp campaign management from brief to results: goals, audiences, templates, schedules, A/B tests and the reports that show what worked."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Campaign Management Guide"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "WhatsApp campaign management from brief to results: goals, audiences, templates, schedules, A/B tests and the reports that show what worked."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-campaign-management/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

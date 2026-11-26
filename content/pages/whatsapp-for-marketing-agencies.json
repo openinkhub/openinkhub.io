@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-for-marketing-agencies/",
+  "path": "/whatsapp-for-marketing-agencies/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Marketing Agencies",
+  "card_text": "Run WhatsApp for clients: campaigns, reports and white-label work.",
+  "n": "10",
+  "title": "WhatsApp for Marketing Agencies",
+  "h1": "WhatsApp for marketing agencies: running WhatsApp for clients",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "How marketing agencies can offer WhatsApp to clients: account setup, click-to-WhatsApp ads, campaigns, chatbots, reporting and pricing the service.",
+  "keyphrase_override": "whatsapp for marketing agencies",
+  "keyphrase_secondary_override": [
+    "whatsapp services for agencies",
+    "click to whatsapp ads for clients",
+    "whatsapp reseller"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Who should own the WhatsApp account, the agency or the client?",
+      "a": "<p>The client. Their business portfolio should own the number and templates, and the agency should get partner access.</p>"
+    },
+    {
+      "q": "Can agencies run click-to-WhatsApp ads for clients?",
+      "a": "<p>Yes. The ads run from the client's ad account and open a chat with the client's WhatsApp number.</p>"
+    },
+    {
+      "q": "How should agencies charge for WhatsApp?",
+      "a": "<p>Most charge a setup fee and a monthly retainer, and pass Meta's message charges through at cost.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp for marketing agencies: running WhatsApp for clients</h1>\n<p>WhatsApp for marketing agencies is a service line, not just a channel. Clients now ask agencies to run WhatsApp campaigns, click-to-WhatsApp ads and chatbots alongside SEO and social media. Agencies that can set up the official API, write templates, build bots and report on revenue can add steady retainer income. However, they also need to get account ownership, consent and pricing right from the start.</p>\n\n<h2>Why clients ask agencies for WhatsApp</h2>\n<p>Business owners see competitors replying to leads on WhatsApp within seconds and sending offers that get read. They want the same, but they do not know where to start. So they turn to the agency that already runs their ads or website. In addition, click-to-WhatsApp ads often produce cheaper conversations than landing-page leads, which makes WhatsApp a natural add-on to paid media work.</p>\n\n<h2>Account ownership: get this right first</h2>\n<p>The client should own the WhatsApp Business Account, the phone number and the templates, inside their own Meta business portfolio. The agency gets partner access. This protects both sides. If the relationship ends, the client keeps their number and audience. Meanwhile, the agency avoids holding sensitive customer data it does not need. Our <a href=\"/whatsapp-business-manager/\">WhatsApp Business Manager</a> walkthrough shows how partner access works.</p>\n\n<h2>Services an agency can offer</h2>\n<ul>\n<li><strong>Setup:</strong> business verification, number registration, display name and profile.</li>\n<li><strong>Click-to-WhatsApp ads:</strong> ads that open a chat, with a welcome flow.</li>\n<li><strong>Chatbots:</strong> lead capture, FAQs, booking and qualification.</li>\n<li><strong>Campaigns:</strong> template writing, segmentation, scheduling and testing.</li>\n<li><strong>Automation:</strong> cart recovery, follow-ups and reminders.</li>\n<li><strong>Reporting:</strong> monthly results tied to leads and revenue.</li>\n</ul>\n<p>Each of these maps to a module described in our feature guides, such as <a href=\"/whatsapp-campaign-management/\">campaign management</a> and <a href=\"/whatsapp-retargeting/\">retargeting</a>.</p>\n\n<h2>Managing many client accounts</h2>\n<p>Agencies need a clean way to switch between clients. Use one platform with separate workspaces, so templates, contacts and reports never mix. Also keep a shared playbook: standard welcome flows, naming rules for templates and a consent checklist. Then each new client starts faster.</p>\n\n<h2>Reporting results to clients</h2>\n<p>Clients renew when they see results in money terms. So report beyond delivered and read. Show conversations started, leads qualified, bookings or orders, revenue linked to WhatsApp and the cost per result. Compare month on month. For tracking methods, see our <a href=\"/whatsapp-analytics/\">WhatsApp analytics</a> guide.</p>\n\n<h2>Pricing the work</h2>\n<p>Most agencies charge a one-time setup fee for verification, number setup and the first chatbot. Then they charge a monthly retainer for campaigns, bot updates and reporting. Meta's message charges are usually passed through at cost or billed directly to the client's card. Keep these separate on the invoice, so the client sees exactly what they pay Meta and what they pay you.</p>\n\n<h2>Consent and compliance for agencies</h2>\n<p>An agency's reputation suffers if a client's number is banned. Therefore, refuse to send to bought lists, insist on opt-in records and keep templates within WhatsApp's policies. Our guide to <a href=\"/how-to-unban-a-whatsapp-number/\">unbanning a WhatsApp number</a> explains what goes wrong when these rules are ignored.</p>\n\n<h2>Working with Openink Hub</h2>\n<p>Agencies that prefer not to build WhatsApp skills in-house can partner with us. We handle the technical setup, bots and automation under our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>, while the agency keeps the client relationship and strategy. That way, WhatsApp for marketing agencies becomes a service you can sell from day one.</p>\n<h2>Frequently asked questions</h2><h3>Who should own the WhatsApp account, the agency or the client?</h3><p>The client. Their business portfolio should own the number and templates, and the agency should get partner access.</p><h3>Can agencies run click-to-WhatsApp ads for clients?</h3><p>Yes. The ads run from the client's ad account and open a chat with the client's WhatsApp number.</p><h3>How should agencies charge for WhatsApp?</h3><p>Most charge a setup fee and a monthly retainer, and pass Meta's message charges through at cost.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp for Marketing Agencies | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-for-marketing-agencies/#article",
+            "headline": "WhatsApp for Marketing Agencies",
+            "description": "How marketing agencies can offer WhatsApp to clients: account setup, click-to-WhatsApp ads, campaigns, chatbots, reporting and pricing the service.",
+            "url": "https://openinkhub.io/whatsapp-for-marketing-agencies/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-for-marketing-agencies/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Marketing Agencies",
+                "item": "https://openinkhub.io/whatsapp-for-marketing-agencies/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-for-marketing-agencies/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "How marketing agencies can offer WhatsApp to clients: account setup, click-to-WhatsApp ads, campaigns, chatbots, reporting and pricing the service."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp for Marketing Agencies"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "How marketing agencies can offer WhatsApp to clients: account setup, click-to-WhatsApp ads, campaigns, chatbots, reporting and pricing the service."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-for-marketing-agencies/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

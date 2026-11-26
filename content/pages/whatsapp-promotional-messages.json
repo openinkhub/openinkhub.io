@@ -1,0 +1,150 @@
+{
+  "url": "https://openinkhub.io/whatsapp-promotional-messages/",
+  "path": "/whatsapp-promotional-messages/",
+  "status": 200,
+  "type": "guide",
+  "guide": true,
+  "draft": false,
+  "status_published": true,
+  "hub": "/whatsapp-ai-chatbot/",
+  "whatsapp_guide": true,
+  "card_title": "Promotional Messages",
+  "card_text": "How to write and send WhatsApp promotions that people read.",
+  "n": "04",
+  "title": "WhatsApp Promotional Messages: Rules & Tips",
+  "h1": "WhatsApp promotional messages: rules, examples and timing",
+  "date": "2026-11-26T14:17:10",
+  "modified": "2026-11-26T14:17:10",
+  "author": "Hiten Neotia",
+  "excerpt": "How to send WhatsApp promotional messages that people read: opt-in, marketing templates, offer formats, timing, frequency and examples you can adapt.",
+  "keyphrase_override": "whatsapp promotional messages",
+  "keyphrase_secondary_override": [
+    "whatsapp promotion message",
+    "whatsapp offer message",
+    "marketing templates"
+  ],
+  "categories": [
+    {
+      "name": "WhatsApp Automation",
+      "path": "/category/whatsapp-automation/"
+    }
+  ],
+  "tags": [],
+  "faqs": [
+    {
+      "q": "Can I send promotional messages on WhatsApp?",
+      "a": "<p>Yes, to customers who opted in, using approved marketing templates on the API.</p>"
+    },
+    {
+      "q": "Why are some promotions not delivered?",
+      "a": "<p>Meta limits how many marketing messages one person receives from businesses, to protect users. Messages above that limit may not be delivered.</p>"
+    },
+    {
+      "q": "How many promotions per month is too many?",
+      "a": "<p>Watch blocks and opt-outs. If they rise, cut back. Many brands stay between two and four a month.</p>"
+    }
+  ],
+  "featured_image": null,
+  "content_html": "<h1>WhatsApp promotional messages: rules, examples and timing</h1>\n<p>WhatsApp promotional messages are offers, launches and sale alerts that a business sends to customers who agreed to receive them. On the WhatsApp Business API, they go out as approved marketing templates. Because they land in a personal inbox, they get noticed. That also means they need care: the wrong message at the wrong time leads to blocks, which lower your quality rating.</p>\n\n<h2>What counts as a promotional message</h2>\n<p>Meta classes any message that aims to sell, promote or re-engage as marketing. That includes:</p>\n<ul>\n<li>discounts, coupons and sale announcements;</li>\n<li>new product launches and back-in-stock alerts;</li>\n<li>cart reminders and win-back messages;</li>\n<li>event and webinar invitations;</li>\n<li>newsletters and content updates.</li>\n</ul>\n<p>By contrast, order confirmations, booking reminders and payment receipts are utility messages. If you add an offer to a utility message, it becomes marketing. So keep the two apart.</p>\n\n<h2>Rules for WhatsApp promotional messages</h2>\n<ol>\n<li><strong>Opt-in first.</strong> Only send to people who agreed to hear offers from you on WhatsApp.</li>\n<li><strong>Use approved templates.</strong> Outside the 24-hour window, every promotion needs a marketing template.</li>\n<li><strong>Offer an opt-out.</strong> Add a \"Stop offers\" button or a clear reply keyword.</li>\n<li><strong>Stay within policy.</strong> WhatsApp's commerce policy bans some products entirely.</li>\n<li><strong>Respect limits.</strong> Meta caps how many marketing messages one person gets from businesses, so some sends may not be delivered.</li>\n</ol>\n\n<h2>Formats that work</h2>\n<h3>Image offer</h3>\n<p>A product photo header, a two-line message and a \"Shop now\" button. Best for fashion, food and consumer goods.</p>\n<h3>Coupon code</h3>\n<p>A short message with a copy-code button, so the customer can paste it at checkout.</p>\n<h3>Product carousel</h3>\n<p>Several products in one message, each with its own button. Useful for \"top picks\" or \"new this week\".</p>\n<h3>Video teaser</h3>\n<p>A short clip for launches, recipes or how-to content.</p>\n<p>For more on template parts, see our <a href=\"/whatsapp-template-library/\">template library guide</a>.</p>\n\n<h2>Timing and frequency</h2>\n<p>Send when your customers are relaxed and on their phones. For many consumer brands, that is early evening or weekend mornings. For B2B, weekday mornings work better. As for frequency, two to four promotions a month is a sensible ceiling for most brands. Then watch blocks and opt-outs. If they rise, cut back or segment more tightly. Our <a href=\"/whatsapp-campaign-management/\">campaign management guide</a> explains how to plan a calendar.</p>\n\n<h2>Examples you can adapt</h2>\n<ul>\n<li><em>\"Hi {{1}}, our Diwali sale starts tomorrow at 10 am. Members get early access tonight. Tap below to shop first.\"</em></li>\n<li><em>\"Good news, {{1}}! The {{2}} you wanted is back in stock in size {{3}}. Only a few left.\"</em></li>\n<li><em>\"Hi {{1}}, it has been a while! Here is 15% off your next order, valid till Sunday: {{2}}.\"</em></li>\n</ul>\n<p>Each example names the customer, gives one reason to act and ends with one action. More samples are in our <a href=\"/whatsapp-message-template-examples/\">template examples</a> page.</p>\n\n<h2>Measuring promotions</h2>\n<p>For each promotion, track delivered, read, clicked, ordered and blocked. Then calculate revenue per message sent. Compare segments, because a promotion that works for repeat buyers may annoy new subscribers. See <a href=\"/whatsapp-analytics/\">WhatsApp analytics</a> for the full list.</p>\n\n<h2>Promotions and the rest of your messages</h2>\n<p>Promotions work best when customers also get useful service messages from you. For example, a shopper who receives clear order updates is more likely to welcome your next offer. So balance each month: helpful updates first, then a small number of well-targeted promotions. In addition, reply quickly when a promotion starts a conversation, because a slow reply wastes the interest you just created.</p>\n\n<h2>Getting help</h2>\n<p>We write, submit and schedule WhatsApp promotional messages, build segments and report results as part of our <a href=\"/whatsapp-ai-chatbot/\">WhatsApp AI chatbot and automation service</a>.</p>\n<h2>Frequently asked questions</h2><h3>Can I send promotional messages on WhatsApp?</h3><p>Yes, to customers who opted in, using approved marketing templates on the API.</p><h3>Why are some promotions not delivered?</h3><p>Meta limits how many marketing messages one person receives from businesses, to protect users. Messages above that limit may not be delivered.</p><h3>How many promotions per month is too many?</h3><p>Watch blocks and opt-outs. If they rise, cut back. Many brands stay between two and four a month.</p>",
+  "content_source": "articles",
+  "head": {
+    "title": "WhatsApp Promotional Messages: Rules & Tips | openink Hub",
+    "lang": "en-US",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Article",
+            "@id": "https://openinkhub.io/whatsapp-promotional-messages/#article",
+            "headline": "WhatsApp Promotional Messages: Rules & Tips",
+            "description": "How to send WhatsApp promotional messages that people read: opt-in, marketing templates, offer formats, timing, frequency and examples you can adapt.",
+            "url": "https://openinkhub.io/whatsapp-promotional-messages/",
+            "datePublished": "2026-11-26T14:17:10+05:30",
+            "dateModified": "2026-11-26T14:17:10+05:30",
+            "author": {
+              "@type": "Person",
+              "name": "Hiten Neotia"
+            },
+            "publisher": {
+              "@id": "https://openinkhub.io/#organization"
+            },
+            "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://openinkhub.io/whatsapp-promotional-messages/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://openinkhub.io/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "WhatsApp AI Chatbot",
+                "item": "https://openinkhub.io/whatsapp-ai-chatbot/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Promotional Messages",
+                "item": "https://openinkhub.io/whatsapp-promotional-messages/"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      {
+        "rel": "canonical",
+        "href": "https://openinkhub.io/whatsapp-promotional-messages/"
+      }
+    ],
+    "meta": [
+      {
+        "attr": "name",
+        "key": "robots",
+        "content": "index, follow, max-image-preview:large"
+      },
+      {
+        "attr": "name",
+        "key": "description",
+        "content": "How to send WhatsApp promotional messages that people read: opt-in, marketing templates, offer formats, timing, frequency and examples you can adapt."
+      },
+      {
+        "attr": "property",
+        "key": "og:title",
+        "content": "WhatsApp Promotional Messages: Rules & Tips"
+      },
+      {
+        "attr": "property",
+        "key": "og:description",
+        "content": "How to send WhatsApp promotional messages that people read: opt-in, marketing templates, offer formats, timing, frequency and examples you can adapt."
+      },
+      {
+        "attr": "property",
+        "key": "og:type",
+        "content": "article"
+      },
+      {
+        "attr": "property",
+        "key": "og:url",
+        "content": "https://openinkhub.io/whatsapp-promotional-messages/"
+      },
+      {
+        "attr": "property",
+        "key": "og:image",
+        "content": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp"
+      },
+      {
+        "attr": "name",
+        "key": "twitter:card",
+        "content": "summary_large_image"
+      }
+    ]
+  }
+}

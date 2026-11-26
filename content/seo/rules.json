@@ -62,6 +62,16 @@
       }
     },
     {
+      "id": "whatsapp",
+      "label": "WhatsApp guides",
+      "match": {
+        "type": [
+          "guide"
+        ],
+        "has": "whatsapp_guide"
+      }
+    },
+    {
       "id": "guides",
       "label": "Website development guides",
       "match": {
@@ -424,6 +434,16 @@
       "ecommerce",
       "CMS",
       "Core Web Vitals"
+    ],
+    "whatsapp": [
+      "Openink Hub",
+      "WhatsApp",
+      "Meta",
+      "India",
+      "API",
+      "chatbot",
+      "CRM",
+      "template"
     ]
   },
   "legal": {
