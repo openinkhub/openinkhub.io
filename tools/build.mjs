@@ -299,7 +299,6 @@ function footer() {
     <p>Talk to the Openink Hub team about SEO, AEO, GEO, AIO and automation for your business.</p></div>
     <div class="cta-actions">
       <a class="btn btn-light" href="${E(c.demo_url)}" target="_blank" rel="noopener">Schedule a Free Demo</a>
-      <a class="btn btn-outline-light" href="${E(c.whatsapp)}" target="_blank" rel="noopener">${icon("wa")}WhatsApp us</a>
     </div>
   </div>
 </section>
@@ -629,7 +628,7 @@ function contactTpl(rec) {
   <div class="field"><label for="cf-phone">Phone or WhatsApp</label><input id="cf-phone" name="phone" type="tel" autocomplete="tel"></div>
   <div class="field"><label for="cf-service">What do you need help with?</label><select id="cf-service" name="service">${f.services.map((s) => `<option>${E(s)}</option>`).join("")}</select></div>
   <div class="field"><label for="cf-msg">Your goal or question</label><textarea id="cf-msg" name="message" rows="4" required></textarea></div>
-  <div class="form-actions"><button type="button" class="btn btn-primary" data-send="wa">Send on WhatsApp${icon("arrow")}</button><button type="button" class="btn btn-ghost" data-send="mail">Send by email</button></div>
+  <div class="form-actions"><button type="button" class="btn btn-primary" data-send="mail">Send by email${icon("arrow")}</button></div>
   <p class="form-alt">Or send with: <button type="button" class="link-btn" data-send="gmail">Gmail</button> · <button type="button" class="link-btn" data-send="outlook">Outlook</button> · <button type="button" class="link-btn" data-send="mailapp">Default email app</button> · <button type="button" class="link-btn" data-send="copymsg">Copy message</button> <span class="form-copied" role="status" aria-live="polite"></span></p>
   <p class="form-alt">Using Zoho Mail, Hostinger or another webmail? Click <strong>Copy message</strong>, then paste it into a new email to <a href="mailto:info@openinkhub.io">info@openinkhub.io</a>.</p>
   <p class="form-note">${T(f.note)}</p>
@@ -646,8 +645,7 @@ var gmail="https://mail.google.com/mail/?view=cm&fs=1&to="+encodeURIComponent(TO
 var outlook="https://outlook.live.com/mail/0/deeplink/compose?to="+encodeURIComponent(TO)+"&subject="+encodeURIComponent(su)+"&body="+encodeURIComponent(t);
 var web=function(u){var g=window.open(u,"_blank","noopener");if(!g)location.href=u};
 var k=b.dataset.send;
-if(k==="wa")window.open("https://wa.me/919204135136?text="+encodeURIComponent(t),"_blank","noopener");
-else if(k==="copymsg"){var all="To: "+TO+"\\nSubject: "+su+"\\n\\n"+t,st=f.querySelector(".form-copied");var ok=function(){st.textContent="Copied. Paste it into a new email to "+TO+"."};if(navigator.clipboard)navigator.clipboard.writeText(all).then(ok,function(){prompt("Copy this message:",all)});else prompt("Copy this message:",all)}
+if(k==="copymsg"){var all="To: "+TO+"\\nSubject: "+su+"\\n\\n"+t,st=f.querySelector(".form-copied");var ok=function(){st.textContent="Copied. Paste it into a new email to "+TO+"."};if(navigator.clipboard)navigator.clipboard.writeText(all).then(ok,function(){prompt("Copy this message:",all)});else prompt("Copy this message:",all)}
 else if(k==="gmail")web(gmail);
 else if(k==="outlook")web(outlook);
 else if(k==="mailapp"||mobile)location.href=mailto;
@@ -960,7 +958,7 @@ function hubGrids(html) {
 
 function contactCards() {
   const c = CFG.contact;
-  const cards = [["phone", "Call us", c.phone, `tel:${c.phone_raw}`], ["wa", "WhatsApp", "Chat instantly", c.whatsapp],
+  const cards = [["phone", "Call us", c.phone, `tel:${c.phone_raw}`],
     ["mail", "Email", c.email, `mailto:${c.email}`], ["map", "Visit", c.address, c.map_url || "#"]];
   return '<section class="section section-tight"><div class="wrap contact-grid">' + cards.map(([i, t, v, h]) =>
     `<a class="contact-card" href="${E(h)}"${h.startsWith("http") ? " target=_blank rel=noopener" : ""}>` +

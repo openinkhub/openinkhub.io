@@ -34,7 +34,7 @@
   "channels": {
     "eyebrow": "How to contact us",
     "h2": "Reach us however works best for you",
-    "intro": "Pick whichever channel is fastest for you: email, a direct WhatsApp message, or a slot booked straight onto our calendar. Also, every channel reaches the same team, usually within one business day.",
+    "intro": "Pick whichever channel is fastest for you: email, a phone call, or a slot booked straight onto our calendar. Also, every channel reaches the same team, usually within one business day.",
     "cards": [
       {
         "icon": "mail",
@@ -46,13 +46,13 @@
         "href": "mailto:info@openinkhub.io"
       },
       {
-        "icon": "wa",
-        "label": "Call or WhatsApp",
-        "title": "Message us instantly",
+        "icon": "phone",
+        "label": "Call us",
+        "title": "Talk to us directly",
         "value": "+91 9204135136",
         "text": "Fastest for quick questions or urgent onboarding requests.",
-        "cta": "Chat on WhatsApp",
-        "href": "https://wa.me/919204135136"
+        "cta": "Call now",
+        "href": "tel:+919204135136"
       },
       {
         "icon": "calendar",
@@ -164,7 +164,7 @@
     "eyebrow": "Send us a message",
     "h2": "Get a response within one business day",
     "intro": "Share a few details and we'll come back with next steps for your business.",
-    "note": "Your message opens in WhatsApp or Gmail (or your phone's email app), ready to send. Nothing is stored on this website.",
+    "note": "Your message opens in Gmail or your phone's email app, ready to send. Nothing is stored on this website.",
     "services": [
       "SEO and workflow automation",
       "AEO / GEO / AIO",
@@ -187,9 +187,9 @@
         "mailto:info@openinkhub.io"
       ],
       [
-        "Call / WhatsApp",
+        "Call",
         "+91 9204135136",
-        "https://wa.me/919204135136"
+        "tel:+919204135136"
       ],
       [
         "Office",
