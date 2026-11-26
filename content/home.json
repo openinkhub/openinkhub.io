@@ -341,14 +341,15 @@
         ],
         "text": "Product website for an electric vehicle maker: golf carts, e-rickshaws, e-buses and e-trucks. SEO brings in campus, resort and factory buyers, and every page ends in an enquiry.",
         "pagespeed": {
-          "performance": 97,
+          "performance": 98,
           "accessibility": 100,
           "best_practices": 100,
           "seo": 100,
           "pa": 33,
           "rd": 162
         },
-        "pagespeed_report": "https://pagespeed.web.dev/analysis/https-skyyriderelectric-com/2r2z4lqzjrdga5k4soeagz?hl=en&form_factor=mobile"
+        "pagespeed_report": "https://pagespeed.web.dev/analysis/https-skyyriderelectric-com/nv61z7be32gxv1ngjrk86x?hl=en&form_factor=mobile",
+        "pagespeed_tested": "2026-11-26T19:04:00+05:30"
       },
       {
         "name": "Makeup By Rekha",
@@ -362,14 +363,15 @@
         ],
         "text": "Booking-focused website for a Bangalore bridal makeup artist, with HD, airbrush, academy and portfolio pages. Local SEO helps nearby brides find her and book a trial.",
         "pagespeed": {
-          "performance": 94,
+          "performance": 98,
           "accessibility": 100,
           "best_practices": 100,
           "seo": 100,
           "pa": 39,
           "rd": 386
         },
-        "pagespeed_report": "https://pagespeed.web.dev/analysis/https-rekhakrishnamurthy-com/mc7hn9sxaq?hl=en&form_factor=mobile"
+        "pagespeed_report": "https://pagespeed.web.dev/analysis/https-rekhakrishnamurthy-com/9vvu12wfse4r1d3m9f9kte?hl=en&form_factor=mobile",
+        "pagespeed_tested": "2026-11-26T18:52:00+05:30"
       },
       {
         "name": "eTrialTrack",
@@ -383,14 +385,15 @@
         ],
         "text": "Website for an eClinical platform: EDC, eConsent, ePRO, RTSM and telehealth, each with a clear product page. Answer-first copy and schema help buyers and AI tools.",
         "pagespeed": {
-          "performance": 92,
-          "accessibility": 97,
+          "performance": 96,
+          "accessibility": 100,
           "best_practices": 100,
           "seo": 100,
           "pa": 35,
           "rd": 210
         },
-        "pagespeed_report": "https://pagespeed.web.dev/analysis/https-etrialtrack-in/94f8cb729bmf5rxs14y5kg?hl=en&form_factor=mobile"
+        "pagespeed_report": "https://pagespeed.web.dev/analysis/https-etrialtrack-in/thg5gblb2hs5r9h1dz7v4m?hl=en&form_factor=mobile",
+        "pagespeed_tested": "2026-11-26T18:50:00+05:30"
       }
     ],
     "cta": {

@@ -985,7 +985,11 @@ function workSection(W, items) {
         const arc = k === "rd" ? "" : `<circle class="kpi-arc" cx="28" cy="28" r="24" stroke-dasharray="${(C * Math.min(v, 100) / 100).toFixed(1)} ${C.toFixed(1)}" transform="rotate(-90 28 28)"/>`;
         return `<div class="kpi ${cls}"><svg viewBox="0 0 56 56" aria-hidden="true"><circle class="kpi-bg" cx="28" cy="28" r="24"/>${arc}<text x="28" y="33" text-anchor="middle">${v}</text></svg><span>${l}</span></div>`;
       };
-      return `<div class="work-kpis kpi-n${kpis.length}" role="img" aria-label="${E(w.name)}: ${kpis.map(([k, l]) => `${l} ${w.pagespeed[k]}`).join(", ")}">${kpis.map(([k, l]) => ring(k, l, w.pagespeed[k])).join("")}</div>`;
+      // when the PageSpeed run was captured (ISO time with offset, shown in that local time) and a link to the exact report
+      const t = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(w.pagespeed_tested || "");
+      const when = t ? `${+t[3]} ${["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"][+t[2] - 1]} ${t[1]}, ${(+t[4] % 12) || 12}:${t[5]} ${+t[4] < 12 ? "AM" : "PM"}${/\+05:30$/.test(w.pagespeed_tested) ? " IST" : ""}` : "";
+      const tested = when || w.pagespeed_report ? `<p class="work-tested">${when ? `PageSpeed mobile test: <time datetime="${E(w.pagespeed_tested)}">${when}</time>` : "PageSpeed mobile test"}${w.pagespeed_report ? ` · <a href="${E(w.pagespeed_report)}" target="_blank" rel="noopener nofollow">View report</a>` : ""}</p>` : "";
+      return `<div class="work-kpis kpi-n${kpis.length}" role="img" aria-label="${E(w.name)}: ${kpis.map(([k, l]) => `${l} ${w.pagespeed[k]}`).join(", ")}">${kpis.map(([k, l]) => ring(k, l, w.pagespeed[k])).join("")}</div>${tested}`;
     })() : ""}
     <a class="link-arrow" href="${E(w.url)}" target="_blank" rel="noopener">Visit ${E(w.url.replace(/^https?:\/\/(www\.)?|\/$/g, ""))}${icon("arrow")}</a></div>
   </article>`).join("")}</div>
