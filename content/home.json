@@ -341,13 +341,14 @@
         ],
         "text": "Product website for an electric vehicle maker: golf carts, e-rickshaws, e-buses and e-trucks. SEO brings in campus, resort and factory buyers, and every page ends in an enquiry.",
         "pagespeed": {
-          "performance": 79,
-          "accessibility": 91,
+          "performance": 97,
+          "accessibility": 100,
           "best_practices": 100,
           "seo": 100,
           "pa": 33,
           "rd": 162
-        }
+        },
+        "pagespeed_report": "https://pagespeed.web.dev/analysis/https-skyyriderelectric-com/2r2z4lqzjrdga5k4soeagz?hl=en&form_factor=mobile"
       },
       {
         "name": "Makeup By Rekha",
