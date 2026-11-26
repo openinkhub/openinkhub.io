@@ -46,11 +46,13 @@ for (const b of data.briefs.filter((x) => x.status === "published")) {
   const title = b.seo_title || b.title;
   const img = cover(b);
   const desc = b.description;
-  const rec = {
+  // keep hand-added categories and tags; keep `modified` unless the page actually changed
+  const cats = prev?.categories?.some((c) => c.path === BLOGS.path) ? prev.categories : [BLOGS, ...(prev?.categories || [])];
+  const build = (mod) => ({
     url, path: p, status: 200, type: "post", brief_id: b.id, brief_hub: b.hub, cluster: b.cluster,
-    title, h1: b.h1, date, modified: now, author: AUTHOR, excerpt: desc,
+    title, h1: b.h1, date, modified: mod, author: AUTHOR, excerpt: desc,
     keyphrase_override: kw, keyphrase_secondary_override: secondary,
-    categories: [BLOGS], tags: [], faqs, featured_image: img, content_source: "brief-posts",
+    categories: cats, tags: prev?.tags || [], faqs, featured_image: img, content_source: "brief-posts",
     content_html: `<h1>${E(b.h1)}</h1>\n<figure><img src="${img.src}" alt="${E(img.alt)}" width="${img.width}" height="${img.height}"></figure>\n` +
       fs.readFileSync(bodyFile, "utf8") +
       `<h2>Frequently asked questions</h2>${b.faqs.map(([q, a]) => `<h3>${E(q)}</h3><p>${E(a)}</p>`).join("")}`,
@@ -72,7 +74,7 @@ for (const b of data.briefs.filter((x) => x.status === "published")) {
       ],
       jsonld: [{ "@context": "https://schema.org", "@graph": [
         { "@type": "BlogPosting", "@id": `${url}#article`, headline: title, description: desc, url, image: IMAGE,
-          datePublished: date + "+05:30", dateModified: now + "+05:30", keywords: [kw, ...secondary].join(", "),
+          datePublished: date + "+05:30", dateModified: mod + "+05:30", keywords: [kw, ...secondary].join(", "),
           author: { "@type": "Person", name: AUTHOR }, publisher: { "@id": `${BASE}/#organization` },
           isPartOf: { "@id": `${BASE}${b.hub}#webpage` } },
         { "@type": "BreadcrumbList", "@id": `${url}#breadcrumb`, itemListElement: [
@@ -81,7 +83,9 @@ for (const b of data.briefs.filter((x) => x.status === "published")) {
           { "@type": "ListItem", position: 3, name: title, item: url }] },
       ] }],
     },
-  };
+  });
+  let rec = build(prev?.modified || now);
+  if (prev && JSON.stringify(rec) !== JSON.stringify(prev)) rec = build(now);
   fs.writeFileSync(target, JSON.stringify(rec, null, 2) + "\n");
   made++;
 }

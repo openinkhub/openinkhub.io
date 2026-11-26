@@ -9,7 +9,7 @@
   "title": "Web Design vs Web Development: Complete Comparison",
   "h1": "Website Design vs Website Development: Complete Comparison",
   "date": "2026-11-13T18:27:03",
-  "modified": "2026-11-26T14:42:08",
+  "modified": "2026-11-14T08:00:33",
   "author": "Hiten Neotia",
   "excerpt": "Web design vs web development explained: the difference in goals, skills, tools and cost, and how the two work together.",
   "keyphrase_override": "web design vs web development",
@@ -21,6 +21,10 @@
     "web development cost"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -130,7 +134,7 @@
             "url": "https://openinkhub.io/web-design-vs-web-development/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-13T18:27:03+05:30",
-            "dateModified": "2026-11-26T14:42:08+05:30",
+            "dateModified": "2026-11-14T08:00:33+05:30",
             "keywords": "web design vs web development, difference between web design and web development, web design skills, web development skills, web design cost, web development cost",
             "author": {
               "@type": "Person",

@@ -9,7 +9,7 @@
   "title": "How to Start an Ecommerce Website in India",
   "h1": "How to Start an Ecommerce Website in India",
   "date": "2026-11-13T18:41:49",
-  "modified": "2026-11-26T14:42:08",
+  "modified": "2026-11-14T08:00:33",
   "author": "Hiten Neotia",
   "excerpt": "How to start an ecommerce website in India: platform choice, GST, payment gateways, shipping, product pages, costs and launch tips.",
   "keyphrase_override": "start an ecommerce website in India",
@@ -22,6 +22,10 @@
     "GST ecommerce"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -131,7 +135,7 @@
             "url": "https://openinkhub.io/start-ecommerce-website-in-india/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-13T18:41:49+05:30",
-            "dateModified": "2026-11-26T14:42:08+05:30",
+            "dateModified": "2026-11-14T08:00:33+05:30",
             "keywords": "start an ecommerce website in India, ecommerce website development, how to start an online store in India, ecommerce website cost India, ecommerce platform India, payment gateway India, GST ecommerce",
             "author": {
               "@type": "Person",

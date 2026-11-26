@@ -9,7 +9,7 @@
   "title": "What Features Should a Professional Website Have in 2026?",
   "h1": "What Features Should a Professional Website Have in 2026?",
   "date": "2026-11-13T18:27:03",
-  "modified": "2026-11-26T14:42:08",
+  "modified": "2026-11-14T08:00:33",
   "author": "Hiten Neotia",
   "excerpt": "Professional website features for 2026: speed, mobile design, SEO, security, accessibility, CMS, analytics and clear contact paths.",
   "keyphrase_override": "professional website features",
@@ -21,6 +21,10 @@
     "website conversion features"
   ],
   "categories": [
+    {
+      "name": "Website Development",
+      "path": "/category/website-development/"
+    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -130,7 +134,7 @@
             "url": "https://openinkhub.io/professional-website-features/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-13T18:27:03+05:30",
-            "dateModified": "2026-11-26T14:42:08+05:30",
+            "dateModified": "2026-11-14T08:00:33+05:30",
             "keywords": "professional website features, business website features, website must-haves 2026, website accessibility features, website security features, website conversion features",
             "author": {
               "@type": "Person",
