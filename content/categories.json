@@ -2,7 +2,7 @@
   "_note": "Extra content for category pages, rendered by listingTpl in tools/build.mjs. FAQs live in each category record (content/pages/category__*.json) so FAQPage schema is built from the same questions.",
   "/category/best-seo-content-agency/": {
     "eyebrow": "Openink Hub blog",
-    "h1": "SEO Content Agency Blog: Guides That Help You Rank in 2026",
+    "h1": "SEO Content Agency Blog: Guides That Help You Rank in 2027",
     "lead": "Plain guides from our SEO content agency on SEO, AEO, GEO, websites and automation. Each one ends with steps you can take this week.",
     "quick": "The Openink Hub blog is the home for every guide we publish on SEO, AI search, website development, WhatsApp automation and business tools. Each article explains one problem in plain language and links to the Openink Hub service that solves it, from SEO and website builds to WhatsApp AI chatbots.",
     "ctas": [
@@ -196,7 +196,7 @@
   },
   "/category/seo-agency-by-city/": {
     "eyebrow": "Local SEO guides",
-    "h1": "SEO by City: Local SEO Guides for 100 Indian Cities in 2026",
+    "h1": "SEO by City: Local SEO Guides for 100 Indian Cities in 2027",
     "lead": "SEO by city, from Agartala to Vellore: one guide per city showing how local firms can win on Google Maps, in answer boxes and in AI answers.",
     "quick": "These local SEO guides explain how businesses in each Indian city can rank on Google Search and Maps. Each guide covers the local market, the searches buyers make and a sample plan, and our local SEO and Google Business Profile services put that plan into action.",
     "ctas": [
@@ -306,7 +306,7 @@
   },
   "/tag/seo/": {
     "eyebrow": "SEO guides",
-    "h1": "SEO Guides: How to Rank on Google and in AI Answers in 2026",
+    "h1": "SEO Guides: How to Rank on Google and in AI Answers in 2027",
     "lead": "Every SEO guide on our blog in one place. Start with the basics, then move on to local search and AI answers.",
     "quick": "These SEO guides explain how Google ranks pages and what to fix first: on-page SEO, links, Google Business Profile and AI search. When you want the work done for you, our SEO services cover audits, content, technical fixes and monthly reporting.",
     "ctas": [
@@ -474,7 +474,7 @@
   },
   "/tag/seo-course/": {
     "eyebrow": "Free SEO course",
-    "h1": "Free SEO Course: 5 Lessons From Basics to AI Search (2026)",
+    "h1": "Free SEO Course: 5 Lessons From Basics to AI Search (2027)",
     "lead": "This free SEO course turns five of our guides into lessons, in the order we suggest for beginners. Work through one lesson a day and you will know the core of SEO in a week.",
     "quick": "This free SEO course takes you from the basics to AI search in five short lessons, each a full guide with steps and an FAQ. It suits owners and marketers who want to learn SEO themselves, and our SEO services are there if you would rather hand the work over.",
     "ctas": [
@@ -579,7 +579,7 @@
   },
   "/tag/seo-tools/": {
     "eyebrow": "SEO tools",
-    "h1": "SEO Tools Guide: What to Use and When in 2026",
+    "h1": "SEO Tools Guide: What to Use and When in 2027",
     "lead": "The tools the Openink Hub team uses for SEO, local search and AI search, with what each one is for and what it costs.",
     "quick": "This page explains which SEO tools to use and when, starting with free ones such as Google Search Console, Analytics, Business Profile and PageSpeed Insights. Our SEO team uses these tools in every audit, and the free audit shows what they reveal about your own site.",
     "ctas": [
@@ -728,7 +728,7 @@
   },
   "/category/seo-services/": {
     "eyebrow": "Blog category",
-    "h1": "SEO Articles: Guides to Rank Higher on Google in 2026",
+    "h1": "SEO Articles: Guides to Rank Higher on Google in 2027",
     "lead": "Our SEO articles on rankings, on-page fixes and hiring the right agency, plus 100 SEO guides by city.",
     "quick": "SEO articles explain how to rank higher on Google: SEO basics, on-page optimisation and how to choose an SEO agency in India, plus our city-by-city SEO guides. They support our SEO services, which cover audits, content, technical SEO and link building.",
     "ctas": [
@@ -797,7 +797,7 @@
   },
   "/category/local-seo/": {
     "eyebrow": "Blog category",
-    "h1": "Local SEO Articles: Win Searches Near You in 2026",
+    "h1": "Local SEO Articles: Win Searches Near You in 2027",
     "lead": "Our articles on reaching buyers near you, from geo targeting to city-level SEO.",
     "quick": "Local SEO articles show how nearby buyers find you on Google Search and Maps, with geo targeting, local examples and small business website tips. Our local SEO and Google Business Profile services handle listings, reviews, local pages and citations for you.",
     "ctas": [
@@ -857,7 +857,7 @@
   },
   "/category/website-development/": {
     "eyebrow": "Blog category",
-    "h1": "Website Development Articles: Plan, Build and Hire in 2026",
+    "h1": "Website Development Articles: Plan, Build and Hire in 2027",
     "lead": "Our articles and guides on planning, building, securing and hiring for a business website, from costs and platforms to frameworks and maintenance.",
     "quick": "Website development articles explain how to plan, build, secure and grow a business website: platforms, costs, features, frameworks, ecommerce, SEO, maintenance and how to hire a developer. They come from the Openink Hub website development team, which builds WordPress, Shopify and custom sites for businesses across India.",
     "ctas": [
@@ -925,7 +925,7 @@
   },
   "/category/whatsapp-automation/": {
     "eyebrow": "Blog category",
-    "h1": "WhatsApp Automation Articles: Sell and Serve Faster in 2026",
+    "h1": "WhatsApp Automation Articles: Sell and Serve Faster in 2027",
     "lead": "Our articles on the WhatsApp Business API and bulk senders for faster sales and support.",
     "quick": "WhatsApp automation articles explain how businesses use the official WhatsApp Business API to send updates, answer customers and close sales faster. They connect to our WhatsApp AI chatbot service, which sets up the API, chatbot flows and CRM integrations for you.",
     "ctas": [
@@ -989,7 +989,7 @@
   },
   "/category/aeo/": {
     "eyebrow": "Blog category",
-    "h1": "AEO Articles: Win Featured Snippets and Voice Answers in 2026",
+    "h1": "AEO Articles: Win Featured Snippets and Voice Answers in 2027",
     "lead": "Our articles on answer engines: featured snippets, People Also Ask boxes and voice answers.",
     "quick": "AEO articles explain answer engine optimisation: shaping content so Google, voice assistants and AI tools can lift a direct answer from your pages. Our AEO services rewrite key pages, add FAQ and schema markup and track where your answers appear.",
     "ctas": [
@@ -1053,7 +1053,7 @@
   },
   "/category/geo/": {
     "eyebrow": "Blog category",
-    "h1": "GEO Articles: Get Cited by ChatGPT, Gemini and Perplexity in 2026",
+    "h1": "GEO Articles: Get Cited by ChatGPT, Gemini and Perplexity in 2027",
     "lead": "Our articles on generative engines and how AI chat tools choose which brands to name.",
     "quick": "GEO articles explain generative engine optimisation: how ChatGPT, Gemini and Perplexity find, trust and cite brands. Our GEO services build the content, entity signals and mentions that help AI tools recommend your business.",
     "ctas": [
@@ -1117,7 +1117,7 @@
   },
   "/category/aio/": {
     "eyebrow": "Blog category",
-    "h1": "AIO Articles: Make Your Brand AI-Ready in 2026",
+    "h1": "AIO Articles: Make Your Brand AI-Ready in 2027",
     "lead": "Our articles on AIO: entity data, schema and AI tools that make your brand easy for any AI to read.",
     "quick": "AIO articles explain artificial intelligence optimisation: making your whole site easy for AI tools to read, understand and recommend. Our AIO services combine SEO, AEO and GEO work so your brand shows up correctly in AI answers.",
     "ctas": [
@@ -1181,7 +1181,7 @@
   },
   "/category/gmb/": {
     "eyebrow": "Blog category",
-    "h1": "GMB Articles: Google Business Profile Guides for 2026",
+    "h1": "GMB Articles: Google Business Profile Guides for 2027",
     "lead": "Our articles on Google Business Profile: setup, posts, photos and reviews.",
     "quick": "GMB articles explain how to set up and grow a Google Business Profile, the free listing that puts you on Google Maps and local results. Our Google Business Profile service handles setup, verification, posts, photos and reviews for you.",
     "ctas": [
@@ -1241,7 +1241,7 @@
   },
   "/category/backlinks/": {
     "eyebrow": "Blog category",
-    "h1": "Backlink Articles: Earn Links That Build Trust in 2026",
+    "h1": "Backlink Articles: Earn Links That Build Trust in 2027",
     "lead": "Our backlink articles explain what links are, how to earn them and which ones to skip.",
     "quick": "Backlink articles explain how links from other sites build trust with search engines, from profile creation to earning quality links. Our backlink service builds relevant, safe links that support your SEO without risky shortcuts.",
     "ctas": [
@@ -1305,7 +1305,7 @@
   },
   "/category/articles/": {
     "eyebrow": "Blog category",
-    "h1": "Business Articles: AI Workflows, HR and Hiring Tools in 2026",
+    "h1": "Business Articles: AI Workflows, HR and Hiring Tools in 2027",
     "lead": "Our wider business articles on AI workflows, HR software and hiring tools.",
     "quick": "Business articles cover AI agent workflows, HR software and applicant tracking tools for small and mid-sized firms in India. They link to the Openink Hub services behind them, including AI blogs and articles, workflow automation and HR tools.",
     "ctas": [
