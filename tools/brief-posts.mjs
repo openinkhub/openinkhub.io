@@ -55,7 +55,8 @@ for (const b of data.briefs.filter((x) => x.status === "published")) {
       fs.readFileSync(bodyFile, "utf8") +
       `<h2>Frequently asked questions</h2>${b.faqs.map(([q, a]) => `<h3>${E(q)}</h3><p>${E(a)}</p>`).join("")}`,
     head: {
-      title: `${title} | openink Hub`.length <= 60 ? `${title} | openink Hub` : title, lang: "en-US",
+      // a title that ends with a year ("... in 2027") keeps the year at the end: no site-name suffix
+      title: `${title} | openink Hub`.length <= 60 && !/\b20\d\d\)?$/.test(title) ? `${title} | openink Hub` : title, lang: "en-US",
       links: [{ rel: "canonical", href: url }],
       meta: [
         { attr: "name", key: "robots", content: "index, follow, max-image-preview:large" },

@@ -1154,7 +1154,28 @@
       ],
       "aeo_direct_answer": "Shopify is better for fast launches, low maintenance and built-in payments; WooCommerce is better for full control, lower long-term cost and deep WordPress integration. Choose Shopify for simplicity and speed; choose WooCommerce for flexibility, custom features and content-led commerce.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "shopify-vs-woocommerce",
+      "seo_title": "Shopify vs WooCommerce: Which Is Better in 2027",
+      "description": "Shopify vs WooCommerce compared on cost, SEO, features, payments in India and scaling, so you can pick the right ecommerce platform for your store.",
+      "faqs": [
+        [
+          "Shopify vs WooCommerce: which is better?",
+          "Shopify is better if you want a fast launch and little maintenance. WooCommerce is better if you want full control, a lower long-term cost and deep WordPress content."
+        ],
+        [
+          "Which is cheaper to run?",
+          "WooCommerce is usually cheaper over time because there is no platform fee, but you pay for hosting, plugins and upkeep. Shopify has a monthly plan plus app fees."
+        ],
+        [
+          "Which is better for SEO?",
+          "Both can rank well. WooCommerce gives more control over URLs and content, while Shopify is simpler but has a fixed URL structure."
+        ],
+        [
+          "Can I move from Shopify to WooCommerce later?",
+          "Yes. Products, customers and orders can be migrated, but set up 301 redirects for every old URL to keep your rankings."
+        ]
+      ]
     },
     {
       "id": 22,
@@ -1182,7 +1203,28 @@
       ],
       "aeo_direct_answer": "Essential ecommerce features include fast search and filters, clear product pages, reviews, cart and checkout optimisation, multiple payment options, shipping and tax calculators, security with HTTPS and PCI compliance, analytics, abandoned-cart recovery and mobile-first UX. These directly affect conversion and repeat purchase.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "ecommerce-website-features",
+      "seo_title": "Ecommerce Website Features Every Store Needs in 2027",
+      "description": "The ecommerce website features every online store needs: product pages, search, cart, checkout, payments, shipping, trust signals and SEO, in one checklist.",
+      "faqs": [
+        [
+          "What features does an ecommerce website need?",
+          "At minimum: clear product pages, search and filters, a cart, a short checkout, secure payments, shipping options, order tracking and a mobile-friendly design."
+        ],
+        [
+          "Which payment options should Indian stores offer?",
+          "UPI, cards, net banking and wallets through a gateway such as Razorpay or PayU, plus cash on delivery if your customers expect it."
+        ],
+        [
+          "Do I need customer accounts?",
+          "Offer them, but always allow guest checkout. Forcing sign-up is a common reason shoppers leave."
+        ],
+        [
+          "What features help SEO?",
+          "Clean URLs, unique product descriptions, structured data, fast pages, image alt text and category pages built around real searches."
+        ]
+      ]
     },
     {
       "id": 23,
@@ -1210,7 +1252,28 @@
       ],
       "aeo_direct_answer": "The best ecommerce platforms for a new online store are Shopify for fast hosted launches, WooCommerce for flexible WordPress-based builds, BigCommerce for scalable mid-market stores, Magento for enterprise catalogues and custom builds for unique requirements. Choose based on catalogue size, integrations, budget and growth plans.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "best-ecommerce-platform",
+      "seo_title": "Best Ecommerce Platform for New Online Stores in 2027",
+      "description": "How to choose the best ecommerce platform for a new online store: Shopify, WooCommerce, custom builds and headless commerce compared by cost and fit.",
+      "faqs": [
+        [
+          "What is the best ecommerce platform for beginners?",
+          "Shopify is often the easiest start because hosting, security and checkout are built in. WooCommerce suits beginners who already use WordPress."
+        ],
+        [
+          "Is a custom ecommerce website worth it?",
+          "Only when off-the-shelf platforms cannot handle your products, pricing or integrations. Most new stores do not need one."
+        ],
+        [
+          "Which platform is best for India?",
+          "Shopify and WooCommerce both work well in India and support local gateways. The better choice depends on your budget, team and growth plans."
+        ],
+        [
+          "Can I change platforms later?",
+          "Yes, but migrations take planning. Choose a platform you can grow with for at least two to three years."
+        ]
+      ]
     },
     {
       "id": 24,
@@ -1238,7 +1301,28 @@
       ],
       "aeo_direct_answer": "The ecommerce development process has six stages: strategy and platform selection, UX and design, catalogue and content, development and integrations, QA and payments testing, and launch plus post-launch optimisation. Timelines range from four weeks for small stores to six months for complex multi-vendor platforms.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "ecommerce-website-development-process",
+      "seo_title": "Ecommerce Website Development Process for 2027",
+      "description": "The ecommerce website development process from planning and design to catalog setup, payments, testing and launch, with what to expect at each step.",
+      "faqs": [
+        [
+          "How long does it take to build an ecommerce website?",
+          "A simple store takes four to eight weeks. A store with custom features, many products or integrations can take three to six months."
+        ],
+        [
+          "What should I prepare before development starts?",
+          "Your product list, photos, prices, shipping rules, payment gateway account, return policy and brand assets."
+        ],
+        [
+          "Who adds the products?",
+          "Either the agency or your team. Large catalogs are usually imported from a spreadsheet."
+        ],
+        [
+          "What happens after launch?",
+          "Monitoring, bug fixes, updates, backups and ongoing improvements based on sales data."
+        ]
+      ]
     },
     {
       "id": 25,
@@ -1266,7 +1350,28 @@
       ],
       "aeo_direct_answer": "Improve ecommerce conversion by optimising product pages, checkout flow, site speed, trust signals, search and filters, reviews, personalisation and A/B testing. Mobile checkout, guest checkout and multiple payment options matter most. Track funnel drop-offs and fix the biggest leak first.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "ecommerce-conversion-optimization",
+      "seo_title": "Ecommerce Conversion Optimization Tips for 2027",
+      "description": "Practical ecommerce conversion optimization: faster pages, better product pages, simpler checkout, trust signals and testing to turn more visitors into buyers.",
+      "faqs": [
+        [
+          "What is a good ecommerce conversion rate?",
+          "Many stores convert 1% to 3% of visitors, but it varies widely by product, price and traffic source. Track your own rate and improve it step by step."
+        ],
+        [
+          "What is the quickest way to improve conversions?",
+          "Fix the checkout first: remove steps, allow guest checkout and show all costs early."
+        ],
+        [
+          "Does page speed affect sales?",
+          "Yes. Slow pages lose shoppers, especially on mobile data. Faster pages usually lift both conversions and rankings."
+        ],
+        [
+          "Should I run A/B tests?",
+          "Yes, once you have enough traffic. Test one change at a time, such as a button label or product image layout."
+        ]
+      ]
     },
     {
       "id": 26,
@@ -1294,7 +1399,28 @@
       ],
       "aeo_direct_answer": "Shopify is easier and faster to launch with lower maintenance; WordPress with WooCommerce gives more flexibility, lower long-term cost and deeper content integration. Choose Shopify for simplicity and support; choose WordPress for custom features, SEO-led content and full ownership.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "shopify-vs-wordpress",
+      "seo_title": "Shopify vs WordPress for Ecommerce in 2027",
+      "description": "Shopify vs WordPress for ecommerce: hosting, cost, content, SEO, apps and control compared, with a simple way to decide which fits your online store.",
+      "faqs": [
+        [
+          "Is Shopify or WordPress better for ecommerce?",
+          "Shopify is better for stores that want an all-in-one, low-maintenance setup. WordPress with WooCommerce is better for content-led stores that want full control."
+        ],
+        [
+          "Is WordPress free for ecommerce?",
+          "The software is free, but you pay for hosting, a theme, plugins and maintenance."
+        ],
+        [
+          "Which is better for blogging and content?",
+          "WordPress. It was built for content, and its editing and SEO tools are stronger."
+        ],
+        [
+          "Can I use both?",
+          "Yes. Some brands run their blog on WordPress and their store on Shopify, linked under one domain."
+        ]
+      ]
     },
     {
       "id": 27,
@@ -1322,7 +1448,28 @@
       ],
       "aeo_direct_answer": "Website development cost in India ranges from ₹15,000 for a basic brochure site to ₹15 lakh or more for complex ecommerce or custom web apps. Key drivers are scope, features, integrations, design complexity, platform and maintenance. Request itemised quotes and budget 15 to 20 percent annually for maintenance and improvements.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-development-cost-in-india",
+      "seo_title": "Website Development Cost in India: Pricing for 2027",
+      "description": "Website development cost in India by site type, from ₹15,000 brochure sites to ₹15 lakh+ custom builds, plus what drives the price and how to budget.",
+      "faqs": [
+        [
+          "What is the average website development cost in India?",
+          "Most small business websites cost between ₹30,000 and ₹3 lakh. Basic sites start around ₹15,000, while complex stores and web apps can pass ₹15 lakh."
+        ],
+        [
+          "Why do quotes vary so much?",
+          "Quotes differ in scope, design quality, content, integrations, SEO work and support. Compare what is included, not just the total."
+        ],
+        [
+          "Are there yearly costs after launch?",
+          "Yes: domain, hosting, maintenance and updates. Budget roughly 15% to 20% of the build cost each year."
+        ],
+        [
+          "Is GST added to website development quotes?",
+          "Usually yes. Ask whether the quote includes or excludes GST."
+        ]
+      ]
     },
     {
       "id": 28,
@@ -1350,7 +1497,28 @@
       ],
       "aeo_direct_answer": "A business website in India typically costs ₹30,000 to ₹3 lakh depending on pages, features, CMS, ecommerce and maintenance. Corporate sites, multilingual content, integrations and SEO add cost. Choose a transparent provider with itemised pricing and clear post-launch support.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "business-website-cost",
+      "seo_title": "How Much Does a Business Website Cost in 2027",
+      "description": "How much a business website costs in India, what is included at each budget level, hidden costs to watch for and how to get the most from your spend.",
+      "faqs": [
+        [
+          "How much does a small business website cost in India?",
+          "Typically ₹30,000 to ₹3 lakh, depending on the number of pages, design, content and features."
+        ],
+        [
+          "What is the cheapest way to get a business website?",
+          "A template-based WordPress site with a few pages. It can work well if the content is strong and the site is fast."
+        ],
+        [
+          "What hidden costs should I expect?",
+          "Premium plugins, stock images, copywriting, email hosting, renewals and changes after launch."
+        ],
+        [
+          "Should I pay all at once?",
+          "Most agencies take an advance and split the rest across milestones such as design approval and launch."
+        ]
+      ]
     },
     {
       "id": 29,
@@ -1378,7 +1546,28 @@
       ],
       "aeo_direct_answer": "Ecommerce website development cost in India ranges from ₹50,000 for a small Shopify store to ₹10 lakh or more for custom or multi-vendor platforms. Build, platform fees, payment gateway, shipping integration, maintenance and marketing all contribute. Budget 15 to 25 percent of build cost annually for ongoing operations.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "ecommerce-website-development-cost",
+      "seo_title": "Ecommerce Website Development Cost in India 2027",
+      "description": "Ecommerce website development cost in India: Shopify, WooCommerce and custom store prices, setup costs, monthly fees and what pushes the budget up.",
+      "faqs": [
+        [
+          "How much does an ecommerce website cost in India?",
+          "From about ₹50,000 for a simple store to ₹10 lakh or more for a large custom store."
+        ],
+        [
+          "Is Shopify cheaper than WooCommerce?",
+          "Shopify is often cheaper to launch but has monthly plan and app fees. WooCommerce can cost less over time but needs hosting and upkeep."
+        ],
+        [
+          "What drives ecommerce costs up?",
+          "Large catalogs, custom features, ERP or inventory integrations, multi-vendor setups and custom design."
+        ],
+        [
+          "What are the monthly costs?",
+          "Platform or hosting fees, apps or plugins, payment gateway charges and maintenance."
+        ]
+      ]
     },
     {
       "id": 30,
@@ -1406,7 +1595,28 @@
       ],
       "aeo_direct_answer": "A WordPress website in India typically costs ₹20,000 to ₹2 lakh depending on theme, plugins, custom work, hosting and maintenance. Custom themes, WooCommerce and integrations add cost. Budget ₹3,000 to ₹15,000 per year for hosting and maintenance on a small business site.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "wordpress-website-cost",
+      "seo_title": "WordPress Website Cost in India: Prices for 2027",
+      "description": "WordPress website cost in India: theme vs custom builds, plugins, hosting and maintenance, with typical price ranges and tips to avoid overpaying.",
+      "faqs": [
+        [
+          "How much does a WordPress website cost in India?",
+          "Usually ₹20,000 to ₹2 lakh, depending on design, pages and features. WooCommerce stores cost more."
+        ],
+        [
+          "Is WordPress free?",
+          "The software is free. You pay for the domain, hosting, a theme, premium plugins and the build work."
+        ],
+        [
+          "What does WordPress hosting cost?",
+          "Shared hosting can cost a few thousand rupees a year, while managed WordPress hosting costs more but is faster and safer."
+        ],
+        [
+          "Is a custom WordPress theme worth it?",
+          "If design and speed matter for your brand, yes. Otherwise a well-chosen theme with custom tweaks is often enough."
+        ]
+      ]
     },
     {
       "id": 31,
@@ -1434,7 +1644,28 @@
       ],
       "aeo_direct_answer": "Custom website development cost is driven by features, integrations, design complexity, team size and timeline. Simple custom sites start around ₹1 lakh; complex web apps and platforms can exceed ₹15 lakh. Request itemised scope and fixed-price or milestone-based contracts to control cost.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "custom-website-development-cost",
+      "seo_title": "Custom Website Development Cost Factors in 2027",
+      "description": "What determines custom website development cost: scope, design, features, integrations, technology and team, with ranges and ways to control the budget.",
+      "faqs": [
+        [
+          "How much does custom website development cost?",
+          "In India, custom websites and web apps usually start around ₹1 lakh and can exceed ₹15 lakh for complex builds."
+        ],
+        [
+          "Why is custom development more expensive than templates?",
+          "Every page, feature and integration is designed and coded for you, which takes more time and senior skills."
+        ],
+        [
+          "How can I lower the cost?",
+          "Launch a smaller first version, reuse proven components and leave nice-to-have features for later."
+        ],
+        [
+          "Fixed price or hourly?",
+          "Fixed price suits a clear scope. Time-and-materials suits projects where the scope will change."
+        ]
+      ]
     },
     {
       "id": 32,
@@ -1462,7 +1693,28 @@
       ],
       "aeo_direct_answer": "A website redesign typically costs 60 to 80 percent of a new build if content and structure are reused, or 100 percent if rebuilt from scratch. Redesign when mobile UX, speed, brand, security or conversion metrics are failing. Plan migration carefully to preserve SEO and analytics history.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-redesign-cost",
+      "seo_title": "Website Redesign Cost and When to Redesign in 2027",
+      "description": "Website redesign cost in India, what a redesign includes, signs you need one and how to protect your SEO and traffic during the switch.",
+      "faqs": [
+        [
+          "How much does a website redesign cost?",
+          "Often 50% to 100% of a new build, depending on how much changes. A visual refresh costs less than a full rebuild."
+        ],
+        [
+          "How often should a website be redesigned?",
+          "Many businesses redesign every three to five years, or sooner if the site is slow, outdated or not converting."
+        ],
+        [
+          "Will a redesign hurt my rankings?",
+          "It can if URLs change without redirects or content is removed. Plan redirects and keep strong pages."
+        ],
+        [
+          "Is a redesign or a refresh better?",
+          "A refresh suits a site that works but looks dated. A redesign suits a site with structural, speed or conversion problems."
+        ]
+      ]
     },
     {
       "id": 33,
@@ -1490,7 +1742,28 @@
       ],
       "aeo_direct_answer": "Website maintenance in India typically costs ₹1,500 to ₹25,000 per month depending on scope. Basic plans cover updates, backups and security; advanced plans include performance tuning, content updates, SEO monitoring and priority support. Budget 15 to 20 percent of the original build cost annually.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-maintenance-cost",
+      "seo_title": "Website Maintenance Cost in India in 2027",
+      "description": "Website maintenance cost in India: monthly and yearly plans, what they include, and how much to budget for updates, backups, security and hosting.",
+      "faqs": [
+        [
+          "How much does website maintenance cost in India?",
+          "Usually ₹1,500 to ₹25,000 a month, depending on the size of the site and the services included."
+        ],
+        [
+          "What does a maintenance plan include?",
+          "Updates, backups, security monitoring, uptime checks, small content changes and performance fixes."
+        ],
+        [
+          "Can I maintain my website myself?",
+          "Simple sites, yes, if you update plugins and keep backups. Business-critical sites are safer with a plan."
+        ],
+        [
+          "Is hosting part of maintenance?",
+          "Not always. Check whether the plan includes hosting, or if it is billed separately."
+        ]
+      ]
     },
     {
       "id": 34,
@@ -1518,7 +1791,28 @@
       ],
       "aeo_direct_answer": "Website development takes two to four weeks for a simple site, six to twelve weeks for a business or ecommerce site, and three to six months for complex web apps. Timeline depends on scope, content readiness, feedback speed and integrations. Plan content and approvals early to avoid delays.",
       "answer_needs_review": false,
-      "status": "brief"
+      "status": "published",
+      "slug": "website-development-timeline",
+      "seo_title": "How Long Does Website Development Take in 2027",
+      "description": "How long website development takes by project type, the timeline for each stage, what causes delays and how to launch your website on schedule.",
+      "faqs": [
+        [
+          "How long does it take to build a website?",
+          "A simple site takes two to four weeks, a business site six to twelve weeks, and an ecommerce store or web app three to six months."
+        ],
+        [
+          "What delays website projects most?",
+          "Late content, slow feedback, scope changes and missing access to hosting or third-party accounts."
+        ],
+        [
+          "Can a website be built in a week?",
+          "A very small template site can, if content is ready. Quality custom work takes longer."
+        ],
+        [
+          "How can I speed up my project?",
+          "Prepare content early, give one person final approval and agree the scope before design starts."
+        ]
+      ]
     },
     {
       "id": 35,

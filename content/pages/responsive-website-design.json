@@ -9,7 +9,7 @@
   "title": "Responsive Website Design: Why Mobile-Friendly Matters",
   "h1": "Responsive Website Design: Why Mobile-Friendly Websites Matter",
   "date": "2026-11-13T18:41:49",
-  "modified": "2026-11-14T08:00:33",
+  "modified": "2026-11-26T14:42:08",
   "author": "Hiten Neotia",
   "excerpt": "Responsive website design explained: how it works, why mobile-friendly sites rank and convert better, and how to test your own site.",
   "keyphrase_override": "responsive website design",
@@ -21,10 +21,6 @@
     "responsive design testing"
   ],
   "categories": [
-    {
-      "name": "Website Development",
-      "path": "/category/website-development/"
-    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -134,7 +130,7 @@
             "url": "https://openinkhub.io/responsive-website-design/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-13T18:41:49+05:30",
-            "dateModified": "2026-11-14T08:00:33+05:30",
+            "dateModified": "2026-11-26T14:42:08+05:30",
             "keywords": "responsive website design, mobile-friendly website, responsive design benefits, mobile-first design, responsive website SEO, responsive design testing",
             "author": {
               "@type": "Person",

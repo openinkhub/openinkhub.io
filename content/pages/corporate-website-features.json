@@ -9,7 +9,7 @@
   "title": "Essential Corporate Website Features",
   "h1": "Essential Features Every Corporate Website Should Have",
   "date": "2026-11-13T18:41:49",
-  "modified": "2026-11-14T08:00:33",
+  "modified": "2026-11-26T14:42:08",
   "author": "Hiten Neotia",
   "excerpt": "Corporate website features every company needs: CMS, security, accessibility, investor and careers sections, lead capture and speed.",
   "keyphrase_override": "corporate website features",
@@ -21,10 +21,6 @@
     "corporate website accessibility"
   ],
   "categories": [
-    {
-      "name": "Website Development",
-      "path": "/category/website-development/"
-    },
     {
       "name": "Blogs",
       "path": "/category/best-seo-content-agency/"
@@ -134,7 +130,7 @@
             "url": "https://openinkhub.io/corporate-website-features/",
             "image": "https://openinkhub.io/wp-content/uploads/2026/07/business-process-optimization-1.webp",
             "datePublished": "2026-11-13T18:41:49+05:30",
-            "dateModified": "2026-11-14T08:00:33+05:30",
+            "dateModified": "2026-11-26T14:42:08+05:30",
             "keywords": "corporate website features, business website features, corporate website must-haves, corporate website CMS, corporate website security, corporate website accessibility",
             "author": {
               "@type": "Person",
