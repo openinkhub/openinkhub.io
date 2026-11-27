@@ -19,6 +19,7 @@
     "import-squirrly": "node tools/import-squirrly.mjs",
     "articles": "node tools/articles.mjs",
     "brief-posts": "node tools/brief-posts.mjs",
-    "check-links": "node tools/check-links.mjs"
+    "check-links": "node tools/check-links.mjs",
+    "indexnow": "node tools/indexnow.mjs"
   }
 }
