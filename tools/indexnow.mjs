@@ -1,5 +1,6 @@
 /**
- * Tell IndexNow search engines (Bing, Yandex, Seznam, Naver...) which URLs are new or changed.
+ * Tell IndexNow search engines (Bing, Yandex, Yep, Seznam, Naver...) which URLs are new or changed.
+ * Sends to the shared api.indexnow.org endpoint and to Yep's own endpoint (Yep = Ahrefs' search engine).
  * Run it AFTER the deploy is live, because they fetch the key file to check the site is ours.
  *
  *   node tools/indexnow.mjs                 pages changed in the last commit (content/pages/*.json)
@@ -20,7 +21,7 @@ const KEY = "53a744e9a5304fffa5c77c9e4d7e7c98";
 const HOST = "openinkhub.io";
 const SITE = `https://${HOST}`;
 const KEY_URL = `${SITE}/${KEY}.txt`;
-const ENDPOINT = "https://api.indexnow.org/indexnow";
+const ENDPOINTS = ["https://api.indexnow.org/indexnow", "https://indexnow.yep.com/indexnow"];
 
 const args = process.argv.slice(2);
 const dry = args.includes("--dry");
@@ -50,7 +51,7 @@ if (dry) { console.log(urls.join("\n")); process.exit(0); }
 const live = await fetch(KEY_URL).then(async (r) => r.ok && (await r.text()).trim() === KEY).catch(() => false);
 if (!live) { console.error(`indexnow: ${KEY_URL} is not live (or has the wrong content) — deploy first`); process.exit(1); }
 
-for (let i = 0; i < urls.length; i += 10000) {
+for (const ENDPOINT of ENDPOINTS) for (let i = 0; i < urls.length; i += 10000) {
   const urlList = urls.slice(i, i + 10000);
   const r = await fetch(ENDPOINT, {
     method: "POST",
@@ -58,6 +59,6 @@ for (let i = 0; i < urls.length; i += 10000) {
     body: JSON.stringify({ host: HOST, key: KEY, keyLocation: KEY_URL, urlList }),
   });
   // 200 = accepted, 202 = accepted (key check pending); 4xx = problem with key, host or URLs
-  console.log(`indexnow: HTTP ${r.status} for ${urlList.length} URL(s)${r.ok ? "" : " — " + (await r.text()).slice(0, 300)}`);
+  console.log(`indexnow: ${new URL(ENDPOINT).host} HTTP ${r.status} for ${urlList.length} URL(s)${r.ok ? "" : " — " + (await r.text()).slice(0, 300)}`);
   if (!r.ok) process.exitCode = 1;
 }
